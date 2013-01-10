@@ -4,13 +4,19 @@ Don't be afraid to commit
 
 A hands-on workshop for Python/Django developers who would like to contribute
 more to the projects they use, but need more grounding in some of the tools
-they need to use.
+required.
 
 The workshop will take participants through the complete cycle of identifying
 a simple issue in a Django or Python project, writing a patch with tests and
 documentation, and submitting it.
 
-The testing section of the workshop will be the most substantial component. 
+As well as helping to put you in a position to commit successfully to
+collaborative projects, the workshop's emphasis on using virtualenv/pip and
+git will help you manage your own work in a more streamlined and efficient
+way.
+
+The automate testing tutorial - the most substantial component of the workshop
+- will help you develop your software faster, better and more easily.
 
 The workshop will take you through the use of:
 
