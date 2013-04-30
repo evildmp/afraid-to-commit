@@ -9,7 +9,10 @@ Welcome to Don't be afraid to commit's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 2 
+
+   virtualenv
+   git
 
 
 
