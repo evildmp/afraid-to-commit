@@ -9,7 +9,7 @@ required.
 What's in it for you
 ====================
 
-As well as helping to put you in a position tsssso commit successfully to
+As well as helping to put you in a position to commit successfully to
 collaborative projects, the workshop's emphasis on using virtualenv/pip and
 git will help you manage your own work in a more streamlined and efficient
 way.
