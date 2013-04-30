@@ -38,9 +38,3 @@ What you need to know
 =====================
 
 The workshop is open to anyone, but places will be limited.
-
-Date: a weekday morning or afternoon in February or March 2012
-Venue: Cardiff University
-Attendance fee: none
-
-Contact: http://medicine.cf.ac.uk/person/mr-daniele-marco-procida/
