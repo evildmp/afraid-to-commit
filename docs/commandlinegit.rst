@@ -172,5 +172,42 @@ commit to the staging area::
 Push your changes to GitHub
 ---------------------------
 
-When you made a change on GitHub, it not only saved the change and committed the file at the same time, it also showed up right away in your GitHub repository. To get your change to GitHub, you'll have to push it there::
+When you made a change on GitHub, it not only saved the change and committed
+the file at the same time, it also showed up right away in your GitHub
+repository. To get your change to GitHub, you'll have to push it there, using
+**git push**.
 
+.. note::
+   Remotes
+    
+    Your repository on GitHub is the **remote** for the clone on your local
+    machine. By default, your clone refers to that remote as **origin**. At
+    the moment, it's the only remote you have::
+    
+        daniele@v029:~/afraid-to-commit$ git remote
+        origin
+        
+        daniele@v029:~/afraid-to-commit$ git remote show origin
+        * remote origin
+          Fetch URL: git@github.com:evildmp/afraid-to-commit.git
+          Push  URL: git@github.com:evildmp/afraid-to-commit.git
+          HEAD branch: master
+          Remote branches:
+            master   tracked
+          Local branch configured for 'git pull':
+            master merges with remote master
+          Local refs configured for 'git push':
+            master   pushes to master   (up to date)
+            
+
+You'll need to tell git *where* to push it - **origin** - and *what* to push -
+**add-my-github-name**::
+
+    daniele@v029:~/afraid-to-commit$ git push origin add-my-github-name 
+    Counting objects: 54, done.
+    Delta compression using up to 2 threads.
+    Compressing objects: 100% (31/31), done.
+    Writing objects: 100% (54/54), 15.42 KiB, done.
+    Total 54 (delta 20), reused 45 (delta 17)
+    To git@github.com:evildmp/afraid-to-commit.git
+     * [new branch]      add-my-github-name -> add-my-github-name
