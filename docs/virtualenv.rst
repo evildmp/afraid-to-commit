@@ -49,7 +49,7 @@ or::
 
 	apt-get install python-virtualenv # for a Debian-based system
 	
-If that fails or you're using a different system, you might need more help::
+If that fails or you're using a different system, you might need more help:
 
 	http://www.virtualenv.org/en/latest/#installation
 	
@@ -66,7 +66,7 @@ Create and activate a virtual environment
 	cd my-first-virtualenv
 	source bin/activate
 
-Notice how your command prompt tells you that the virtualenv is active (and it remains active even while you're not in its directory):
+Notice how your command prompt tells you that the virtualenv is active (and it remains active even while you're not in its directory)::
 
 	(my-first-virtualenv)daniele@v029:~/my-first-virtualenv$ python 
 
@@ -74,12 +74,14 @@ What's in the virtualenv?
 -------------------------
 
 ::
+
 	pip freeze # list installed items
 	
 Install a package
 ----------------- 
 
 ::
+
 	pip install rsa
 	
 pip will visit PyPI, the Python Package Index, and will install Python-RSA (a
@@ -117,6 +119,7 @@ Create a second virtualenv
 --------------------------
 
 ::
+
 	cd ~/ # it would be silly to create a virtualenv inside another
 	virtualenv my-second-virtualenv
 	source bin/activate # activate it, and deactivate the other one 
@@ -129,6 +132,7 @@ Deactivate a virtualenv
 -----------------------
 
 ::
+
 	deactivate
 	
 Now you're no longer in any virtualenv.       
@@ -149,14 +153,5 @@ virtualenvs are disposable. You can get rid of these::
     cd ~/
 	rm -r  my-first-virtualenv my-second-virtualenv my-third-virtualenv
 	
-A virtualenv for the workshop
-=============================
-
-There's more to virtualenv, but that's all you need to get started
-and to use it effectively. Now create a virtualenv for the workshop::
-
-	virtualenv afraid-to-commit
-	cd afraid-to-commit
-	source bin/activate
-	pip install django
-	
+And that's pretty much all you need to get started and to use virtualenv
+effectively.

@@ -13,7 +13,9 @@ Contents:
 
    virtualenv
    git
-
+   commandlinegit
+   testing
+   documentation
 
 
 Indices and tables
