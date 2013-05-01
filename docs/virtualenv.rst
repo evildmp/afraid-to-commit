@@ -32,24 +32,24 @@ things into a virtualenv.
 Install virtualenv
 ==================
 
-Try:
+Try::
 
 	virtualenv --version
 	
 Do you have a version lower than 1.9? Upgrade it (some of these commands may
-require `sudo`):
+require `sudo`)::
 
 	pip install --upgrade virtualenv
 	
-If you got a "Command not found" when you tried to use virtualenv, try:
+If you got a "Command not found" when you tried to use virtualenv, try::
 
 	pip install virtualenv
 	
-or:
+or::
 
 	apt-get install python-virtualenv # for a Debian-based system
 	
-If that fails or you're using a different system, you might need more help:
+If that fails or you're using a different system, you might need more help::
 
 	http://www.virtualenv.org/en/latest/#installation
 	
@@ -74,19 +74,19 @@ What's in the virtualenv?
 -------------------------
 
 ::
-
 	pip freeze # list installed items
 	
 Install a package
 ----------------- 
 
+::
 	pip install rsa
 	
 pip will visit PyPI, the Python Package Index, and will install Python-RSA (a
 "Pure-Python RSA implementation"). It will also install its dependencies -
 things it needs - if any have been listed at PyPI.
 
-Now see what `pip freeze` reports. And try:
+Now see what `pip freeze` reports. And try::
 
 	(my-first-virtualenv)daniele@v029:~/my-first-virtualenv$ python 
 	Python 2.7.2+ (default, Jul 20 2012, 22:15:08) 
@@ -97,7 +97,7 @@ Now see what `pip freeze` reports. And try:
 Where packages get installed
 ----------------------------
 
-Your virtualenv has a site-packages directory, in the same way your system does. So now rsa can be found in:
+Your virtualenv has a site-packages directory, in the same way your system does. So now rsa can be found in::
 
 	~/my-first-virtualenv/lib/python2.7/site-packages/rsa 
 	
@@ -117,7 +117,6 @@ Create a second virtualenv
 --------------------------
 
 ::
-
 	cd ~/ # it would be silly to create a virtualenv inside another
 	virtualenv my-second-virtualenv
 	source bin/activate # activate it, and deactivate the other one 
@@ -129,6 +128,7 @@ isolated from the system-wide Python setup.
 Deactivate a virtualenv
 -----------------------
 
+::
 	deactivate
 	
 Now you're no longer in any virtualenv.       
@@ -137,14 +137,14 @@ Now you're no longer in any virtualenv.
 -----------------------
 
 Sometimes you might want to have the Python packages already installed on your
-system included in your new virtualenv. In that case:
+system included in your new virtualenv. In that case::
 
 	virtualenv --install-site-packages my-third-virtualenv 
 	
 remove a virtualenv
 -------------------
 
-virtualenvs are disposable. You can get rid of these:
+virtualenvs are disposable. You can get rid of these::
 
     cd ~/
 	rm -r  my-first-virtualenv my-second-virtualenv my-third-virtualenv
@@ -153,7 +153,7 @@ A virtualenv for the workshop
 =============================
 
 There's more to virtualenv, but that's all you need to get started
-and to use it effectively. Now create a virtualenv for the workshop:
+and to use it effectively. Now create a virtualenv for the workshop::
 
 	virtualenv afraid-to-commit
 	cd afraid-to-commit

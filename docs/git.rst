@@ -20,6 +20,7 @@ so that's the last thing I will say on the subject.
 Install Git
 ===========
 
+::
 	apt-get install git
 
 http://git-scm.com/book/en/Getting-Started-Installing-Git
@@ -28,7 +29,9 @@ http://git-scm.com/book/en/Getting-Started-Installing-Git
 Set up a GitHub account
 =======================
 
-Sign up at http://github.com. It's free.
+* sign up at http://github.com. 
+
+It's free.
 
 
 Some basic Git and GitHub operations
@@ -37,9 +40,11 @@ Some basic Git and GitHub operations
 Forking
 -------
 
-Visit https://github.com/evildmp/afraid-to-commit/. You can do various things there, including browsing through all the code and files.
+* visit https://github.com/evildmp/afraid-to-commit/
 
-Hit the `Fork` button.
+You can do various things there, including browsing through all the code and files.
+
+* hit the `Fork` button
 
 A few moments later, you'll have your own copy, on GitHub, of everything in that repository, and from now on you'll do your work on your copy of it.
 
@@ -85,13 +90,13 @@ GitHub allows you to edit files online. This isn't something you'll want to
 spend too much time doing, but it's handy for very small changes, like typos
 and spelling mistakes you spot.
 
-Find the `attendees_and_learners.rst` file on your fork of
-https://github.com/evildmp/afraid-to-commit. Hit the `Edit` button. Add your
-name and address - if you like - to the appropriate place in the file. If
-you're not at a workshop but following the tutorial by yourself, add your
-details - again if you wish - in the "I followed the tutorial online" section.
-
-Hit `Commit Changes`.
+* go to https://github.com/<your github account>/afraid-to-commit
+* find the `attendees_and_learners.rst` file
+* hit the `Edit` button
+* add your name and address to the appropriate place in the file
+* if following the tutorial by yourself, add your
+details in the "I followed the tutorial online" section.
+* hit `Commit Changes`
 
 Now *your* copy of the file, the one that belongs to *your* fork of the
 project, has been changed; it's reflected right away on GitHub.
@@ -106,10 +111,14 @@ When you're ready to have your changes incorporated into my
 original/official/canonical repository, you do this by making a **Pull
 Request**.
 
-Hit the `Pull Request` button. GitHub will show you that your version, the
+* hit the `Pull Request` button
+
+GitHub will show you that your version, the
 `head repo` - on the right - has some commits containing file changes, that
-will be sent to my `base repo` - on the left. Add a comment if you like, and
-hit `Send pull request`.
+will be sent to my `base repo` - on the left.
+
+* add a comment if you like
+* hit `Send pull request`
 
 GitHub will notify me (by email and on the site, and will show me the changes
 you're proposing to make). It'll tell me whether they can be merged in
@@ -129,15 +138,26 @@ did indeed fork away briefly, but only in order to rejoin the centre.
 Incorporate other changes
 -------------------------
 
-In the meantime, other people may have made their own forks, edits, commits, and pull requests, and I may have merged those too. Your own version of afraid-to-commit doesn't yet know about those.
+In the meantime, other people may have made their own forks, edits, commits,
+and pull requests, and I may have merged those too. Your own version of
+afraid-to-commit doesn't yet know about those.
 
-In fact you need to merge them into *your* version, and you can do this with a pull request on GitHub too.
+In fact you need to merge them into *your* version, and you can do this with a
+pull request on GitHub too.
 
-Hit `Pull Request` once more. This time though, you need to change the `head repo` on the right to *my* version, `evildmp/afraid-to-commit`, and change the `base repo` to yours.
+* hit `Pull Request` once more
+* change the `head repo` on the right to *my* version,
+  `evildmp/afraid-to-commit`
+* change the `base repo` to yours
+* add a `Title` and hit `Send pull request`
 
-Add a `Title` and hit `Send pull request`. You're sending a pull request to to yourself, based on updates in my repository. And in fact if you check in your `Pull Requests` on GitHub, you'll see one there waiting for you, and you too can review, accept, reject or comment on it.
+You're sending a pull request to to yourself, based on updates in my
+repository. And in fact if you check in your `Pull Requests` on GitHub, you'll
+see one there waiting for you, and you too can review, accept, reject or
+comment on it.
 
-If you decide to `Merge` it, your fork will now contain any changes that other people sent to me and that I merged.   
+If you decide to `Merge` it, your fork will now contain any changes that other
+people sent to me and that I merged.
 
 Clone your fork
 ===============
