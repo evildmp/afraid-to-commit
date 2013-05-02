@@ -82,11 +82,11 @@ GitHub allows you to edit files online. This isn't something you'll want to
 spend too much time doing, but it's handy for very small changes, like typos
 and spelling mistakes you spot.
 
-*   go to https://github.com/<your github account>/afraid-to-commit
-*   find the `attendees_and_learners.rst` file
-*   hit the **Edit** button
-*   add your name and address to the appropriate place in the file
-*   if following the tutorial by yourself, add your
+#. go to https://github.com/<your github account>/afraid-to-commit
+#. find the `attendees_and_learners.rst` file
+#. hit the **Edit** button
+#. add your name and address to the appropriate place in the file
+#. if following the tutorial by yourself, add your
     details in the *I followed the tutorial online* section.
 
 Commit your changes
@@ -113,8 +113,8 @@ GitHub will show you that your version, the
 **head repo**` - on the right - has some commits containing file changes, that
 will be sent to my **base repo** - on the left.
 
-* add a comment if you like
-* hit **Send pull request**
+#. add a comment if you like
+#. hit **Send pull request**
 
 GitHub will notify me (by email and on the site, and will show me the changes
 you're proposing to make). It'll tell me whether they can be merged in
@@ -144,11 +144,11 @@ repository as being *upstream* of yours. You need to merge my *upstream*
 changes into *your* version, and you can do this with a pull request on GitHub
 too:
 
-* hit **Pull Request** once more
-* change the **head repo** on the right to *my* version,
+#. hit **Pull Request** once more
+#. change the **head repo** on the right to *my* version,
   `evildmp/afraid-to-commit`
-* change the **base repo** to yours
-* add a **Title** and hit **Send pull request**
+#. change the **base repo** to yours
+#. add a **Title** and hit **Send pull request**
 
 You're sending a pull request to to yourself, based on updates in my
 repository. And in fact if you check in your **Pull Requests** on GitHub,
