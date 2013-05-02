@@ -4,7 +4,7 @@ Attendees & learners
 
 DjangoCon Europe in Warsaw, 18th May 2013
 =========================================
-Your Name <your@email.address>, EvilDMP at GitHub
+Daniele Procida <daniele@vurt.org> https://github.com/evildmp
 
 
 I followed the tutorial online
