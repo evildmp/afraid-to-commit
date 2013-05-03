@@ -215,11 +215,20 @@ Add a remote
 	git remote add upstream git@github.com:evildmp/afraid-to-commit.git
      
 Checkout a remote branch         
-^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
                                  
 We're going to use a remote branch now to resolve a conflict that GitHub can't.
 
-* on GitHub, create
+* on GitHub, create a pull request to your *master* from my *unmergeable-branch*
+
+GitHub should tell you that it can't do an automatic merge.
+
+::
+
+	git checkout -b resolve-conflict master
+
+This means: create and switch to a new branch called *resolve-conflict*, based on *master*. If
+you're on *master* already you don't have to specify which branch you want the new one based upon.
 
 Update from upstream
 --------------------                 
