@@ -215,7 +215,6 @@ Add a remote
 	git remote add upstream git@github.com:evildmp/afraid-to-commit.git
 	
 	 
-
 Checkout a remote branch
 ^^^^^^^^^^^^^^^^^^^^^^^^
         

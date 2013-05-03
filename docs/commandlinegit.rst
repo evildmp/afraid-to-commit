@@ -247,120 +247,16 @@ then::
 A conflict between your fork and and the upstream repository
 ------------------------------------------------------------
 
+Sometimes you'll discover that your GitHub fork and the upstream repository
+have changes that GitHub can't merge. You could make a pull request, as you
+did in the previous module, from the upstream version to yours, only for
+GitHub to tell you:
 
-
-
-
-*********************
-
-Using branches
-==============
-
-Create a branch
----------------
-
-.. note::
-   Branch early and branch often
-
-    As you may have noticed on GitHub, a respoitory can have numerous branches
-    within it. Branches are ways of organising work on a project: you can have
-    a branch for a new feature, for trying out something new, for exploring an
-    issue - anything at all.
+    We can’t automatically merge this pull request.
     
-    Just as Virtualenvs are disposable, so are **branches** in Git. You *can*
-    have too many branches, but don't hesitate to create new ones; it costs
-    almost nothing.
-    
-    It's a good policy to create a new branch for every new bit of work you
-    start doing, even if it's a very small one.
-    
-Until they are committed, any changes in your working directory remain unrecorded by Git. If you're on a branch, that's where they'll be committed. 
+    Use the command line to resolve conflicts before continuing.
 
-It would be nice to keep the *master* branch as clean as possible (this will make it easier for you to keep it up-to-date with my upstream master in the future). So, rather than commit it to *master*, we will create a new branch for your changes to go into::
-
-    daniele@v029:~/afraid-to-commit$ git checkout -b add-my-github-name
-    M	attendees_and_learners.rst
-    Switched to a new branch 'add-my-github-name'
-    
-`git checkout` is a command you'll use a lot, to switch between branches. The `-b` flag tells it to **create a new branch** at the same time.
-
-.. note::
-   When to branch
-   
-    You don't actually *need* to create your new branch until you decide to
-    commit. But creating your new branches before you start making changes
-    makes it less likely that you will forget later, and commit things to the
-    wrong branch.
-
-    
-
-Push your changes to GitHub
----------------------------
-
-When you made a change on GitHub, it not only saved the change and committed
-the file at the same time, it also showed up right away in your GitHub
-repository. 
-
-To get your change to GitHub, you'll have to push it there, using
-**git push**.
-
-You need to tell git *where* to push it (i.e. back to the remote repository
-you cloned from, on GitHub) and *what* exactly to push (your) new branch.
-
-The repository you cloned from can be referred to as **origin**. The new
-branch is called **add-my-github-name**. So::
-
-    daniele@v029:~/afraid-to-commit$ git push origin add-my-github-name 
-    Counting objects: 54, done.
-    Delta compression using up to 2 threads.
-    Compressing objects: 100% (31/31), done.
-    Writing objects: 100% (54/54), 15.42 KiB, done.
-    Total 54 (delta 20), reused 45 (delta 17)
-    To git@github.com:evildmp/afraid-to-commit.git
-     * [new branch]      add-my-github-name -> add-my-github-name
-
-Check your GitHub repository
-----------------------------
-
-*   got to https://github.com/evildmp/afraid-to-commit
-*	check that your latest change to `attendees_and_learners.rst` is there
-
-Send a pull request
--------------------    
-
-You can make more changes locally, and continue committing them, and pushing
-them to GitHub. When you've made all the changes that you'd like me to accept
-though, it's time to send me a pull request, just like the one you did before.
-
-Switching between branches locally
-----------------------------------
-
-Remotes
--------
-Your repository on GitHub is the **remote** for the clone on your local
-machine. By default, your clone refers to that remote as **origin**. At
-the moment, it's the only remote you have::
-
-    daniele@v029:~/afraid-to-commit$ git remote
-    origin
-    
-    daniele@v029:~/afraid-to-commit$ git remote show origin
-    * remote origin
-      Fetch URL: git@github.com:evildmp/afraid-to-commit.git
-      Push  URL: git@github.com:evildmp/afraid-to-commit.git
-      HEAD branch: master
-      Remote branches:
-        master   tracked
-      Local branch configured for 'git pull':
-        master merges with remote master
-      Local refs configured for 'git push':
-        master   pushes to master   (up to date) 
-
-Add a remote
-^^^^^^^^^^^^
-
-Checkout a remote branch
-^^^^^^^^^^^^^^^^^^^^^^^^
-        
-Update from upstream
---------------------
+GitGub will in fact tell you the steps you need to take to solve this, and you
+can go ahead and do that now if you need to, but to understand what's actually
+happening, and to do it yourself when you need to, we need to cover some
+important concepts.
