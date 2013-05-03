@@ -1,6 +1,6 @@
-######################
+####################
 Branches and remotes
-######################
+####################
 
 Using branches
 ==============
@@ -208,15 +208,18 @@ memorable name. Your own **origin** has an upstream repository (mine); it's a
 convention to name that **upstream**.
 
 Add a remote
-^^^^^^^^^^^^
+------------
 
 ::
 
 	git remote add upstream git@github.com:evildmp/afraid-to-commit.git
-	
-	 
-Checkout a remote branch
+     
+Checkout a remote branch         
 ^^^^^^^^^^^^^^^^^^^^^^^^
-        
+                                 
+We're going to use a remote branch now to resolve a conflict that GitHub can't.
+
+* on GitHub, create
+
 Update from upstream
---------------------
+--------------------                 
