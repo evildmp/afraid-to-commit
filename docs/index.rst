@@ -14,6 +14,7 @@ Contents:
    virtualenv
    git
    commandlinegit
+   working_with_remotes_and_branches
    testing
    documentation
 
