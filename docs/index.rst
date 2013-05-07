@@ -68,7 +68,8 @@ Contents:
    commandlinegit
    branches_and_remotes
    testing
-   documentation
+   documentation 
+   cheatsheet
 
 
 Indices and tables
