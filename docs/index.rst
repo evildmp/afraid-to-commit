@@ -24,20 +24,20 @@ way of your actual development.
 virtualenv and pip; Git and GitHub
 ----------------------------------
 
-virtualenv and pip, and Git and GitHub will help you manage your own work in a
-more streamlined and efficient way.
+**virtualen** and **pip**, and **Git** and **GitHub** will help you manage
+your own work in a more streamlined and efficient way.
 
 Automated testing
 -----------------
 
-Writing automated tests will help you develop your software faster,
+Writing **automated tests** will help you develop your software faster,
 better and more easily and give other developers more confidence in your
 contributions.
 
 Documentation
 -------------
 
-BeingBeing able to create, manage and publish documentation in an efficient
+Being able to create, manage and publish **documentation** in an efficient
 and orderly way will make your work more accessible and more interesting to
 other people.
 
