@@ -20,7 +20,7 @@ so that's the last thing I will say on the subject.
 Set up a GitHub account
 =======================
 
-* sign up at http://github.com. 
+* sign up at https://github.com.
 
 It's free.
 
@@ -54,7 +54,7 @@ volunteers on top of all their other jobs.
     https://github.com/evildmp/afraid-to-commit; if you have a look at
     https://github.com/django/django you'll see thouands. There'll even be
     forks of the forks. Every single one one is complete and independent. So,
-    which one is the real one; which one is *the* Django repository?
+    which one is the real one - which one is *the* Django repository?
     
     In a technical sense, they all are, but the more useful answer is: the
     one that most people consider to be the canonical or official version.
