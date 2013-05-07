@@ -11,20 +11,35 @@ A workshop/tutorial for Python/Django developers who would like to contribute
 more to the projects they use, but need more grounding in some of the tools
 required.
 
-What's in it for you
-====================
+The purpose of the workshop
+===========================
 
-As well as helping to put you in a position to commit successfully to
-collaborative projects, the workshop's emphasis on using virtualenv/pip and
-git will help you manage your own work in a more streamlined and efficient
-way.
+**Don't be afraid to commit** will help put you in a position to commit
+successfully to collaborative projects. 
 
-The automated testing tutorial will help you develop your software faster,
+You'll find it particularly useful if you think you have some good coding
+ideas, but find that managing the development process sometimes gets in the
+way of your actual development.
+
+virtualenv and pip; Git and GitHub
+----------------------------------
+
+virtualenv and pip, and Git and GitHub will help you manage your own work in a
+more streamlined and efficient way.
+
+Automated testing
+-----------------
+
+Writing automated tests will help you develop your software faster,
 better and more easily and give other developers more confidence in your
 contributions.
 
-The section on documentation will help you create, manage and publish
-documentation in an efficient and orderly way.
+Documentation
+-------------
+
+BeingBeing able to create, manage and publish documentation in an efficient
+and orderly way will make your work more accessible and more interesting to
+other people.
 
 What we'll cover
 ================
@@ -36,10 +51,10 @@ documentation, and submitting it.
 The workshop will take you through the use of:
 
 * virtualenv and pip
-* git (and GitHub)
+* Git and GitHub
 * running and writing tests for Python applications
 * writing and building documentation using Sphinx
-* submitting a pull request
+* submitting a pull request to the Django Project
 
 
 Contents:
