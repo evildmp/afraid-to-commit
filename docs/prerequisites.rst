@@ -28,5 +28,7 @@ You'll also need to know how to edit plain text or source files of various
 kinds.
 
 It will be very useful to have some understanding of Python, but it's not
-strictly necessary. If you've never done any programming, that will be an
-obstacle.
+strictly necessary. If you've never done any programming, that will probably
+be an obstacle.
+
+

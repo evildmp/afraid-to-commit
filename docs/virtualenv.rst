@@ -3,8 +3,8 @@ Virtualenv and pip
 ##################
 
 
-What is it?
-===========
+What is virtualenv?
+===================
 
 Virtualenv lets you create and manage virtual Python environments.
 
