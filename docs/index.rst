@@ -3,8 +3,44 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Don't be afraid to commit's documentation!
-=====================================================
+#########################
+Don't be afraid to commit
+#########################
+
+A workshop/tutorial for Python/Django developers who would like to contribute
+more to the projects they use, but need more grounding in some of the tools
+required.
+
+What's in it for you
+====================
+
+As well as helping to put you in a position to commit successfully to
+collaborative projects, the workshop's emphasis on using virtualenv/pip and
+git will help you manage your own work in a more streamlined and efficient
+way.
+
+The automated testing tutorial will help you develop your software faster,
+better and more easily and give other developers more confidence in your
+contributions.
+
+The section on documentation will help you create, manage and publish
+documentation in an efficient and orderly way.
+
+What we'll cover
+================
+
+The workshop will take participants through the complete cycle of identifying
+a simple issue in a Django or Python project, writing a patch with tests and
+documentation, and submitting it.
+
+The workshop will take you through the use of:
+
+* virtualenv and pip
+* git (and GitHub)
+* running and writing tests for Python applications
+* writing and building documentation using Sphinx
+* submitting a pull request
+
 
 Contents:
 
