@@ -160,9 +160,9 @@ The `-f` flag forces the branch to be checked out.
 .. note::
    Keeping master 'clean'
 
-		Generally speaking, using the `-f` flag for Git operations is to be
-        avoided. It offers plenty of scope for mishap. If Git tells you about
-        a problem and you force your way past it, you're inviting trouble.  
+	Generally speaking, using the `-f` flag for Git operations is to be
+    avoided. It offers plenty of scope for mishap. If Git tells you about
+    a problem and you force your way past it, you're inviting trouble.  
 
 ^^^^^
 Stash
@@ -214,21 +214,77 @@ Add a remote
 
 	git remote add upstream git@github.com:evildmp/afraid-to-commit.git
      
-Checkout a remote branch         
-------------------------
+Using a remote branch to resolve a conflict        
+-------------------------------------------
                                  
-We're going to use a remote branch now to resolve a conflict that GitHub can't.
+We're going to use a remote branch now to resolve a conflict that GitHub
+can't. Let's say that you manage to push something to your *master* banch on
+GitHub,and when you create a pull request to your *master* from mine, GitHub
+tells you that it can't do an automatic merge. 
 
-* on GitHub, create a pull request to your *master* from my *unmergeable-branch*
+So::
 
-GitHub should tell you that it can't do an automatic merge.
+    git fetch upstream
+    
+This means: get the latest information about the branches on **upstream**.
+
+	git checkout -b resolve-conflict upstream/master
+
+This means: create and switch to a new branch called *resolve-conflict*,
+based on branch *master* of the remote **upstream**. 
+
+This branch now contains my *master*.
+
+Tell Git to merge it with *your* local master::
+
+    daniele@v029:~/afraid-to-commit$ git merge master
+    Auto-merging attendees_and_learners.rst
+    CONFLICT (content): Merge conflict in attendees_and_learners.rst
+    Automatic merge failed; fix conflicts and then commit the result.
+    
+Fix conflicts in the files Git has warned you about, and::
+
+    daniele@v029:~/afraid-to-commit$ git add attendees_and_learners.rst
+    daniele@v029:~/afraid-to-commit$ git commit -m "resolved conflicts"
+    [resolve-conflict 3c8e780] resolved conflicts
+    
+Now your *resolve-conflict* branch has merged the latest changes in your own master, *and* my master. 
+
+You want to push this to your *master* branch at GitHub. There are various ways to do it, but one way is:
+
+*   get your local *master* up-to-date
+*   push it
 
 ::
+    
+    daniele@v029:~/temp/afraid-to-commit$ git checkout master 
+    Switched to branch 'master'
+    daniele@v029:~/temp/afraid-to-commit$ git merge resolve-conflict 
+    Updating fed5a0d..3c8e780
+    Fast-forward
+     attendees_and_learners.rst |    3 +--
+     1 files changed, 1 insertions(+), 2 deletions(-)
+    daniele@v029:~/temp/afraid-to-commit$ git status
+    # On branch master
+    # Your branch is ahead of 'origin/master' by 2 commits.
+    #
+    nothing to commit (working directory clean)
+    daniele@v029:~/temp/afraid-to-commit$ git push
+    Counting objects: 10, done.
+    Delta compression using up to 2 threads.
+    Compressing objects: 100% (6/6), done.
+    Writing objects: 100% (6/6), 754 bytes, done.
+    Total 6 (delta 2), reused 0 (delta 0)
+    To git@github.com:evildmp/afraid-to-commit.git
+       fed5a0d..3c8e780  master -> master
 
-	git checkout -b resolve-conflict master
-
-This means: create and switch to a new branch called *resolve-conflict*, based on *master*. If
-you're on *master* already you don't have to specify which branch you want the new one based upon.
-
-Update from upstream
---------------------                 
+.. note::
+   Keeping master 'clean' (again)
+   
+    This was necessary because your *master* on GitHub was allowed to diverge
+    from the **upstream** *master*. It would have been better to avoid that.
+    
+     All the same, when you are working with branches, from time to time you
+    will need to resolve a conflict, and the basic steps here are what you
+    need to do that.
+    
