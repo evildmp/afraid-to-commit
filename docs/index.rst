@@ -62,10 +62,11 @@ Contents:
 .. toctree::
    :maxdepth: 2 
 
+   prerequisites
    virtualenv
    git
    commandlinegit
-   working_with_remotes_and_branches
+   branches_and_remotes
    testing
    documentation
 
