@@ -66,7 +66,8 @@ Contents:
    virtualenv
    git
    commandlinegit
-   branches_and_remotes
+   remotesremotes
+   conflicts
    testing
    documentation 
    cheatsheet

@@ -36,3 +36,9 @@ uninstall
     
 show what's installed
     `pip freeze`
+ 
+git
+===
+
+delete
+    `git add -u [filename]`

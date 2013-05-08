@@ -11,7 +11,7 @@ Install Git
 
 ::
 
-    apt-get install git
+    sudo apt-get install git # for Debian/Ubuntu users
 
 There are other ways of installing Git; you can even get a graphical Git application, that will include the commandline tools. These are described at:
 
@@ -20,8 +20,8 @@ There are other ways of installing Git; you can even get a graphical Git applica
 Some basic Git operations
 =========================
 
-When we worked on GitHub, the basic work cycle was *fork*, *edit*, *commit*,
-*pull request*, *merge*. The same cycle, with a few differences, is what we
+When we worked on GitHub, the basic work cycle was *fork* > *edit* > *commit*
+> *pull request* > *merge*. The same cycle, with a few differences, is what we
 will work through on the commandline.
 
 Clone a repository
@@ -29,47 +29,55 @@ Clone a repository
 
 When you made a copy of the *Don't be afraid to commit* repository on GitHub,
 that was a *fork*. Getting a copy of a repository onto your local machine is
-called **cloning**.
+called *cloning*.
 
-#. go to https://github.com/evildmp/afraid-to-commit
-#. copy `git@github.com:evildmp/afraid-to-commit.git`
-#. on your machine::
+#.  go to https://github.com/evildmp/afraid-to-commit
+#.  copy the ssh URL: `git@github.com:evildmp/afraid-to-commit.git`
+#.  on your machine::
 
-    daniele@v029:~$ git clone git@github.com:evildmp/afraid-to-commit.git
-    Cloning into afraid-to-commit...
-    remote: Counting objects: 47, done.
-    remote: Compressing objects: 100% (35/35), done.
-    remote: Total 47 (delta 17), reused 27 (delta 6)
-    Receiving objects: 100% (47/47), 14.72 KiB, done.
-    Resolving deltas: 100% (17/17), done.
+        daniele@v029:~$ git clone git@github.com:evildmp/afraid-to-commit.git
+        Cloning into afraid-to-commit...
+        remote: Counting objects: 47, done.
+        remote: Compressing objects: 100% (35/35), done.
+        remote: Total 47 (delta 17), reused 27 (delta 6)
+        Receiving objects: 100% (47/47), 14.72 KiB, done.
+        Resolving deltas: 100% (17/17), done.
 
 If you have a look in the newly-created directory, you'll find all the source
 code of the *Don't be afraid to commit* project. 
 
-And::
+We want to know the status of our **working directory**. The working directory
+is the set of files that you currently have in front of you, available to
+edit::
 
     daniele@v029:~/afraid-to-commit$ git status
     # On branch master
     nothing to commit (working directory clean)
 
+Create a new branch
+-------------------
+
+Once again, you're going to create a new branch, based on *master*, for new
+changes to go into::
+
+    daniele@v029:~/afraid-to-commit$ git checkout -b amend-my-name
+    Switched to a new branch 'amend-my-name
+
+`git checkout` is a command you'll use a lot, to switch between branches. The
+`-b` flag tells it to **create a new branch** at the same time, based upon
+whatever branch you were on.
+
 Edit a file
 -----------
 
-#. find the `attendees_and_learners.rst` file again
-#. after your name and email address, add your Github account
-#. save the file
+#.  find the `attendees_and_learners.rst` file again
+#.  after your name and email address, add your Github account
+#.  save the file
 
-Check the status again
-----------------------
-
-We want to know the status of our **working directory**. The working directory
-is the set of files that you currently have in front of you, available to
-edit.
-
-::
+`git status` is always useful::
 
     daniele@v029:~/afraid-to-commit$ git status
-    # On branch master
+    # On branch amend-my-name
     # Changes not staged for commit:
     #   (use "git add <file>..." to update what will be committed)
     #   (use "git checkout -- <file>..." to discard changes in working directory)
@@ -84,23 +92,35 @@ What this is telling us:
 *   that we have one modified file
 *   that there's nothing to commit
 
+These changes will only be applied to this branch when they're committed. You
+can `git add` changed files, but until you commit they won't belong to any
+branch.
+    
+.. note::
+   When to branch
+   
+    You don't actually *need* to create your new branch until you decide to
+    commit. But creating your new branches before you start making changes
+    makes it less likely that you will forget later, and commit things to the
+    wrong branch.
+
 Stage your changes
 ------------------
 
 Git has a **staging area**, for files that you want to commit. On GitHub
-when you have edited a file, you commit it as soon as you save it. On your
+when you edit a file, you commit it as soon as you save it. On your
 machine, you can edit a number of files and commit them altogether.
 **Staging a file** in Git's terminology means adding it to the staging
 area, in preparation for a commit.
     
 To add your amended file to the staging area::
 
-    git add attendees_and_learners.rst
+    git add attendees_and_learners.rst `demo one`    
     
 and check the result::
 
     daniele@v029:~/afraid-to-commit$ git status
-    # On branch master
+    # On branch amend-my-name
     # Changes to be committed:
     #   (use "git reset HEAD <file>..." to unstage)
     #
@@ -118,7 +138,7 @@ ready; until you commit, they'll all be together in the staging area.
     status`::
     
         daniele@v029:~/afraid-to-commit$ git status
-        # On branch master
+        # On branch amend-my-name
         # Changes to be committed:
         #   (use "git reset HEAD <file>..." to unstage)
         #
@@ -131,8 +151,9 @@ ready; until you commit, they'll all be together in the staging area.
         #	modified:   attendees_and_learners.rst
         #
 
-    Your more recent changes are in the file, but are not going to be
-    committed. You'll need to `git add` the file again for that.
+    Some of the changes in `attendees_and_learners.rst` will be committed, and
+    the more recent ones will not. You'll need to `git add` the file again to
+    stage them.
 
 Commit your changes
 -------------------
@@ -152,21 +173,58 @@ Push your changes to GitHub
 
 When you made a change on GitHub, it not only saved the change and committed
 the file at the same time, it also showed up right away in your GitHub
-repository. 
+repository. Here there is an extra step: we need to **push** the files to
+GitHub.
 
-To get your change to GitHub, you'll have to push it there, using
-**git push**::
+If you were pushing changes from *master* locally to *master* on GitHub, you
+could just issue the command `git push`.
 
-    daniele@v029:~/afraid-to-commit$ git push
-    Counting objects: 5, done.
+You have multiple branches here, so you need to tell git *where* to push (i.e.
+back to the remote repository you cloned from, on GitHub) and *what* exactly
+to push (your new branch).
+
+The repository you cloned from can be referred to as **origin**. The new
+branch is called **amend-my-name**. So::
+
+    daniele@v029:~/afraid-to-commit$ git push origin amend-my-name 
+    Counting objects: 34, done.
     Delta compression using up to 2 threads.
-    Compressing objects: 100% (3/3), done.
-    Writing objects: 100% (3/3), 373 bytes, done.
-    Total 3 (delta 1), reused 0 (delta 0)
+    Compressing objects: 100% (21/21), done.
+    Writing objects: 100% (28/28), 6.87 KiB, done.
+    Total 28 (delta 13), reused 12 (delta 7)
     To git@github.com:evildmp/afraid-to-commit.git
-       b74db32..6c6d767  master -> master
+     * [new branch]      amend-my-name -> amend-my-name
 
-And if I like them, I'll merge them.
+
+Check your GitHub repository
+----------------------------
+
+*   go to https://github.com/<your GitHub name>/afraid-to-commit
+*	check that your new *amend-my-name* branch is there
+*	check that your latest change to `attendees_and_learners.rst` is in it
+
+
+Send me a pull request
+----------------------    
+
+You can make more changes locally, and continue committing them, and pushing
+them to GitHub. When you've made all the changes that you'd like me to accept
+though, it's time to send *me* a pull request, *from your new branch*, the way you did before.
+
+And if I like your changes, I'll merge them.
+
+.. note::
+   Keeping master 'clean' (again)
+   
+    You *could* of course have merged your new branch into your *master*
+    branch, and sent me a pull request from that. But, once again, it's a good
+    policy to keep your *master* branch, on GitHub too, clean of changes you
+    make, and only to pull things into it from upstream.
+    
+    In fact the same thing goes for other branches on my upstream that you
+    want to work with. Keeping them clean isn't strictly necessary, but it's
+    nice to know that you'll always be able to pull changes from upstream
+    without having to tidy up merge conflicts.
 
 Incorporate upstream changes (again)
 ------------------------------------
@@ -177,7 +235,8 @@ those into your GitHub fork as well as your local clone.
 
 So:
 
-* on GitHub, pull the upstream changes into your fork the way you did previously
+* on GitHub, pull the upstream changes into your fork the way you did
+  previously
 
 Then::
 
@@ -196,67 +255,46 @@ Then::
 So now we have replicated the full cycle of work we described in the previous
 module.
 
-Resolving conflicts
-===================
+Switching between branches locally
+----------------------------------
 
-The `pull` operation above does two things: it **fetches** updates from your
-GitHub fork (**origin**), and **merges** them in a **fast-forward** operation.
+You can switch between local branches using `git checkout`. To switch back to
+the *master* branch::
 
-This is only possible when the updates can be merged automatically. Sometimes
-there will be conflicts between the changesets, and you'll have to manage the
-merge manually.
+    git checkout master
 
-A conflict between your local clone and your fork on GitHub
------------------------------------------------------------
+If you have a changed tracked file - a tracked file is one that Git is
+managing - it will warn you that you can't switch branches without either
+committing, abandoning or 'stashing' the changes.
 
-::
+Commit
+^^^^^^
 
-    daniele@v029:~/temp/afraid-to-commit$ git pull
-    remote: Counting objects: 5, done.
-    remote: Compressing objects: 100% (3/3), done.
-    remote: Total 3 (delta 1), reused 0 (delta 0)
-    Unpacking objects: 100% (3/3), done.
-    From github.com:evildmp/afraid-to-commit
-       81374ba..960517d  master     -> origin/master
-    Auto-merging attendees_and_learners.rst
-    CONFLICT (content): Merge conflict in attendees_and_learners.rst
-    Automatic merge failed; fix conflicts and then commit the result.
+You already know how to commit changes.
 
-When there's a conflict, Git marks them for you in the files. You'll see
-sections like this::
+Abandon
+^^^^^^^
 
-    <<<<<<< HEAD
-    Daniele Procida <daniele@vurt.org> https://github.com/evildmp
-    =======
-    John Smith <john@example.com>
-    >>>>>>> 960517d68fa4ac4778ac2a47c6721fecd3505309
-       
-The first section is what you have in your version. The second section is what Git found in the version you were trying to pull in.
+You can abandon changes in a couple of ways. The recommended one is::
 
-In this case, we want both lines, so edit the file::
+    git checkout <file> 
 
-    Daniele Procida <daniele@vurt.org> https://github.com/evildmp
-    John Smith <john@example.com>
+This checks out the previously-committed version of the file.         
 
-then::
+The one that is not recommended is::
 
-#. add the amended file
-#. commit your changes
-#. push them back to GitHub
+	git checkout -f <branch> 
+	
+The `-f` flag forces the branch to be checked out.
 
-A conflict between your fork and and the upstream repository
-------------------------------------------------------------
+.. note::
+   Forcing operations with `-f`
 
-Sometimes you'll discover that your GitHub fork and the upstream repository
-have changes that GitHub can't merge. You could make a pull request, as you
-did in the previous module, from the upstream version to yours, only for
-GitHub to tell you:
+    Generally speaking, using the `-f` flag for Git operations is to be
+    avoided. It offers plenty of scope for mishap. If Git tells you about a
+    problem and you force your way past it, you're inviting trouble.
+     
+Stash
+^^^^^
 
-    We can’t automatically merge this pull request.
-    
-    Use the command line to resolve conflicts before continuing.
-
-GitGub will in fact tell you the steps you need to take to solve this, and you
-can go ahead and do that now if you need to, but to understand what's actually
-happening, and to do it yourself when you need to, we need to cover some
-important concepts.
+If you're really interested, look up `git stash`, but it's beyond the scope of this tutorial. 

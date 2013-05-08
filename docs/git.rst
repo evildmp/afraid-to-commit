@@ -6,9 +6,9 @@ Git and GitHub
 What is it?
 ===========
 
-Git is a source code management system, designed to support collaboration.
+**Git** is a source code management system, designed to support collaboration.
 
-GitHub is a web-based service that hosts Git projects, including Django
+**GitHub** is a web-based service that hosts Git projects, including Django
 itself: https://github.com/django/django.
 
 The key idea in Git is that it's *distributed*. If you're not already familiar
@@ -20,22 +20,40 @@ so that's the last thing I will say on the subject.
 Set up a GitHub account
 =======================
 
-* sign up at https://github.com.
+*   sign up at https://github.com.
 
 It's free.
 
+Give GitHub your public keys
+----------------------------
 
-Some basic Git and GitHub operations
-====================================
+This is a great timesaver: if GitHub has your public keys, you can do all
+kinds of things from your commandline without needing to enter your GitHub
+password.
+
+*   https://github.com/settings/ssh
+
+This tutorial *assumes you have done that*. If you haven't, you'll have to use
+*https* instead, and translate from the format of GitHub's *ssh* URLS.
+
+https://help.github.com/articles/generating-ssh-keys explains much better than
+I can how to generate a public key.
+
+See https://gist.github.com/grawity/4392747 for a discussion of the different
+protocols.
+
+
+Some basic editing on GitHub
+============================
 
 Forking
 -------
 
-* visit https://github.com/evildmp/afraid-to-commit/
+*   visit https://github.com/evildmp/afraid-to-commit/
 
 You can do various things there, including browsing through all the code and files.
 
-* hit the **Fork** button
+*   hit the **Fork** button
 
 A few moments later, you'll have your own copy, on GitHub, of everything in that repository, and from now on you'll do your work on your copy of it.
 
@@ -75,19 +93,50 @@ volunteers on top of all their other jobs.
     The proliferation of forks doesn't somehow dilute the original. They are
     simply the way collaboration is made possible.
 
+
+Create a new branch
+-------------------
+
+This isn't strictly necessary, but it's still a very good idea. Rather than
+edit the *master* (default) branch of the repository, it's better to edit the
+file in a new branch, leaving the *master* branch clean and untouched:
+
+#.  select the **branch** menu
+#.  in *Find or create a branch...* enter `add-my-name`
+#.  hit **Create branch: add-my-name**
+
+.. note::
+   Don't hesitate to branch
+
+    As you may have noticed on GitHub, a repository can have numerous branches
+    within it. Branches are ways of organising work on a project: you can have
+    a branch for a new feature, for trying out something new, for exploring an
+    issue - anything at all.
+    
+    Just as virtualenvs are disposable, so are **branches** in Git. You *can*
+    have too many branches, but don't hesitate to create new ones; it costs
+    almost nothing.
+    
+    It's a good policy to create a new branch for every new bit of work you
+    start doing, even if it's a very small one.
+    
+    **Branch early and branch often**; if you're in any doubt; create a new
+    branch.
+
+
 Edit a file
 -----------
 
 GitHub allows you to edit files online. This isn't something you'll want to
-spend too much time doing, but it's handy for very small changes, like typos
-and spelling mistakes you spot.
+spend too much time doing, but it's handy for very small changes, for example
+typos and spelling mistakes you spot.
 
-#. go to https://github.com/<your github account>/afraid-to-commit
-#. find the `attendees_and_learners.rst` file
-#. hit the **Edit** button
-#. add your name and address to the appropriate place in the file
-#. if following the tutorial by yourself, add your
-    details in the *I followed the tutorial online* section.
+#.  go to https://github.com/<your github account>/afraid-to-commit
+#.  find the `attendees_and_learners.rst` file
+#.  hit the **Edit** button
+#.  add your name and email address to the appropriate place in the file
+#.  if following the tutorial by yourself, add your details in the *I followed
+    the tutorial online* section.
 
 Commit your changes
 -------------------
@@ -98,7 +147,7 @@ Now *your* copy of the file, the one that belongs to *your* fork of the
 project, has been changed; it's reflected right away on GitHub.
 
 If you managed to mis-spell your name, or want to correct what you entered,
-you can simply **edit** it again.
+you can simply edit it again.
 
 Make a Pull Request
 -------------------
@@ -107,14 +156,14 @@ When you're ready to have your changes incorporated into my
 original/official/canonical repository, you do this by making a **Pull
 Request**.
 
-* hit the **Pull Request** button
+When preparing for a pull request, GitHub will show you your version, the
+**head branch** of the **head repo** - on the right - with some commits
+containing file changes, that will be sent to my **base repo** - on the left.
 
-GitHub will show you that your version, the
-**head repo**` - on the right - has some commits containing file changes, that
-will be sent to my **base repo** - on the left.
-
-#. add a comment if you like
-#. hit **Send pull request**
+#.  make sure you have *add-my-name* selected for your **head branch**
+#.  hit the **Pull Request** button
+#.  add a comment if you like
+#.  hit **Send pull request**
 
 GitHub will notify me (by email and on the site, and will show me the changes
 you're proposing to make). It'll tell me whether they can be merged in
@@ -144,11 +193,11 @@ repository as being *upstream* of yours. You need to merge my *upstream*
 changes into *your* version, and you can do this with a pull request on GitHub
 too:
 
-#. hit **Pull Request** once more
-#. change the **head repo** on the right to *my* version,
-  `evildmp/afraid-to-commit`
-#. change the **base repo** to yours
-#. add a **Title** and hit **Send pull request**
+#.  hit **Pull Request** once more
+#.  change the **head repo** on the right to *my* version,
+    `evildmp/afraid-to-commit`
+#.  change the **base repo** to yours, and the **base branch** to *master*
+#.  add a **Title** and hit **Send pull request**
 
 You're sending a pull request to to yourself, based on updates in my
 repository. And in fact if you check in your **Pull Requests** on GitHub,
@@ -157,3 +206,9 @@ or comment on it.
 
 If you decide to **Merge** it, your fork will now contain any changes that
 other people sent to me and that I merged.
+                                          
+The story of your work is this: you **forked** away from my codebase, and then
+created a new **branch** in your fork. Then you **committed** changes to your
+branch, and sent them **upstream** back to me (with a **pull request**). I
+**merged** your changes into my codebase, and you **pulled** all my recent
+changes back into your *master* branch (again with a **pull request**).

@@ -6,7 +6,7 @@ Virtualenv and pip
 What is virtualenv?
 ===================
 
-Virtualenv lets you create and manage virtual Python environments.
+**Virtualenv** lets you create and manage virtual Python environments.
 
 If you're running a Python project for deployment or development, the chances
 are that you'll need more than one version of it, or the numerous other Python
@@ -24,8 +24,8 @@ You can have literally dozens of virtualenvs on the same machine, all running
 different versions of your Python software, all independently of each other,
 and can safely make changes to one without affecting anything else.
 
-pip goes hand-in-hand with virtualenv; in fact, it comes with virtualenv (as
-well as separately). It's an installer, and is the easiest way to install
+**pip** goes hand-in-hand with virtualenv; in fact, it comes with virtualenv
+(as well as separately). It's an installer, and is the easiest way to install
 things into a virtualenv.
 
 
