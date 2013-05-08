@@ -58,4 +58,8 @@ to **fetch** that::
     
 This means: get the latest information about the branches on **upstream**.
 
+Checkout a remote branch
+------------------------
+
+The remote branches are list
      

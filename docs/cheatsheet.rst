@@ -40,5 +40,9 @@ show what's installed
 git
 ===
 
+Anything in the form "remote/branchname" is a reference, not a branch
+
+Pull incorporates changes from a remote repository into the current branch
+
 delete
     `git add -u [filename]`
