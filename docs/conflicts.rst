@@ -2,7 +2,6 @@
 Resolving conflicts
 ###################
 
-
 With GitHub's help
 ------------------
 
@@ -24,24 +23,12 @@ we need to cover some important concepts.
 Using a remote branch to resolve a conflict        
 -------------------------------------------
                                  
-We want to merge the *unmergeable-branch* into one of your branches,
-*amend-my-name*.
-
-	git checkout -b resolve-conflict upstream/unmergeable-branch
-
-As before, this means: create and switch to a new branch called
-*resolve-conflict*, based on branch *unmergeable-branch* of the remote
-**upstream**.
-
-This branch now contains my *unmergeable-branch*.
-
-Tell Git to merge it with *your* local *amend-my-name* branch::
-
-    $ git merge amend-my-name
+    $ git fetch upstream
+    $ git merge upstream/unmergeable-branch
     Auto-merging attendees_and_learners.rst
     CONFLICT (content): Merge conflict in attendees_and_learners.rst
     Automatic merge failed; fix conflicts and then commit the result.
-    
+
 When there's a conflict, Git marks them for you in the files. You'll see
 sections like this::
 
@@ -61,15 +48,45 @@ it. If you decide you want the changes from both versions::
     John Smith <john@example.com>
 
     $ git add attendees_and_learners.rst
-    $ git commit -m "resolved conflicts"
-    [resolve-conflict 3c8e780] resolved conflicts
-    
-Now your *resolve-conflict* branch has merged the latest changes in your
-*amend-my-name*, *and* my *unmergeable-branch*.
+    $ git commit -m "fixed conflict"
+    $ git add attendees_and_learners.rst
+    [amend-my-name 91a45ac] fixed conflict
+    $ git push 
 
-The last step is to merge *resolve-conflict* into *amend-my-name*, thus
+Creating a branch for merging work
+----------------------------------
+
+Sometimes it's sensible *not* to do merging work in a branch you rely on.
+Remember, branches are cheap and disposable.
+
+So, create a new branch specially for the purpose of merging::
+
+	git checkout -b resolve-conflict upstream/unmergeable-branch
+
+As before, this means: create and switch to a new branch called
+*resolve-conflict*, based on branch *unmergeable-branch* of the remote
+**upstream**.
+
+This branch now contains my *unmergeable-branch*.
+
+We can't use *amend-my-name* to demonstrate merge conflicts, because we merged
+it earlier, so create a new branch based on master for the purpose::
+
+	git checkout -b demo-branch master
+
+Tell Git to merge *resolve-conflict* with *demo-branch*::
+
+    $ git merge demo-branch
+
+Resolve the conflicts as before. Now your *resolve-conflict* branch has merged
+the latest changes in your *demo-branch*, *and* my *unmergeable-branch*.
+
+At this point, you should make quite sure that everything is correct (that
+tests run and so on), *before* merging into *amend-my-name*.
+
+The last step is to merge *resolve-conflict* into *demo-branch*, thus
 bringing with it the changes from *unmergeable-branch*::
 
-    git checkout checkout amend-my-name`
+    git checkout checkout demo-branch
     git merge resolve-conflict
-    git push origin amend-my-name
+    git push

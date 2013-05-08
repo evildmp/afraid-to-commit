@@ -66,7 +66,7 @@ Create and activate a virtual environment
 
 Notice how your command prompt tells you that the virtualenv is active (and it remains active even while you're not in its directory)::
 
-    (my-first-virtualenv)daniele@v029:~/my-first-virtualenv$ 
+    (my-first-virtualenv)~/my-first-virtualenv$ 
 
 Using pip
 =========
@@ -96,7 +96,7 @@ things it needs - if any have been listed at PyPI.
 
 Now see what `pip freeze` reports. And try::
 
-    (my-first-virtualenv)daniele@v029:~/my-first-virtualenv$ python 
+    (my-first-virtualenv)~/my-first-virtualenv$ python 
     Python 2.7.2+ (default, Jul 20 2012, 22:15:08) 
     [GCC 4.6.1] on linux2
     Type "help", "copyright", "credits" or "license" for more information.

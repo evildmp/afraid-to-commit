@@ -58,7 +58,10 @@ checkout
     switches to a new branch based on an existing one
 
     `git checkout -b [new-branch] [remote/branch]` creates and
-    switches to a new branch based on `remote/branch`
+    switches to a new branch based on `remote/branch` 
+    
+    `git checkout [commit sha]` checks out the state of the repository at a
+    particular commit
 
 status
     `git status`
@@ -71,6 +74,13 @@ add
 
     `git add -u [filename]` - the `-u` flag will also remove deleted files  
     
+remote
+    `git remote add [name] [remote repository URL]` sets up remote
+
+    `git remote show` lists remotes
+    
+    `git remote show -v` lists remotes and their URLs    
+
 branch
     `git branch`
 
@@ -86,15 +96,26 @@ fetch
 merge
     `git merge [branch]` merges the named branch into the working directory
 
+    `git merge [remote/branch] -m "[message]"` merges the branch referred to
+    into the working directory - **don't forget to fetch the remote before the
+    merge**
+    
 pull
+    `fetch` followed by `merge` is often safer than `pull` - don't assume that
+    `pull` will do what you expect it to
+
     `git pull` fetches updates from the default remote and merges into the
     working directory
 
 push
-    `git push` pushes committed changes to the default remote
+    `git push` pushes committed changes to the default remote, in branches
+    that exist at both ends
 
     `git push [remote] [branch]` pushes the current branch to the named
-    `branch` on `remote`
+    `branch` on `remote`  
+    
+log
+    `git log` will show you a list of commits
 
 Notes
 -----

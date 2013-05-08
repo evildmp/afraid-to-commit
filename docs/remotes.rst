@@ -3,8 +3,8 @@ Working with remotes
 ####################
 
 
-Remotes
-=======
+Managing remotes
+================
 
 Your repository on GitHub is the **remote** for the clone on your local
 machine. By default, your clone refers to that remote as **origin**. At
@@ -19,13 +19,13 @@ the moment, it's the only remote you have::
 	  Push  URL: git@github.com:evildmp/afraid-to-commit.git
 	  HEAD branch: master
 	  Remote branches:
-	    add-name      tracked
-	    amend-my-name new (next fetch will store in remotes/origin)
+	    amend-my-name tracked
 	    master        tracked
 	  Local branch configured for 'git pull':
 	    master merges with remote master
-	  Local ref configured for 'git push':
-	    master pushes to master (local out of date)  
+      Local refs configured for 'git push':
+        amend-my-name pushes to amend-my-name (up to date)
+        master        pushes to master        (up to date)
 	
 It's very useful for Git to know about other remote repositories too. For
 example, at the end of the previous section, we considered a conflict between
@@ -61,8 +61,9 @@ This means: get the latest information about the branches on **upstream**.
 List remote branches
 --------------------
 
-`git branch` shows your local branches, to see a list of them all, including
-the remote branches::
+`git branch` shows your local branches.
+
+To see a list of them all, including the remote branches::
 
     git branch -a   
 
@@ -85,3 +86,25 @@ based on branch *additional-branch* of the remote **upstream**.
     Whenever you see something in Git of the form `remote-name/branch-name`,
     remember that that is a **reference** to a branch, not a branch itself.
     You can't checkout a reference.
+
+
+Managing *master* on the commandline
+====================================
+
+Until now, you have only updated your *master* on GitHub using GitHub itself.
+Sometimes it will be much more convenient to do it from your commandline.
+There are various ways to do it, but here's one::
+
+    git fetch upstream # update information about the remote
+    git merge upstream/master -m "merging with upstream/master" # merge the
+    changes referred to by upstream/master
+
+`git status` will tell you that your local master is ahead of your *master* at
+**origin**.
+
+Push your changes to master::
+
+    git push
+
+And now your *master* on GitHub contains everything my *master* does; it's
+up-to-date and clean.    

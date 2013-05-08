@@ -11,6 +11,21 @@ A workshop/tutorial for Python/Django developers who would like to contribute
 more to the projects they use, but need more grounding in some of the tools
 required.
 
+Contents:
+
+.. toctree::
+   :maxdepth: 1
+
+   prerequisites
+   virtualenv
+   git
+   commandlinegit
+   remotes
+   conflicts
+   testing
+   documentation 
+   cheatsheet
+
 The purpose of the workshop
 ===========================
 
@@ -55,23 +70,6 @@ The workshop will take you through the use of:
 * running and writing tests for Python applications
 * writing and building documentation using Sphinx
 * submitting a pull request to the Django Project
-
-
-Contents:
-
-.. toctree::
-   :maxdepth: 2 
-
-   prerequisites
-   virtualenv
-   git
-   commandlinegit
-   remotes
-   conflicts
-   testing
-   documentation 
-   cheatsheet
-
 
 Indices and tables
 ==================

@@ -22,8 +22,8 @@ Tell Git who you are
 
 First, you need to tell Git who you are::
 
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
+    git config --global user.email "you@example.com"
+    git config --global user.name "Your Name"
 
 Give GitHub your public keys
 ----------------------------
@@ -34,8 +34,9 @@ password.
 
 *   https://github.com/settings/ssh
 
-This tutorial *assumes you have done that*. If you haven't, you'll have to use
-*https* instead, and translate from the format of GitHub's *ssh* URLS.
+**This tutorial assumes you have now added your public key to your HitHub
+account.** If you haven't, you'll have to use *https* instead, and translate
+from the format of GitHub's *ssh* URLS.
 
 https://help.github.com/articles/generating-ssh-keys explains much better than
 I can how to generate a public key.
@@ -56,11 +57,12 @@ Clone a repository
 
 When you made a copy of the *Don't be afraid to commit* repository on GitHub,
 that was a *fork*. Getting a copy of a repository onto your local machine is
-called *cloning*.
+called *cloning*. Copy the *ssh URL* from
+https://github.com/<your github account>/afraid-to-commit.
 
-#.  go to https://github.com/evildmp/afraid-to-commit
-#.  copy the ssh URL: `git@github.com:evildmp/afraid-to-commit.git`
-#.  `git clone git@github.com:evildmp/afraid-to-commit.git`
+::
+
+    git clone git@github.com:<your github account>/afraid-to-commit.git
 
 Change into the newly-created directory, where you'll find all the source code
 of the *Don't be afraid to commit* project.
@@ -212,6 +214,9 @@ branch is called *amend-my-name*. So::
     To git@github.com:evildmp/afraid-to-commit.git
      * [new branch]      amend-my-name -> amend-my-name
 
+Next time you want to push committed changes in *amend-my-name*, you won't
+need to specify the branch, you can simply do `git push`, because now
+*amend-my-name* exists at both ends.
 
 Check your GitHub repository
 ----------------------------
@@ -226,8 +231,10 @@ Send me a pull request
 
 You can make more changes locally, and continue committing them, and pushing
 them to GitHub. When you've made all the changes that you'd like me to accept
-though, it's time to send *me* a pull request, *from your new branch*, the way
-you did before.
+though, it's time to send *me* a pull request. 
+
+**Important**: make sure that you send it from your new branch *amend-my-name*
+(not from your *master*) the way you did before.
 
 And if I like your changes, I'll merge them.
 
@@ -258,19 +265,10 @@ So:
 
 Then::
 
-    $ git pull
-    remote: Counting objects: 5, done.
-    remote: Compressing objects: 100% (3/3), done.
-    remote: Total 3 (delta 1), reused 0 (delta 0)
-    Unpacking objects: 100% (3/3), done.
-    From github.com:evildmp/afraid-to-commit
-       6c6d767..81374ba  master     -> origin/master
-    Updating 6c6d767..81374ba
-    Fast-forward
-     attendees_and_learners.rst |    2 +-
-     1 files changed, 1 insertions(+), 1 deletions(-)
+    git checkout master
+    git pull
 
-The `pull` operation above does two things: it **fetches** updates from your
+The `pull` operation does two things: it **fetches** updates from your
 GitHub fork (**origin**), and **merges** them in a **fast-forward** operation.
 
 So now we have replicated the full cycle of work we described in the previous
