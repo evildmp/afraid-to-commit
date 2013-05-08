@@ -10,10 +10,10 @@ Your repository on GitHub is the **remote** for the clone on your local
 machine. By default, your clone refers to that remote as **origin**. At
 the moment, it's the only remote you have::
 
-    daniele@v029:~/afraid-to-commit$ git remote
+    $ git remote
     origin
     
-    daniele@v029:~/afraid-to-commit$ git remote show origin
+    $ git remote show origin
 	* remote origin
 	  Fetch URL: git@github.com:evildmp/afraid-to-commit.git
 	  Push  URL: git@github.com:evildmp/afraid-to-commit.git

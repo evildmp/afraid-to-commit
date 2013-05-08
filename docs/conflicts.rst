@@ -37,7 +37,7 @@ This branch now contains my *unmergeable-branch*.
 
 Tell Git to merge it with *your* local *amend-my-name* branch::
 
-    daniele@v029:~/afraid-to-commit$ git merge amend-my-name
+    $ git merge amend-my-name
     Auto-merging attendees_and_learners.rst
     CONFLICT (content): Merge conflict in attendees_and_learners.rst
     Automatic merge failed; fix conflicts and then commit the result.
@@ -60,8 +60,8 @@ it. If you decide you want the changes from both versions::
     Daniele Procida <daniele@vurt.org> https://github.com/evildmp
     John Smith <john@example.com>
 
-    daniele@v029:~/afraid-to-commit$ git add attendees_and_learners.rst
-    daniele@v029:~/afraid-to-commit$ git commit -m "resolved conflicts"
+    $ git add attendees_and_learners.rst
+    $ git commit -m "resolved conflicts"
     [resolve-conflict 3c8e780] resolved conflicts
     
 Now your *resolve-conflict* branch has merged the latest changes in your

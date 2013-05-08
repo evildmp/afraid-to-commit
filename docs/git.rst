@@ -101,7 +101,7 @@ file in a new branch, leaving the *master* branch clean and untouched:
     It's a good policy to create a new branch for every new bit of work you
     start doing, even if it's a very small one.
     
-    **Branch early and branch often**; if you're in any doubt; create a new
+    **Branch early and branch often**. If you're in any doubt, create a new
     branch.
 
 
@@ -141,7 +141,8 @@ When preparing for a pull request, GitHub will show you your version, the
 **head branch** of the **head repo** - on the right - with some commits
 containing file changes, that will be sent to my **base repo** - on the left.
 
-#.  make sure you have *add-my-name* selected for your **head branch**
+#.  select *add-my-name* for your **head branch**
+#.  select *master* for my **base branch**
 #.  hit the **Pull Request** button
 #.  add a comment if you like
 #.  hit **Send pull request**
@@ -158,9 +159,9 @@ will have to merge the changes manually.
                                         
 Once they're merged though, your contribution will become a part of
 https://github.com/evildmp/afraid-to-commit, and that's the basic lifecycle of
-a contribution using git: *fork*, *edit*, *commit*, *pull request*, *merge*.
-Your code did indeed fork away briefly, but only in order to rejoin the
-centre.
+a contribution using git: *fork* > *edit* > *commit* > *pull request* >
+*merge*. Your code did indeed fork away briefly, but only in order to rejoin
+the centre.
 
 Incorporate upstream changes
 ----------------------------

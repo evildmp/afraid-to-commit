@@ -60,24 +60,16 @@ called *cloning*.
 
 #.  go to https://github.com/evildmp/afraid-to-commit
 #.  copy the ssh URL: `git@github.com:evildmp/afraid-to-commit.git`
-#.  on your machine::
+#.  `git clone git@github.com:evildmp/afraid-to-commit.git`
 
-        daniele@v029:~$ git clone git@github.com:evildmp/afraid-to-commit.git
-        Cloning into afraid-to-commit...
-        remote: Counting objects: 47, done.
-        remote: Compressing objects: 100% (35/35), done.
-        remote: Total 47 (delta 17), reused 27 (delta 6)
-        Receiving objects: 100% (47/47), 14.72 KiB, done.
-        Resolving deltas: 100% (17/17), done.
-
-If you have a look in the newly-created directory, you'll find all the source
-code of the *Don't be afraid to commit* project. 
+Change into the newly-created directory, where you'll find all the source code
+of the *Don't be afraid to commit* project.
 
 We want to know the status of our **working directory**. The working directory
 is the set of files that you currently have in front of you, available to
 edit::
 
-    daniele@v029:~/afraid-to-commit$ git status
+    $ git status
     # On branch master
     nothing to commit (working directory clean)
 
@@ -87,7 +79,7 @@ Create a new branch
 Once again, you're going to create a new branch, based on *master*, for new
 changes to go into::
 
-    daniele@v029:~/afraid-to-commit$ git checkout -b amend-my-name
+    $ git checkout -b amend-my-name
     Switched to a new branch 'amend-my-name
 
 `git checkout` is a command you'll use a lot, to switch between branches. The
@@ -103,7 +95,7 @@ Edit a file
 
 `git status` is always useful::
 
-    daniele@v029:~/afraid-to-commit$ git status
+    $ git status
     # On branch amend-my-name
     # Changes not staged for commit:
     #   (use "git add <file>..." to update what will be committed)
@@ -121,7 +113,7 @@ What this is telling us:
 
 These changes will only be applied to this branch when they're committed. You
 can `git add` changed files, but until you commit they won't belong to any
-branch.
+particular branch.
     
 .. note::
    When to branch
@@ -137,16 +129,17 @@ Stage your changes
 Git has a **staging area**, for files that you want to commit. On GitHub
 when you edit a file, you commit it as soon as you save it. On your
 machine, you can edit a number of files and commit them altogether.
+
 **Staging a file** in Git's terminology means adding it to the staging
 area, in preparation for a commit.
     
-To add your amended file to the staging area::
+Add your amended file to the staging area::
 
-    git add attendees_and_learners.rst    
+    `git add attendees_and_learners.rst`    
     
 and check the result::
 
-    daniele@v029:~/afraid-to-commit$ git status
+    $ git status
     # On branch amend-my-name
     # Changes to be committed:
     #   (use "git reset HEAD <file>..." to unstage)
@@ -163,7 +156,7 @@ What gets staged?
 It's not your files, but the **changes to your files**, that are staged. Make
 some further change to `attendees_and_learners.rst`, and run `git status`::
 
-    daniele@v029:~/afraid-to-commit$ git status
+    $ git status
     # On branch amend-my-name
     # Changes to be committed:
     #   (use "git reset HEAD <file>..." to unstage)
@@ -185,11 +178,9 @@ Commit your changes
 -------------------
 
 When you're happy with your files, and have added the changes you want to
-commit to the staging area::
+commit to the staging area:
 
-    daniele@v029:~/afraid-to-commit$ git commit -m "added my github name" 
-    [master 4373299] added my github name
-     1 files changed, 1 insertions(+), 0 deletions(-)
+    `git commit -m "added my github name"` 
      
 The `-m` flag is for the message ("added my github name") on the commit -
 every commit needs a commit message.
@@ -212,7 +203,7 @@ to push (your new branch).
 The repository you cloned from can be referred to as **origin**. The new
 branch is called *amend-my-name*. So::
 
-    daniele@v029:~/afraid-to-commit$ git push origin amend-my-name 
+    $ git push origin amend-my-name 
     Counting objects: 34, done.
     Delta compression using up to 2 threads.
     Compressing objects: 100% (21/21), done.
@@ -235,7 +226,8 @@ Send me a pull request
 
 You can make more changes locally, and continue committing them, and pushing
 them to GitHub. When you've made all the changes that you'd like me to accept
-though, it's time to send *me* a pull request, *from your new branch*, the way you did before.
+though, it's time to send *me* a pull request, *from your new branch*, the way
+you did before.
 
 And if I like your changes, I'll merge them.
 
@@ -266,7 +258,7 @@ So:
 
 Then::
 
-    daniele@v029:~/afraid-to-commit$ git pull
+    $ git pull
     remote: Counting objects: 5, done.
     remote: Compressing objects: 100% (3/3), done.
     remote: Total 3 (delta 1), reused 0 (delta 0)
