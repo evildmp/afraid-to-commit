@@ -22,6 +22,7 @@ Contents:
    commandlinegit
    remotes
    conflicts
+   moregit
    testing
    documentation 
    cheatsheet
