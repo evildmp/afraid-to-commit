@@ -20,10 +20,10 @@ There are other ways of installing Git; you can even get a graphical Git applica
 Tell Git who you are
 --------------------
 
-First, you need to tell Git who you are:
+First, you need to tell Git who you are::
 
-*   `git config --global user.email "you@example.com"`
-*   `git config --global user.name "Your Name"`
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
 
 Give GitHub your public keys
 ----------------------------
@@ -135,7 +135,7 @@ area, in preparation for a commit.
     
 Add your amended file to the staging area::
 
-    `git add attendees_and_learners.rst`    
+    git add attendees_and_learners.rst
     
 and check the result::
 
@@ -178,9 +178,9 @@ Commit your changes
 -------------------
 
 When you're happy with your files, and have added the changes you want to
-commit to the staging area:
+commit to the staging area::
 
-    `git commit -m "added my github name"` 
+    git commit -m "added my github name"
      
 The `-m` flag is for the message ("added my github name") on the commit -
 every commit needs a commit message.

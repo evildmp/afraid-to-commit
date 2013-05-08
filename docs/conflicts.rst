@@ -68,8 +68,8 @@ Now your *resolve-conflict* branch has merged the latest changes in your
 *amend-my-name*, *and* my *unmergeable-branch*.
 
 The last step is to merge *resolve-conflict* into *amend-my-name*, thus
-bringing with it the changes from *unmergeable-branch*:
+bringing with it the changes from *unmergeable-branch*::
 
-#.  `git checkout checkout amend-my-name`
-#.  `git merge resolve-conflict`
-#.  `git push origin amend-my-name`
+    git checkout checkout amend-my-name`
+    git merge resolve-conflict
+    git push origin amend-my-name
