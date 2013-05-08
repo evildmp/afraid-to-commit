@@ -73,5 +73,3 @@ bringing with it the changes from *unmergeable-branch*:
 #.  `git checkout checkout amend-my-name`
 #.  `git merge resolve-conflict`
 #.  `git push origin amend-my-name`
-
-
