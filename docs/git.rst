@@ -24,25 +24,6 @@ Set up a GitHub account
 
 It's free.
 
-Give GitHub your public keys
-----------------------------
-
-This is a great timesaver: if GitHub has your public keys, you can do all
-kinds of things from your commandline without needing to enter your GitHub
-password.
-
-*   https://github.com/settings/ssh
-
-This tutorial *assumes you have done that*. If you haven't, you'll have to use
-*https* instead, and translate from the format of GitHub's *ssh* URLS.
-
-https://help.github.com/articles/generating-ssh-keys explains much better than
-I can how to generate a public key.
-
-See https://gist.github.com/grawity/4392747 for a discussion of the different
-protocols.
-
-
 Some basic editing on GitHub
 ============================
 

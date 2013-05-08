@@ -44,5 +44,10 @@ Anything in the form "remote/branchname" is a reference, not a branch
 
 Pull incorporates changes from a remote repository into the current branch
 
-delete
-    `git add -u [filename]`
+add
+    `git add [filename]` adds a file to the staging areas   
+    `git add -u [filename]` - the `-u` flag will also remove deleted files  
+    
+branche
+    `git branch`
+    `git branch -a` to show remote branches too

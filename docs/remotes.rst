@@ -56,10 +56,32 @@ to **fetch** that::
 
     git fetch upstream
     
-This means: get the latest information about the branches on **upstream**.
+This means: get the latest information about the branches on **upstream**. 
+
+List remote branches
+--------------------
+
+`git branch` shows your local branches, to see a list of them all, including
+the remote branches::
+
+    git branch -a   
 
 Checkout a remote branch
 ------------------------
 
-The remote branches are list
-     
+You'll have seen from `git branch -a` that there's a branch called
+*additional-branch* on the **upstream* repository.       
+
+You can check this out::
+
+	git checkout -b additional-branch upstream/additional-branch
+
+This means: create and switch to a new branch called *additional-branch*,
+based on branch *additional-branch* of the remote **upstream**. 
+
+.. note::
+   Branches and references
+   
+    Whenever you see something in Git of the form `remote-name/branch-name`,
+    remember that that is a **reference** to a branch, not a branch itself.
+    You can't checkout a reference.

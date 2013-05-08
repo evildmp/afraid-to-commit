@@ -6,8 +6,8 @@ So far we've done all our Git work using the GitHub website, but that's often no
 
 You'll find that most of your Git-related operations can and need to be done on the commandline.
 
-Install Git
-===========
+Install/set up Git
+==================
 
 ::
 
@@ -15,7 +15,34 @@ Install Git
 
 There are other ways of installing Git; you can even get a graphical Git application, that will include the commandline tools. These are described at:
 
-    http://git-scm.com/book/en/Getting-Started-Installing-Git
+    http://git-scm.com/book/en/Getting-Started-Installing-Git  
+    
+Tell Git who you are
+--------------------
+
+First, you need to tell Git who you are:
+
+*   `git config --global user.email "you@example.com"`
+*   `git config --global user.name "Your Name"`
+
+Give GitHub your public keys
+----------------------------
+
+This is a great timesaver: if GitHub has your public keys, you can do all
+kinds of things from your commandline without needing to enter your GitHub
+password.
+
+*   https://github.com/settings/ssh
+
+This tutorial *assumes you have done that*. If you haven't, you'll have to use
+*https* instead, and translate from the format of GitHub's *ssh* URLS.
+
+https://help.github.com/articles/generating-ssh-keys explains much better than
+I can how to generate a public key.
+
+See https://gist.github.com/grawity/4392747 for a discussion of the different
+protocols.
+
 
 Some basic Git operations
 =========================
@@ -115,7 +142,7 @@ area, in preparation for a commit.
     
 To add your amended file to the staging area::
 
-    git add attendees_and_learners.rst `demo one`    
+    git add attendees_and_learners.rst    
     
 and check the result::
 
@@ -130,30 +157,29 @@ and check the result::
 If there are other files you want to change, you can add them when you're
 ready; until you commit, they'll all be together in the staging area.
 
-.. note::
-   What gets staged?
+What gets staged?
+^^^^^^^^^^^^^^^^^
    
-    It's not your files, but the **changes to your files**, that are staged.
-    Make some further change to `attendees_and_learners.rst`, and run `git
-    status`::
-    
-        daniele@v029:~/afraid-to-commit$ git status
-        # On branch amend-my-name
-        # Changes to be committed:
-        #   (use "git reset HEAD <file>..." to unstage)
-        #
-        #	modified:   attendees_and_learners.rst
-        #
-        # Changes not staged for commit:
-        #   (use "git add <file>..." to update what will be committed)
-        #   (use "git checkout -- <file>..." to discard changes in working directory)
-        #
-        #	modified:   attendees_and_learners.rst
-        #
+It's not your files, but the **changes to your files**, that are staged. Make
+some further change to `attendees_and_learners.rst`, and run `git status`::
 
-    Some of the changes in `attendees_and_learners.rst` will be committed, and
-    the more recent ones will not. You'll need to `git add` the file again to
-    stage them.
+    daniele@v029:~/afraid-to-commit$ git status
+    # On branch amend-my-name
+    # Changes to be committed:
+    #   (use "git reset HEAD <file>..." to unstage)
+    #
+    #	modified:   attendees_and_learners.rst
+    #
+    # Changes not staged for commit:
+    #   (use "git add <file>..." to update what will be committed)
+    #   (use "git checkout -- <file>..." to discard changes in working directory)
+    #
+    #	modified:   attendees_and_learners.rst
+    #
+
+Some of the changes in `attendees_and_learners.rst` will be committed, and the
+more recent ones will not. You'll need to `git add` the file again to stage
+them.
 
 Commit your changes
 -------------------
@@ -184,7 +210,7 @@ back to the remote repository you cloned from, on GitHub) and *what* exactly
 to push (your new branch).
 
 The repository you cloned from can be referred to as **origin**. The new
-branch is called **amend-my-name**. So::
+branch is called *amend-my-name*. So::
 
     daniele@v029:~/afraid-to-commit$ git push origin amend-my-name 
     Counting objects: 34, done.
@@ -214,7 +240,7 @@ though, it's time to send *me* a pull request, *from your new branch*, the way y
 And if I like your changes, I'll merge them.
 
 .. note::
-   Keeping master 'clean' (again)
+   Keeping master 'clean'
    
     You *could* of course have merged your new branch into your *master*
     branch, and sent me a pull request from that. But, once again, it's a good
@@ -226,8 +252,8 @@ And if I like your changes, I'll merge them.
     nice to know that you'll always be able to pull changes from upstream
     without having to tidy up merge conflicts.
 
-Incorporate upstream changes (again)
-------------------------------------
+Incorporate upstream changes
+----------------------------
 
 Once again, I may have merged other people's pull requests too. Assuming that
 you want to keep up-to-date with my changes, you're going to want to merge
@@ -252,11 +278,18 @@ Then::
      attendees_and_learners.rst |    2 +-
      1 files changed, 1 insertions(+), 1 deletions(-)
 
+The `pull` operation above does two things: it **fetches** updates from your
+GitHub fork (**origin**), and **merges** them in a **fast-forward** operation.
+
 So now we have replicated the full cycle of work we described in the previous
 module.
 
 Switching between branches locally
 ----------------------------------
+
+Show local branches::
+
+    git branch
 
 You can switch between local branches using `git checkout`. To switch back to
 the *master* branch::
