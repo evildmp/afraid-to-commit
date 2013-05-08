@@ -9,6 +9,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Gonzo the Muppet
 * Kermit the Frog
 * Miss Piggy
+* Attila the Hun
 
 
 I followed the tutorial online
