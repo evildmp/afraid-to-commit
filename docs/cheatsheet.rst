@@ -67,7 +67,7 @@ status
     ``git status``
 
 commit
-    git commit -m "[your commit message]"
+    ``git commit -m "[your commit message]"``
     
 add
     ``git add [filename]`` adds a file to the staging areas   
@@ -116,9 +116,18 @@ push
     
 log
     ``git log`` will show you a list of commits
-
+    
 Notes
 -----
 
-Throughout Git, anything in the form ``remote/branchname`` is a reference, not a
-branch.
+Throughout Git, anything in the form ``remote/branchname`` is a reference, not
+a branch.
+
+Documentation
+=============
+
+initialise Sphinx documentation
+    ``sphinx-quickstart``
+
+render documentation
+    ``make html``

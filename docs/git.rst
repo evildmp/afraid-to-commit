@@ -112,9 +112,10 @@ file in a new branch, leaving the *master* branch clean and untouched:
 Edit a file
 -----------
 
-GitHub allows you to edit files online. This isn't something you'll want to
-spend too much time doing, but it's handy for very small changes, for example
-typos and spelling mistakes you spot.
+GitHub allows you to edit files online. This isn't the way you will normally
+use Git, and it's certainly not something you'll want to spend very much time
+doing, but it's handy for very small changes, for example typos and spelling
+mistakes you spot.
 
 #.  go to https://github.com/<your github account>/afraid-to-commit
 #.  find the ``attendees_and_learners.rst`` file

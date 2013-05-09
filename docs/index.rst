@@ -25,7 +25,8 @@ You'll find it particularly useful if you think you have some good coding
 ideas, but find that managing the development process sometimes gets in the
 way of your actual development.
 
-* :ref:`search`
+Contents
+========
 
 Before you start
 ----------------
