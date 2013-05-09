@@ -36,7 +36,8 @@ You can do various things there, including browsing through all the code and fil
 
 *   hit the **Fork** button
 
-A few moments later, you'll have your own copy, on GitHub, of everything in that repository, and from now on you'll do your work on your copy of it.
+A few moments later, you'll have your own copy, on GitHub, of everything in that 
+repository, and from now on you'll do your work on your copy of it.
 
 Your copy is at https://github.com/<your github account>/afraid-to-commit/. 
 
@@ -52,7 +53,7 @@ volunteers on top of all their other jobs.
     You'll notice that there might be a few forks of
     https://github.com/evildmp/afraid-to-commit; if you have a look at
     https://github.com/django/django you'll see thouands. There'll even be
-    forks of the forks. Every single one one is complete and independent. So,
+    forks of the forks. Every single one is complete and independent. So,
     which one is the real one - which one is *the* Django repository?
     
     In a technical sense, they all are, but the more useful answer is: the
@@ -100,6 +101,9 @@ file in a new branch, leaving the *master* branch clean and untouched:
     
     It's a good policy to create a new branch for every new bit of work you
     start doing, even if it's a very small one.
+
+    It's especially useful to create a new branch for every new feature you
+    start work on.
     
     **Branch early and branch often**. If you're in any doubt, create a new
     branch.
