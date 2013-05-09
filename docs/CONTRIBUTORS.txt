@@ -1,0 +1,8 @@
+Contributors to "Don't be afraid to commit" include:
+
+* Daniele Procida
+
+Many thanks are also due to the members of #django, #python, #git and #github
+on irc.freenode.net.
+
+... and if I have neglected to mention someone, please let me know.
