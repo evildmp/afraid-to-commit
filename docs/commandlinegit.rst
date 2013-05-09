@@ -84,18 +84,18 @@ changes to go into::
     $ git checkout -b amend-my-name
     Switched to a new branch 'amend-my-name
 
-`git checkout` is a command you'll use a lot, to switch between branches. The
-`-b` flag tells it to **create a new branch** at the same time. By default,
+``git checkout`` is a command you'll use a lot, to switch between branches. The
+``-b`` flag tells it to **create a new branch** at the same time. By default,
 the new branch is based upon whatever branch you were on.
 
 Edit a file
 -----------
 
-#.  find the `attendees_and_learners.rst` file again
+#.  find the ``attendees_and_learners.rst`` file again
 #.  after your name and email address, add your Github account
 #.  save the file
 
-`git status` is always useful::
+``git status`` is always useful::
 
     $ git status
     # On branch amend-my-name
@@ -114,7 +114,7 @@ What this is telling us:
 *   that there's nothing to commit
 
 These changes will only be applied to this branch when they're committed. You
-can `git add` changed files, but until you commit they won't belong to any
+can ``git add`` changed files, but until you commit they won't belong to any
 particular branch.
     
 .. note::
@@ -156,7 +156,7 @@ What gets staged?
 ^^^^^^^^^^^^^^^^^
    
 It's not your files, but the **changes to your files**, that are staged. Make
-some further change to `attendees_and_learners.rst`, and run `git status`::
+some further change to ``attendees_and_learners.rst``, and run ``git status``::
 
     $ git status
     # On branch amend-my-name
@@ -172,8 +172,8 @@ some further change to `attendees_and_learners.rst`, and run `git status`::
     #	modified:   attendees_and_learners.rst
     #
 
-Some of the changes in `attendees_and_learners.rst` will be committed, and the
-more recent ones will not. You'll need to `git add` the file again to stage
+Some of the changes in ``attendees_and_learners.rst`` will be committed, and the
+more recent ones will not. You'll need to ``git add`` the file again to stage
 them.
 
 Commit your changes
@@ -184,7 +184,7 @@ commit to the staging area::
 
     git commit -m "added my github name"
      
-The `-m` flag is for the message ("added my github name") on the commit -
+The ``-m`` flag is for the message ("added my github name") on the commit -
 every commit needs a commit message.
 
 Push your changes to GitHub
@@ -196,7 +196,7 @@ repository. Here there is an extra step: we need to **push** the files to
 GitHub.
 
 If you were pushing changes from *master* locally to *master* on GitHub, you
-could just issue the command `git push`.
+could just issue the command ``git push``.
 
 You have multiple branches here, so you need to tell git *where* to push (i.e.
 back to the remote repository you cloned from, on GitHub) and *what* exactly
@@ -215,7 +215,7 @@ branch is called *amend-my-name*. So::
      * [new branch]      amend-my-name -> amend-my-name
 
 Next time you want to push committed changes in *amend-my-name*, you won't
-need to specify the branch, you can simply do `git push`, because now
+need to specify the branch, you can simply do ``git push``, because now
 *amend-my-name* exists at both ends.
 
 Check your GitHub repository
@@ -223,7 +223,7 @@ Check your GitHub repository
 
 *   go to https://github.com/<your GitHub name>/afraid-to-commit
 *	check that your new *amend-my-name* branch is there
-*	check that your latest change to `attendees_and_learners.rst` is in it
+*	check that your latest change to ``attendees_and_learners.rst`` is in it
 
 
 Send me a pull request
@@ -268,7 +268,7 @@ Then::
     git checkout master
     git pull
 
-The `pull` operation does two things: it **fetches** updates from your
+The ``pull`` operation does two things: it **fetches** updates from your
 GitHub fork (**origin**), and **merges** them in a **fast-forward** operation.
 
 So now we have replicated the full cycle of work we described in the previous
@@ -281,7 +281,7 @@ Show local branches::
 
     git branch
 
-You can switch between local branches using `git checkout`. To switch back to
+You can switch between local branches using ``git checkout``. To switch back to
 the *master* branch::
 
     git checkout master
@@ -308,16 +308,16 @@ The one that is not recommended is::
 
 	git checkout -f <branch> 
 	
-The `-f` flag forces the branch to be checked out.
+The ``-f`` flag forces the branch to be checked out.
 
 .. note::
-   Forcing operations with `-f`
+   Forcing operations with ``-f``
 
-    Generally speaking, using the `-f` flag for Git operations is to be
+    Generally speaking, using the ``-f`` flag for Git operations is to be
     avoided. It offers plenty of scope for mishap. If Git tells you about a
     problem and you force your way past it, you're inviting trouble.
      
 Stash
 ^^^^^
 
-If you're really interested, look up `git stash`, but it's beyond the scope of this tutorial. 
+If you're really interested, look up ``git stash``, but it's beyond the scope of this tutorial. 

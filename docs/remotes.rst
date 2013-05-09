@@ -61,7 +61,7 @@ This means: get the latest information about the branches on **upstream**.
 List remote branches
 --------------------
 
-`git branch` shows your local branches.
+``git branch`` shows your local branches.
 
 To see a list of them all, including the remote branches::
 
@@ -70,7 +70,7 @@ To see a list of them all, including the remote branches::
 Checkout a remote branch
 ------------------------
 
-You'll have seen from `git branch -a` that there's a branch called
+You'll have seen from ``git branch -a`` that there's a branch called
 *additional-branch* on the **upstream* repository.       
 
 You can check this out::
@@ -83,7 +83,7 @@ based on branch *additional-branch* of the remote **upstream**.
 .. note::
    Branches and references
    
-    Whenever you see something in Git of the form `remote-name/branch-name`,
+    Whenever you see something in Git of the form ``remote-name/branch-name``,
     remember that that is a **reference** to a branch, not a branch itself.
     You can't checkout a reference.
 
@@ -99,7 +99,7 @@ There are various ways to do it, but here's one::
     git merge upstream/master -m "merging with upstream/master" # merge the
     changes referred to by upstream/master
 
-`git status` will tell you that your local master is ahead of your *master* at
+``git status`` will tell you that your local master is ahead of your *master* at
 **origin**.
 
 Push your changes to master::

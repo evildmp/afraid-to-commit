@@ -74,7 +74,7 @@ Using pip
 pip freeze
 ----------
 
-`pip freeze` lists installed Python packages:: 
+``pip freeze`` lists installed Python packages:: 
 
     (my-first-virtualenv)daniele@v029:~/my-first-virtualenv$ pip freeze 
     argparse==1.2.1
@@ -94,7 +94,7 @@ pip will visit PyPI, the Python Package Index, and will install Python-RSA (a
 "Pure-Python RSA implementation"). It will also install its dependencies -
 things it needs - if any have been listed at PyPI.
 
-Now see what `pip freeze` reports. And try::
+Now see what ``pip freeze`` reports. And try::
 
     (my-first-virtualenv)~/my-first-virtualenv$ python 
     Python 2.7.2+ (default, Jul 20 2012, 22:15:08) 
@@ -145,7 +145,7 @@ Create a second virtualenv
     virtualenv my-second-virtualenv
     source bin/activate # activate it, and deactivate the other one 
 
-`pip freeze` will show you that you haven't installed Python-RSA in this one -
+``pip freeze`` will show you that you haven't installed Python-RSA in this one -
 it's a completely different Python environment from the other, and both are
 isolated from the system-wide Python setup.
 

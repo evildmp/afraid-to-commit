@@ -80,8 +80,8 @@ The first bug
 
 Visit the site's admin, and create a new poll. You'll soon see that you can
 expose a little bug. In the list of polls in the admin, you'll see that polls
-published in the last day are considered to have been `published recently`,
-but so are polls whose `pub_date` is in the future.
+published in the last day are considered to have been ``published recently``,
+but so are polls whose ``pub_date`` is in the future.
 
 We can fix that bug easily enough, but in order to be sure that it *stays*
 fixed, a test will help. So, we should:

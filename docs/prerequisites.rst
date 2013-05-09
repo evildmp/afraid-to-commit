@@ -21,7 +21,7 @@ The tutorial assumes some basic familiarity with the commandline prompt in a
 terminal.
 
 You'll need to know how to install software. Some of the examples given refer
-to Debian/Ubuntu's `apt-get`; you ought to know what the equivalent is on
+to Debian/Ubuntu's ``apt-get``; you ought to know what the equivalent is on
 whatever operating system you're using.
 
 You'll also need to know how to edit plain text or source files of various

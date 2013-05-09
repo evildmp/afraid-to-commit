@@ -84,7 +84,7 @@ edit the *master* (default) branch of the repository, it's better to edit the
 file in a new branch, leaving the *master* branch clean and untouched:
 
 #.  select the **branch** menu
-#.  in *Find or create a branch...* enter `add-my-name`
+#.  in *Find or create a branch...* enter ``add-my-name``
 #.  hit **Create branch: add-my-name**
 
 .. note::
@@ -117,7 +117,7 @@ spend too much time doing, but it's handy for very small changes, for example
 typos and spelling mistakes you spot.
 
 #.  go to https://github.com/<your github account>/afraid-to-commit
-#.  find the `attendees_and_learners.rst` file
+#.  find the ``attendees_and_learners.rst`` file
 #.  hit the **Edit** button
 #.  add your name and email address to the appropriate place in the file
 #.  if following the tutorial by yourself, add your details in the *I followed
@@ -181,7 +181,7 @@ too:
 
 #.  hit **Pull Request** once more
 #.  change the **head repo** on the right to *my* version,
-    `evildmp/afraid-to-commit`
+    ``evildmp/afraid-to-commit``
 #.  change the **base repo** to yours, and the **base branch** to *master*
 #.  add a **Title** and hit **Send pull request**
 
