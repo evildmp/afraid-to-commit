@@ -81,6 +81,11 @@ Being able to create, manage and publish **documentation** in an efficient
 and orderly way will make your work more accessible and more interesting to
 other people.
 
+.. toctree::
+   :maxdepth: 1
+
+   documentation
+
 Cheatsheet
 ----------
 
