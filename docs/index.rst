@@ -97,22 +97,4 @@ A handy summary of key commands and techniques.
    :maxdepth: 1
 
    cheatsheet
-
-
-What we'll cover
-================
-
-The workshop will take you through the use of:
-
-* virtualenv and pip
-* Git and GitHub
-* running and writing tests for Python applications
-* writing and building documentation using Sphinx
-* submitting a pull request to the Django Project
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
-
+   
