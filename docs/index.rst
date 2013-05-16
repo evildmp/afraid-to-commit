@@ -87,7 +87,17 @@ other people.
 .. toctree::
    :maxdepth: 1
 
-   documentation
+   documentation 
+
+Contributing
+------------
+
+When you've done all your work and are ready to contribute it:
+
+.. toctree::
+   :maxdepth: 1
+
+   contributing 
 
 Cheatsheet
 ----------
