@@ -78,4 +78,11 @@ bad not to be worse than no documentation.
 
 What's more, writing documentation will help you better understand the things
 you're writing about, and if you're new to all this, that's going to put you
-in a better position to understand and improve code.
+in a better position to understand and improve code.  
+
+Some suitable Django Project tickets
+-------------------------------------
+
+Or have a look at one of these:
+
+*	https://code.djangoproject.com/query?owner=~EvilDMP&status=assigned&status=new&easy=1&stage=Accepted&desc=1
