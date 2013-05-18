@@ -5,6 +5,8 @@ Attendees & learners
 DjangoCon Europe in Warsaw, 18th May 2013
 =========================================
 
+* Daniele Procida <procida@cardiff.ac.uk> https://github.com/evildmp
+* Amjith Ramanujam - The Dark Knight
 * @zlatkoc
 * larssos@github
 * @erccy is my name
