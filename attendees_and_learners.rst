@@ -18,6 +18,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Nicolas Noé <nicolas@niconoe.eu> https://github.com/niconoe
 * Peter Bero
 * schacki
+* Michał Karzyński <djangoconwrkshp@karzyn.com> https://github.com/postrational
 
 I followed the tutorial online
 ==============================
