@@ -109,7 +109,7 @@ Edit a file
 
 What this is telling us:
 
-*   we're on the *master* branch
+*   we're on the *amend-my-name* branch
 *   that we have one modified file
 *   that there's nothing to commit
 
