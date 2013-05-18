@@ -12,6 +12,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Attila the Hun
 * Winnie the Pooh
 * @zlatkoc
+* Jens Ådne Rydland <jensadne@pvv.ntnu.no> https://github.com/jensadne
 
 
 I followed the tutorial online
