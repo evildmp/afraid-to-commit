@@ -3,6 +3,7 @@ Contributors to "Don't be afraid to commit" include:
 * Daniele Procida
 * Daniel Quinn
 * Brian Crain (@crainbf)
+* Paul Grau
 
 Many thanks are also due to the members of #django, #python, #git and #github
 on irc.freenode.net.
