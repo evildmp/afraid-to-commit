@@ -12,10 +12,12 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Attila the Hun
 * Winnie the Pooh
 * @zlatkoc
+* larssos@github
 
 
 I followed the tutorial online
 ==============================
 * Daniele Procida <daniele@vurt.org> https://github.com/evildmp
-
 * assistance from Hamish
+* Daniel Quinn
+
