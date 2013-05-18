@@ -22,7 +22,9 @@ we need to cover some important concepts.
 
 Using a remote branch to resolve a conflict        
 -------------------------------------------
-                                 
+
+::
+
     $ git fetch upstream
     $ git merge upstream/unmergeable-branch
     Auto-merging attendees_and_learners.rst
