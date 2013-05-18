@@ -12,7 +12,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Attila the Hun
 * Winnie the Pooh
 * @zlatkoc
-
+* @erccy is my name
 
 I followed the tutorial online
 ==============================
