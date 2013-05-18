@@ -11,6 +11,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Miss Piggy
 * Attila the Hun
 * Winnie the Pooh
+* Amjith Ramanujam - The Dark Knight
 * @zlatkoc
 
 
