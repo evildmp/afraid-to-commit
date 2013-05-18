@@ -16,6 +16,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * @zlatkoc
 * Nicolas Noé <nicolas@niconoe.eu> https://github.com/niconoe
 * Peter Bero
+* schacki
 
 I followed the tutorial online
 ==============================
