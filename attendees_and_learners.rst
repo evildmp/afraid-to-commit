@@ -11,7 +11,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Miss Piggy
 * Attila the Hun
 * Winnie the Pooh
-* Paul Grau <paul@pgrau.de> https://github.com/graup
+* @graup
 
 
 I followed the tutorial online
