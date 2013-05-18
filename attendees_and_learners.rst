@@ -11,7 +11,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Miss Piggy
 * Attila the Hun
 * Winnie the Pooh
-* Jens Ådne Rydland https://github.com/jensadne
+* Jens Ådne Rydland <jensadne@pvv.ntnu.no> https://github.com/jensadne
 
 
 I followed the tutorial online
