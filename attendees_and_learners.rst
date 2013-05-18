@@ -18,5 +18,6 @@ DjangoCon Europe in Warsaw, 18th May 2013
 I followed the tutorial online
 ==============================
 * Daniele Procida <daniele@vurt.org> https://github.com/evildmp
-
 * assistance from Hamish
+* Daniel Quinn
+
