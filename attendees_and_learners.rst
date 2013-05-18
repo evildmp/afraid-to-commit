@@ -12,6 +12,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Attila the Hun
 * Winnie the Pooh
 * Brian Crain
+* @zlatkoc
 
 
 I followed the tutorial online
