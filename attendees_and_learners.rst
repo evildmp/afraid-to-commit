@@ -19,6 +19,8 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Peter Bero
 * schacki
 * Michał Karzyński <djangoconwrkshp@karzyn.com> https://github.com/postrational
+* Winnie the Pooh
+* @graup
 
 I followed the tutorial online
 ==============================
