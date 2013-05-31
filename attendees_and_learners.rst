@@ -2,8 +2,14 @@
 Attendees & learners
 ####################
 
+This is a record of people who attended a *Don't be afraid to commit* workshop,
+or followed the tutorial in their own time.
+
+Workshops
+=========
+
 DjangoCon Europe in Warsaw, 18th May 2013
-=========================================
+-----------------------------------------
 
 * Amjith Ramanujam - The Dark Knight
 * @zlatkoc
@@ -25,7 +31,5 @@ DjangoCon Europe in Warsaw, 18th May 2013
 I followed the tutorial online
 ==============================
 
-18th May 2013
--------------
+* Daniel Quinn - 18th May 2013
 
-* Daniel Quinn

@@ -108,4 +108,19 @@ A handy summary of key commands and techniques.
    :maxdepth: 1
 
    cheatsheet
+
+Credits
+-------
+
+.. include:: ../CONTRIBUTORS.txt
+
+Attendance record
+-----------------
+
+A record of people who attended a workshop or followed the tutorial
+
+.. toctree::
+   :maxdepth: 1
+
+   attendance_record
    
