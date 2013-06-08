@@ -28,6 +28,8 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Michał Karzyński <djangoconwrkshp@karzyn.com> https://github.com/postrational
 * @graup
 
+Cardiff University Workshop
+---------------------------
 
 * Chris Lovell <chrisl1991@hotmail.co.uk> https://github.com/polyphant1
 
