@@ -30,7 +30,11 @@ DjangoCon Europe in Warsaw, 18th May 2013
 
 Dont Be Afraid To Commit - Cardiff, 8th June 2013
 -----------------------------------------
-
+=======
+* Eddy Merckx
+* Bernard Hinault
+* Gino Bartali
+* Charly Gaul
 * Kieran Moore
 * Howard Dickins <hdickins@gmail.com> https://github.com/hdickins
 
