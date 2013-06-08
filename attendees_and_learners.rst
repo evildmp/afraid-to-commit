@@ -33,6 +33,7 @@ Dont Be Afraid To Commit - Cardiff, 8th June 2013
 
 * Kieran Moore
 * Dan Pass <Daniel.antony.pass@googlemail.com>
+* Dale Bradley
 
 I followed the tutorial online
 ==============================
