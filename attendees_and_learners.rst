@@ -35,6 +35,7 @@ Dont Be Afraid To Commit - Cardiff, 8th June 2013
 * Dan Pass <Daniel.antony.pass@googlemail.com>
 * Dale Bradley
 * Howard Dickins <hdickins@gmail.com> https://github.com/hdickins  
+* Robert Dragan https://github.com/rmdragan
 
 I followed the tutorial online
 ==============================

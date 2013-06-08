@@ -5,6 +5,7 @@ include:
 * Brian Crain (@crainbf)
 * Paul Grau
 * Nimesh Ghelani (https://github.com/nims11)
+* Robert Dragan https://github.com/rmdragan
 
 Many thanks are also due to the members of #django, #python, #git and #github
 on irc.freenode.net for their endless online help.
