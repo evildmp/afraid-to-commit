@@ -20,23 +20,22 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Jens Ådne Rydland <jensadne@pvv.ntnu.no> https://github.com/jensadne
 * Chris Reeves @krak3n 
 * Alexander Hansen <alexander@geekevents.org> https://github.com/wckd
-* @krak3n
 * Brian Crain (@crainbf)
 * Nicolas Noé <nicolas@niconoe.eu> https://github.com/niconoe
 * Peter Bero
 * schacki
 * Michał Karzyński <djangoconwrkshp@karzyn.com> https://github.com/postrational
-* @
-* Chris Davies -  attended the workshop
+* @graup
 
-Dont Be Afraid To Commit - Cardiff, 8th June 2013
--------------------------------------------------
+Cardiff Dev Workshop, 8th June 2013
+-----------------------------------
 
 * Kieran Moore
 * Dan Pass <Daniel.antony.pass@googlemail.com>
 * Dale Bradley
 * Howard Dickins <hdickins@gmail.com> https://github.com/hdickins  
 * Robert Dragan https://github.com/rmdragan
+* Chris Davies
 
 I followed the tutorial online
 ==============================
