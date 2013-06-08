@@ -41,7 +41,7 @@ Cardiff Dev Workshop, 8th June 2013
 * Nezam Shah
 * Gwen Williams https://github.com/gwenopeno
 * Daniel Pass <daniel.antony.pass@googlemail.com>
-* Bitarabe Edgar - 8th June 2013
+* Bitarabe Edgar
 
 I followed the tutorial online
 ==============================

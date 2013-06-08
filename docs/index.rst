@@ -124,4 +124,14 @@ A record of people who attended a workshop or followed the tutorial
    :maxdepth: 1
 
    attendance_record
+
+Notes on running a workshop
+===========================
+
+Notes for anyone planning a workshop.
+
+.. toctree::
+   :maxdepth: 1
+
+   notesforplanners
    
