@@ -37,6 +37,7 @@ Dont Be Afraid To Commit - Cardiff, 8th June 2013
 * Charly Gaul
 * Kieran Moore
 * Howard Dickins <hdickins@gmail.com> https://github.com/hdickins
+* Jacques Anquetil
 
 I followed the tutorial online
 ==============================
