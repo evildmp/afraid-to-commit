@@ -2,13 +2,6 @@
 Virtualenv and pip
 ##################
 
-In this section you will:
-
-*	use pip to install packages
-*	install virtualenv
-*	create and destroy, activate and deactivate virtual environments
-*	use ``pip freeze`` to show installed items
-
 
 What is virtualenv?
 ===================
@@ -46,7 +39,7 @@ Try::
 Do you have a version lower than 1.9? Upgrade it::
 
     sudo pip install --upgrade virtualenv
-    hash -r # purge shell's PATH - may not be necessary for you
+    hash -r # purge shell's PATH, though this may not be necessary for you
     
 If you got a "Command not found" when you tried to use virtualenv, try::
 
@@ -93,10 +86,13 @@ pip freeze
 pip install
 ----------- 
 
+Earlier, you may have used ``sudo pip install``. You **don't** need ``sudo``
+now, because you're in a virtualenv. Let's install something.
+
 ::
 
     pip install rsa
-    
+
 pip will visit PyPI, the Python Package Index, and will install Python-RSA (a
 "Pure-Python RSA implementation"). It will also install its dependencies -
 things it needs - if any have been listed at PyPI.
@@ -126,7 +122,10 @@ Where packages get installed
 
 Your virtualenv has a site-packages directory, in the same way your system does. So now rsa can be found in::
 
-    ~/my-first-virtualenv/lib/python2.7/site-packages/rsa 
+    ~/my-first-virtualenv/lib/python2.7/site-packages/rsa
+    
+(It's possible that you'll have a different version of Python listed in that
+path.)
     
 Dependencies
 ------------
@@ -136,7 +135,7 @@ dependencies had dependencies, pip would install them all.
 
 So if all the package authors have done a good job of informing PyPI about
 their software's requirements, you can install a Django application, for
-example, and pip will will install it and Django and possibly dozens of other
+example, and pip will will install it, and Django, and possibly dozens of other
 pieces of software, all into your virtualenv, and without your having to make
 sure that everything required is in place.
 
@@ -150,7 +149,6 @@ Create a second virtualenv
 
     cd ~/ # it would be silly to create a virtualenv inside another
     virtualenv my-second-virtualenv
-    cd my-second-virtualenv
     source bin/activate # activate it, and deactivate the other one 
 
 ``pip freeze`` will show you that you haven't installed Python-RSA in this one -

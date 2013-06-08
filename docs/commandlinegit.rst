@@ -2,23 +2,9 @@
 Git on the commandline
 ######################
 
-In this section you will:
+So far we've done all our Git work using the GitHub website, but that's often not the most appropriate way to work. 
 
-*	install and configure Git locally
-*	create your own local clone of a repository
-*	create a new Git branch
-*	edit a file and stage your changes
-*	commit your changes 
-*	push your changes to GitHub
-*	make a pull request
-*   merge upstream changes into your fork
-*	merge changes on GitHub into your local clone
-
-So far we've done all our Git work using the GitHub website, but that's often
-not the most appropriate way to work.
-
-You'll find that most of your Git-related operations can and need to be done
-on the commandline.
+You'll find that most of your Git-related operations can and need to be done on the commandline.
 
 Install/set up Git
 ==================
@@ -48,7 +34,7 @@ password.
 
 *   https://github.com/settings/ssh
 
-**This tutorial assumes you have now added your public key to your HitHub
+**This tutorial assumes you have now added your public key to your GitHub
 account.** If you haven't, you'll have to use *https* instead, and translate
 from the format of GitHub's *ssh* URLS.
 
@@ -92,8 +78,8 @@ edit::
 Create a new branch
 -------------------
 
-Once again, you're going to create a new branch, based on *master*, for new
-changes to go into::
+Just as you did on GitHub, once again you're going to create a new branch,
+based on *master*, for new work to go into::
 
     $ git checkout -b amend-my-name
     Switched to a new branch 'amend-my-name
@@ -277,7 +263,8 @@ So:
 * on GitHub, pull the upstream changes into your fork the way you did
   previously
 
-Then::
+Then switch back to your master branch, fetch updated information from your
+GitHub fork (**origin**), and merge the master ::
 
     git checkout master
     git pull
@@ -302,7 +289,7 @@ the *master* branch::
 
 If you have a changed tracked file - a tracked file is one that Git is
 managing - it will warn you that you can't switch branches without either
-committing, abandoning or 'stashing' the changes.
+committing, abandoning or 'stashing' the changes:
 
 Commit
 ^^^^^^
