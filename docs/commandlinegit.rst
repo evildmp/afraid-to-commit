@@ -2,9 +2,23 @@
 Git on the commandline
 ######################
 
-So far we've done all our Git work using the GitHub website, but that's often not the most appropriate way to work. 
+In this section you will:
 
-You'll find that most of your Git-related operations can and need to be done on the commandline.
+*	install and configure Git locally
+*	create your own local clone of a repository
+*	create a new Git branch
+*	edit a file and stage your changes
+*	commit your changes 
+*	push your changes to GitHub
+*	make a pull request
+*   merge upstream changes into your fork
+*	merge changes on GitHub into your local clone
+
+So far we've done all our Git work using the GitHub website, but that's often
+not the most appropriate way to work.
+
+You'll find that most of your Git-related operations can and need to be done
+on the commandline.
 
 Install/set up Git
 ==================

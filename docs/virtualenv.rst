@@ -2,6 +2,13 @@
 Virtualenv and pip
 ##################
 
+In this section you will:
+
+*	use pip to install packages
+*	install virtualenv
+*	create and destroy, activate and deactivate virtual environments
+*	use ``pip freeze`` to show installed items
+
 
 What is virtualenv?
 ===================

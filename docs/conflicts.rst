@@ -2,8 +2,14 @@
 Resolving conflicts
 ###################
 
-With GitHub's help
-------------------
+In this section you will:
+
+*	merge changes from a remote branch 
+*	create a new temporary Git branch for working in
+
+
+Encountering a merge conflict on GitHub
+=======================================
 
 Sometimes you'll discover that your GitHub fork and the upstream repository
 have changes that GitHub can't merge. 
@@ -20,12 +26,13 @@ GitGub will in fact tell you the steps you need to take to solve this, but to
 understand what's actually happening, and to do it yourself when you need to,
 we need to cover some important concepts.
 
-Using a remote branch to resolve a conflict        
--------------------------------------------
+Merging changes from a remote branch        
+====================================
 
 ::
 
-    $ git fetch upstream
+    $ git checkout amend-my-name # make sure you're on the right branch
+	$ git fetch upstream
     $ git merge upstream/unmergeable-branch
     Auto-merging attendees_and_learners.rst
     CONFLICT (content): Merge conflict in attendees_and_learners.rst
@@ -56,12 +63,18 @@ it. If you decide you want the changes from both versions::
     $ git push 
 
 Creating a branch for merging work
-----------------------------------
+==================================
 
-Sometimes it's sensible *not* to do merging work in a branch you rely on.
-Remember, branches are cheap and disposable.
+Sometimes it's sensible *not* to do merging work in a branch you rely on. In
+the example above, your *amend-my-name* branch doesn't contain a great deal of
+work. If you had a branch that contained many complex changes however, you
+certainly wouldn't want to discover dozens of conflicts making a mess in the
+files containing all your hard work.
 
-So, create a new branch specially for the purpose of merging::
+So remember, **branches are cheap and disposable**. Rather than risk messing
+up the branch you've been working on, create a new one specially for the
+purpose of discovering what sort of conflicts arise, and to give you a place
+to work on resolving them without disturbing your work so far::
 
 	git checkout -b resolve-conflict upstream/unmergeable-branch
 

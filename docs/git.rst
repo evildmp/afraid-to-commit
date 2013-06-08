@@ -2,6 +2,15 @@
 Git and GitHub
 ##############
 
+In this section you will:
+
+*	create a GitHub account
+*	create your own fork of a repository
+*	create a new Git branch
+*	edit and commit a file on GitHub
+*	make a pull request
+*   merge upstream changes into your fork
+
 
 What is it?
 ===========
@@ -36,8 +45,8 @@ You can do various things there, including browsing through all the code and fil
 
 *   hit the **Fork** button
 
-A few moments later, you'll have your own copy, on GitHub, of everything in that 
-repository, and from now on you'll do your work on your copy of it.
+A few moments later, you'll have your own copy, on GitHub, of everything in
+thatrepository, and from now on you'll do your work on your copy of it.
 
 Your copy is at https://github.com/<your github account>/afraid-to-commit/. 
 
