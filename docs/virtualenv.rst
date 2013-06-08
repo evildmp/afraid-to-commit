@@ -171,14 +171,14 @@ Deactivate a virtualenv
     
 Now you're no longer in any virtualenv.       
 
---install-site-packages
+--system-site-packages
 -----------------------
 
 When you create a virtualenv, it doesn't include any Python packages already
 installed on your system. But sometimes, that *is* what you want. In that
 case::
 
-    virtualenv --install-site-packages my-third-virtualenv 
+    virtualenv --system-site-packages my-third-virtualenv 
     
 remove a virtualenv
 -------------------
