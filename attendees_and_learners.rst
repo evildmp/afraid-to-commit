@@ -32,6 +32,7 @@ Dont Be Afraid To Commit - Cardiff, 8th June 2013
 -----------------------------------------
 
 * Kieran Moore
+* Robert Dragan https://github.com/rmdragan
 
 I followed the tutorial online
 ==============================
