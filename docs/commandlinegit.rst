@@ -2,6 +2,18 @@
 Git on the commandline
 ######################
 
+In this section you will:
+
+*   install and configure Git locally
+*   create your own local clone of a repository
+*   create a new Git branch
+*   edit a file and stage your changes
+*   commit your changes 
+*   push your changes to GitHub
+*   make a pull request
+*   merge upstream changes into your fork
+*   merge changes on GitHub into your local clone
+
 So far we've done all our Git work using the GitHub website, but that's often not the most appropriate way to work. 
 
 You'll find that most of your Git-related operations can and need to be done on the commandline.
@@ -103,7 +115,7 @@ Edit a file
     #   (use "git add <file>..." to update what will be committed)
     #   (use "git checkout -- <file>..." to discard changes in working directory)
     #
-    #	modified:   attendees_and_learners.rst
+    #   modified:   attendees_and_learners.rst
     #
     no changes added to commit (use "git add" and/or "git commit -a")
 
@@ -146,7 +158,7 @@ and check the result::
     # Changes to be committed:
     #   (use "git reset HEAD <file>..." to unstage)
     #
-    #	modified:   attendees_and_learners.rst
+    #   modified:   attendees_and_learners.rst
     #
 
 If there are other files you want to change, you can add them when you're
@@ -163,13 +175,13 @@ some further change to ``attendees_and_learners.rst``, and run ``git status``::
     # Changes to be committed:
     #   (use "git reset HEAD <file>..." to unstage)
     #
-    #	modified:   attendees_and_learners.rst
+    #   modified:   attendees_and_learners.rst
     #
     # Changes not staged for commit:
     #   (use "git add <file>..." to update what will be committed)
     #   (use "git checkout -- <file>..." to discard changes in working directory)
     #
-    #	modified:   attendees_and_learners.rst
+    #   modified:   attendees_and_learners.rst
     #
 
 Some of the changes in ``attendees_and_learners.rst`` will be committed, and the
@@ -222,8 +234,8 @@ Check your GitHub repository
 ----------------------------
 
 *   go to https://github.com/<your GitHub name>/afraid-to-commit
-*	check that your new *amend-my-name* branch is there
-*	check that your latest change to ``attendees_and_learners.rst`` is in it
+*   check that your new *amend-my-name* branch is there
+*   check that your latest change to ``attendees_and_learners.rst`` is in it
 
 
 Send me a pull request
@@ -307,8 +319,8 @@ This checks out the previously-committed version of the file.
 
 The one that is not recommended is::
 
-	git checkout -f <branch> 
-	
+    git checkout -f <branch> 
+    
 The ``-f`` flag forces the branch to be checked out.
 
 .. note::

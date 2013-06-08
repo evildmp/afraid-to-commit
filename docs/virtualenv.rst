@@ -2,6 +2,12 @@
 Virtualenv and pip
 ##################
 
+In this section you will:
+
+*	use pip to install packages
+*	install virtualenv
+*	create and destroy, activate and deactivate virtual environments
+*	use ``pip freeze`` to show installed items
 
 What is virtualenv?
 ===================
@@ -149,6 +155,7 @@ Create a second virtualenv
 
     cd ~/ # it would be silly to create a virtualenv inside another
     virtualenv my-second-virtualenv
+    cd my-second-virtualenv
     source bin/activate # activate it, and deactivate the other one 
 
 ``pip freeze`` will show you that you haven't installed Python-RSA in this one -
