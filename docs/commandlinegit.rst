@@ -276,13 +276,25 @@ So:
   previously
 
 Then switch back to your master branch, fetch updated information from your
-GitHub fork (**origin**), and merge the master ::
+GitHub fork (**origin**), and merge the master::
 
-    git checkout master
-    git pull
+    git checkout master  
+    git fetch upstream
+    git merge upstream/master
+    
+.. note::
+   git pull
 
-The ``pull`` operation does two things: it **fetches** updates from your
-GitHub fork (**origin**), and **merges** them in a **fast-forward** operation.
+    Note that here instead of ``git fetch`` followed by ``git merge``, you
+    could have run ``git pull``. The ``pull`` operation does two things: it
+    **fetches** updates from your GitHub fork (**origin**), and **merges**
+    them.
+    
+    However, be warned that occasionally ``git pull`` won't always work in the
+    way you expect, and doing things the explicit way helps make what you are
+    doing clearer.
+    
+    ``git fetch`` followed by ``git merge`` is the safer option.
 
 So now we have replicated the full cycle of work we described in the previous
 module.

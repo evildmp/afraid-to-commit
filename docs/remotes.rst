@@ -108,8 +108,8 @@ Sometimes it will be much more convenient to do it from your commandline.
 There are various ways to do it, but here's one::
 
     git fetch upstream # update information about the remote
-    git merge upstream/master -m "merging with upstream/master" # merge the
-    changes referred to by upstream/master
+    git merge upstream/master # merge the changes referred to by
+    upstream/master
 
 ``git status`` will tell you that your local master is ahead of your *master* at
 **origin**.
