@@ -282,6 +282,9 @@ and merge the master::
     git fetch
     git merge origin/master
     
+So now we have replicated the full cycle of work we described in the previous
+module.
+
 .. note::
    git pull
 
@@ -296,8 +299,6 @@ and merge the master::
     
     ``git fetch`` followed by ``git merge`` is the safer option.
 
-So now we have replicated the full cycle of work we described in the previous
-module.
 
 Switching between branches locally
 ----------------------------------
