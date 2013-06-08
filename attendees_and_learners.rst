@@ -38,6 +38,7 @@ Cardiff Dev Workshop, 8th June 2013
 * Chris Davies
 * Gwen Williams
 * Chris Lovell <chrisl1991@hotmail.co.uk> https://github.com/polyphant1
+* Nezam Shah
 
 I followed the tutorial online
 ==============================
