@@ -5,8 +5,9 @@ Working with remotes
 In this section you will:
 
 *	add a remote repository to your local clone
-*	checkout a remote branch
-*	create a new Git branch
+*	fetch remote information
+*   checkout a remote branch
+*	merge an upstream branch
 
 Managing remotes
 ================
@@ -106,8 +107,8 @@ There are various ways to do it, but here's one::
     git merge upstream/master # merge the changes referred to by
     upstream/master
 
-``git status`` will tell you that your local master is ahead of your *master* at
-**origin**.
+``git status`` will tell you that your local master is ahead of your *master*
+at **origin**.
 
 Push your changes to master::
 
