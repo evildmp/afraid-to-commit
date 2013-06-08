@@ -7,12 +7,7 @@ In this section you will:
 *	add a remote repository to your local clone
 *	checkout a remote branch
 *	create a new Git branch
-*	edit a file and stage your changes
-*	commit your changes 
-*	push your changes to GitHub
-*	make a pull request
-*   merge upstream changes into your fork
-*	merge changes on GitHub into your local clone
+
 Managing remotes
 ================
 
