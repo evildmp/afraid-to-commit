@@ -4,8 +4,9 @@ Resolving conflicts
 
 In this section you will:
 
-*	merge changes from a remote branch 
-*	create a new temporary Git branch for working in
+*	encounter a merge conflict on GitHub
+*	encounter a merge conflict on the commandline
+*	resolve the confluct in a new temporary Git branch
 
 
 Encountering a merge conflict on GitHub
