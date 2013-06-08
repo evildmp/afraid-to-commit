@@ -31,7 +31,7 @@ Cardiff Dev Workshop, 8th June 2013
 -----------------------------------
 
 * Kieran Moore
-* Dan Pass <Daniel.antony.pass@googlemail.com>
+* Daniel Pass <daniel.antony.pass@googlemail.com>
 * Dale Bradley
 * Howard Dickins <hdickins@gmail.com> https://github.com/hdickins  
 * Robert Dragan https://github.com/rmdragan
@@ -40,6 +40,7 @@ Cardiff Dev Workshop, 8th June 2013
 * Chris Lovell <chrisl1991@hotmail.co.uk> https://github.com/polyphant1
 * Nezam Shah
 * Gwen Williams https://github.com/gwenopeno
+* Daniel Pass <daniel.antony.pass@googlemail.com>
 
 I followed the tutorial online
 ==============================
