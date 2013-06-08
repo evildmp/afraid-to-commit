@@ -39,6 +39,7 @@ Cardiff Dev Workshop, 8th June 2013
 * Gwen Williams
 * Chris Lovell <chrisl1991@hotmail.co.uk> https://github.com/polyphant1
 * Nezam Shah
+* Gwen Williams https://github.com/gwenopeno
 
 I followed the tutorial online
 ==============================
