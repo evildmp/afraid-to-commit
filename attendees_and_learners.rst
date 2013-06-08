@@ -28,13 +28,13 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Michał Karzyński <djangoconwrkshp@karzyn.com> https://github.com/postrational
 * @graup
 
+Cardiff, 8th June 2013
+-----------------------------------------
+
+* Robert Dragan
+
 I followed the tutorial online
 ==============================
 
 * Daniel Quinn - 18th May 2013
 
-
-Cardiff, 8th June 2013
------------------------------------------
-
-* Robert Dragan
