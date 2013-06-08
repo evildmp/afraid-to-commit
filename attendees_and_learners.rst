@@ -33,3 +33,7 @@ I followed the tutorial online
 
 * Daniel Quinn - 18th May 2013
 
+Cardiff Dev Workshop - 8th June 2012
+------------------------------------
+* Howard Dickins <hdickins@gmail.com> https://github.com/hdickins  
+
