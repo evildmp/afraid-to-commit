@@ -37,6 +37,7 @@ Cardiff Dev Workshop, 8th June 2013
 * Robert Dragan https://github.com/rmdragan
 * Chris Davies
 * Gwen Williams
+* Chris Lovell <chrisl1991@hotmail.co.uk> https://github.com/polyphant1
 
 I followed the tutorial online
 ==============================
