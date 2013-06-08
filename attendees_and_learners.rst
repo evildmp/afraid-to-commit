@@ -28,8 +28,14 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Michał Karzyński <djangoconwrkshp@karzyn.com> https://github.com/postrational
 * @graup
 
+
 Dont Be Afraid To Commit - Cardiff, 8th June 2013
 -----------------------------------------
+
+* Bernard Hinault
+* Gino Bartali
+* Charly Gaul
+
 
 * Kieran Moore
 * Nezam Shah
