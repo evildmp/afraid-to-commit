@@ -46,7 +46,7 @@ You can do various things there, including browsing through all the code and fil
 *   hit the **Fork** button
 
 A few moments later, you'll have your own copy, on GitHub, of everything in
-thatrepository, and from now on you'll do your work on your copy of it.
+that repository, and from now on you'll do your work on your copy of it.
 
 Your copy is at https://github.com/<your github account>/afraid-to-commit/. 
 
@@ -81,8 +81,9 @@ volunteers on top of all their other jobs.
     to. The same could even happen to Django itself, though it's not likely to
     any time soon.
     
-    The proliferation of forks doesn't somehow dilute the original. They are
-    simply the way collaboration is made possible.
+    The proliferation of forks doesn't somehow dilute the original. Don't be
+    afraid to create more. Forks are simply the way collaboration is made
+    possible.
 
 
 Create a new branch
@@ -126,12 +127,13 @@ use Git, and it's certainly not something you'll want to spend very much time
 doing, but it's handy for very small changes, for example typos and spelling
 mistakes you spot.
 
-#.  go to https://github.com/<your github account>/afraid-to-commit
-#.  find the ``attendees_and_learners.rst`` file
-#.  hit the **Edit** button
-#.  add your name and email address to the appropriate place in the file
-#.  if following the tutorial by yourself, add your details in the *I followed
-    the tutorial online* section.
+#. go to https://github.com/<your github account>/afraid-to-commit
+#. find the ``attendees_and_learners.rst`` file
+#. hit the **Edit** button
+#. add your name (and email address, if you like) to the appropriate place in
+   the file
+#. if following the tutorial by yourself, add your details in the *I followed
+   the tutorial online* section.
 
 Commit your changes
 -------------------
@@ -161,15 +163,18 @@ containing file changes, that will be sent to my **base repo** - on the left.
 #.  add a comment if you like
 #.  hit **Send pull request**
 
+You have now made a pull request to an open-source community
+project - if it's your first one, congratulations.
+
 GitHub will notify me (by email and on the site, and will show me the changes
 you're proposing to make). It'll tell me whether they can be merged in
 automatically, and I can reject, or accept, or defer a decision on, or comment
 on, your pull request.
 
 GitHub can merge your contribution into my repository if mine hasn't changed
-too much since you forked it, leaving GitHub unable to work out how to
-incorporate it. If I want to accept it but GitHub can't do it automatically, I
-will have to merge the changes manually.
+too much since you forked it (which could leave GitHub unable to work out how
+to incorporate it). If I want to accept it but GitHub can't do it
+automatically, I will have to merge the changes manually.
                                         
 Once they're merged though, your contribution will become a part of
 https://github.com/evildmp/afraid-to-commit, and that's the basic lifecycle of
@@ -195,7 +200,7 @@ too:
 #.  change the **base repo** to yours, and the **base branch** to *master*
 #.  add a **Title** and hit **Send pull request**
 
-You're sending a pull request to to yourself, based on updates in my
+You're sending a pull request to to *yourself*, based on updates in my
 repository. And in fact if you check in your **Pull Requests** on GitHub,
 you'll see one there waiting for you, and you too can review, accept, reject
 or comment on it.
@@ -204,7 +209,10 @@ If you decide to **Merge** it, your fork will now contain any changes that
 other people sent to me and that I merged.
                                           
 The story of your work is this: you **forked** away from my codebase, and then
-created a new **branch** in your fork. Then you **committed** changes to your
-branch, and sent them **upstream** back to me (with a **pull request**). I
-**merged** your changes into my codebase, and you **pulled** all my recent
+created a new **branch** in your fork.
+
+Then you **committed** changes to your branch, and sent them **upstream** back
+to me (with a **pull request**).
+
+I **merged** your changes into my codebase, and you **pulled** all my recent
 changes back into your *master* branch (again with a **pull request**).

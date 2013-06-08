@@ -4,21 +4,19 @@ Git on the commandline
 
 In this section you will:
 
-*	install and configure Git locally
-*	create your own local clone of a repository
-*	create a new Git branch
-*	edit a file and stage your changes
-*	commit your changes 
-*	push your changes to GitHub
-*	make a pull request
+*   install and configure Git locally
+*   create your own local clone of a repository
+*   create a new Git branch
+*   edit a file and stage your changes
+*   commit your changes 
+*   push your changes to GitHub
+*   make a pull request
 *   merge upstream changes into your fork
-*	merge changes on GitHub into your local clone
+*   merge changes on GitHub into your local clone
 
-So far we've done all our Git work using the GitHub website, but that's often
-not the most appropriate way to work.
+So far we've done all our Git work using the GitHub website, but that's often not the most appropriate way to work. 
 
-You'll find that most of your Git-related operations can and need to be done
-on the commandline.
+You'll find that most of your Git-related operations can and need to be done on the commandline.
 
 Install/set up Git
 ==================
@@ -48,7 +46,7 @@ password.
 
 *   https://github.com/settings/ssh
 
-**This tutorial assumes you have now added your public key to your HitHub
+**This tutorial assumes you have now added your public key to your GitHub
 account.** If you haven't, you'll have to use *https* instead, and translate
 from the format of GitHub's *ssh* URLS.
 
@@ -92,8 +90,8 @@ edit::
 Create a new branch
 -------------------
 
-Once again, you're going to create a new branch, based on *master*, for new
-changes to go into::
+Just as you did on GitHub, once again you're going to create a new branch,
+based on *master*, for new work to go into::
 
     $ git checkout -b amend-my-name
     Switched to a new branch 'amend-my-name
@@ -117,7 +115,7 @@ Edit a file
     #   (use "git add <file>..." to update what will be committed)
     #   (use "git checkout -- <file>..." to discard changes in working directory)
     #
-    #	modified:   attendees_and_learners.rst
+    #   modified:   attendees_and_learners.rst
     #
     no changes added to commit (use "git add" and/or "git commit -a")
 
@@ -160,7 +158,7 @@ and check the result::
     # Changes to be committed:
     #   (use "git reset HEAD <file>..." to unstage)
     #
-    #	modified:   attendees_and_learners.rst
+    #   modified:   attendees_and_learners.rst
     #
 
 If there are other files you want to change, you can add them when you're
@@ -177,13 +175,13 @@ some further change to ``attendees_and_learners.rst``, and run ``git status``::
     # Changes to be committed:
     #   (use "git reset HEAD <file>..." to unstage)
     #
-    #	modified:   attendees_and_learners.rst
+    #   modified:   attendees_and_learners.rst
     #
     # Changes not staged for commit:
     #   (use "git add <file>..." to update what will be committed)
     #   (use "git checkout -- <file>..." to discard changes in working directory)
     #
-    #	modified:   attendees_and_learners.rst
+    #   modified:   attendees_and_learners.rst
     #
 
 Some of the changes in ``attendees_and_learners.rst`` will be committed, and the
@@ -236,8 +234,8 @@ Check your GitHub repository
 ----------------------------
 
 *   go to https://github.com/<your GitHub name>/afraid-to-commit
-*	check that your new *amend-my-name* branch is there
-*	check that your latest change to ``attendees_and_learners.rst`` is in it
+*   check that your new *amend-my-name* branch is there
+*   check that your latest change to ``attendees_and_learners.rst`` is in it
 
 
 Send me a pull request
@@ -277,16 +275,30 @@ So:
 * on GitHub, pull the upstream changes into your fork the way you did
   previously
 
-Then::
+Then switch back to your master branch in the usual way (``git checkout
+master``). Now, fetch updated information from your GitHub fork (**origin**),
+and merge the master::
 
-    git checkout master
-    git pull
-
-The ``pull`` operation does two things: it **fetches** updates from your
-GitHub fork (**origin**), and **merges** them in a **fast-forward** operation.
-
+    git fetch
+    git merge origin/master
+    
 So now we have replicated the full cycle of work we described in the previous
 module.
+
+.. note::
+   ``git pull``
+
+    Note that here instead of ``git fetch`` followed by ``git merge``, you
+    could have run ``git pull``. The ``pull`` operation does two things: it
+    **fetches** updates from your GitHub fork (**origin**), and **merges**
+    them.
+    
+    However, be warned that occasionally ``git pull`` won't always work in the
+    way you expect, and doing things the explicit way helps make what you are
+    doing clearer.
+    
+    ``git fetch`` followed by ``git merge`` is generally the safer option.
+
 
 Switching between branches locally
 ----------------------------------
@@ -302,7 +314,7 @@ the *master* branch::
 
 If you have a changed tracked file - a tracked file is one that Git is
 managing - it will warn you that you can't switch branches without either
-committing, abandoning or 'stashing' the changes.
+committing, abandoning or 'stashing' the changes:
 
 Commit
 ^^^^^^
@@ -320,8 +332,8 @@ This checks out the previously-committed version of the file.
 
 The one that is not recommended is::
 
-	git checkout -f <branch> 
-	
+    git checkout -f <branch> 
+    
 The ``-f`` flag forces the branch to be checked out.
 
 .. note::

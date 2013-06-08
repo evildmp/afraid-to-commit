@@ -2,6 +2,12 @@
 Working with remotes
 ####################
 
+In this section you will:
+
+*	add a remote repository to your local clone
+*	fetch remote information
+*   checkout a remote branch
+*	merge an upstream branch
 
 Managing remotes
 ================
@@ -71,7 +77,7 @@ Checkout a remote branch
 ------------------------
 
 You'll have seen from ``git branch -a`` that there's a branch called
-*additional-branch* on the **upstream* repository.       
+*additional-branch* on the **upstream** repository.       
 
 You can check this out::
 
@@ -84,8 +90,10 @@ based on branch *additional-branch* of the remote **upstream**.
    Branches and references
    
     Whenever you see something in Git of the form ``remote-name/branch-name``,
-    remember that that is a **reference** to a branch, not a branch itself.
-    You can't checkout a reference.
+    remember that that is a **reference** to a branch, not a branch itself. If
+    you want a branch based on ``remote-name/branch-name``, you
+    will need to use the ``-b`` flag: ``git checkout -b
+    remote-name/branch-name``.
 
 
 Managing *master* on the commandline
@@ -96,11 +104,11 @@ Sometimes it will be much more convenient to do it from your commandline.
 There are various ways to do it, but here's one::
 
     git fetch upstream # update information about the remote
-    git merge upstream/master -m "merging with upstream/master" # merge the
-    changes referred to by upstream/master
+    git merge upstream/master # merge the changes referred to by
+    upstream/master
 
-``git status`` will tell you that your local master is ahead of your *master* at
-**origin**.
+``git status`` will tell you that your local master is ahead of your *master*
+at **origin**.
 
 Push your changes to master::
 

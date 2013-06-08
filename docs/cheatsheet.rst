@@ -63,8 +63,11 @@ checkout
     ``git checkout [commit sha]`` checks out the state of the repository at a
     particular commit
 
-status
+current status of your local branches 
     ``git status``
+
+show the commit you're on in the current working directory 
+    ``git show``
 
 commit
     ``git commit -m "[your commit message]"``
