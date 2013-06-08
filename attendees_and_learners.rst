@@ -32,6 +32,7 @@ Dont Be Afraid To Commit - Cardiff, 8th June 2013
 -----------------------------------------
 
 * Kieran Moore
+* Christopher Lovell <chrisl1991@hotmail.co.uk>
 
 I followed the tutorial online
 ==============================
