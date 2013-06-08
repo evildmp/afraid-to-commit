@@ -76,32 +76,27 @@ up the branch you've been working on, create a new one specially for the
 purpose of discovering what sort of conflicts arise, and to give you a place
 to work on resolving them without disturbing your work so far::
 
-	git checkout -b resolve-conflict upstream/unmergeable-branch
+	git checkout -b resolve-conflict amend-my-name
 
 As before, this means: create and switch to a new branch called
-*resolve-conflict*, based on branch *unmergeable-branch* of the remote
-**upstream**.
+*resolve-conflict*, based on branch *amend-my-name*.
 
-This branch now contains my *unmergeable-branch*.
+Tell Git to attempt to merge a conflicting branch (you have already resolved
+the conflict above, so I have provided *another-unmergeable-branch* for you)
+into this one::
 
-We can't use *amend-my-name* to demonstrate merge conflicts, because we merged
-it earlier, so create a new branch based on master for the purpose::
+    $ git merge upstream/another-unmergeable-branch
 
-	git checkout -b demo-branch master
-
-Tell Git to merge *resolve-conflict* with *demo-branch*::
-
-    $ git merge demo-branch
-
-Resolve the conflicts as before. Now your *resolve-conflict* branch has merged
-the latest changes in your *demo-branch*, *and* my *unmergeable-branch*.
+Resolve the conflicts as before (edit the file, ``add`` it, ``commit`` the
+changes). Now your *resolve-conflict* branch has reconciles the latest changes
+in your *amend-my-name*, *and* my *another-unmergeable-branch*.
 
 At this point, you should make quite sure that everything is correct (that
-tests run and so on), *before* merging into *amend-my-name*.
+tests run and so on), *before* merging back into *amend-my-name*.
 
-The last step is to merge *resolve-conflict* into *demo-branch*, thus
-bringing with it the changes from *unmergeable-branch*::
+The last step is to merge *resolve-conflict* into *amend-my-name*, thus
+bringing with it the changes from *another-unmergeable-branch*::
 
-    git checkout checkout demo-branch
+    git checkout amend-my-name
     git merge resolve-conflict
     git push
