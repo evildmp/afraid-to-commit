@@ -26,7 +26,8 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Peter Bero
 * schacki
 * Michał Karzyński <djangoconwrkshp@karzyn.com> https://github.com/postrational
-* @graup
+* @
+* Chris Davies -  attended the workshop
 
 I followed the tutorial online
 ==============================
