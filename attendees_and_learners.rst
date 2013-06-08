@@ -36,6 +36,7 @@ Cardiff Dev Workshop, 8th June 2013
 * Howard Dickins <hdickins@gmail.com> https://github.com/hdickins  
 * Robert Dragan https://github.com/rmdragan
 * Chris Davies
+* Gwen Williams
 
 I followed the tutorial online
 ==============================
