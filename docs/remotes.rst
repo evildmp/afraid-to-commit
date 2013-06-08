@@ -94,8 +94,10 @@ based on branch *additional-branch* of the remote **upstream**.
    Branches and references
    
     Whenever you see something in Git of the form ``remote-name/branch-name``,
-    remember that that is a **reference** to a branch, not a branch itself.
-    You can't checkout a reference.
+    remember that that is a **reference** to a branch, not a branch itself. If
+    you want a branch based on ``remote-name/branch-name``, you
+    will need to use the ``-b`` flag: ``git checkout -b
+    remote-name/branch-name``.
 
 
 Managing *master* on the commandline
