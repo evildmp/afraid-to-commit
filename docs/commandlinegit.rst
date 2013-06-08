@@ -275,12 +275,12 @@ So:
 * on GitHub, pull the upstream changes into your fork the way you did
   previously
 
-Then switch back to your master branch, fetch updated information from your
-GitHub fork (**origin**), and merge the master::
+Then switch back to your master branch in the usual way (``git checkout
+master``). Now, fetch updated information from your GitHub fork (**origin**),
+and merge the master::
 
-    git checkout master  
-    git fetch upstream
-    git merge upstream/master
+    git fetch
+    git merge origin/master
     
 .. note::
    git pull
