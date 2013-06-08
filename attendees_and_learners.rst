@@ -32,10 +32,10 @@ Dont Be Afraid To Commit - Cardiff, 8th June 2013
 -----------------------------------------
 
 * Kieran Moore
+* Gwen Williams
 
 I followed the tutorial online
 ==============================
 
 * Daniel Quinn - 18th May 2013
-* Gwen Williams
 
