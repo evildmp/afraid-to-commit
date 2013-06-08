@@ -20,7 +20,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Jens Ådne Rydland <jensadne@pvv.ntnu.no> https://github.com/jensadne
 * Chris Reeves @krak3n 
 * Alexander Hansen <alexander@geekevents.org> https://github.com/wckd
-* @krak3n
+* @krak3n     # <--A seamonster!!!
 * Brian Crain (@crainbf)
 * Nicolas Noé <nicolas@niconoe.eu> https://github.com/niconoe
 * Peter Bero
