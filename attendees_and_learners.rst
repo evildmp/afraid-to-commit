@@ -32,11 +32,9 @@ Dont Be Afraid To Commit - Cardiff, 8th June 2013
 -----------------------------------------
 
 * Kieran Moore
+* Dan Pass <Daniel.antony.pass@googlemail.com>
 
 I followed the tutorial online
 ==============================
 
-* Daniel Quinn - 18th May 2013
-
-08/06/2013
-* Dan Pass <Daniel.antony.pass@googlemail.com>
+* Daniel Quinn - 18th May 2013  
