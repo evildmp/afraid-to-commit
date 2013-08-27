@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Documentation &mdash; Don&#39;t be afraid to commit 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Don&#39;t be afraid to commit 0.1 documentation" href="index.html" />
+    <link rel="next" title="Contributing" href="contributing.html" />
+    <link rel="prev" title="Testing Django applications" href="testing.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="contributing.html" title="Contributing"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="testing.html" title="Testing Django applications"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Don&#39;t be afraid to commit 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="documentation">
+<h1>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h1>
+<p>Without documentation, however wonderful your software, other potential
+adopters and developers simply won&#8217;t be very interested in it.</p>
+<p>The good news is that there are several tools that will make presenting and
+publishing it very easy, leaving you only to write the content and mark it up
+appropriately.</p>
+<p>For documentation, we&#8217;ll use <strong>Sphinx</strong> to generate it, and <strong>Read the Docs</strong>
+to publish it. GitHub will be a helpful middleman.</p>
+<p>If you have a package for which you&#8217;d like to create documentation, you might
+as well start producing that right away. If not, you can do it do it in a new
+dummy project.</p>
+<div class="section" id="set-up-your-working-environment">
+<h2>Set up your working environment<a class="headerlink" href="#set-up-your-working-environment" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="the-virtualenv">
+<h3>The virtualenv<a class="headerlink" href="#the-virtualenv" title="Permalink to this headline">¶</a></h3>
+<p>As usual, create and activate a new virtualenv:</p>
+<div class="highlight-python"><pre>$ virtualenv documentation-tutorial
+[...]
+$ cd documentation-tutorial/
+$ source bin/activate</pre>
+</div>
+</div>
+<div class="section" id="the-package-or-project">
+<h3>The package or project<a class="headerlink" href="#the-package-or-project" title="Permalink to this headline">¶</a></h3>
+<p>Do you have an existing package on GitHub to write documention for**? Clone it
+here using Git. And of course, start a new branch:</p>
+<div class="highlight-python"><pre>git checkout -b first-docs</pre>
+</div>
+<p>You can merge your docs into your master branch when they start to look
+respectable.</p>
+<p>If you don&#8217;t have a suitable existing package on GitHub, create a repository
+on GitHub the way you did before, called <tt class="docutils literal"><span class="pre">my-first-docs</span></tt>. Then create a Git
+repository locally:</p>
+<div class="highlight-python"><pre>$ mkdir my-first-docs
+$ cd my-first-docs/
+$ git init
+$ git remote add origin git@github.com:&lt;your git username&gt;/my-first-docs.git</pre>
+</div>
+<p>And either way, create a <tt class="docutils literal"><span class="pre">docs</span></tt> directory for your docs to live in:</p>
+<div class="highlight-python"><pre>$ mkdir docs</pre>
+</div>
+</div>
+</div>
+<div class="section" id="sphinx">
+<h2>Sphinx<a class="headerlink" href="#sphinx" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="install-sphinx">
+<h3>Install Sphinx<a class="headerlink" href="#install-sphinx" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><pre>pip install sphinx</pre>
+</div>
+<p>It might take a minute or so, it has quite a few things to install.</p>
+</div>
+<div class="section" id="sphinx-quickstart">
+<h3>sphinx-quickstart<a class="headerlink" href="#sphinx-quickstart" title="Permalink to this headline">¶</a></h3>
+<p><tt class="docutils literal"><span class="pre">sphinx-quickstart</span></tt> will set up the source directory for your documentation.
+It&#8217;ll ask you a number of questions. Mostly you can just accept the defaults
+it offers, and some are just obvious, but there are some you will want to set
+yourself as noted below:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">sphinx</span><span class="o">-</span><span class="n">quickstart</span>
+</pre></div>
+</div>
+<dl class="docutils">
+<dt>Root path for the documentation</dt>
+<dd><tt class="docutils literal"><span class="pre">docs</span></tt></dd>
+<dt>Project name</dt>
+<dd><tt class="docutils literal"><span class="pre">&lt;your</span> <span class="pre">name&gt;'s</span> <span class="pre">first</span> <span class="pre">docs</span></tt>, or the name of your application</dd>
+</dl>
+<p>You&#8217;ll find a number of files in your <tt class="docutils literal"><span class="pre">docs</span></tt> directory now, including
+<tt class="docutils literal"><span class="pre">index.rst</span></tt>. Open that up.</p>
+</div>
+</div>
+<div class="section" id="using-sphinx-restructuredtext">
+<h2>Using Sphinx &amp; reStructuredText<a class="headerlink" href="#using-sphinx-restructuredtext" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="restructuredtext-elements">
+<h3>reStructuredText elements<a class="headerlink" href="#restructuredtext-elements" title="Permalink to this headline">¶</a></h3>
+<p>Sphinx uses reStructuredText. Start with
+<a class="reference external" href="http://sphinx-doc.org/rest.html#rst-primer">http://sphinx-doc.org/rest.html#rst-primer</a>, which will tell you most of what
+you need to know to get started. Keep it simple to start with - start with:</p>
+<ul class="simple">
+<li>paragraphs</li>
+<li>lists</li>
+<li>headings (&#8216;sections&#8217;, as Sphinx calls them)</li>
+<li>quoted blocks</li>
+<li>code blocks</li>
+<li>emphasis, strong emphasis and literals</li>
+</ul>
+</div>
+<div class="section" id="edit-a-page">
+<h3>Edit a page<a class="headerlink" href="#edit-a-page" title="Permalink to this headline">¶</a></h3>
+<p>Create an <strong>Introduction</strong> section in the <tt class="docutils literal"><span class="pre">index.rst</span></tt> page, with a little text
+in it; save it.</p>
+</div>
+<div class="section" id="create-a-new-page">
+<h3>Create a new page<a class="headerlink" href="#create-a-new-page" title="Permalink to this headline">¶</a></h3>
+<p>You have no other pages yet. Create one, <tt class="docutils literal"><span class="pre">all-about-me.rst</span></tt> or something
+appropriate. Perhaps it might look like:</p>
+<div class="highlight-python"><pre>############
+All about me
+############
+
+I'm Daniele Procida, a Django user and developer.
+
+I've contributed to:
+
+*   django CMS
+*   Arkestra
+*   Django</pre>
+</div>
+<p>Sphinx needs to know about it, so in <tt class="docutils literal"><span class="pre">index.rst</span></tt>, edit the <tt class="docutils literal"><span class="pre">.</span> <span class="pre">toctree::</span></tt>
+section to add the <tt class="docutils literal"><span class="pre">all-about-me</span></tt> page:</p>
+<div class="highlight-python"><pre>.. toctree::
+   :maxdepth: 2
+
+   all-about-me</pre>
+</div>
+<p>Save both pages.</p>
+</div>
+<div class="section" id="render-your-documentation">
+<h3>Render your documentation<a class="headerlink" href="#render-your-documentation" title="Permalink to this headline">¶</a></h3>
+<p>In the <tt class="docutils literal"><span class="pre">docs</span></tt> directory:</p>
+<div class="highlight-python"><pre>make html</pre>
+</div>
+<p>This tells Sphinx to render your source pages. <em>Pay attention to its warnings</em>
+- they&#8217;re helpful!</p>
+<p>If you accepted the <tt class="docutils literal"><span class="pre">sphinx-quickstart</span></tt> defaults, you&#8217;ll find the rendered
+pages in <tt class="docutils literal"><span class="pre">docs/_build/_html</span></tt>. Open the <tt class="docutils literal"><span class="pre">index.html</span></tt> it has created in your
+browser. You should find in it a link to your new <tt class="docutils literal"><span class="pre">all-about-me</span></tt> page too.</p>
+</div>
+</div>
+<div class="section" id="publishing-your-documentation">
+<h2>Publishing your documentation<a class="headerlink" href="#publishing-your-documentation" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="exclude-unwanted-rendered-directories">
+<h3>Exclude unwanted rendered directories<a class="headerlink" href="#exclude-unwanted-rendered-directories" title="Permalink to this headline">¶</a></h3>
+<p>Remember <tt class="docutils literal"><span class="pre">.gitignore</span></tt>? It&#8217;s really useful here, because you don&#8217;t want to
+commit your <em>rendered</em> files, just the source files.</p>
+<p>In my <tt class="docutils literal"><span class="pre">.gitignore</span></tt>, I make sure that directories I don&#8217;t want committed are
+listed. Check that:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">_build</span>
+<span class="n">_static</span>
+<span class="n">_templates</span>
+</pre></div>
+</div>
+<p>are listed in <tt class="docutils literal"><span class="pre">.gitignore</span></tt>.</p>
+</div>
+<div class="section" id="add-commit-and-push">
+<h3>Add, commit and push<a class="headerlink" href="#add-commit-and-push" title="Permalink to this headline">¶</a></h3>
+<p><tt class="docutils literal"><span class="pre">git</span> <span class="pre">add</span></tt> the files you want to commit; commit them, and push to GitHub.</p>
+<p>If this is your first ever push to GitHub, use:</p>
+<div class="highlight-python"><pre>git push origin master</pre>
+</div>
+<p>otherwise:</p>
+<div class="highlight-python"><pre>git push origin first-docs # or whatever you called this branch</pre>
+</div>
+<p>Now have a look at the <tt class="docutils literal"><span class="pre">.rst</span></tt> documentation files on GitHub. GitHub does a
+good enough job of rendering the files for you to read them at a glance,
+though it doesn&#8217;t always get it right (and sometimes seems to truncate them).</p>
+</div>
+<div class="section" id="readthedocs-org">
+<h3>readthedocs.org<a class="headerlink" href="#readthedocs-org" title="Permalink to this headline">¶</a></h3>
+<p>However, we want to get them onto Read the Docs. So go to
+<a class="reference external" href="https://readthedocs.org">https://readthedocs.org</a>, and sign up for an account if you don&#8217;t have one.</p>
+<p>You need to <strong>Import</strong> a project: <a class="reference external" href="https://readthedocs.org/dashboard/import/">https://readthedocs.org/dashboard/import/</a>.</p>
+<p>Give it the details of your GitHub project in the <strong>repo</strong> field -
+<tt class="docutils literal"><span class="pre">git&#64;github.com:&lt;your</span> <span class="pre">git</span> <span class="pre">username&gt;/my-first-docs.git</span></tt>, or whatever it is -
+and hit <strong>Create</strong>.</p>
+<p>And now Read the Docs will actually watch your GitHub project, and build,
+render and host your documents for you automatically.</p>
+<p>It will update every night, but you can do better still: on GitHub:</p>
+<ol class="arabic simple">
+<li>select <strong>settings</strong> for your project</li>
+<li>choose <strong>Service Hooks</strong></li>
+<li>enable <tt class="docutils literal"><span class="pre">ReadTheDocs</span></tt></li>
+</ol>
+<p>... and now, every time you push documents to GitHub, Read the Docs will be
+informed that you have new documents to be published. It&#8217;s not magic, but it&#8217;s
+pretty close.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Documentation</a><ul>
+<li><a class="reference internal" href="#set-up-your-working-environment">Set up your working environment</a><ul>
+<li><a class="reference internal" href="#the-virtualenv">The virtualenv</a></li>
+<li><a class="reference internal" href="#the-package-or-project">The package or project</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sphinx">Sphinx</a><ul>
+<li><a class="reference internal" href="#install-sphinx">Install Sphinx</a></li>
+<li><a class="reference internal" href="#sphinx-quickstart">sphinx-quickstart</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#using-sphinx-restructuredtext">Using Sphinx &amp; reStructuredText</a><ul>
+<li><a class="reference internal" href="#restructuredtext-elements">reStructuredText elements</a></li>
+<li><a class="reference internal" href="#edit-a-page">Edit a page</a></li>
+<li><a class="reference internal" href="#create-a-new-page">Create a new page</a></li>
+<li><a class="reference internal" href="#render-your-documentation">Render your documentation</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#publishing-your-documentation">Publishing your documentation</a><ul>
+<li><a class="reference internal" href="#exclude-unwanted-rendered-directories">Exclude unwanted rendered directories</a></li>
+<li><a class="reference internal" href="#add-commit-and-push">Add, commit and push</a></li>
+<li><a class="reference internal" href="#readthedocs-org">readthedocs.org</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="testing.html"
+                        title="previous chapter">Testing Django applications</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="contributing.html"
+                        title="next chapter">Contributing</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/documentation.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="contributing.html" title="Contributing"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="testing.html" title="Testing Django applications"
+             >previous</a> |</li>
+        <li><a href="index.html">Don&#39;t be afraid to commit 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Daniele Procida.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b1.
+    </div>
+  </body>
+</html>

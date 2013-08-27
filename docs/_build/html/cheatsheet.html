@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Cheatsheet &mdash; Don&#39;t be afraid to commit 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Don&#39;t be afraid to commit 0.1 documentation" href="index.html" />
+    <link rel="next" title="Attendees &amp; learners" href="attendance_record.html" />
+    <link rel="prev" title="Contributing" href="contributing.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="attendance_record.html" title="Attendees &amp; learners"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="contributing.html" title="Contributing"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Don&#39;t be afraid to commit 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="cheatsheet">
+<h1>Cheatsheet<a class="headerlink" href="#cheatsheet" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="virtualenv">
+<h2>virtualenv<a class="headerlink" href="#virtualenv" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>create</dt>
+<dd><tt class="docutils literal"><span class="pre">virtualenv</span> <span class="pre">[name-of-virtualenv]</span></tt></dd>
+<dt>include system&#8217;s Python packages</dt>
+<dd><tt class="docutils literal"><span class="pre">virtualenv</span> <span class="pre">[name-of-virtualenv]</span> <span class="pre">--install-site-packages</span></tt></dd>
+<dt>activate</dt>
+<dd><tt class="docutils literal"><span class="pre">source</span> <span class="pre">bin/activate</span></tt></dd>
+<dt>deactivate</dt>
+<dd><tt class="docutils literal"><span class="pre">deactivate</span></tt></dd>
+</dl>
+</div>
+<div class="section" id="pip">
+<h2>pip<a class="headerlink" href="#pip" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>install</dt>
+<dd><tt class="docutils literal"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">[name-of-package]</span></tt></dd>
+<dt>install a particular version</dt>
+<dd><tt class="docutils literal"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">[name-of-package]==[version-number]</span></tt></dd>
+<dt>upgrade</dt>
+<dd><tt class="docutils literal"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">--upgrade</span> <span class="pre">[name-of-package]</span></tt></dd>
+<dt>uninstall</dt>
+<dd><tt class="docutils literal"><span class="pre">pip</span> <span class="pre">uninstall</span> <span class="pre">[name-of-package]</span></tt></dd>
+<dt>show what&#8217;s installed</dt>
+<dd><tt class="docutils literal"><span class="pre">pip</span> <span class="pre">freeze</span></tt></dd>
+</dl>
+</div>
+<div class="section" id="git">
+<h2>git<a class="headerlink" href="#git" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>tell git who you are</dt>
+<dd><p class="first"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">config</span> <span class="pre">--global</span> <span class="pre">user.email</span> <span class="pre">&quot;you&#64;example.com&quot;</span></tt></p>
+<p class="last"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">config</span> <span class="pre">--global</span> <span class="pre">user.name</span> <span class="pre">&quot;Your</span> <span class="pre">Name&quot;</span></tt></p>
+</dd>
+<dt>clone a repository</dt>
+<dd><tt class="docutils literal"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">[repository</span> <span class="pre">URL]</span></tt></dd>
+<dt>checkout</dt>
+<dd><p class="first"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">[branch]</span></tt> switches to another branch</p>
+<p><tt class="docutils literal"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">-b</span> <span class="pre">[new-branch]</span></tt> creates and switches to a new branch</p>
+<p><tt class="docutils literal"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">-b</span> <span class="pre">[new-branch]</span> <span class="pre">[existing</span> <span class="pre">branch]</span></tt> creates and
+switches to a new branch based on an existing one</p>
+<p><tt class="docutils literal"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">-b</span> <span class="pre">[new-branch]</span> <span class="pre">[remote/branch]</span></tt> creates and
+switches to a new branch based on <tt class="docutils literal"><span class="pre">remote/branch</span></tt></p>
+<p class="last"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">[commit</span> <span class="pre">sha]</span></tt> checks out the state of the repository at a
+particular commit</p>
+</dd>
+<dt>current status of your local branches</dt>
+<dd><tt class="docutils literal"><span class="pre">git</span> <span class="pre">status</span></tt></dd>
+<dt>show the commit you&#8217;re on in the current working directory</dt>
+<dd><tt class="docutils literal"><span class="pre">git</span> <span class="pre">show</span></tt></dd>
+<dt>commit</dt>
+<dd><tt class="docutils literal"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&quot;[your</span> <span class="pre">commit</span> <span class="pre">message]&quot;</span></tt></dd>
+<dt>add</dt>
+<dd><p class="first"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">[filename]</span></tt> adds a file to the staging areas</p>
+<p class="last"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">-u</span> <span class="pre">[filename]</span></tt> - the <tt class="docutils literal"><span class="pre">-u</span></tt> flag will also remove deleted files</p>
+</dd>
+<dt>remote</dt>
+<dd><p class="first"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">remote</span> <span class="pre">add</span> <span class="pre">[name]</span> <span class="pre">[remote</span> <span class="pre">repository</span> <span class="pre">URL]</span></tt> sets up remote</p>
+<p><tt class="docutils literal"><span class="pre">git</span> <span class="pre">remote</span> <span class="pre">show</span></tt> lists remotes</p>
+<p class="last"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">remote</span> <span class="pre">show</span> <span class="pre">-v</span></tt> lists remotes and their URLs</p>
+</dd>
+<dt>branch</dt>
+<dd><p class="first"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">branch</span></tt></p>
+<p class="last"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">branch</span> <span class="pre">-a</span></tt> to show remote branches too</p>
+</dd>
+<dt>fetch</dt>
+<dd><p class="first"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">fetch</span></tt> gets the latest information about the branches on the default
+remote</p>
+<p class="last"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">fetch</span> <span class="pre">[remote]</span></tt> gets the latest information about the branches on the
+named remote</p>
+</dd>
+<dt>merge</dt>
+<dd><p class="first"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">merge</span> <span class="pre">[branch]</span></tt> merges the named branch into the working directory</p>
+<p class="last"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">merge</span> <span class="pre">[remote/branch]</span> <span class="pre">-m</span> <span class="pre">&quot;[message]&quot;</span></tt> merges the branch referred to
+into the working directory - <strong>don&#8217;t forget to fetch the remote before the
+merge</strong></p>
+</dd>
+<dt>pull</dt>
+<dd><p class="first"><tt class="docutils literal"><span class="pre">fetch</span></tt> followed by <tt class="docutils literal"><span class="pre">merge</span></tt> is often safer than <tt class="docutils literal"><span class="pre">pull</span></tt> - don&#8217;t assume that
+<tt class="docutils literal"><span class="pre">pull</span></tt> will do what you expect it to</p>
+<p class="last"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">pull</span></tt> fetches updates from the default remote and merges into the
+working directory</p>
+</dd>
+<dt>push</dt>
+<dd><p class="first"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">push</span></tt> pushes committed changes to the default remote, in branches
+that exist at both ends</p>
+<p class="last"><tt class="docutils literal"><span class="pre">git</span> <span class="pre">push</span> <span class="pre">[remote]</span> <span class="pre">[branch]</span></tt> pushes the current branch to the named
+<tt class="docutils literal"><span class="pre">branch</span></tt> on <tt class="docutils literal"><span class="pre">remote</span></tt></p>
+</dd>
+<dt>log</dt>
+<dd><tt class="docutils literal"><span class="pre">git</span> <span class="pre">log</span></tt> will show you a list of commits</dd>
+</dl>
+<div class="section" id="notes">
+<h3>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h3>
+<p>Throughout Git, anything in the form <tt class="docutils literal"><span class="pre">remote/branchname</span></tt> is a reference, not
+a branch.</p>
+</div>
+</div>
+<div class="section" id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>initialise Sphinx documentation</dt>
+<dd><tt class="docutils literal"><span class="pre">sphinx-quickstart</span></tt></dd>
+<dt>render documentation</dt>
+<dd><tt class="docutils literal"><span class="pre">make</span> <span class="pre">html</span></tt></dd>
+</dl>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Cheatsheet</a><ul>
+<li><a class="reference internal" href="#virtualenv">virtualenv</a></li>
+<li><a class="reference internal" href="#pip">pip</a></li>
+<li><a class="reference internal" href="#git">git</a><ul>
+<li><a class="reference internal" href="#notes">Notes</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#documentation">Documentation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="contributing.html"
+                        title="previous chapter">Contributing</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="attendance_record.html"
+                        title="next chapter">Attendees &amp; learners</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/cheatsheet.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="attendance_record.html" title="Attendees &amp; learners"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="contributing.html" title="Contributing"
+             >previous</a> |</li>
+        <li><a href="index.html">Don&#39;t be afraid to commit 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Daniele Procida.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b1.
+    </div>
+  </body>
+</html>

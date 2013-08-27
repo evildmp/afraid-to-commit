@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Testing policy and strategy &mdash; Don&#39;t be afraid to commit 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Don&#39;t be afraid to commit 0.1 documentation" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li><a href="index.html">Don&#39;t be afraid to commit 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="testing-policy-and-strategy">
+<h1>Testing policy and strategy<a class="headerlink" href="#testing-policy-and-strategy" title="Permalink to this headline">¶</a></h1>
+<p>It&#8217;s often not at all obvious <em>what</em> to test, especially when you&#8217;re
+approaching it for the first time.</p>
+<div class="section" id="where-to-start">
+<h2>Where to start<a class="headerlink" href="#where-to-start" title="Permalink to this headline">¶</a></h2>
+<p>So what should you test? The correct but distinctly unhelpful answer is
+<em>everything</em>. What you need to do is find a good place to get started,
+particularly if you find yourself in a situation with a lot of code, and no
+tests at all.</p>
+<p>Here are some basic rules that will help guide you into the process:</p>
+<ul class="simple">
+<li>write a test for the next thing you add, fix or change</li>
+<li>write a test for each link in a chain of logic</li>
+<li>write tests from the centre outwards</li>
+</ul>
+<p>These are all explained in more detail further below.</p>
+</div>
+<div class="section" id="what-should-tests-look-like">
+<h2>What should tests look like?<a class="headerlink" href="#what-should-tests-look-like" title="Permalink to this headline">¶</a></h2>
+<p>Should they be many or few; should each one be small or large, simple or
+complex, limited or comprehensive, weak or powerful, atomic or compound?</p>
+<p>The thing to realise is that <strong>your tests should not be like your code</strong>. They
+are complementary to it. Your code is synthetic, complex, productive and. It
+does new and clever things. Your tests need to be the opposite; analytic,
+simple and merely reproductive. The duller and more banal they are, the
+better.</p>
+<p>Be uninteresting and trite in your tests that you be imaginative and creative
+in your code. Tests are <em>meant</em> to look unexciting.</p>
+<div class="section" id="arrangement-of-test-classes-and-methods">
+<h3>Arrangement of test classes and methods<a class="headerlink" href="#arrangement-of-test-classes-and-methods" title="Permalink to this headline">¶</a></h3>
+<p>Use your test classes to organise tests into logical, sensible groups.
+Sometimes it&#8217;s suggested to have a test class for each class in your code;
+often that makes sense, but it&#8217;s not a rule and won&#8217;t always be appropriate.</p>
+<p>The rule for test methods on the other hand is very simple: in each test
+method, test <strong>one case that could go wrong</strong>.</p>
+<p>Yes, this will mean you end up with lots of test methods. But that&#8217;s good!
+Their strength comes not from their complexity, but their number.</p>
+</div>
+</div>
+<div class="section" id="how-to-write-tests">
+<h2>How to write tests<a class="headerlink" href="#how-to-write-tests" title="Permalink to this headline">¶</a></h2>
+<p>It&#8217;s tempting, but a mistake, to think about tests the way you think about
+your code.</p>
+<p>Your system is designed to do the right thing at every stage in a sucession of
+unfolding scenarios, and that&#8217;s what you want it to do correctly. The obvious
+way to test this then might be to model the circumstances and check the
+behaviour of the system as you put it through its paces.</p>
+<p>It&#8217;s not impossible to write tests like this, and it will even work. But, it
+will not prove efficient or effective or sustainable. That&#8217;s because this way
+of thinking is the way you need to think when <em>creating</em> your code, about a
+<em>synthetic</em> process that itself produces something new. Testing on the other
+hand is merely <em>analytic</em>; nothing new is produced or created in tests, and
+your thinking about them should reflect that.</p>
+<p>So, to think about testing think about the operation, out of context of the
+whole, of the little pieces of the mechanisms of your system.</p>
+</div>
+<div class="section" id="the-three-rules-of-what-to-test">
+<h2>The three rules of What to test<a class="headerlink" href="#the-three-rules-of-what-to-test" title="Permalink to this headline">¶</a></h2>
+<p>Rather than trying to select something in your code to create tests, just wait
+until the next time you add code, fix a bug or otherwise make a change. Then
+create tests that proves your new code works the way it should.</p>
+<p>For example, suppose you create or amend a method that calculates the area of
+a surface from some combination of its dimensions and its shape; now is the
+time to write a series of tests that call this methods with a series of
+parameters and check that it returns the correct value for surface area in
+each case.</p>
+<div class="section" id="you-don-t-have-to-cover-every-possible-case-the-first-time-round">
+<h3>You don&#8217;t have to cover every possible case the first time round<a class="headerlink" href="#you-don-t-have-to-cover-every-possible-case-the-first-time-round" title="Permalink to this headline">¶</a></h3>
+<p>For a simple calculation, you might write a test that catches all possible
+combinations of input and output of the method. It&#8217;s quite likely though that
+you won&#8217;t. That&#8217;s OK. However, the moment you spot it misbehaving, that&#8217;s your
+cue to fix the bug and write a test that checks it now behaves correctly.</p>
+</div>
+<div class="section" id="regression-tests">
+<h3>Regression tests<a class="headerlink" href="#regression-tests" title="Permalink to this headline">¶</a></h3>
+<p>When you fix a bug and write a test that would catch the buggy behaviour in
+the code, this is called a <em>regression test</em>; it&#8217;s a test that ensures that
+your code doesn&#8217;t later get <em>worse</em>, and that bugs that were once fixed creep
+back into your commits.</p>
+<p>If you fix a bug, you&#8217;re doing a good job. If you fix two bugs, that&#8217;s twice
+as good. But if you <em>fix the same bug twice</em> you are <em>wasting your precious
+time</em>. You should never have to do that. Fix it once, write a test for it, and
+know that it won&#8217;t slip in again undetected.</p>
+<div class="section" id="write-a-test-for-each-link-in-a-chain-of-logic">
+<h4>Write a test for each link in a chain of logic<a class="headerlink" href="#write-a-test-for-each-link-in-a-chain-of-logic" title="Permalink to this headline">¶</a></h4>
+<p>The temptation might be to test the chain as a whole. After all, the proof of
+a pudding is in its eating, and what we&#8217;re really interested in is the
+outcome, not the details of the process.</p>
+<p>Well, that&#8217;s not follow. The outcome <em>is</em> more important than the details of
+the process, but just because it&#8217;s the thing that matters most doesn&#8217;t mean
+that that it&#8217;s the best thing to test.</p>
+<p>Suppose you have a method on a <tt class="docutils literal"><span class="pre">Person</span></tt> model that determines what address
+should be displayed for the individual. This could involve a long chain of
+logic:</p>
+<ul class="simple">
+<li>has the <tt class="docutils literal"><span class="pre">Person</span></tt> given consent to have their address displayed?</li>
+<li>if so, does the <tt class="docutils literal"><span class="pre">Person</span></tt> have an explicit address?</li>
+<li>if not, does the <tt class="docutils literal"><span class="pre">Person</span></tt> belong to an <tt class="docutils literal"><span class="pre">Institution</span></tt>?</li>
+<li>if so, does that <tt class="docutils literal"><span class="pre">Institution</span></tt> have an address?</li>
+<li>if not, does that <tt class="docutils literal"><span class="pre">Institution</span></tt> have a parent <tt class="docutils literal"><span class="pre">Institution</span></tt> which does?</li>
+</ul>
+<p>... and so on.</p>
+<p>Now you could just test the end result - certainly you&#8217;d have fewer tests than
+if you tested all the intermediate logic and methods. However:</p>
+<ul class="simple">
+<li>your tests will be more complicated</li>
+<li>they&#8217;ll be harder to maintain</li>
+<li>they will never tell you exactly <em>where</em> something went wrong</li>
+<li>they&#8217;ll make it harder to refactor your code</li>
+<li>if you want to rely on one of the intermediate methods for something else,
+you won&#8217;t have so much faith in it</li>
+</ul>
+</div>
+<div class="section" id="write-tests-from-the-centre-outwards">
+<h4>Write tests from the centre outwards<a class="headerlink" href="#write-tests-from-the-centre-outwards" title="Permalink to this headline">¶</a></h4>
+<p>Your models are at the heart of your code in the way that your views, for
+example, are not. The views depend on the models; so start with the models&#8217;
+managers and their methods before moving outwards to views and URLconfs -
+start with the things that <em>other</em> things depend on.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Testing policy and strategy</a><ul>
+<li><a class="reference internal" href="#where-to-start">Where to start</a></li>
+<li><a class="reference internal" href="#what-should-tests-look-like">What should tests look like?</a><ul>
+<li><a class="reference internal" href="#arrangement-of-test-classes-and-methods">Arrangement of test classes and methods</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#how-to-write-tests">How to write tests</a></li>
+<li><a class="reference internal" href="#the-three-rules-of-what-to-test">The three rules of What to test</a><ul>
+<li><a class="reference internal" href="#you-don-t-have-to-cover-every-possible-case-the-first-time-round">You don&#8217;t have to cover every possible case the first time round</a></li>
+<li><a class="reference internal" href="#regression-tests">Regression tests</a><ul>
+<li><a class="reference internal" href="#write-a-test-for-each-link-in-a-chain-of-logic">Write a test for each link in a chain of logic</a></li>
+<li><a class="reference internal" href="#write-tests-from-the-centre-outwards">Write tests from the centre outwards</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/whattotest.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li><a href="index.html">Don&#39;t be afraid to commit 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Daniele Procida.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b1.
+    </div>
+  </body>
+</html>

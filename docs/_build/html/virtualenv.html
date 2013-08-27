@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Virtualenv and pip &mdash; Don&#39;t be afraid to commit 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Don&#39;t be afraid to commit 0.1 documentation" href="index.html" />
+    <link rel="next" title="Git and GitHub" href="git.html" />
+    <link rel="prev" title="Prerequisites" href="prerequisites.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="git.html" title="Git and GitHub"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="prerequisites.html" title="Prerequisites"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Don&#39;t be afraid to commit 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="virtualenv-and-pip">
+<h1>Virtualenv and pip<a class="headerlink" href="#virtualenv-and-pip" title="Permalink to this headline">¶</a></h1>
+<p>In this section you will:</p>
+<ul class="simple">
+<li>use pip to install packages</li>
+<li>install virtualenv</li>
+<li>create and destroy, activate and deactivate virtual environments</li>
+<li>use <tt class="docutils literal"><span class="pre">pip</span> <span class="pre">freeze</span></tt> to show installed items</li>
+</ul>
+<div class="section" id="what-is-virtualenv">
+<h2>What is virtualenv?<a class="headerlink" href="#what-is-virtualenv" title="Permalink to this headline">¶</a></h2>
+<p><strong>Virtualenv</strong> lets you create and manage virtual Python environments.</p>
+<p>If you&#8217;re running a Python project for deployment or development, the chances
+are that you&#8217;ll need more than one version of it, or the numerous other Python
+applications it depends upon, to at any one time.</p>
+<p>For example, when a new version of Django is released, you might want to check
+your project is still compatible. You don&#8217;t want to have to set up a whole new
+server with a different version of Django to find out.</p>
+<p>With virtualenv, you can quickly set up a a brand new Python environment, and
+install your components into it - along with the new version of Django,
+without touching or affecting what you already have running.</p>
+<p>You can have literally dozens of virtualenvs on the same machine, all running
+different versions of your Python software, all independently of each other,
+and can safely make changes to one without affecting anything else.</p>
+<p><strong>pip</strong> goes hand-in-hand with virtualenv; in fact, it comes with virtualenv
+(as well as separately). It&#8217;s an installer, and is the easiest way to install
+things into a virtualenv.</p>
+</div>
+<div class="section" id="install-virtualenv">
+<h2>Install virtualenv<a class="headerlink" href="#install-virtualenv" title="Permalink to this headline">¶</a></h2>
+<p>Try:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">virtualenv</span> <span class="o">--</span><span class="n">version</span>
+</pre></div>
+</div>
+<p>Do you have a version lower than 1.9? Upgrade it:</p>
+<div class="highlight-python"><pre>sudo pip install --upgrade virtualenv
+hash -r # purge shell's PATH, though this may not be necessary for you</pre>
+</div>
+<p>If you got a &#8220;Command not found&#8221; when you tried to use virtualenv, try:</p>
+<div class="highlight-python"><pre>sudo pip install virtualenv</pre>
+</div>
+<p>or:</p>
+<div class="highlight-python"><pre>sudo apt-get install python-virtualenv # for a Debian-based system - but
+it may not be up-to-date</pre>
+</div>
+<p>If that fails or you&#8217;re using a different system, you might need more help:</p>
+<blockquote>
+<div><a class="reference external" href="http://www.virtualenv.org/en/latest/#installation">http://www.virtualenv.org/en/latest/#installation</a></div></blockquote>
+</div>
+<div class="section" id="create-and-activate-a-virtual-environment">
+<h2>Create and activate a virtual environment<a class="headerlink" href="#create-and-activate-a-virtual-environment" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><pre>virtualenv my-first-virtualenv
+cd my-first-virtualenv
+source bin/activate</pre>
+</div>
+<p>Notice how your command prompt tells you that the virtualenv is active (and it remains active even while you&#8217;re not in its directory):</p>
+<div class="highlight-python"><pre>(my-first-virtualenv)~/my-first-virtualenv$</pre>
+</div>
+</div>
+<div class="section" id="using-pip">
+<h2>Using pip<a class="headerlink" href="#using-pip" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="pip-freeze">
+<h3>pip freeze<a class="headerlink" href="#pip-freeze" title="Permalink to this headline">¶</a></h3>
+<p><tt class="docutils literal"><span class="pre">pip</span> <span class="pre">freeze</span></tt> lists installed Python packages:</p>
+<div class="highlight-python"><pre>(my-first-virtualenv)daniele@v029:~/my-first-virtualenv$ pip freeze
+argparse==1.2.1
+distribute==0.6.24
+pyasn1==0.1.7
+virtualenv==1.9.1
+wsgiref==0.1.2</pre>
+</div>
+</div>
+<div class="section" id="pip-install">
+<h3>pip install<a class="headerlink" href="#pip-install" title="Permalink to this headline">¶</a></h3>
+<p>Earlier, you may have used <tt class="docutils literal"><span class="pre">sudo</span> <span class="pre">pip</span> <span class="pre">install</span></tt>. You <strong>don&#8217;t</strong> need <tt class="docutils literal"><span class="pre">sudo</span></tt>
+now, because you&#8217;re in a virtualenv. Let&#8217;s install something.</p>
+<div class="highlight-python"><pre>pip install rsa</pre>
+</div>
+<p>pip will visit PyPI, the Python Package Index, and will install Python-RSA (a
+&#8220;Pure-Python RSA implementation&#8221;). It will also install its dependencies -
+things it needs - if any have been listed at PyPI.</p>
+<p>Now see what <tt class="docutils literal"><span class="pre">pip</span> <span class="pre">freeze</span></tt> reports. And try:</p>
+<div class="highlight-python"><pre>(my-first-virtualenv)~/my-first-virtualenv$ python
+Python 2.7.2+ (default, Jul 20 2012, 22:15:08)
+[GCC 4.6.1] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt; import rsa</pre>
+</div>
+<p>To uninstall it:</p>
+<div class="highlight-python"><pre>pip uninstall rsa</pre>
+</div>
+<p>To install a particular version:</p>
+<div class="highlight-python"><pre>pip install rsa==3.0</pre>
+</div>
+<p>To ugrade the package to the latest version:</p>
+<div class="highlight-python"><pre>pip install --upgrade rsa</pre>
+</div>
+</div>
+<div class="section" id="where-packages-get-installed">
+<h3>Where packages get installed<a class="headerlink" href="#where-packages-get-installed" title="Permalink to this headline">¶</a></h3>
+<p>Your virtualenv has a site-packages directory, in the same way your system does. So now rsa can be found in:</p>
+<div class="highlight-python"><pre>~/my-first-virtualenv/lib/python2.7/site-packages/rsa</pre>
+</div>
+<p>(It&#8217;s possible that you&#8217;ll have a different version of Python listed in that
+path.)</p>
+</div>
+<div class="section" id="dependencies">
+<h3>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h3>
+<p>Python-RSA doesn&#8217;t have any dependencies, but if it did, and if those
+dependencies had dependencies, pip would install them all.</p>
+<p>So if all the package authors have done a good job of informing PyPI about
+their software&#8217;s requirements, you can install a Django application, for
+example, and pip will will install it, and Django, and possibly dozens of other
+pieces of software, all into your virtualenv, and without your having to make
+sure that everything required is in place.</p>
+</div>
+</div>
+<div class="section" id="managing-virtualenvs">
+<h2>Managing virtualenvs<a class="headerlink" href="#managing-virtualenvs" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="create-a-second-virtualenv">
+<h3>Create a second virtualenv<a class="headerlink" href="#create-a-second-virtualenv" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><pre>cd ~/ # it would be silly to create a virtualenv inside another
+virtualenv my-second-virtualenv
+cd my-second-virtualenv
+source bin/activate # activate it, and deactivate the other one</pre>
+</div>
+<p><tt class="docutils literal"><span class="pre">pip</span> <span class="pre">freeze</span></tt> will show you that you haven&#8217;t installed Python-RSA in this one -
+it&#8217;s a completely different Python environment from the other, and both are
+isolated from the system-wide Python setup.</p>
+</div>
+<div class="section" id="deactivate-a-virtualenv">
+<h3>Deactivate a virtualenv<a class="headerlink" href="#deactivate-a-virtualenv" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">deactivate</span>
+</pre></div>
+</div>
+<p>Now you&#8217;re no longer in any virtualenv.</p>
+</div>
+<div class="section" id="install-site-packages">
+<h3>&#8211;install-site-packages<a class="headerlink" href="#install-site-packages" title="Permalink to this headline">¶</a></h3>
+<p>When you create a virtualenv, it doesn&#8217;t include any Python packages already
+installed on your system. But sometimes, that <em>is</em> what you want. In that
+case:</p>
+<div class="highlight-python"><pre>virtualenv --install-site-packages my-third-virtualenv</pre>
+</div>
+</div>
+<div class="section" id="remove-a-virtualenv">
+<h3>remove a virtualenv<a class="headerlink" href="#remove-a-virtualenv" title="Permalink to this headline">¶</a></h3>
+<p>virtualenvs are disposable. You can get rid of these:</p>
+<div class="highlight-python"><pre>cd ~/
+rm -r  my-first-virtualenv my-second-virtualenv my-third-virtualenv</pre>
+</div>
+<p>And that&#8217;s pretty much all you need to get started and to use pip and
+virtualenv effectively.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Virtualenv and pip</a><ul>
+<li><a class="reference internal" href="#what-is-virtualenv">What is virtualenv?</a></li>
+<li><a class="reference internal" href="#install-virtualenv">Install virtualenv</a></li>
+<li><a class="reference internal" href="#create-and-activate-a-virtual-environment">Create and activate a virtual environment</a></li>
+<li><a class="reference internal" href="#using-pip">Using pip</a><ul>
+<li><a class="reference internal" href="#pip-freeze">pip freeze</a></li>
+<li><a class="reference internal" href="#pip-install">pip install</a></li>
+<li><a class="reference internal" href="#where-packages-get-installed">Where packages get installed</a></li>
+<li><a class="reference internal" href="#dependencies">Dependencies</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#managing-virtualenvs">Managing virtualenvs</a><ul>
+<li><a class="reference internal" href="#create-a-second-virtualenv">Create a second virtualenv</a></li>
+<li><a class="reference internal" href="#deactivate-a-virtualenv">Deactivate a virtualenv</a></li>
+<li><a class="reference internal" href="#install-site-packages">&#8211;install-site-packages</a></li>
+<li><a class="reference internal" href="#remove-a-virtualenv">remove a virtualenv</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="prerequisites.html"
+                        title="previous chapter">Prerequisites</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="git.html"
+                        title="next chapter">Git and GitHub</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/virtualenv.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="git.html" title="Git and GitHub"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="prerequisites.html" title="Prerequisites"
+             >previous</a> |</li>
+        <li><a href="index.html">Don&#39;t be afraid to commit 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Daniele Procida.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b1.
+    </div>
+  </body>
+</html>
