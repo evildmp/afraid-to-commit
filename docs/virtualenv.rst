@@ -16,7 +16,7 @@ What is virtualenv?
 
 If you're running a Python project for deployment or development, the chances
 are that you'll need more than one version of it, or the numerous other Python
-applications it depends upon, to at any one time.
+applications it depends upon, at any one time.
 
 For example, when a new version of Django is released, you might want to check
 your project is still compatible. You don't want to have to set up a whole new
