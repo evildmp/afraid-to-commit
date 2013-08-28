@@ -157,8 +157,9 @@ When preparing for a pull request, GitHub will show you your version, the
 **head branch** of the **head repo** - on the right - with some commits
 containing file changes, that will be sent to my **base repo** - on the left.
 
-#.  select *add-my-name* for your **head branch**
-#.  select *master* for my **base branch**
+#.  hit **Compare & pull request**, to get to the *compare view*
+#.  hit **Edit**, then select *<your github account>/afraid-to-commit* for your **head fork**, and *add-my-name* for your **head branch**
+#.  select *evildmp/afraid-to-commit* for the **base fork*, and *master* for the **base**
 #.  hit the **Pull Request** button
 #.  add a comment if you like
 #.  hit **Send pull request**
