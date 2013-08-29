@@ -14,8 +14,8 @@ collaborative projects, the workshop's emphasis on using virtualenv/pip and
 git will help you manage your own work in a more streamlined and efficient
 way.
 
-The automated testing tutorial - the most substantial component of the workshop
-- will help you develop your software faster, better and more easily.
+The automated testing tutorial - the most substantial component of the
+workshop - will help you develop your software faster, better and more easily.
 
 What we'll cover
 ================
@@ -38,9 +38,3 @@ What you need to know
 =====================
 
 The workshop is open to anyone, but places will be limited.
-
-Date: a weekday morning or afternoon in February or March 2012
-Venue: Cardiff University
-Attendance fee: none
-
-Contact: http://medicine.cf.ac.uk/person/mr-daniele-marco-procida/
