@@ -15,9 +15,12 @@ Encountering a merge conflict on GitHub
 Sometimes you'll discover that your GitHub fork and the upstream repository
 have changes that GitHub can't merge. 
 
-There's an *unmergeable-branch* at
-https://github.com/evildmp/afraid-to-commit. Try creating a pull request from
-that to your *amend-my-name* on GitHub. GitHub should tell you:
+There's an *unmergeable-branch* at https://github.com/evildmp/afraid-to-commit.
+It's unmergeable because it deliberately contains changes that conflict with
+other changes made in *master*. 
+
+Try creating a pull request from *unmergeable-branch* to your *amend-my-name*
+on GitHub. If you do, GitHub will tell you:
 
     We can’t automatically merge this pull request.
     
@@ -43,10 +46,12 @@ When there's a conflict, Git marks them for you in the files. You'll see
 sections like this::
 
     <<<<<<< HEAD
-    Daniele Procida <daniele@vurt.org> https://github.com/evildmp
+    * Daniel Pass <daniel.antony.pass@googlemail.com>
+    * Kieran Moore
     =======
-    John Smith <john@example.com>
-    >>>>>>> 960517d68fa4ac4778ac2a47c6721fecd3505309
+    * Kermit the Frog
+    * Miss Piggy
+    >>>>>>> upstream/unmergeable-branch
        
 The first section is what you have in your version. The second section is what
 Git found in the version you were trying to pull in.
@@ -54,14 +59,16 @@ Git found in the version you were trying to pull in.
 You'll have to decide what the file should contain, and you'll need to edit
 it. If you decide you want the changes from both versions::
 
-    Daniele Procida <daniele@vurt.org> https://github.com/evildmp
-    John Smith <john@example.com>
+    * Daniel Pass <daniel.antony.pass@googlemail.com>
+    * Kieran Moore
+    * Kermit the Frog
+    * Miss Piggy
 
     $ git add attendees_and_learners.rst
     $ git commit -m "fixed conflict"
     $ git add attendees_and_learners.rst
     [amend-my-name 91a45ac] fixed conflict
-    $ git push 
+    $ git push origin amend-my-name
 
 Creating a branch for merging work
 ==================================
