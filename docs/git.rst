@@ -1,6 +1,6 @@
-################
-Made unmergeable
-################
+##############
+Git and GitHub
+##############
 
 In this section you will:
 
