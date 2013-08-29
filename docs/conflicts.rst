@@ -89,22 +89,30 @@ to work on resolving them without disturbing your work so far::
 As before, this means: create and switch to a new branch called
 *resolve-conflict*, based on branch *amend-my-name*.
 
-Tell Git to attempt to merge a conflicting branch (you have already resolved
-the conflict above, so I have provided *unmergeable-branch-2* for you)
-into this one::
+We'll use this new branch as a safe place to do the potentially messy work of
+resolving the conflicts in. 
 
-    $ git merge upstream/unmergeable-branch-2
+You have already resolved the conflict with *unmergeable-branch*, so I have
+provided *unmergeable-branch-2* for you. The conflict I here is extremely
+simple, but you could have conflicts across dozens of files, if you were
+unlucky. Even if it all goes horribly wrong in here, that won't affect either
+of the two branches you were trying to reconcile - they'll remain safely
+untouched.
+
+Tell Git to attempt to merge the conflicting branch into this one::
+
+    $ git merge upstream/another-unmergeable-branch
 
 Resolve the conflicts as before (edit the file, ``add`` it, ``commit`` the
-changes). Now your *resolve-conflict* branch has reconciles the latest changes
+changes). Now your *resolve-conflict* branch has reconciled the latest changes
 in your *amend-my-name*, *and* my *unmergeable-branch-2*.
 
-At this point, you should make quite sure that everything is correct (that
+At this point, you would make quite sure that everything is correct (that
 tests run and so on), *before* merging back into *amend-my-name*.
 
-The last step is to merge *resolve-conflict* into *amend-my-name*, thus
+Then the last step is to merge *resolve-conflict* into *amend-my-name*, thus
 bringing with it the changes from *unmergeable-branch-2*::
 
     git checkout amend-my-name
     git merge resolve-conflict
-    git push
+    git push origin amend-my-name

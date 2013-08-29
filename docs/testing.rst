@@ -65,6 +65,14 @@ Fire it up
 ::
 
     python manage.py syncdb # set up the database
+    
+.. note::
+   ImportError: No module named django.core.management
+
+   Maybe you don't have Django installed. That's no problem; you already know
+   the answer to this::
+
+       pip install django # install Django into your virtualenv
 
 You *will* need to be a superuser, so enter a username and password.
 
@@ -92,7 +100,7 @@ fixed, a test will help. So, we should:
 
 https://docs.djangoproject.com/en/1.5/intro/tutorial05/#we-identify-a-bug
 
-Following good Git working practices, before you change a single byte of code,
+Following good Git working practices, *before you change a single byte of code*,
 create a new branch to work in::
 
     git checkout -b test-for-published-recently
@@ -130,7 +138,7 @@ Following the tutorial
 ======================
 
 The Django testing tutorial covers a number of key ideas and approaches. It's
-worth following the whgole thing, and making sure you understand the points
+worth following the whole thing, and making sure you understand the points
 its making.
 
 Unfortunately as of Django 1.5.1 the tutorial actually includes a bugfix that
