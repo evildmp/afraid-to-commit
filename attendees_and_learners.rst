@@ -15,9 +15,9 @@ DjangoCon US in Chicago, 2nd September 2013
 Cardiff Dev Workshop, 8th June 2013
 -----------------------------------
 
+* Miss Piggy
 * Kermit the Frog
 * Gonzo
-* Miss Piggy
 * Dale Bradley
 * Howard Dickins <hdickins@gmail.com> https://github.com/hdickins
 * Robert Dragan https://github.com/rmdragan
