@@ -8,6 +8,26 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+DjangoCon US in Chicago, 2nd September 2013
+-------------------------------------------
+
+
+Cardiff Dev Workshop, 8th June 2013
+-----------------------------------
+
+* Kieran Moore
+* Daniel Pass <daniel.antony.pass@googlemail.com>
+* Dale Bradley
+* Howard Dickins <hdickins@gmail.com> https://github.com/hdickins
+* Robert Dragan https://github.com/rmdragan
+* Chris Davies
+* Gwen Williams
+* Chris Lovell <chrisl1991@hotmail.co.uk> https://github.com/polyphant1
+* Nezam Shah
+* Gwen Williams https://github.com/gwenopeno
+* Daniel Pass <daniel.antony.pass@googlemail.com>
+* Bitarabe Edgar
+
 DjangoCon Europe in Warsaw, 18th May 2013
 -----------------------------------------
 
@@ -18,7 +38,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Patrik Gärdeman https://github.com/gardeman
 * Gustavo Jimenez-Maggiora https://github.com/gajimenezmaggiora
 * Jens Ådne Rydland <jensadne@pvv.ntnu.no> https://github.com/jensadne
-* Chris Reeves @krak3n 
+* Chris Reeves @krak3n
 * Alexander Hansen <alexander@geekevents.org> https://github.com/wckd
 * Brian Crain (@crainbf)
 * Nicolas Noé <nicolas@niconoe.eu> https://github.com/niconoe
@@ -27,25 +47,11 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Michał Karzyński <djangoconwrkshp@karzyn.com> https://github.com/postrational
 * @graup
 
-Cardiff Dev Workshop, 8th June 2013
------------------------------------
-
-* Kieran Moore
-* Daniel Pass <daniel.antony.pass@googlemail.com>
-* Dale Bradley
-* Howard Dickins <hdickins@gmail.com> https://github.com/hdickins  
-* Robert Dragan https://github.com/rmdragan
-* Chris Davies
-* Gwen Williams
-* Chris Lovell <chrisl1991@hotmail.co.uk> https://github.com/polyphant1
-* Nezam Shah
-* Gwen Williams https://github.com/gwenopeno
-* Daniel Pass <daniel.antony.pass@googlemail.com>
-* Bitarabe Edgar
-
 I followed the tutorial online
 ==============================
 
 * Daniel Quinn - 18th May 2013
 * Paul C. Anagnostopoulos - 19 August 2013
 * Ben Rowett - 27 August 2013
+* Daniele Procida, testing his own dogfood - 29th August 2013
+
