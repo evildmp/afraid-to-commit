@@ -103,6 +103,7 @@ Until now, you have only updated your *master* on GitHub using GitHub itself.
 Sometimes it will be much more convenient to do it from your commandline.
 There are various ways to do it, but here's one::
 
+    git checkout master # switch back to the master branch
     git fetch upstream # update information about the remote
     git merge upstream/master # merge the changes referred to by
     upstream/master
@@ -112,7 +113,7 @@ at **origin**.
 
 Push your changes to master::
 
-    git push
+    git push origin master
 
 And now your *master* on GitHub contains everything my *master* does; it's
 up-to-date and clean.    
