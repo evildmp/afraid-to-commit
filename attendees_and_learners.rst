@@ -16,6 +16,7 @@ Cardiff Dev Workshop, 8th June 2013
 -----------------------------------
 
 * Kermit the Frog
+* Gonzo
 * Miss Piggy
 * Dale Bradley
 * Howard Dickins <hdickins@gmail.com> https://github.com/hdickins
