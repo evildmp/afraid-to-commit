@@ -14,7 +14,8 @@ In this section you will:
 *   merge upstream changes into your fork
 *   merge changes on GitHub into your local clone
 
-So far we've done all our Git work using the GitHub website, but that's often not the most appropriate way to work. 
+So far we've done all our Git work using the GitHub website, but that's usually
+not the most appropriate way to work.
 
 You'll find that most of your Git-related operations can and need to be done on the commandline.
 
@@ -79,18 +80,15 @@ Clone a repository
 When you made a copy of the *Don't be afraid to commit* repository on GitHub,
 that was a *fork*. Getting a copy of a repository onto your local machine is
 called *cloning*. Copy the *ssh URL* from
-``https://github.com/<your github account>/afraid-to-commit``.
-
-::
+``https://github.com/<your github account>/afraid-to-commit``, then::
 
     git clone git@github.com:<your github account>/afraid-to-commit.git
 
-Change into the newly-created directory, where you'll find all the source code
-of the *Don't be afraid to commit* project.
+Change into the newly-created ``afraid-to-commit`` directory, where you'll find
+all the source code of the *Don't be afraid to commit* project.
 
-We want to know the status of our **working directory**. The working directory
-is the set of files that you currently have in front of you, available to
-edit::
+Now you're in the **working directory**, the set of files that you currently
+have in front of you, available to edit. We want to know its status::
 
     $ git status
     # On branch master
@@ -112,8 +110,8 @@ the new branch is based upon whatever branch you were on.
 Edit a file
 -----------
 
-#.  find the ``attendees_and_learners.rst`` file again
-#.  after your name and email address, add your Github account
+#.  find the ``attendees_and_learners.rst`` file in your working directory
+#.  after your name and email address, add your Github account name
 #.  save the file
 
 ``git status`` is always useful::
@@ -141,10 +139,10 @@ particular branch.
 .. note::
    When to branch
    
-    You don't actually *need* to create your new branch until you decide to
-    commit. But creating your new branches before you start making changes
-    makes it less likely that you will forget later, and commit things to the
-    wrong branch.
+    You didn't actually *need* to create your new *amend-my-name* branch until
+    you decided to commit. But creating your new branches before you start
+    making changes makes it less likely that you will forget later, and commit
+    things to the wrong branch.
 
 Stage your changes
 ------------------
@@ -218,11 +216,13 @@ repository. Here there is an extra step: we need to **push** the files to
 GitHub.
 
 If you were pushing changes from *master* locally to *master* on GitHub, you
-could just issue the command ``git push``.
+could just issue the command ``git push`` and let Git work out what needs to go
+where.
 
-You have multiple branches here, so you need to tell git *where* to push (i.e.
-back to the remote repository you cloned from, on GitHub) and *what* exactly
-to push (your new branch).
+It's always better to be explicit though. What's more, you have multiple
+branches here, so you need to tell git *where* to push (i.e. back to the remote
+repository you cloned from, on GitHub) and *what* exactly to push (your new
+branch).
 
 The repository you cloned from - yours - can be referred to as **origin**. The
 new branch is called *amend-my-name*. So::
@@ -236,9 +236,14 @@ new branch is called *amend-my-name*. So::
     To git@github.com:evildmp/afraid-to-commit.git
      * [new branch]      amend-my-name -> amend-my-name
 
-Next time you want to push committed changes in *amend-my-name*, you won't
-need to specify the branch, you can simply do ``git push``, because now
-*amend-my-name* exists at both ends.
+.. note::
+   Be explicit!
+
+    Next time you want to push committed changes in *amend-my-name*, you won't
+    *need* to specify the branch - you can simply do ``git push``, because now
+    *amend-my-name* exists at both ends. However, it's *still* a good idea to
+    be explict. That way you'll be less likely to get a surprise you didn't
+    want, when the wrong thing gets pushed.
 
 Check your GitHub repository
 ----------------------------

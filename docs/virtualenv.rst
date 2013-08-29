@@ -104,7 +104,11 @@ pip will visit PyPI, the Python Package Index, and will install Python-RSA (a
 "Pure-Python RSA implementation"). It will also install its dependencies -
 things it needs - if any have been listed at PyPI.
 
-Now see what ``pip freeze`` reports. And try::
+Now see what ``pip freeze`` reports. You will probably find that as well as
+Python-RSA it installed some other packages - they were ones that Python-RSA
+needed.
+
+And try::
 
     (my-first-virtualenv)~/my-first-virtualenv$ python 
     Python 2.7.2+ (default, Jul 20 2012, 22:15:08) 
@@ -181,7 +185,7 @@ Now you're no longer in any virtualenv.
 
 When you create a virtualenv, it doesn't include any Python packages already
 installed on your system. But sometimes, that *is* what you want. In that
-case::
+case you'd do::
 
     virtualenv --system-site-packages my-third-virtualenv 
     

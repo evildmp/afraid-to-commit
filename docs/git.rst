@@ -147,6 +147,9 @@ project, has been changed; it's reflected right away on GitHub.
 If you managed to mis-spell your name, or want to correct what you entered,
 you can simply edit it again.
 
+What you have done now is make some changes, in a new branch, in your own fork
+of the repository. You can see them there in the file.
+
 Make a Pull Request
 -------------------
 
@@ -154,7 +157,12 @@ When you're ready to have your changes incorporated into my
 original/official/canonical repository, you do this by making a **Pull
 Request**.
 
-*  hit **Pull Request**
+*   go back to ``https://github.com/<your github account>/afraid-to-commit``
+
+You'll see that GitHub has noted your recent changes, and now offers various
+buttons to allow you to compare them with the original or make a pull request.
+
+*  hit **Compare & pull request**
 
 This will show you a *compare view*, from which you can make your pull request.
 
@@ -163,7 +171,7 @@ When preparing for a pull request, GitHub will show you what's being compared::
     evildmp:master...<your github account>:add-my-name
     
 On the left is the **base** for the comparison, my fork and branch. On the
-right is the **head**, your fork and branch, that you want to compare against
+right is the **head**, your fork and branch, that you want to compare with
 it.
 
 A pull request goes from the **head** to the **base** - from right to left.
@@ -173,12 +181,12 @@ You can change the bases of the comparison if you need to:
 #.  hit **Edit**
 #.  select the forks and branches as appropriate
 
-Now you want your version, the **head branch** of the **head repo** - on the
+You want your version, the **head branch** of the **head fork** - on the
 right - with some commits containing file changes, to be sent to my **base
 repo** - on the left.
 
 #.  hit the **Pull Request** button
-#.  add a comment if you like
+#.  add a comment if you like (e.g. "please add me to the attendees list")
 #.  hit **Send pull request**
 
 You have now made a pull request to an open-source community
@@ -189,36 +197,39 @@ you're proposing to make). It'll tell me whether they can be merged in
 automatically, and I can reject, or accept, or defer a decision on, or comment
 on, your pull request.
 
-GitHub can merge your contribution into my repository if mine hasn't changed
-too much since you forked it (which could leave GitHub unable to work out how
-to incorporate it). If I want to accept it but GitHub can't do it
-automatically, I will have to merge the changes manually.
+GitHub can automatically merge your contribution into my repository if mine
+hasn't changed too much since you forked it. If I want to accept it but GitHub
+can't do it automatically, I will have to merge the changes manually (we will
+cover this later).
                                         
-Once they're merged though, your contribution will become a part of
-https://github.com/evildmp/afraid-to-commit, and that's the basic lifecycle of
+Once they're merged, your contributions will become a part of
+https://github.com/evildmp/afraid-to-commit. And this is the basic lifecycle of
 a contribution using git: *fork* > *edit* > *commit* > *pull request* >
-*merge*. Your code did indeed fork away briefly, but only in order to rejoin
-the centre.
+*merge*.
 
-Incorporate upstream changes
-----------------------------
+Incorporate upstream changes into your master
+---------------------------------------------
 
 In the meantime, other people may have made their own forks, edits, commits,
-and pull requests, and I may have merged those too. Your own version of
-afraid-to-commit, *downstream* from mine, doesn't yet know about those.
+and pull requests, and I may have merged those too - other people's names may
+now be in the list of attendees. Your own version of afraid-to-commit,
+*downstream* from mine, doesn't yet know about those.
 
-If you're planning to base your work on mine, then you can think of my
-repository as being *upstream* of yours. You need to merge my *upstream*
-changes into *your* version, and you can do this with a pull request on GitHub
-too. This time though you will need to switch the bases of the comparison
-around, because the changes will be coming from *my version* to *yours*.
+Since your work is based on mine, you can think of my repository as being
+*upstream* of yours. You need to merge any *upstream* changes into *your*
+version, and you can do this with a pull request on GitHub too. 
+
+This time though you will need to switch the bases of the comparison around,
+because the changes will be coming from *my version* to *yours*.
 
 #.  hit **Pull Request** once more
 #.  hit **Edit**, to switch the bases
 #.  change the **head repo** on the right to *my* version,
-    ``evildmp/afraid-to-commit``
+    ``evildmp/afraid-to-commit``, branch *master*
 #.  change the **base repo** to yours, and the **base branch** to *master*
-#.  add a **Title** and hit **Send pull request**
+#.  hit **Click to create a pull request for this comparison**
+#.  add a **Title** (e.g. "merging upstream master on Github) and hit **Send
+    pull request**
 
 You're sending a pull request to to *yourself*, based on updates in my
 repository. And in fact if you check in your **Pull Requests** on GitHub,
@@ -234,5 +245,8 @@ created a new **branch** in your fork.
 Then you **committed** changes to your branch, and sent them **upstream** back
 to me (with a **pull request**).
 
-I **merged** your changes into my codebase, and you **pulled** all my recent
-changes back into your *master* branch (again with a **pull request**).
+I **merged** your changes, and perhaps those from other people, into my
+codebase, and you **pulled** all my recent changes back into your *master*
+branch (again with a **pull request**).
+
+So now, your *master* and mine are once more in step.
