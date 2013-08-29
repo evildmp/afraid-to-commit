@@ -90,20 +90,20 @@ As before, this means: create and switch to a new branch called
 *resolve-conflict*, based on branch *amend-my-name*.
 
 Tell Git to attempt to merge a conflicting branch (you have already resolved
-the conflict above, so I have provided *another-unmergeable-branch* for you)
+the conflict above, so I have provided *unmergeable-branch-2* for you)
 into this one::
 
-    $ git merge upstream/another-unmergeable-branch
+    $ git merge upstream/unmergeable-branch-2
 
 Resolve the conflicts as before (edit the file, ``add`` it, ``commit`` the
 changes). Now your *resolve-conflict* branch has reconciles the latest changes
-in your *amend-my-name*, *and* my *another-unmergeable-branch*.
+in your *amend-my-name*, *and* my *unmergeable-branch-2*.
 
 At this point, you should make quite sure that everything is correct (that
 tests run and so on), *before* merging back into *amend-my-name*.
 
 The last step is to merge *resolve-conflict* into *amend-my-name*, thus
-bringing with it the changes from *another-unmergeable-branch*::
+bringing with it the changes from *unmergeable-branch-2*::
 
     git checkout amend-my-name
     git merge resolve-conflict

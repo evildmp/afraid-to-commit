@@ -39,9 +39,17 @@ GitHub, just hit the **New repository** button and follow the instructions.
 Combining Git and pip
 =====================
 
-When you used pip to install a package inside a virtualenv, it put it in a ``site-packages`` directory. When you're working on a package, that's not so convenient. On the other hand, cloning a Git repository doesn't install it on your Python path (assuming that it's a Python application). 
+When you used pip to install a package inside a virtualenv, it put it on your
+Python path, that is, in the virtualenv's ``site-packages`` directory. When
+you're actually working on a package, that's not so convenient - a Git project
+is the most handy thing to have.
 
-However, pip is Git-aware, and can install packages *and* put them in a convenient place for editing::
+On the other hand, cloning a Git repository doesn't install it on your Python
+path (assuming that it's a Python application), so though you can work on it,
+you can't actually use it and test it as an installed package.
+
+However, pip is Git-aware, and can install packages *and* put them in a
+convenient place for editing - so you can get both::
 
     cd ~/
     virtualenv git-pip-test
@@ -50,9 +58,13 @@ However, pip is Git-aware, and can install packages *and* put them in a convenie
     
 The ``-e`` flag means editable; ``git+`` tells it to use the Git protocol; ``#egg=parsley`` tells it what to call it.
 
-And now you will find an editable Git repository on installed at:
+And now you will find an editable Git repository installed at:
 
     ~/git-pip-test/src/parsley
     
-which is where any other similarly-installed packages will be. 
+which is where any other similarly-installed packages will be, and just to prove that it really is installed::
+
+    $ pip freeze
+    -e git+git@github.com:washort/parsley.git@e58c0c6d67142bf3ceb6eceffd50cf0f8dae9da1#egg=Parsley-master
+    wsgiref==0.1.2
 
