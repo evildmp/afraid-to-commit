@@ -48,7 +48,6 @@ interesting to other people.
 
 **Contributing** - how to submit your work
 
-
 Contents
 ========
 
@@ -71,6 +70,6 @@ Contents
 *   :doc:`Notes for anyone planning a workshop <notesforplanners>`
 
 Credits
--------
+=======
 
 .. include:: ../CONTRIBUTORS.txt
