@@ -8,6 +8,26 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+DjangoCon US in Chicago, 2nd September 2013
+-------------------------------------------
+
+
+Cardiff Dev Workshop, 8th June 2013
+-----------------------------------
+
+* Kieran Moore
+* Daniel Pass <daniel.antony.pass@googlemail.com>
+* Dale Bradley
+* Howard Dickins <hdickins@gmail.com> https://github.com/hdickins
+* Robert Dragan https://github.com/rmdragan
+* Chris Davies
+* Gwen Williams
+* Chris Lovell <chrisl1991@hotmail.co.uk> https://github.com/polyphant1
+* Nezam Shah
+* Gwen Williams https://github.com/gwenopeno
+* Daniel Pass <daniel.antony.pass@googlemail.com>
+* Bitarabe Edgar
+
 DjangoCon Europe in Warsaw, 18th May 2013
 -----------------------------------------
 
@@ -26,22 +46,6 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * schacki
 * Michał Karzyński <djangoconwrkshp@karzyn.com> https://github.com/postrational
 * @graup
-
-Cardiff Dev Workshop, 8th June 2013
------------------------------------
-
-* Kieran Moore
-* Daniel Pass <daniel.antony.pass@googlemail.com>
-* Dale Bradley
-* Howard Dickins <hdickins@gmail.com> https://github.com/hdickins
-* Robert Dragan https://github.com/rmdragan
-* Chris Davies
-* Gwen Williams
-* Chris Lovell <chrisl1991@hotmail.co.uk> https://github.com/polyphant1
-* Nezam Shah
-* Gwen Williams https://github.com/gwenopeno
-* Daniel Pass <daniel.antony.pass@googlemail.com>
-* Bitarabe Edgar
 
 I followed the tutorial online
 ==============================
