@@ -58,7 +58,8 @@ or::
     
 If that fails or you're using a different system, you might need more help:
 
-    http://www.virtualenv.org/en/latest/#installation
+    `Virtualenv installation documentation
+    <http://www.virtualenv.org/en/latest/#installation>`_
     
 
 Create and activate a virtual environment
@@ -153,19 +154,23 @@ Create a second virtualenv
 
 ::
 
-    cd ~/ # it would be silly to create a virtualenv inside another
+    cd ~/ # let's not create it inside the other...
     virtualenv my-second-virtualenv
+    
+When you activate your new virtualenv, it will deactivate the first::
+   
     cd my-second-virtualenv
-    source bin/activate # activate it, and deactivate the other one 
+    source bin/activate 
 
-``pip freeze`` will show you that you haven't installed Python-RSA in this one -
-it's a completely different Python environment from the other, and both are
-isolated from the system-wide Python setup.
+``pip freeze`` will show you that you don't have Python-RSA installed in this
+one - it's a completely different Python environment from the other, and both
+are isolated from the system-wide Python setup.
 
-Deactivate a virtualenv
------------------------
+Deactivate a virtualenv manually
+--------------------------------
 
-::
+Activating a virtualenv automatically deactivates one that was previously
+active, but you can also do this manually::
 
     deactivate
     

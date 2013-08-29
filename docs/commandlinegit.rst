@@ -24,6 +24,7 @@ Install/set up Git
 ::
 
     sudo apt-get install git # for Debian/Ubuntu users
+    brew install git # for Mac OS X users with Homebrew installed
 
 There are other ways of installing Git; you can even get a graphical Git application, that will include the commandline tools. These are described at:
 
@@ -46,12 +47,20 @@ password.
 
 *   https://github.com/settings/ssh
 
+https://help.github.com/articles/generating-ssh-keys explains much better than
+I can how to generate a public key.
+
 **This tutorial assumes you have now added your public key to your GitHub
 account.** If you haven't, you'll have to use *https* instead, and translate
 from the format of GitHub's *ssh* URLS.
 
-https://help.github.com/articles/generating-ssh-keys explains much better than
-I can how to generate a public key.
+For example, when you see::
+
+    git@github.com:evildmp/afraid-to-commit.git
+    
+you will instead need to use::
+
+    https://github.com/evildmp/afraid-to-commit.git
 
 See https://gist.github.com/grawity/4392747 for a discussion of the different
 protocols.
@@ -70,7 +79,7 @@ Clone a repository
 When you made a copy of the *Don't be afraid to commit* repository on GitHub,
 that was a *fork*. Getting a copy of a repository onto your local machine is
 called *cloning*. Copy the *ssh URL* from
-https://github.com/<your github account>/afraid-to-commit.
+``https://github.com/<your github account>/afraid-to-commit``.
 
 ::
 
@@ -185,8 +194,9 @@ some further change to ``attendees_and_learners.rst``, and run ``git status``::
     #
 
 Some of the changes in ``attendees_and_learners.rst`` will be committed, and the
-more recent ones will not. You'll need to ``git add`` the file again to stage
-them.
+more recent ones will not. 
+
+    * run ``git add`` on the file again to stage the newer changes
 
 Commit your changes
 -------------------
@@ -214,8 +224,8 @@ You have multiple branches here, so you need to tell git *where* to push (i.e.
 back to the remote repository you cloned from, on GitHub) and *what* exactly
 to push (your new branch).
 
-The repository you cloned from can be referred to as **origin**. The new
-branch is called *amend-my-name*. So::
+The repository you cloned from - yours - can be referred to as **origin**. The
+new branch is called *amend-my-name*. So::
 
     $ git push origin amend-my-name 
     Counting objects: 34, done.
@@ -339,9 +349,13 @@ The ``-f`` flag forces the branch to be checked out.
 .. note::
    Forcing operations with ``-f``
 
-    Generally speaking, using the ``-f`` flag for Git operations is to be
-    avoided. It offers plenty of scope for mishap. If Git tells you about a
-    problem and you force your way past it, you're inviting trouble.
+    Using the ``-f`` flag for Git operations is to be avoided. It offers plenty
+    of scope for mishap. If Git tells you about a problem and you force your
+    way past it, you're inviting trouble. It's almost always better to find a 
+    different way around the problem than forcing it.
+    
+    ``git push -f`` in particular has ruined a nice day for many people. 
+    
      
 Stash
 ^^^^^

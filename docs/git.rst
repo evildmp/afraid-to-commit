@@ -29,7 +29,8 @@ so that's the last thing I will say on the subject.
 Set up a GitHub account
 =======================
 
-*   sign up at https://github.com.
+* sign up at `GitHub <https://github.com/>`_ if you don't already have an
+  account
 
 It's free.
 
@@ -48,7 +49,7 @@ You can do various things there, including browsing through all the code and fil
 A few moments later, you'll have your own copy, on GitHub, of everything in
 that repository, and from now on you'll do your work on your copy of it.
 
-Your copy is at https://github.com/<your github account>/afraid-to-commit/. 
+Your copy is at ``https://github.com/<your github account>/afraid-to-commit/``. 
 
 You will typically do this for any Git project you want to contribute to. It's
 good for you because it means you don't have to sign up for access to a
@@ -78,7 +79,7 @@ volunteers on top of all their other jobs.
     more modest collection of forked copies. If I stop updating it, but
     someone else is making useful updates to their own fork, then in time
     theirs might start to become the one that people refer to and contribute
-    to. The same could even happen to Django itself, though it's not likely to
+    to. This could even happen to Django itself, though it's not likely to
     any time soon.
     
     The proliferation of forks doesn't somehow dilute the original. Don't be
@@ -127,7 +128,7 @@ use Git, and it's certainly not something you'll want to spend very much time
 doing, but it's handy for very small changes, for example typos and spelling
 mistakes you spot.
 
-#. go to https://github.com/<your github account>/afraid-to-commit
+#. go to ``https://github.com/<your github account>/afraid-to-commit``
 #. find the ``attendees_and_learners.rst`` file
 #. hit the **Edit** button
 #. add your name (and email address, if you like) to the appropriate place in
@@ -153,13 +154,29 @@ When you're ready to have your changes incorporated into my
 original/official/canonical repository, you do this by making a **Pull
 Request**.
 
-When preparing for a pull request, GitHub will show you your version, the
-**head branch** of the **head repo** - on the right - with some commits
-containing file changes, that will be sent to my **base repo** - on the left.
+*  hit **Pull Request**
 
-#.  hit **Compare & pull request**, to get to the *compare view*
-#.  hit **Edit**, then select *<your github account>/afraid-to-commit* for your **head fork**, and *add-my-name* for your **head branch**
-#.  select *evildmp/afraid-to-commit* for the **base fork*, and *master* for the **base**
+This will show you a *compare view*, from which you can make your pull request.
+
+When preparing for a pull request, GitHub will show you what's being compared::
+
+    evildmp:master...<your github account>:add-my-name
+    
+On the left is the **base** for the comparison, my fork and branch. On the
+right is the **head**, your fork and branch, that you want to compare against
+it.
+
+A pull request goes from the **head** to the **base** - from right to left.
+
+You can change the bases of the comparison if you need to: 
+
+#.  hit **Edit**
+#.  select the forks and branches as appropriate
+
+Now you want your version, the **head branch** of the **head repo** - on the
+right - with some commits containing file changes, to be sent to my **base
+repo** - on the left.
+
 #.  hit the **Pull Request** button
 #.  add a comment if you like
 #.  hit **Send pull request**
@@ -193,9 +210,11 @@ afraid-to-commit, *downstream* from mine, doesn't yet know about those.
 If you're planning to base your work on mine, then you can think of my
 repository as being *upstream* of yours. You need to merge my *upstream*
 changes into *your* version, and you can do this with a pull request on GitHub
-too:
+too. This time though you will need to switch the bases of the comparison
+around, because the changes will be coming from *my version* to *yours*.
 
 #.  hit **Pull Request** once more
+#.  hit **Edit**, to switch the bases
 #.  change the **head repo** on the right to *my* version,
     ``evildmp/afraid-to-commit``
 #.  change the **base repo** to yours, and the **base branch** to *master*

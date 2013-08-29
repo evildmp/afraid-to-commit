@@ -104,8 +104,8 @@ merge
     merge**
     
 pull
-    ``fetch`` followed by ``merge`` is often safer than ``pull`` - don't assume that
-    ``pull`` will do what you expect it to
+    ``fetch`` followed by ``merge`` is often safer than ``pull`` - don't assume
+    that ``pull`` will do what you expect it to
 
     ``git pull`` fetches updates from the default remote and merges into the
     working directory
@@ -115,8 +115,8 @@ push
     that exist at both ends
 
     ``git push [remote] [branch]`` pushes the current branch to the named
-    ``branch`` on ``remote``  
-    
+    ``branch`` on ``remote``
+        
 log
     ``git log`` will show you a list of commits
     
