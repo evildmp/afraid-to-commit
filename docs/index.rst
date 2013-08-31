@@ -64,7 +64,7 @@ Contents
 *   :doc:`Automated testing in Python and Django <testing>`
 *   :doc:`documentation`
 *   :doc:`Contributing your work <contributing>` 
-* :doc:`Cheatsheet - a handy summary of key commands and techniques
+*   :doc:`Cheatsheet - a handy summary of key commands and techniques
   <cheatsheet>`
 *   :doc:`A record of people who attended a workshop or followed the tutorial <attendance_record>`
 *   :doc:`Notes for anyone planning a workshop <notesforplanners>`
