@@ -10,8 +10,10 @@ Workshops
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
-* Barbara Hendrick
-
+* Barbara Hendrick (bahendri)
+* Keith Edmiston <keith.edmiston@mccombs.utexas.edu>
+* David Garcia
+* Ernesto Rodriguez <ernesto@tryolabs.com> @ernestorx
 
 Cardiff Dev Workshop, 8th June 2013
 -----------------------------------
