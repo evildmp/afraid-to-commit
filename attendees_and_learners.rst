@@ -21,6 +21,8 @@ Cardiff Dev Workshop, 8th June 2013
 
 * Daniel Pass <daniel.antony.pass@googlemail.com>
 * Kieran Moore
+* Kermit the Frog
+* Miss Piggy
 * Dale Bradley
 * Howard Dickins <hdickins@gmail.com> https://github.com/hdickins
 * Robert Dragan https://github.com/rmdragan
