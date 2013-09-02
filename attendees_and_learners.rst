@@ -10,7 +10,7 @@ Workshops
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
-
+* Ernesto Rodriguez <ernesto@tryolabs.com>
 
 Cardiff Dev Workshop, 8th June 2013
 -----------------------------------
