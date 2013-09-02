@@ -11,6 +11,7 @@ Workshops
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
 * Barbara Hendrick
+* Keith Edmiston <keith.edmiston@mccombs.utexas.edu>
 
 
 Cardiff Dev Workshop, 8th June 2013
