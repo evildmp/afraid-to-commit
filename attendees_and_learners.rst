@@ -11,6 +11,8 @@ Workshops
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
 
+* Keith Edmiston
+
 
 Cardiff Dev Workshop, 8th June 2013
 -----------------------------------
