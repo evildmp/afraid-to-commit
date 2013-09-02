@@ -13,7 +13,7 @@ DjangoCon US in Chicago, 2nd September 2013
 * Barbara Hendrick (bahendri)
 * Keith Edmiston <keith.edmiston@mccombs.utexas.edu>
 * David Garcia
-* Ernesto Rodriguez <ernesto@tryolabs.com> @ernestorx
+* Ernesto Rodriguez <ernesto@tryolabs.com> https://github.com/ernestorx @ernestorx
 * Jason Blum
 
 Cardiff Dev Workshop, 8th June 2013
