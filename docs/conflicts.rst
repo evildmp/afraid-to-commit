@@ -66,7 +66,6 @@ it. If you decide you want the changes from both versions::
 
     $ git add attendees_and_learners.rst
     $ git commit -m "fixed conflict"
-    $ git add attendees_and_learners.rst
     [amend-my-name 91a45ac] fixed conflict
     $ git push origin amend-my-name
 
