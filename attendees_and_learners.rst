@@ -15,6 +15,7 @@ DjangoCon US in Chicago, 2nd September 2013
 * David Garcia (davideire)
 * Ernesto Rodriguez <ernesto@tryolabs.com> @ernestorx
 * Jason Blum
+* Hayssam Hajar <hayssam.hajar@gmail.com>  github: hhajar
 
 Cardiff Dev Workshop, 8th June 2013
 -----------------------------------
