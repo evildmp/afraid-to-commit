@@ -11,7 +11,7 @@ Workshops
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
 * Barbara Hendrick
-
+* Jason Blum <jason.blum@gmail.com> https://github.com/jasonblum
 
 Cardiff Dev Workshop, 8th June 2013
 -----------------------------------
