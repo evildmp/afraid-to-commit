@@ -13,7 +13,7 @@ DjangoCon US in Chicago, 2nd September 2013
 * Barbara Hendrick (bahendri)
 * Keith Edmiston <keith.edmiston@mccombs.utexas.edu>
 * David Garcia (davideire)
-* Ernesto Rodriguez <ernesto@tryolabs.com> @ernestorx
+* Ernesto Rodriguez <ernesto@tryolabs.com> https://github.com/ernestorx @ernestorx
 * Jason Blum
 * Hayssam Hajar <hayssam.hajar@gmail.com>  github: hhajar
 
@@ -22,6 +22,9 @@ Cardiff Dev Workshop, 8th June 2013
 
 * Daniel Pass <daniel.antony.pass@googlemail.com>
 * Kieran Moore
+* Miss Piggy
+* Kermit the Frog
+* Gonzo
 * Dale Bradley
 * Howard Dickins <hdickins@gmail.com> https://github.com/hdickins
 * Robert Dragan https://github.com/rmdragan
