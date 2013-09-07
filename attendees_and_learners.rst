@@ -60,4 +60,5 @@ I followed the tutorial online
 * Ben Rowett - 27 August 2013
 * Daniele Procida, testing his own dogfood - 29th August 2013
 * Chris Miller, <chris@chrismiller.org> - 5th September 2013
+* David Lewis - 7th September 2013
 
