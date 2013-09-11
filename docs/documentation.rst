@@ -1,6 +1,6 @@
-#############
-Documentation
-#############
+##############################################
+Documentation using Sphinx and ReadTheDocs.org
+##############################################
 
 Without documentation, however wonderful your software, other potential
 adopters and developers simply won't be very interested in it.

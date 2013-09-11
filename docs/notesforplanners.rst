@@ -8,7 +8,7 @@ let me know about it.
 Notes on running a workshop
 ===========================
 
-To cover all the workshop material seems to take about three and a half hours.
+To cover all the workshop material seems to take about four and a half hours.
 
 Any of the following will make it take longer:
 
