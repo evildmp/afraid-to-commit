@@ -22,12 +22,10 @@ PyCon UK in Coventry, 22nd September 2013
 * John S
 * Kristian Roebuck <roebuck86@gmail.com>
 * Carl Reynolds (@drcjar)
-* Daniel Ward (dan@regenology.co.uk)
 * Jon Cage & John Medley (http://www.zephirlidar.com)
 * Stephen Paulger (github:stephenpaulger twitter:@aimaz)
 * Alasdair Nicol
 * Dave Coutts https://github.com/davecoutts
-* Jorge Gueorguiev Garcia (yefo.akira@gmail.com)
 * Daley Chetwynd https://github.com/dchetwynd
 * Haris A Khan (harisakhan)
 * Chung Dieu https://github.com/chungdieu
@@ -39,6 +37,7 @@ PyCon UK in Coventry, 22nd September 2013
 * Ben McAlister https://github.com/bmcjamin
 * Lukasz Prasol <lprasol@gmail.com> github: https://github.com/phoenix85
 * Jorge Gueorguiev <yefo.akira@gmail.com> https://github.com/MiyamotoAkira
+* Dan Ward (danielward) (dan@regenology.co.uk)
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
