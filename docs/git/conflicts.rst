@@ -26,7 +26,7 @@ on GitHub. If you do, GitHub will tell you:
     
     Use the command line to resolve conflicts before continuing.
 
-GitGub will in fact tell you the steps you need to take to solve this, but to
+GitHub will in fact tell you the steps you need to take to solve this, but to
 understand what's actually happening, and to do it yourself when you need to,
 we need to cover some important concepts.
 
