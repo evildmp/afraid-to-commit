@@ -11,6 +11,8 @@ Workshops
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
 
+* Stephen Paulger (github:stephenpaulger twitter:@aimaz) 
+
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
 * Barbara Hendrick (bahendri)
