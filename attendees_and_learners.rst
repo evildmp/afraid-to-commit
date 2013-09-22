@@ -93,4 +93,5 @@ I followed the tutorial online
 * Chris Miller, <chris@chrismiller.org> - 5th September 2013
 * David Lewis - 7th September 2013
 * Josh Chandler - 11th September 2013
+* Richie Arnold - <richard@ambercouch.co.uk> -22nd September 2013
 
