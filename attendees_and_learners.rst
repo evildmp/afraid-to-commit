@@ -12,6 +12,7 @@ PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
 * Adeel Younas <aedil12155@gmail.com>
 * Giles Richard Greenway github: augeas
+* Mike Gleen
 * Arnav Khare https://github.com/arnav
 * Daniel Levy https://github.com/daniell
 * Helen Sherwood-Taylor (helenst)
