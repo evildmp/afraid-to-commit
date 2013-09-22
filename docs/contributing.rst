@@ -74,7 +74,7 @@ What to start with?
 
 Everyone loves documentation, and unlike code where incompleteness or
 vagueness can make it worse than useless, documentation has to be really quite
-bad not to be worse than no documentation.
+bad to be worse than no documentation.
 
 What's more, writing documentation will help you better understand the things
 you're writing about, and if you're new to all this, that's going to put you
