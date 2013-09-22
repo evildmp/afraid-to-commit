@@ -8,6 +8,9 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+PyCon UK in Coventry, 22nd September 2013
+-----------------------------------------
+
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
 * Barbara Hendrick (bahendri)
