@@ -11,10 +11,12 @@ Workshops
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
 * Arnav Khare https://github.com/arnav
+* Ben Huckvale https://github.com/benhuckvale
 * Helen Sherwood-Taylor (helenst)
 * Tim Garner
 * Mat Brunt <matbrunt@gmail.com>
 * John S
+* Ben Huckvale https://github.com/benhuckvale
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
