@@ -11,6 +11,9 @@ Workshops
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
 * Mike Gleen
+* Arnav Khare https://github.com/arnav
+* Helen Sherwood-Taylor (helenst)
+* Tim Garner
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
