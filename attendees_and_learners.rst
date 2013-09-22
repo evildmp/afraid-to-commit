@@ -11,6 +11,8 @@ Workshops
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
 * Arnav Khare https://github.com/arnav
+* Chung Dieu https://github.com/chungdieu
+
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
