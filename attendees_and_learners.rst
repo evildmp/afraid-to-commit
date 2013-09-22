@@ -17,6 +17,7 @@ PyCon UK in Coventry, 22nd September 2013
 * John S
 * Kristian Roebuck <roebuck86@gmail.com>
 * Carl Reynolds (@drcjar)
+* Daniel Ward (dan@regenology.co.uk)
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
