@@ -19,8 +19,7 @@ PyCon UK in Coventry, 22nd September 2013
 * Carl Reynolds (@drcjar)
 * Daniel Ward (dan@regenology.co.uk)
 * Jon Cage & John Medley (http://www.zephirlidar.com)
-
-* Stephen Paulger (github:stephenpaulger twitter:@aimaz) 
+* Stephen Paulger (github:stephenpaulger twitter:@aimaz)
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
