@@ -57,7 +57,7 @@ from the format of GitHub's *ssh* URLS.
 
 For example, when you see::
 
-    git@github.com:evildmp/afraid-to-commit.git
+    git@github.com/evildmp/afraid-to-commit.git
     
 you will instead need to use::
 
