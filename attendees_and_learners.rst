@@ -28,6 +28,7 @@ PyCon UK in Coventry, 22nd September 2013
 * Haris A Khan (harisakhan)
 * Chung Dieu https://github.com/chungdieu
 * Colin Moore-Hill
+* John Hoyland (@datainadequate) https://github.com/datainadequate
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
