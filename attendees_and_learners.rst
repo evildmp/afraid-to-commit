@@ -31,7 +31,7 @@ PyCon UK in Coventry, 22nd September 2013
 * Colin Moore-Hill
 * John Hoyland (@datainadequate) https://github.com/datainadequate
 * Joseph Francis (joseph@skyscanner.net)
-
+* Louis Fill
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
