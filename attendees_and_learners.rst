@@ -26,6 +26,7 @@ PyCon UK in Coventry, 22nd September 2013
 * Daley Chetwynd https://github.com/dchetwynd
 * Haris A Khan (harisakhan)
 * Chung Dieu https://github.com/chungdieu
+* Colin Moore-Hill
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
