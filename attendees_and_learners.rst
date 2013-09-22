@@ -23,6 +23,7 @@ PyCon UK in Coventry, 22nd September 2013
 * Alasdair Nicol
 * Dave Coutts https://github.com/davecoutts
 * Jorge Gueorguiev Garcia (yefo.akira@gmail.com)
+* Daley Chetwynd https://github.com/dchetwynd
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
