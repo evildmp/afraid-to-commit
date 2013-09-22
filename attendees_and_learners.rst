@@ -10,7 +10,7 @@ Workshops
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
-* Arnav Khare https://github.com/
+* Arnav Khare https://github.com/arnav
 * Daniel Levy https://github.com/daniell
 * Helen Sherwood-Taylor (helenst)
 * Tim Garner
