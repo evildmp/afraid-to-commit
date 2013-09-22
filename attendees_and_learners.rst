@@ -10,6 +10,7 @@ Workshops
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
+* Kristian Roebuck <roebuck86@gmail.com>
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
