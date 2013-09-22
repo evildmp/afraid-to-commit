@@ -10,6 +10,7 @@ Workshops
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
+* Arnav Khare https://github.com/arnav
 
 * Stephen Paulger (github:stephenpaulger twitter:@aimaz) 
 
