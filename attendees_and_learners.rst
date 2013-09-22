@@ -22,6 +22,7 @@ PyCon UK in Coventry, 22nd September 2013
 * Stephen Paulger (github:stephenpaulger twitter:@aimaz)
 * Alasdair Nicol
 * Dave Coutts https://github.com/davecoutts
+* Jorge Gueorguiev Garcia (yefo.akira@gmail.com)
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
