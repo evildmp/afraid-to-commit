@@ -11,6 +11,7 @@ Workshops
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
 * Arnav Khare https://github.com/arnav
+* Jorge Gueorguiev <yefo.akira@gmail.com> https://github.com/MiyamotoAkira
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
