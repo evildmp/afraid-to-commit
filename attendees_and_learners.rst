@@ -39,6 +39,7 @@ PyCon UK in Coventry, 22nd September 2013
 * Kristian Roebuck <roebuck86@gmail.com> https://github.com/kristianroebuck
 * Louis Fill tkman220@yahoo.com
 * Karim Lameer https://github.com/klameer
+* John Medley <john.medley@zephirlidar.com>
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
