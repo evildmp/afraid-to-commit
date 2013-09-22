@@ -10,6 +10,7 @@ Workshops
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
+* Adeel Younas <aedil12155@gmail.com>
 * Arnav Khare https://github.com/arnav
 * Helen Sherwood-Taylor (helenst)
 * Tim Garner
