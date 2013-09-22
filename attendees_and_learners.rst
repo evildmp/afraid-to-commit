@@ -15,6 +15,7 @@ PyCon UK in Coventry, 22nd September 2013
 * Mike Gleen
 * Arnav Khare https://github.com/arnav
 * Daniel Levy https://github.com/daniell
+* Ben Huckvale https://github.com/benhuckvale
 * Helen Sherwood-Taylor (helenst)
 * Tim Garner
 * Stephen Newey @stevenewey (stevenewey)
