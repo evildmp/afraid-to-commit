@@ -35,6 +35,7 @@ PyCon UK in Coventry, 22nd September 2013
 * Joseph Francis (joseph@skyscanner.net)
 * Louis Fill
 * Åke Forslund <ake.forslund@gmail.com> github:forslund
+* Ben McAlister https://github.com/bmcjamin
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
