@@ -16,6 +16,7 @@ PyCon UK in Coventry, 22nd September 2013
 * Mat Brunt <matbrunt@gmail.com>
 * John S
 * Kristian Roebuck <roebuck86@gmail.com>
+* Carl Reynolds (@drcjar)
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
