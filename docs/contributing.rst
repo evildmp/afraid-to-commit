@@ -7,7 +7,7 @@ how are you actually going to make it?
 
 For nearly every project, the best first step is:
 
-Talk to somebody about it 
+Talk to somebody about it
 =========================
 
 **You** may have been eating, sleeping, dreaming and otherwise living your
@@ -39,7 +39,7 @@ issue your contribution addresses. In Django's case, this will be a ticket on
 https://code.djangoproject.com/. For others, it's likely to be an issue on
 GitHub or whatever system they use. *Mention your earlier discussion!*
 
-Do your homework 
+Do your homework
 ================
 
 Every project has its standards for things like code and documentation, and
@@ -50,8 +50,8 @@ If you think that sounds tedious, it's nothing compared to the potential pain
 of having to manage or use code and documentation written according to the
 individual preferences of all its different contributors.
 
-*	https://docs.djangoproject.com/en/1.5/internals/contributing/
-*	https://docs.djangoproject.com/en/1.5/internals/contributing/writing-code/working-with-git/
+*	https://docs.djangoproject.com/en/1.6/internals/contributing/
+*	https://docs.djangoproject.com/en/1.6/internals/contributing/writing-code/working-with-git/
 
 Note that the Django Project's Git guidelines ask contributors to use
 ``rebase`` - which is firstly a little unusual, and secondly explained in the
@@ -61,7 +61,7 @@ And be prepared to get it wrong the first few times, and even the subsequent
 ones. It happens to everyone.
 
 Submit it
-=========                                          
+=========
 
 *Now* you can make your pull request. Having prepared the way for it, and
 having provided the accompaniments - tests and documentation - that might be
@@ -70,7 +70,7 @@ required, it has a good chance of enjoying a smooth passage into the project.
 What to start with?
 ===================
 
-**Documentation!** It's the easy way in. 
+**Documentation!** It's the easy way in.
 
 Everyone loves documentation, and unlike code where incompleteness or
 vagueness can make it worse than useless, documentation has to be really quite
@@ -78,11 +78,11 @@ bad not to be worse than no documentation.
 
 What's more, writing documentation will help you better understand the things
 you're writing about, and if you're new to all this, that's going to put you
-in a better position to understand and improve code.  
+in a better position to understand and improve code.
 
 Some suitable Django Project tickets
 -------------------------------------
 
 Or have a look at one of these:
 
-*	https://code.djangoproject.com/query?owner=~EvilDMP&status=assigned&status=new&easy=1&stage=Accepted&desc=1
+*	https://code.djangoproject.com/query?keywords=~afraid-to-commit

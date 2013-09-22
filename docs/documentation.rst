@@ -1,6 +1,6 @@
-#############
-Documentation
-#############
+##############################################
+Documentation using Sphinx and ReadTheDocs.org
+##############################################
 
 Without documentation, however wonderful your software, other potential
 adopters and developers simply won't be very interested in it.
@@ -33,7 +33,7 @@ As usual, create and activate a new virtualenv::
 The package or project
 ----------------------
 
-Do you have an existing package on GitHub to write documention for**? Clone it
+Do you have an existing package on GitHub to write documention for? Clone it
 here using Git. And of course, start a new branch::
 
     git checkout -b first-docs
@@ -65,7 +65,7 @@ Install Sphinx
 
     pip install sphinx
 
-It might take a minute or so, it has quite a few things to install.
+It might take a minute or so, it has quite a few things to download and install.
 
 sphinx-quickstart
 -----------------
@@ -82,6 +82,10 @@ Root path for the documentation
     
 Project name
     ``<your name>'s first docs``, or the name of your application
+    
+Source file suffix
+    ``.rst`` is the default. (Django's own documentation uses ``.txt``. It
+    doesn't matter too much.)
     
 You'll find a number of files in your ``docs`` directory now, including
 ``index.rst``. Open that up.
@@ -176,7 +180,7 @@ Add, commit and push
 
 ``git add`` the files you want to commit; commit them, and push to GitHub.
 
-If this is your first ever push to GitHub, use::
+If this is your first ever push to GitHub for this project, use::
 
     git push origin master
 

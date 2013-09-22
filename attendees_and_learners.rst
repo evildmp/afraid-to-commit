@@ -8,15 +8,26 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+PyCon UK in Coventry, 22nd September 2013
+-----------------------------------------
+* Arnav Khare https://github.com/arnav
+* Helen Sherwood-Taylor (helenst)
+* Tim Garner
+
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
-
+* Barbara Hendrick (bahendri)
+* Keith Edmiston <keith.edmiston@mccombs.utexas.edu>
+* David Garcia (davideire)
+* Ernesto Rodriguez <ernesto@tryolabs.com> https://github.com/ernestorx @ernestorx
+* Jason Blum
+* Hayssam Hajar <hayssam.hajar@gmail.com>  github: hhajar
 
 Cardiff Dev Workshop, 8th June 2013
 -----------------------------------
 
-* Kieran Moore
 * Daniel Pass <daniel.antony.pass@googlemail.com>
+* Kieran Moore
 * Dale Bradley
 * Howard Dickins <hdickins@gmail.com> https://github.com/hdickins
 * Robert Dragan https://github.com/rmdragan
@@ -54,4 +65,7 @@ I followed the tutorial online
 * Paul C. Anagnostopoulos - 19 August 2013
 * Ben Rowett - 27 August 2013
 * Daniele Procida, testing his own dogfood - 29th August 2013
+* Chris Miller, <chris@chrismiller.org> - 5th September 2013
+* David Lewis - 7th September 2013
+* Josh Chandler - 11th September 2013
 
