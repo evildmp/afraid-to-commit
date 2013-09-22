@@ -31,13 +31,13 @@ PyCon UK in Coventry, 22nd September 2013
 * Colin Moore-Hill
 * John Hoyland (@datainadequate) https://github.com/datainadequate
 * Joseph Francis (joseph@skyscanner.net)
-* Louis Fill
 * Åke Forslund <ake.forslund@gmail.com> github:forslund
 * Ben McAlister https://github.com/bmcjamin
 * Lukasz Prasol <lprasol@gmail.com> github: https://github.com/phoenix85
 * Jorge Gueorguiev <yefo.akira@gmail.com> https://github.com/MiyamotoAkira
 * Dan Ward (danielward) (dan@regenology.co.uk)
 * Kristian Roebuck <roebuck86@gmail.com> https://github.com/kristianroebuck
+* Louis Fill tkman220@yahoo.com
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
