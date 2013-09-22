@@ -11,6 +11,7 @@ Workshops
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
 * Arnav Khare https://github.com/arnav
+* Karim Lameer https://github.com/klameer
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
@@ -36,6 +37,7 @@ Cardiff Dev Workshop, 8th June 2013
 * Gwen Williams https://github.com/gwenopeno
 * Daniel Pass <daniel.antony.pass@googlemail.com>
 * Bitarabe Edgar
+
 
 DjangoCon Europe in Warsaw, 18th May 2013
 -----------------------------------------
