@@ -14,6 +14,8 @@ PyCon UK in Coventry, 22nd September 2013
 * Helen Sherwood-Taylor (helenst)
 * Tim Garner
 * Stephen Newey @stevenewey (stevenewey)
+* Mat Brunt <matbrunt@gmail.com>
+* John S
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
