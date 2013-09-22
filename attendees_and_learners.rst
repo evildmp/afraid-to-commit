@@ -29,6 +29,7 @@ PyCon UK in Coventry, 22nd September 2013
 * Chung Dieu https://github.com/chungdieu
 * Colin Moore-Hill
 * John Hoyland (@datainadequate) https://github.com/datainadequate
+* Joseph Francis (joseph@skyscanner.net)
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
