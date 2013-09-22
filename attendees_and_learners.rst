@@ -10,6 +10,7 @@ Workshops
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
+* Lukasz Prasol <lprasol@gmail.com> github: phoenix85
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
