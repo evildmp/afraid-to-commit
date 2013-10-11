@@ -101,4 +101,6 @@ I followed the tutorial online
 * Padraic Stack - https://github.com/padraic7a
 * Patrick Nsukami - http://about.me/lemeteore
 * Can Ibanoglu - http://github.com/canibanoglu
+* Pedro J. Lledo - http://github.com/pjlledo - 11 October 2013
+*
 
