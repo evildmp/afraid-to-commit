@@ -102,4 +102,3 @@ I followed the tutorial online
 * Patrick Nsukami - http://about.me/lemeteore
 * Can Ibanoglu - http://github.com/canibanoglu
 * Pedro J. Lledó - http://github.com/pjlledo - 11th October 2013
-
