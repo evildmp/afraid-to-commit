@@ -99,6 +99,6 @@ I followed the tutorial online
 * Josh Chandler - 11th September 2013
 * Richie Arnold - <richard@ambercouch.co.uk> - 22nd September 2013
 * Padraic Stack - https://github.com/padraic7a
-* Patrick Nsukami - http://about.me/lemeteore
+* Patrick Nsukami - <patrick@soon.pro> - lemeteore
 * Can Ibanoglu - http://github.com/canibanoglu
 * Pedro J. Lledó - http://github.com/pjlledo - 11th October 2013
