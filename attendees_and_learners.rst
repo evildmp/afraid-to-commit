@@ -18,6 +18,7 @@ PyCon Ireland in Dublin, 14th October 2013
 * Jennifer Parak https://github.com/jenpaff
 * Andrea Fagan
 * Jennifer Casavantes
+* Pablo Porto https://github.com/portovep
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
