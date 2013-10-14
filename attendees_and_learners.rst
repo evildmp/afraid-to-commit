@@ -11,7 +11,7 @@ Workshops
 PyCon Ireland in Dublin, 14th October 2013
 ------------------------------------------
 * Vincent Hussey 
-* James Heslin <https://github.com/PROGRAM-IX>
+* James Heslin <program.ix.j@gmail.com> https://github.com/PROGRAM-IX
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
