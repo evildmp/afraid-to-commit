@@ -10,7 +10,7 @@ Workshops
 
 PyCon Ireland in Dublin, 14th October 2013
 ------------------------------------------
-* Vincent Hussey https://github.com/VincentHussey
+* Vincent Hussey vincent.hussey@opw.ie https://github.com/VincentHussey
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
