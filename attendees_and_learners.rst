@@ -13,7 +13,6 @@ PyCon Ireland in Dublin, 14th October 2013
 * Vincent Hussey vincent.hussey@opw.ie https://github.com/VincentHussey
 * Padraic Harley <@pauricthelodger> <padraic@thelodgeronline.com>
 * Paul Cunnane <paul.cunnane@gmail.com> https://github.com/paulcunnane
-* Tianyi Wang
 * Sorcha Bowler <saoili @ github, twitter, gmail, most of the internet>
 * Jennifer Parak https://github.com/jenpaff
 * Andrea Fagan
@@ -24,6 +23,7 @@ PyCon Ireland in Dublin, 14th October 2013
 * James Heslin <program.ix.j@gmail.com> https://github.com/PROGRAM-IX
 * Sorcha Bowler <saoili@gmail.com. saoili on github, twitter, most of the internet>
 * Larry O'Neill (larryone)
+* Samuel <satiricallaught@gmail.com>
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
@@ -119,4 +119,4 @@ I followed the tutorial online
 * Patrick Nsukami - http://about.me/lemeteore
 * Can Ibanoglu - http://github.com/canibanoglu
 * Pedro J. Lledó - http://github.com/pjlledo - 11th October 2013
-* Sam - http://github.com/DublinSam - 14th October 2013
+
