@@ -24,6 +24,7 @@ PyCon Ireland in Dublin, 14th October 2013
 * Sorcha Bowler <saoili@gmail.com. saoili on github, twitter, most of the internet>
 * Larry O'Neill (larryone)
 * Samuel <satiricallaught@gmail.com>
+* Frank Healy
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
