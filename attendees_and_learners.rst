@@ -8,6 +8,10 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+PyCon Ireland in Dublin, 14th October 2013
+------------------------------------------
+
+
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
 * Adeel Younas <aedil12155@gmail.com>
