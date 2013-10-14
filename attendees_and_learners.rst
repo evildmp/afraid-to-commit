@@ -11,6 +11,7 @@ Workshops
 PyCon Ireland in Dublin, 14th October 2013
 ------------------------------------------
 * Vincent Hussey 
+* Paul Cunnane <paul.cunnane@gmail.com> https://github.com/paulcunnane
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
