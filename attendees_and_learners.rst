@@ -11,12 +11,12 @@ Workshops
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
 
+* Kermit the Frog
+* Miss Piggy
 
 Cardiff Dev Workshop, 8th June 2013
 -----------------------------------
 
-* Kermit the Frog
-* Miss Piggy
 * Dale Bradley
 * Howard Dickins <hdickins@gmail.com> https://github.com/hdickins
 * Robert Dragan https://github.com/rmdragan
@@ -50,8 +50,5 @@ DjangoCon Europe in Warsaw, 18th May 2013
 I followed the tutorial online
 ==============================
 
-* Daniel Quinn - 18th May 2013
-* Paul C. Anagnostopoulos - 19 August 2013
-* Ben Rowett - 27 August 2013
-* Daniele Procida, testing his own dogfood - 29th August 2013
+* Gonzo
 
