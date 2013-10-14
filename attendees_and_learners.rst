@@ -21,6 +21,7 @@ PyCon Ireland in Dublin, 14th October 2013
 * Pablo Porto https://github.com/portovep
 * Robert McGivern
 * Tianyi Wang <wty52133@gmail.com> @TianyiWang33
+* James Heslin <program.ix.j@gmail.com> https://github.com/PROGRAM-IX
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
