@@ -23,6 +23,7 @@ PyCon Ireland in Dublin, 14th October 2013
 * Tianyi Wang <wty52133@gmail.com> @TianyiWang33
 * James Heslin <program.ix.j@gmail.com> https://github.com/PROGRAM-IX
 * Sorcha Bowler <saoili@gmail.com. saoili on github, twitter, most of the internet>
+* Larry O'Neill (larryone)
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
