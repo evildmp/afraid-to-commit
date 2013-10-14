@@ -10,7 +10,10 @@ Workshops
 
 PyCon Ireland in Dublin, 14th October 2013
 ------------------------------------------
-* Vincent Hussey 
+* Vincent Hussey
+* Padraic Harley <@pauricthelodger> <padraic@thelodgeronline.com>
+* Paul Cunnane
+* Tianyi Wang
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
