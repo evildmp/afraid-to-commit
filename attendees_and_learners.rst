@@ -16,6 +16,7 @@ PyCon Ireland in Dublin, 14th October 2013
 * Tianyi Wang
 * Sorcha Bowler <saoili @ github, twitter, gmail, most of the internet>
 * Jennifer Parak https://github.com/jenpaff
+* Andrea Fagan
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
