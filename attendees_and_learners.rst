@@ -14,6 +14,7 @@ PyCon Ireland in Dublin, 14th October 2013
 * Padraic Harley <@pauricthelodger> <padraic@thelodgeronline.com>
 * Paul Cunnane
 * Tianyi Wang
+* Frank Healy
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
