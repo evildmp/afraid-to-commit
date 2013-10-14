@@ -12,6 +12,7 @@ PyCon Ireland in Dublin, 14th October 2013
 ------------------------------------------
 * Vincent Hussey
 * Padraic Harley <@pauricthelodger> <padraic@thelodgeronline.com>
+* Paul Cunnane
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
