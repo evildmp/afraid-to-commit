@@ -10,8 +10,10 @@ Workshops
 
 PyCon Ireland in Dublin, 14th October 2013
 ------------------------------------------
+* Vincent Hussey
+* Padraic Harley <@pauricthelodger> <padraic@thelodgeronline.com>
+* Paul Cunnane
 * Tianyi Wang
-
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
@@ -107,3 +109,4 @@ I followed the tutorial online
 * Patrick Nsukami - http://about.me/lemeteore
 * Can Ibanoglu - http://github.com/canibanoglu
 * Pedro J. Lledó - http://github.com/pjlledo - 11th October 2013
+* Sam - http://github.com/DublinSam - 14th October 2013
