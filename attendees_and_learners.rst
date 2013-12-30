@@ -124,4 +124,4 @@ I followed the tutorial online
 * Can Ibanoglu - http://github.com/canibanoglu
 * Pedro J. Lledó - http://github.com/pjlledo - 11th October 2013
 * Ken Tam
-
+* Óscar M. Lage - http://github.com/oscarmlage
