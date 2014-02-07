@@ -13,7 +13,6 @@ Django Weekend Cardiff, 7th February 2014
 
 * Adrian Chu
 
-
 PyCon Ireland in Dublin, 14th October 2013
 ------------------------------------------
 * Vincent Hussey vincent.hussey@opw.ie https://github.com/VincentHussey
