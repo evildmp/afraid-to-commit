@@ -10,6 +10,7 @@ Workshops
 
 Django Weekend Cardiff, 7th February 2014
 -----------------------------------------
+* Jakub Jarosz (@qba73) jakub.s.jarosz@gmail.com https://github.com/qba73
 
 
 PyCon Ireland in Dublin, 14th October 2013
