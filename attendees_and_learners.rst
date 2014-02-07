@@ -10,7 +10,7 @@ Workshops
 
 Django Weekend Cardiff, 7th February 2014
 -----------------------------------------
-
+* Baptiste Darthenay
 
 PyCon Ireland in Dublin, 14th October 2013
 ------------------------------------------
