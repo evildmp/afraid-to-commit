@@ -129,6 +129,6 @@ I followed the tutorial online
 * Patrick Nsukami - <patrick@soon.pro> - lemeteore
 * Can Ibanoglu - http://github.com/canibanoglu
 * Pedro J. Lledó - http://github.com/pjlledo - 11th October 2013
-* Ken Tam
+* Ken Tam - 4th Jan 2014
 * Óscar M. Lage - http://github.com/oscarmlage
 * Bob Aalsma - https://github.com/BobAalsma/
