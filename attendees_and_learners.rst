@@ -10,6 +10,7 @@ Workshops
 
 Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 * Stomme poes
+
 ----------------------------------------------------------------
 
 Django Weekend Cardiff, 7th February 2014
