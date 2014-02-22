@@ -1,5 +1,5 @@
 =========================
-Don't be afraid to commit
+Don't be afraid to commit VINCENT FORK WAHAHAHAHAHAH
 =========================
 
 A hands-on workshop for Python/Django developers who would like to contribute
