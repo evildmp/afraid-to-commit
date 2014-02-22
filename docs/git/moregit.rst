@@ -54,15 +54,18 @@ convenient place for editing - so you can get both::
     cd ~/
     virtualenv git-pip-test
     source git-pip-test/bin/activate
-    pip install -e git+git@github.com:washort/parsley.git#egg=parsley
+    pip install -e "git+git@github.com:washort/parsley.git@master#egg=parsley"
     
-The ``-e`` flag means editable; ``git+`` tells it to use the Git protocol; ``#egg=parsley`` tells it what to call it.
+The ``-e`` flag means editable; ``git+`` tells it to use the Git protocol;
+``@master`` tells git to use the master branch; ``#egg=parsley`` tells it what
+to call it.
 
 And now you will find an editable Git repository installed at:
 
     ~/git-pip-test/src/parsley
     
-which is where any other similarly-installed packages will be, and just to prove that it really is installed::
+which is where any other similarly-installed packages will be, and just to
+prove that it really is installed::
 
     $ pip freeze
     -e git+git@github.com:washort/parsley.git@e58c0c6d67142bf3ceb6eceffd50cf0f8dae9da1#egg=Parsley-master
