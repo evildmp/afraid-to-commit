@@ -21,6 +21,7 @@ Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 * Adam Kaliński @ https://github.com/adamkal
 * Marco B
 * Greg Chapple http://github.com/gregchapple/
+* Vincent D. Warmerdam vincentwarmerdam@gmail.com
 
 Django Weekend Cardiff, 7th February 2014
 -----------------------------------------
