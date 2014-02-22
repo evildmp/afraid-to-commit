@@ -10,6 +10,7 @@ Workshops
 
 Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 ----------------------------------------------------------------
+* Nicolaas Heyning (L1NDA)
 
 Django Weekend Cardiff, 7th February 2014
 -----------------------------------------
