@@ -117,7 +117,7 @@ in it; save it.
 Create a new page
 -----------------
 
-You have no other pages yet. Create one, ``all-about-me.rst`` or something
+You have no other pages yet. In the same directory as ``index.rst``, create one called ``all-about-me.rst`` or something
 appropriate. Perhaps it might look like::
 
 
@@ -133,7 +133,7 @@ appropriate. Perhaps it might look like::
         *   Arkestra
         *   Django
 
-Sphinx needs to know about it, so in ``index.rst``, edit the ``. toctree::``
+Sphinx needs to know about it, so in ``index.rst``, edit the ``.. toctree::``
 section to add the ``all-about-me`` page::
 
     .. toctree::
@@ -152,9 +152,20 @@ In the ``docs`` directory::
     
 This tells Sphinx to render your source pages. *Pay attention to its warnings*
 - they're helpful!
+One warning you may see::
+
+    WARNING: toctree contains reference to nonexisting document u' all-about-me'
+    ...
+    checking consistency...
+    <your repository>/my-first-docs/docs/all-about-me.rst::
+    WARNING: document isn't included in any toctree
+
+
+What this may come using a different number of spaces when you edited the ``.. toctree::``. Sphinx uses *three* spaces there, not four!
+
 
 If you accepted the ``sphinx-quickstart`` defaults, you'll find the rendered
-pages in ``docs/_build/_html``. Open the ``index.html`` it has created in your
+pages in ``docs/_build/html``. Open the ``index.html`` it has created in your
 browser. You should find in it a link to your new ``all-about-me`` page too.
 
 Publishing your documentation
