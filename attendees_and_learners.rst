@@ -11,7 +11,7 @@ Workshops
 Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 ----------------------------------------------------------------
 * Nikalajus Krauklis (@dzhibas) http://github.com/dzhibas
-
+* Ivo Flipse (@ivoflipse5) https://github.com/ivoflipse
 * Martin Matusiak
 
 Django Weekend Cardiff, 7th February 2014
