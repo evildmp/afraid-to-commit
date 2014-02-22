@@ -19,6 +19,8 @@ Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 
 * Marco B
 
+* Bastiaan van der Weij
+
 Django Weekend Cardiff, 7th February 2014
 -----------------------------------------
 * Jakub Jarosz (@qba73) jakub.s.jarosz@gmail.com https://github.com/qba73
