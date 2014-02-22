@@ -8,12 +8,15 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+Dutch Django Association Sprint in Amsterdam, 22nd February 2014
+----------------------------------------------------------------
+
 Django Weekend Cardiff, 7th February 2014
 -----------------------------------------
 * Jakub Jarosz (@qba73) jakub.s.jarosz@gmail.com https://github.com/qba73
 * Stewart Perrygrove
-
 * Adrian Chu
+* Baptiste Darthenay
 
 PyCon Ireland in Dublin, 14th October 2013
 ------------------------------------------
@@ -121,14 +124,14 @@ I followed the tutorial online
 * Daniel Quinn - 18th May 2013
 * Paul C. Anagnostopoulos - 19 August 2013
 * Ben Rowett - 27 August 2013
-* Daniele Procida, testing his own dogfood - 29th August 2013
 * Chris Miller, <chris@chrismiller.org> - 5th September 2013
 * David Lewis - 7th September 2013
 * Josh Chandler - 11th September 2013
 * Richie Arnold - <richard@ambercouch.co.uk> - 22nd September 2013
 * Padraic Stack - https://github.com/padraic7a
-* Patrick Nsukami - http://about.me/lemeteore
+* Patrick Nsukami - <patrick@soon.pro> - lemeteore
 * Can Ibanoglu - http://github.com/canibanoglu
 * Pedro J. Lledó - http://github.com/pjlledo - 11th October 2013
-* Ken Tam
+* Ken Tam - 4th Jan 2014
 * Óscar M. Lage - http://github.com/oscarmlage
+* Bob Aalsma - https://github.com/BobAalsma/
