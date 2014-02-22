@@ -10,7 +10,7 @@ Workshops
 
 Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 ----------------------------------------------------------------
-* Stomme poes
+* Stomme poes (@stommepoes)
 * Rigel Di Scala (zedr) <zedr@zedr.com> http://github.com/zedr
 * Nikalajus Krauklis (@dzhibas) http://github.com/dzhibas
 * Ivo Flipse (@ivoflipse5) https://github.com/ivoflipse
