@@ -14,6 +14,7 @@ Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 * Martin Matusiak
 * Jochem Oosterveen https://github.com/jochem
 * Pieter Marres
+* Nicolaas Heyning (L1NDA)
 
 Django Weekend Cardiff, 7th February 2014
 -----------------------------------------
