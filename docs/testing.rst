@@ -11,7 +11,7 @@ application on GitHub. If you haven't followed the Django tutorial right the
 way through though, you really should.
 
 This section of the workshop will follow roughly the tutorial at
-https://docs.djangoproject.com/en/1.5/intro/tutorial05/. 
+https://docs.djangoproject.com/en/1.5/intro/tutorial05/.
 
 Get the code set up
 ===================
@@ -55,7 +55,7 @@ Checkout the code we want
 ::
 
     (testingtutorial)$ cd django-tutorials-project/
-    (testingtutorial)$ git checkout tutorial-four 
+    (testingtutorial)$ git checkout tutorial-four
     Branch tutorial-four set up to track remote branch tutorial-four from origin.
     Switched to a new branch 'tutorial-four'
 
@@ -65,7 +65,7 @@ Fire it up
 ::
 
     python manage.py syncdb # set up the database
-    
+
 .. note::
    ImportError: No module named django.core.management
 
@@ -104,7 +104,7 @@ Following good Git working practices, *before you change a single byte of code*,
 create a new branch to work in::
 
     git checkout -b test-for-published-recently
-    
+
 When you've worked through that section in the tutorial, you'll have fixed the
 bug and created three tests. This would be a good moment to add your changed
 files, commit your changes, and push them to your GitHub repository before
@@ -121,31 +121,22 @@ independent of the ones in *test-for-published-recently*, in which case it
 might be better to start again based on *tutorial-four*::
 
     git checkout -b improve-list-view tutorial-four
-    
+
 This will mean that you can make a pull request for those changes
 independently of the previous ones, meaning your pull request will be smaller,
 simpler and easier to understand - maintainers love that.
-    
+
 On the other hand, if you're going to build on the work you've just done,
 you'll need::
 
-    git checkout -b improve-list-view 
-    
+    git checkout -b improve-list-view
+
 Keep creating new branches as appropriate, as you work through the tutorial.
 
-     
+
 Following the tutorial
 ======================
 
 The Django testing tutorial covers a number of key ideas and approaches. It's
 worth following the whole thing, and making sure you understand the points
 its making.
-
-Unfortunately as of Django 1.5.1 the tutorial actually includes a bugfix that
-doesn't actually work, and a test that lets it slip through! Details are at
-https://code.djangoproject.com/ticket/20249 - if nothing else, this
-demonstrates some of the pitfalls that can catch you out when testing.
-
-When you tackle
-https://docs.djangoproject.com/en/1.5/intro/tutorial05/#improving-our-view,
-you'll therefore need to find a different approach.

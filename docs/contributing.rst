@@ -74,7 +74,7 @@ What to start with?
 
 Everyone loves documentation, and unlike code where incompleteness or
 vagueness can make it worse than useless, documentation has to be really quite
-bad not to be worse than no documentation.
+bad to be worse than no documentation.
 
 What's more, writing documentation will help you better understand the things
 you're writing about, and if you're new to all this, that's going to put you
@@ -83,6 +83,8 @@ in a better position to understand and improve code.
 Some suitable Django Project tickets
 -------------------------------------
 
-Or have a look at one of these:
-
-*	https://code.djangoproject.com/query?keywords=~afraid-to-commit
+Have a look at one of the `tickets specially selected for people doing this
+tutorial
+<https://code.djangoproject.com/query?keywords=~afraid-to-commit&groupdesc=1&g
+roup=status&col=id&col=summary&col=keywords&col=owner&col=type&col=status&orde
+r=priority>`_. They're not all for documentation, though most are.

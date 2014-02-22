@@ -8,11 +8,73 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+Dutch Django Association Sprint in Amsterdam, 22nd February 2014
+----------------------------------------------------------------
+* Nikalajus Krauklis (@dzhibas) http://github.com/dzhibas
+
+* Martin Matusiak
+
+Django Weekend Cardiff, 7th February 2014
+-----------------------------------------
+* Jakub Jarosz (@qba73) jakub.s.jarosz@gmail.com https://github.com/qba73
+* Stewart Perrygrove
+* Adrian Chu
+* Baptiste Darthenay
+
+PyCon Ireland in Dublin, 14th October 2013
+------------------------------------------
+* Vincent Hussey vincent.hussey@opw.ie https://github.com/VincentHussey
+* Padraic Harley <@pauricthelodger> <padraic@thelodgeronline.com>
+* Paul Cunnane <paul.cunnane@gmail.com> https://github.com/paulcunnane
+* Sorcha Bowler <saoili @ github, twitter, gmail, most of the internet>
+* Jennifer Parak https://github.com/jenpaff
+* Andrea Fagan
+* Jennifer Casavantes
+* Pablo Porto https://github.com/portovep
+* Tianyi Wang <wty52133@gmail.com> @TianyiWang33
+* James Heslin <program.ix.j@gmail.com> https://github.com/PROGRAM-IX
+* Sorcha Bowler <saoili@gmail.com. saoili on github, twitter, most of the
+  internet>
+* Larry O'Neill (larryone)
+* Samuel <satiricallaught@gmail.com>
+* Frank Healy
+* Robert McGivern <Robert.bob.mcgivern@gmail.com>
+* James Hickey
+* Tommy Gibbons
+
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
+* Adeel Younas <aedil12155@gmail.com>
+* Giles Richard Greenway github: augeas
+* Mike Gleen
 * Arnav Khare https://github.com/arnav
+* Daniel Levy https://github.com/daniell
+* Ben Huckvale https://github.com/benhuckvale
 * Helen Sherwood-Taylor (helenst)
 * Tim Garner
+* Stephen Newey @stevenewey (stevenewey)
+* Mat Brunt <matbrunt@gmail.com>
+* John S
+* Carl Reynolds (@drcjar)
+* Jon Cage & John Medley (http://www.zephirlidar.com)
+* Stephen Paulger (github:stephenpaulger twitter:@aimaz)
+* Alasdair Nicol
+* Dave Coutts https://github.com/davecoutts
+* Daley Chetwynd https://github.com/dchetwynd
+* Haris A Khan (harisakhan)
+* Chung Dieu https://github.com/chungdieu
+* Colin Moore-Hill
+* John Hoyland (@datainadequate) https://github.com/datainadequate
+* Joseph Francis (joseph@skyscanner.net)
+* Åke Forslund <ake.forslund@gmail.com> github:forslund
+* Ben McAlister https://github.com/bmcjamin
+* Lukasz Prasol <lprasol@gmail.com> github: https://github.com/phoenix85
+* Jorge Gueorguiev <yefo.akira@gmail.com> https://github.com/MiyamotoAkira
+* Dan Ward (danielward) (dan@regenology.co.uk)
+* Kristian Roebuck <roebuck86@gmail.com> https://github.com/kristianroebuck
+* Louis Fill tkman220@yahoo.com
+* Karim Lameer https://github.com/klameer
+* John Medley <john.medley@zephirlidar.com>
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
@@ -39,6 +101,7 @@ Cardiff Dev Workshop, 8th June 2013
 * Daniel Pass <daniel.antony.pass@googlemail.com>
 * Bitarabe Edgar
 
+
 DjangoCon Europe in Warsaw, 18th May 2013
 -----------------------------------------
 
@@ -64,8 +127,14 @@ I followed the tutorial online
 * Daniel Quinn - 18th May 2013
 * Paul C. Anagnostopoulos - 19 August 2013
 * Ben Rowett - 27 August 2013
-* Daniele Procida, testing his own dogfood - 29th August 2013
 * Chris Miller, <chris@chrismiller.org> - 5th September 2013
 * David Lewis - 7th September 2013
 * Josh Chandler - 11th September 2013
-
+* Richie Arnold - <richard@ambercouch.co.uk> - 22nd September 2013
+* Padraic Stack - https://github.com/padraic7a
+* Patrick Nsukami - <patrick@soon.pro> - lemeteore
+* Can Ibanoglu - http://github.com/canibanoglu
+* Pedro J. Lledó - http://github.com/pjlledo - 11th October 2013
+* Ken Tam - 4th Jan 2014
+* Óscar M. Lage - http://github.com/oscarmlage
+* Bob Aalsma - https://github.com/BobAalsma/

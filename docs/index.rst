@@ -22,7 +22,7 @@ The purpose of the workshop
 ---------------------------
 
 **Don't be afraid to commit** will help put you in a position to commit
-successfully to collaborative projects. 
+successfully to collaborative projects.
 
 You'll find it particularly useful if you think you have some good coding
 ideas, but find that managing the development process sometimes gets in the
@@ -51,23 +51,19 @@ interesting to other people.
 Contents
 ========
 
-*   :doc:`What you need to know and have installed before you begin <prerequisites>`
-*   :doc:`virtualenv` 
-*   Using Git and Github
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
 
-    *   :doc:`git`
-    *   :doc:`commandlinegit`
-    *   :doc:`remotes`
-    *   :doc:`conflicts`
-    *   :doc:`moregit`
-
-*   :doc:`Automated testing in Python and Django <testing>`
-*   :doc:`documentation`
-*   :doc:`Contributing your work <contributing>` 
-*   :doc:`Cheatsheet - a handy summary of key commands and techniques
-    <cheatsheet>`
-*   :doc:`A record of people who attended a workshop or followed the tutorial <attendance_record>`
-*   :doc:`Notes for anyone planning a workshop <notesforplanners>`
+   What you need to know and have installed before you begin <prerequisites>
+   virtualenv
+   git/index
+   Automated testing in Python and Django <testing>
+   documentation
+   Contributing your work <contributing>
+   Cheatsheet - a handy summary of key commands and techniques <cheatsheet>
+   A record of people who attended a workshop or followed the tutorial <attendance_record>
+   Notes for anyone planning a workshop <notesforplanners>
 
 Credits
 =======
