@@ -10,11 +10,13 @@ Workshops
 
 Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 ----------------------------------------------------------------
+
 * Nikalajus Krauklis (@dzhibas) http://github.com/dzhibas
 * Martin Matusiak
 * Jochem Oosterveen https://github.com/jochem
 * Pieter Marres
 * Nicolaas Heyning (L1NDA)
+* Henk Vos h.vos@rapasso.nl https://github.com/henkvos
 
 Django Weekend Cardiff, 7th February 2014
 -----------------------------------------
