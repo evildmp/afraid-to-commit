@@ -10,6 +10,8 @@ Workshops
 
 Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 ----------------------------------------------------------------
+* Stomme poes
+
 
 * Nikalajus Krauklis (@dzhibas) http://github.com/dzhibas
 * Martin Matusiak
