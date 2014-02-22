@@ -25,6 +25,7 @@ Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 * Vincent D. Warmerdam vincentwarmerdam@gmail.com
 * Lukasz Gintowt (syzer)
 * Bastiaan van der Weij
+* Maarten Zaanen <maarten at PZvK.com><Maarten at Zaanen.net>
 
 Django Weekend Cardiff, 7th February 2014
 -----------------------------------------
