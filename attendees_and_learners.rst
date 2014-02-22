@@ -8,6 +8,10 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+Dutch Django Association Sprint in Amsterdam, 22nd February 2014
+----------------------------------------------------------------
+* Stomme Poes
+
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
 
