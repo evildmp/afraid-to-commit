@@ -20,6 +20,7 @@ Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 * Henk Vos h.vos@rapasso.nl https://github.com/henkvos
 * Adam Kaliński @ https://github.com/adamkal
 * Marco B
+* Greg Chapple http://github.com/gregchapple/
 
 Django Weekend Cardiff, 7th February 2014
 -----------------------------------------
