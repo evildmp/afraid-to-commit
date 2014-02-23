@@ -26,6 +26,7 @@ Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 * Lukasz Gintowt (syzer)
 * Bastiaan van der Weij
 * Maarten Zaanen <maarten at PZvK.com><Maarten at Zaanen.net>
+* Markus Holtermann (@m_holtermann)
 
 Django Weekend Cardiff, 7th February 2014
 -----------------------------------------
