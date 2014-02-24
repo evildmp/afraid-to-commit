@@ -62,7 +62,7 @@ volunteers on top of all their other jobs.
 
     You'll notice that there might be a few forks of
     https://github.com/evildmp/afraid-to-commit; if you have a look at
-    https://github.com/django/django you'll see thouands. There'll even be
+    https://github.com/django/django you'll see thousands. There'll even be
     forks of the forks. Every single one is complete and independent. So,
     which one is the real one - which one is *the* Django repository?
 
@@ -90,9 +90,8 @@ volunteers on top of all their other jobs.
 Create a new branch
 -------------------
 
-Rather than edit the *master* (default) branch of the repository, it's better
-to edit the file in a new branch, leaving the *master* branch clean and
-untouched:
+Don't edit the *master* (default) branch of the repository. It's much better to
+edit the file in a new branch, leaving the *master* branch clean and untouched:
 
 #.  select the **branch** menu
 #.  in *Find or create a branch...* enter ``add-my-name``

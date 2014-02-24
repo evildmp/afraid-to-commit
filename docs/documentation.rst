@@ -8,7 +8,7 @@ adopters and developers simply won't be very interested in it.
 The good news is that there are several tools that will make presenting and
 publishing it very easy, leaving you only to write the content and mark it up
 appropriately.
- 
+
 For documentation, we'll use **Sphinx** to generate it, and **Read the Docs**
 to publish it. GitHub will be a helpful middleman.
 
@@ -28,8 +28,8 @@ As usual, create and activate a new virtualenv::
     [...]
     $ cd documentation-tutorial/
     $ source bin/activate
-    
-    
+
+
 The package or project
 ----------------------
 
@@ -37,7 +37,7 @@ Do you have an existing package on GitHub to write documention for? Clone it
 here using Git. And of course, start a new branch::
 
     git checkout -b first-docs
-    
+
 You can merge your docs into your master branch when they start to look
 respectable.
 
@@ -49,7 +49,7 @@ repository locally::
     $ cd my-first-docs/
     $ git init
     $ git remote add origin git@github.com:<your git username>/my-first-docs.git
-    
+
 And either way, create a ``docs`` directory for your docs to live in::
 
     $ mkdir docs
@@ -76,17 +76,17 @@ it offers, and some are just obvious, but there are some you will want to set
 yourself as noted below::
 
     sphinx-quickstart
-    
+
 Root path for the documentation
     ``docs``
-    
+
 Project name
     ``<your name>'s first docs``, or the name of your application
-    
+
 Source file suffix
     ``.rst`` is the default. (Django's own documentation uses ``.txt``. It
     doesn't matter too much.)
-    
+
 You'll find a number of files in your ``docs`` directory now, including
 ``index.rst``. Open that up.
 
@@ -117,8 +117,9 @@ in it; save it.
 Create a new page
 -----------------
 
-You have no other pages yet. Create one, ``all-about-me.rst`` or something
-appropriate. Perhaps it might look like::
+You have no other pages yet. In the same directory as ``index.rst``, create
+one called ``all-about-me.rst`` or something appropriate. Perhaps it might
+look like::
 
 
         ############
@@ -133,15 +134,15 @@ appropriate. Perhaps it might look like::
         *   Arkestra
         *   Django
 
-Sphinx needs to know about it, so in ``index.rst``, edit the ``. toctree::``
+Sphinx needs to know about it, so in ``index.rst``, edit the ``.. toctree::``
 section to add the ``all-about-me`` page::
 
     .. toctree::
        :maxdepth: 2
-   
+
        all-about-me
-       
-Save both pages.   
+
+Save both pages.
 
 Render your documentation
 -------------------------
@@ -149,12 +150,26 @@ Render your documentation
 In the ``docs`` directory::
 
     make html
-    
+
 This tells Sphinx to render your source pages. *Pay attention to its warnings*
 - they're helpful!
 
+.. note::
+    Sphinx can be fussy, and sometimes about things you weren't expecting. For
+    example, you well encounter something like::
+
+        WARNING: toctree contains reference to nonexisting document u'all-about-me'
+        ...
+        checking consistency...
+        <your repository>/my-first-docs/docs/all-about-me.rst::
+        WARNING: document isn't included in any toctree
+
+    Quite likely, what has happened here is that you indented ``all-about-me``
+    in your ``.. toctree::`` with *four* spaces, when Sphinx is expecting
+    *three*.
+
 If you accepted the ``sphinx-quickstart`` defaults, you'll find the rendered
-pages in ``docs/_build/_html``. Open the ``index.html`` it has created in your
+pages in ``docs/_build/html``. Open the ``index.html`` it has created in your
 browser. You should find in it a link to your new ``all-about-me`` page too.
 
 Publishing your documentation
@@ -172,7 +187,7 @@ listed. Check that::
     _build
     _static
     _templates
-    
+
 are listed in ``.gitignore``.
 
 Add, commit and push
@@ -187,7 +202,7 @@ If this is your first ever push to GitHub for this project, use::
 otherwise::
 
     git push origin first-docs # or whatever you called this branch
-    
+
 Now have a look at the ``.rst`` documentation files on GitHub. GitHub does a
 good enough job of rendering the files for you to read them at a glance,
 though it doesn't always get it right (and sometimes seems to truncate them).
