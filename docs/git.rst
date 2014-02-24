@@ -62,7 +62,7 @@ volunteers on top of all their other jobs.
 
     You'll notice that there might be a few forks of
     https://github.com/evildmp/afraid-to-commit; if you have a look at
-    https://github.com/django/django you'll see thouands. There'll even be
+    https://github.com/django/django you'll see thousands. There'll even be
     forks of the forks. Every single one is complete and independent. So,
     which one is the real one - which one is *the* Django repository?
 
