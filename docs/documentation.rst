@@ -117,8 +117,9 @@ in it; save it.
 Create a new page
 -----------------
 
-You have no other pages yet. In the same directory as ``index.rst``, create one called ``all-about-me.rst`` or something
-appropriate. Perhaps it might look like::
+You have no other pages yet. In the same directory as ``index.rst``, create
+one called ``all-about-me.rst`` or something appropriate. Perhaps it might
+look like::
 
 
         ############
@@ -161,7 +162,8 @@ One warning you may see::
     WARNING: document isn't included in any toctree
 
 
-What this may come using a different number of spaces when you edited the ``.. toctree::``. Sphinx uses *three* spaces there, not four!
+What this may come using a different number of spaces when you edited the
+``.. toctree::``. Sphinx uses *three* spaces there, not four!
 
 
 If you accepted the ``sphinx-quickstart`` defaults, you'll find the rendered
