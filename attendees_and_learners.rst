@@ -16,6 +16,7 @@ DjangoCon Europe on L'îsle des Embiez, 16th May 2014
 * Laurent Paoletti
 * Alex Semenyuk https://github.com/gtvblame
 * Moritz Windelen
+* Marie-Cécile Gohier
 
 Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 ----------------------------------------------------------------
