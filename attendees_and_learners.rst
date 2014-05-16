@@ -11,7 +11,7 @@ Workshops
 DjangoCon Europe on L'île des Embiez, 16th May 2014
 ----------------------------------------------------
 * Niclas Åhdén
-* Sabine Maennel (sabine.maennel@gmail.com)
+* Sabine Maennel (sabine.maennel@gmail.com) http://github.com/sabinem
 * JB (Juliano Binder) 
 * Laurent Paoletti
 * Alex Semenyuk https://github.com/gtvblame
