@@ -11,6 +11,7 @@ Workshops
 DjangoCon Europe on L'îsle des Embiez, 16th May 2014
 ----------------------------------------------------
 * Sabine Maennel (sabine.maennel@gmail.com)
+* JB (Juliano Binder) 
 
 Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 ----------------------------------------------------------------
