@@ -14,7 +14,7 @@ DjangoCon Europe on The Île des Embiez, 16th May 2014
 * Sabine Maennel (sabine.maennel@gmail.com) http://github.com/sabinem
 * JB (Juliano Binder) 
 * Laurent Paoletti
-* Alex Semenyuk https://github.com/gtvblame
+* Alex Semenyuk (https://github.com/gtvblame)
 * Moritz Windelen
 * Marie-Cécile Gohier
 * Isabella Pezzini
