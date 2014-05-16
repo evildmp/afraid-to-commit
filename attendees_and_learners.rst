@@ -10,6 +10,7 @@ Workshops
 
 DjangoCon Europe on L'îsle des Embiez, 16th May 2014
 ----------------------------------------------------
+* Niclas Åhdén
 * Sabine Maennel (sabine.maennel@gmail.com)
 * JB (Juliano Binder) 
 * Laurent Paoletti
