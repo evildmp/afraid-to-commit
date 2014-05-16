@@ -10,7 +10,7 @@ Workshops
 
 DjangoCon Europe on The Île des Embiez, 16th May 2014
 ----------------------------------------------------
-* Niclas Åhdén
+* Niclas Åhdén (niclas@brightweb.se) https://github.com/niclas-ahden
 * Sabine Maennel (sabine.maennel@gmail.com) http://github.com/sabinem
 * JB (Juliano Binder) 
 * Laurent Paoletti
