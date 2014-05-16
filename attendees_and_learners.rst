@@ -18,6 +18,7 @@ DjangoCon Europe on L'îsle des Embiez, 16th May 2014
 * Moritz Windelen
 * Marie-Cécile Gohier
 * Isabella Pezzini
+* Pavel Meshkoy (@rasstreli)
 
 Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 ----------------------------------------------------------------
