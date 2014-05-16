@@ -8,6 +8,10 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+DjangoCon Europe on L'îsle des Embiez, 16th May 2014
+----------------------------------------------------
+
+
 Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 ----------------------------------------------------------------
 * Stomme poes (@stommepoes)
