@@ -7,11 +7,11 @@ Git and GitHub
    :titlesonly:
 
 
-    git
-    commandlinegit
-    remotes
-    conflicts
-    moregit
+   git
+   commandlinegit
+   remotes
+   conflicts
+   moregit
 
 
 **Git** is a source code management system, designed to support collaboration.
