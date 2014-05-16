@@ -8,10 +8,17 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
-DjangoCon Europe on L'îsle des Embiez, 16th May 2014
+DjangoCon Europe on L'île des Embiez, 16th May 2014
 ----------------------------------------------------
 * Niclas Åhdén (niclas@brightweb.se) https://github.com/niclas-ahden
-* Sabine Maennel (sabine.maennel@gmail.com)
+* Sabine Maennel (sabine.maennel@gmail.com) http://github.com/sabinem
+* JB (Juliano Binder) 
+* Laurent Paoletti
+* Alex Semenyuk https://github.com/gtvblame
+* Moritz Windelen
+* Marie-Cécile Gohier
+* Isabella Pezzini
+* Pavel Meshkoy (@rasstreli)
 
 Dutch Django Association Sprint in Amsterdam, 22nd February 2014
 ----------------------------------------------------------------
