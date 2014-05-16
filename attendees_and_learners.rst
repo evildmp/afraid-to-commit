@@ -8,7 +8,7 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
-DjangoCon Europe on L'îsle des Embiez, 16th May 2014
+DjangoCon Europe on L'île des Embiez, 16th May 2014
 ----------------------------------------------------
 
 
