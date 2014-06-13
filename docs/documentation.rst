@@ -33,27 +33,35 @@ As usual, create and activate a new virtualenv::
 The package or project
 ----------------------
 
-Do you have an existing package on GitHub to write documention for? Clone it
-here using Git. And of course, start a new branch::
+If you have an existing package to write documentation for
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If your package is on GitHub already and you want to start writing documention
+for, clone it now using Git. And of course, start a new branch::
 
     git checkout -b first-docs
 
 You can merge your docs into your master branch when they start to look
 respectable.
 
-If you don't have a suitable existing package on GitHub, create a repository
-on GitHub the way you did before, called ``my-first-docs``. Then create a Git
-repository locally::
+If you don't have an existing package that needs docs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you don't have a suitable existing package on GitHub, you'll need to create
+a repository on GitHub the way you did before. Call it ``my-first-docs``. Then
+create a Git repository locally::
 
     $ mkdir my-first-docs
     $ cd my-first-docs/
     $ git init
     $ git remote add origin git@github.com:<your git username>/my-first-docs.git
 
+Create a ``docs`` directory
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 And either way, create a ``docs`` directory for your docs to live in::
 
     $ mkdir docs
-
 
 Sphinx
 ======
