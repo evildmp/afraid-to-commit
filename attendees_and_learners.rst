@@ -10,6 +10,7 @@ Workshops
 
 DjangoVillage in Orvieto, 14th May 2014
 ---------------------------------------
+* Gioele
 
 DjangoCon Europe on The Île des Embiez, 16th May 2014
 -----------------------------------------------------
