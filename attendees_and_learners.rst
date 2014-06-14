@@ -8,6 +8,11 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+Djangovillage, Orvieto 14th Jun 2014
+------------------------------------------
+* Diego Magrini (https://github.com/magrinidiego)
+
+
 DjangoCon Europe on The Île des Embiez, 16th May 2014
 -----------------------------------------------------
 * Niclas Åhdén (niclas@brightweb.se) https://github.com/niclas-ahden
