@@ -11,7 +11,7 @@ Workshops
 DjangoVillage 2014, 14th June 2014
 ----------------------------------
 
-* Christian
+* Christian Barra (@christianbarra) https://github.com/barrachri
 
 DjangoCon Europe on The Île des Embiez, 16th May 2014
 -----------------------------------------------------
