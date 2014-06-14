@@ -8,11 +8,15 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+DjangoVillage in Orvieto, 14th June 2014
+----------------------------------------
+* Domenico Testa (@domtes)
+
 DjangoCon Europe on The Île des Embiez, 16th May 2014
 -----------------------------------------------------
 * Niclas Åhdén (niclas@brightweb.se) https://github.com/niclas-ahden
 * Sabine Maennel (sabine.maennel@gmail.com) http://github.com/sabinem
-* JB (Juliano Binder) 
+* JB (Juliano Binder)
 * Laurent Paoletti
 * Alex Semenyuk (https://github.com/gtvblame)
 * Moritz Windelen
