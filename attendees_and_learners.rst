@@ -10,7 +10,7 @@ Workshops
 
 DjangoVillage, 14th Jun 2014
 ----------------------------
-* Daniele Faraglia (@joke2k)
+* @joke2k (https://github.com/joke2k)
 
 DjangoCon Europe on The Île des Embiez, 16th May 2014
 -----------------------------------------------------
