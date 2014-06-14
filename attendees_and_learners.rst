@@ -12,7 +12,7 @@ DjangoVillage in Orvieto, 14th June 2014
 ----------------------------------------
 * Gioele
 * Christian Barra (@christianbarra) https://github.com/barrachri
-* Luca Ippoliti
+* Luca Ippoliti https://github.com/lucaippo
 * @joke2k (https://github.com/joke2k)
 * Domenico Testa (@domtes)
 * Alessio
