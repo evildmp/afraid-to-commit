@@ -11,6 +11,7 @@ Workshops
 DjangoVillage
 -----------------------------------------------------
 * Gioele
+* Alessio
 
 DjangoCon Europe on The Île des Embiez, 16th May 2014
 -----------------------------------------------------
