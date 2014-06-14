@@ -15,6 +15,7 @@ DjangoVillage in Orvieto, 14th June 2014
 * Luca Ippoliti
 * @joke2k (https://github.com/joke2k)
 * Domenico Testa (@domtes)
+* Matteo (@loacker) https://github.com/loacker
 
 DjangoCon Europe on The Île des Embiez, 16th May 2014
 -----------------------------------------------------
