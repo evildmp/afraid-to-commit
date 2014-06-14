@@ -8,6 +8,11 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+DjangoVillage 2014, 14th June 2014
+----------------------------------
+
+* Christian
+
 DjangoCon Europe on The Île des Embiez, 16th May 2014
 -----------------------------------------------------
 * Niclas Åhdén (niclas@brightweb.se) https://github.com/niclas-ahden
