@@ -16,6 +16,7 @@ DjangoVillage in Orvieto, 14th June 2014
 * @joke2k (https://github.com/joke2k)
 * Domenico Testa (@domtes)
 * Alessio
+* Diego Magrini (http://github.com/magrinidiego)
 
 DjangoCon Europe on The Île des Embiez, 16th May 2014
 -----------------------------------------------------
