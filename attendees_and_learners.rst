@@ -18,6 +18,7 @@ DjangoVillage in Orvieto, 14th June 2014
 * Alessio
 * Diego Magrini (http://github.com/magrinidiego)
 * Matteo (@loacker) https://github.com/loacker
+* Simone (@simodalla)
 
 DjangoCon Europe on The Île des Embiez, 16th May 2014
 -----------------------------------------------------
