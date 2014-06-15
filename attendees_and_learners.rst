@@ -8,8 +8,8 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
-DjangoVillage
------------------------------------------------------
+DjangoVillage, 13-15th Jun 2014
+-------------------------------
 * Gioele
 * Alessio
 
