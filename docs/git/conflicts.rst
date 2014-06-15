@@ -19,8 +19,9 @@ There's an *unmergeable-branch* at https://github.com/evildmp/afraid-to-commit.
 It's unmergeable because it deliberately contains changes that conflict with
 other changes made in *master*.
 
-Try creating a pull request from *unmergeable-branch* to your *master*
-on GitHub. If you do, GitHub will tell you::
+Using the GitHub interface, try creating a pull request from
+*unmergeable-branch* to your *master* on GitHub. If you do, GitHub will tell
+you::
 
     We can’t automatically merge this pull request.
 
