@@ -15,7 +15,7 @@ DjangoCon US in Portland, 5th September 2014
 * Abdulaziz Alsaffar (alsaff1987@gmail.com) https://github.com/Octowl
 * Patrick Beeson (@patrickbeeson) https://github.com/patrickbeeson
 * Vishal Shah -  https://github.com/shahv
-* Kevin Daum
+* Kevin Daum (@kevindaum, kevin.daum@gmail.com) https://github.com/kevindaum
 * Joseph Metzinger
 * Nasser AlSnayen (nasser.lc9@gmail.com) https://github.com/LC9
 * Nicholas Colbert (@45cali) 45cali@gmail.com
