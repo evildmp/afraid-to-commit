@@ -10,8 +10,13 @@ Workshops
 
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
-* Orlando Romero
+* Patrick Beeson (@patrickbeeson) https://github.com/patrickbeeson
 * Joseph Metzinger
+* Vishal Shah
+* Kevin Daum
+* Joseph Metzinger
+* Nasser AlSnayen (nasser.lc9@gmail.com) https://github.com/LC9
+* Orlando Romero
 
 DjangoVillage in Orvieto, 14th June 2014
 ----------------------------------------
