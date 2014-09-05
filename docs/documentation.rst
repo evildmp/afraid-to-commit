@@ -110,9 +110,8 @@ Using Sphinx & reStructuredText
 reStructuredText elements
 -------------------------
 
-Sphinx uses reStructuredText. Start with
-http://sphinx-doc.org/rest.html#rst-primer, which will tell you most of what
-you need to know to get started. Keep it simple to start with - start with:
+Sphinx uses reStructuredText. http://sphinx-doc.org/rest.html#rst-primer will tell you most of what
+you need to know to get started. Focus on the basics:
 
 *   paragraphs
 *   lists
