@@ -11,7 +11,7 @@ Workshops
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
 * Joseph Metzinger
-
+* Nicholas Colbert (@45cali) 45cali@gmail.com
 
 DjangoVillage in Orvieto, 14th June 2014
 ----------------------------------------
