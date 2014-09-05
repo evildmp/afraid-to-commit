@@ -11,12 +11,15 @@ Workshops
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
 
+* Joseph Metzinger (joseph.metzinger@gmail.com) https://github.com/joetheone
+* Abdulaziz Alsaffar (alsaff1987@gmail.com) https://github.com/Octowl
 * Patrick Beeson (@patrickbeeson) https://github.com/patrickbeeson
-* Joseph Metzinger
 * Vishal Shah -  https://github.com/shahv
 * Kevin Daum
 * Joseph Metzinger
 * Nasser AlSnayen (nasser.lc9@gmail.com) https://github.com/LC9
+* Nicholas Colbert (@45cali) 45cali@gmail.com
+* Kevin Daum (@kevindaum, kevin.daum@gmail.com) https://github.com/kevindaum
 
 DjangoVillage in Orvieto, 14th June 2014
 ----------------------------------------
