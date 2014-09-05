@@ -10,8 +10,10 @@ Workshops
 
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
-* Joseph Metzinger
 
+* Patrick Beeson
+* Joseph Metzinger
+* Vishal Shah
 
 DjangoVillage in Orvieto, 14th June 2014
 ----------------------------------------
