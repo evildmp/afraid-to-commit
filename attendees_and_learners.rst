@@ -10,9 +10,13 @@ Workshops
 
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
+* Patrick Beeson (@patrickbeeson) https://github.com/patrickbeeson
 * Joseph Metzinger
-* Chad Hansen
-
+* Vishal Shah
+* Kevin Daum
+* Joseph Metzinger
+* Nasser AlSnayen (nasser.lc9@gmail.com) https://github.com/LC9
+* Chad Hansen (chadgh@gmail.com) https://github.com/chadgh
 
 DjangoVillage in Orvieto, 14th June 2014
 ----------------------------------------
