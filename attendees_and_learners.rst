@@ -11,7 +11,7 @@ Workshops
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
 * Joseph Metzinger
-
+* Nasser AlSnayen (nasser.lc9@gmail.com) https://github.com/LC9
 
 DjangoVillage in Orvieto, 14th June 2014
 ----------------------------------------
