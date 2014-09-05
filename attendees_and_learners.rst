@@ -11,6 +11,7 @@ Workshops
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
 * Joseph Metzinger
+* Abdulaziz Alsaffar (alsaff1987@gmail.com) https://github.com/Octowl 
 
 
 DjangoVillage in Orvieto, 14th June 2014
