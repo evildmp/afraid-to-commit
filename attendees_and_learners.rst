@@ -10,7 +10,7 @@ Workshops
 
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
-* Patrick Beeson
+* Patrick Beeson (@patrickbeeson) https://github.com/patrickbeeson
 * Joseph Metzinger
 
 DjangoVillage in Orvieto, 14th June 2014
