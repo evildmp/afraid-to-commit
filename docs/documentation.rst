@@ -24,10 +24,10 @@ The virtualenv
 
 As usual, create and activate a new virtualenv::
 
-    $ virtualenv documentation-tutorial
+    virtualenv documentation-tutorial
     [...]
-    $ cd documentation-tutorial/
-    $ source bin/activate
+    cd documentation-tutorial/
+    source bin/activate
 
 
 The package or project
@@ -52,18 +52,18 @@ a repository on GitHub the way you did before. Call it ``my-first-docs``. Then
 create a Git repository locally, point it at GitHub, and create a new branch
 for your work::
 
-    $ mkdir my-first-docs
-    $ cd my-first-docs/
-    $ git init
-    $ git remote add origin git@github.com:<your git username>/my-first-docs.git
-    $ git checkout -b first-docs
+    mkdir my-first-docs
+    cd my-first-docs/
+    git init
+    git remote add origin git@github.com:<your git username>/my-first-docs.git
+    git checkout -b first-docs
 
 Create a ``docs`` directory
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 And either way, create a ``docs`` directory for your docs to live in::
 
-    $ mkdir docs
+    mkdir docs
 
 Sphinx
 ======
