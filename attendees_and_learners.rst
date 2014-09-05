@@ -13,7 +13,7 @@ DjangoCon US in Portland, 5th September 2014
 
 * Patrick Beeson (@patrickbeeson) https://github.com/patrickbeeson
 * Joseph Metzinger
-* Vishal Shah
+* Vishal Shah -  https://github.com/shahv
 * Kevin Daum
 * Joseph Metzinger
 * Nasser AlSnayen (nasser.lc9@gmail.com) https://github.com/LC9
