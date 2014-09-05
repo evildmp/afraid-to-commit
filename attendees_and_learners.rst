@@ -19,6 +19,7 @@ DjangoCon US in Portland, 5th September 2014
 * Nasser AlSnayen (nasser.lc9@gmail.com) https://github.com/LC9
 * Nicholas Colbert (@45cali) 45cali@gmail.com
 * Chris Cauley https://github.com/chriscauley
+* Joe Larson (@joelarson)
 
 DjangoVillage in Orvieto, 14th June 2014
 ----------------------------------------
