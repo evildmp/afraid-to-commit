@@ -8,6 +8,11 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+DjangoCon US in Portland, 5th September 2014
+--------------------------------------------
+
+
+
 DjangoVillage in Orvieto, 14th June 2014
 ----------------------------------------
 * Gioele
