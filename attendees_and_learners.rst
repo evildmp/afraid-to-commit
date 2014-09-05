@@ -10,7 +10,7 @@ Workshops
 
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
-
+* Jeff Kile
 
 
 DjangoVillage in Orvieto, 14th June 2014
