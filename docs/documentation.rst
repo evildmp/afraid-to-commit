@@ -49,12 +49,14 @@ If you don't have an existing package that needs docs
 
 If you don't have a suitable existing package on GitHub, you'll need to create
 a repository on GitHub the way you did before. Call it ``my-first-docs``. Then
-create a Git repository locally::
+create a Git repository locally, point it at GitHub, and create a new branch
+for your work::
 
     $ mkdir my-first-docs
     $ cd my-first-docs/
     $ git init
     $ git remote add origin git@github.com:<your git username>/my-first-docs.git
+    $ git checkout -b first-docs
 
 Create a ``docs`` directory
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
