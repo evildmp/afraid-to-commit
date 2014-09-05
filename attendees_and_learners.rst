@@ -10,7 +10,7 @@ Workshops
 
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
-* Kevin Daum
+* Kevin Daum (@kevindaum, kevin.daum@gmail.com) https://github.com/kevindaum
 
 
 DjangoVillage in Orvieto, 14th June 2014
