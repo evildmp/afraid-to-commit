@@ -10,6 +10,7 @@ Workshops
 
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
+* Joseph Metzinger
 * Chad Hansen
 
 
