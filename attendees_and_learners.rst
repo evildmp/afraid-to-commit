@@ -21,6 +21,7 @@ DjangoCon US in Portland, 5th September 2014
 * Chris Cauley https://github.com/chriscauley
 * Joe Larson (@joelarson)
 * Jeff Kile
+* Orlando Romero
 
 DjangoVillage in Orvieto, 14th June 2014
 ----------------------------------------
