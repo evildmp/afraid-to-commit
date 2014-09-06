@@ -24,10 +24,10 @@ The virtualenv
 
 As usual, create and activate a new virtualenv::
 
-    $ virtualenv documentation-tutorial
+    virtualenv documentation-tutorial
     [...]
-    $ cd documentation-tutorial/
-    $ source bin/activate
+    cd documentation-tutorial/
+    source bin/activate
 
 
 The package or project
@@ -47,21 +47,26 @@ respectable.
 If you don't have an existing package that needs docs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you don't have a suitable existing package on GitHub, you'll need to create
+If you don't have a suitable existing package on GitHub, create
 a repository on GitHub the way you did before. Call it ``my-first-docs``. Then
 create a Git repository locally::
 
-    $ mkdir my-first-docs
-    $ cd my-first-docs/
-    $ git init
-    $ git remote add origin git@github.com:<your git username>/my-first-docs.git
+    mkdir my-first-docs
+    cd my-first-docs/
+    # Converts the directory into a git repository
+    git init
+    # Point this repo at the GitHub repo you just created
+    git remote add origin git@github.com:<your git username>/my-first-docs.git
+    # Create a new branch in which to do your work
+    git checkout -b first-docs
+
 
 Create a ``docs`` directory
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 And either way, create a ``docs`` directory for your docs to live in::
 
-    $ mkdir docs
+    mkdir docs
 
 Sphinx
 ======
@@ -105,9 +110,8 @@ Using Sphinx & reStructuredText
 reStructuredText elements
 -------------------------
 
-Sphinx uses reStructuredText. Start with
-http://sphinx-doc.org/rest.html#rst-primer, which will tell you most of what
-you need to know to get started. Keep it simple to start with - start with:
+Sphinx uses reStructuredText. http://sphinx-doc.org/rest.html#rst-primer will tell you most of what
+you need to know to get started. Focus on the basics:
 
 *   paragraphs
 *   lists
