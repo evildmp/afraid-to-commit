@@ -232,7 +232,8 @@ render and host your documents for you automatically.
 
 It will update every night, but you can do better still: on GitHub:
 
-#.  select **settings** for your project (not for your account) in the navigation panel on the right-hand side
+#.  select **settings** for your project (not for your account) in the
+    navigation panel on the right-hand side
 #.  choose **Webhooks & Services**
 #.  enable ``ReadTheDocs`` under **Add Service** dropdown
 
