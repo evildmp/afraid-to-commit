@@ -12,7 +12,7 @@ PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
 
 * Stephen Newey
-* Walter Kummer
+* Walter Kummer (work.walter@gmail.com)
 * Craig Barnes
 * Justin Wing Chung Hui
 * Davide Ceretti
