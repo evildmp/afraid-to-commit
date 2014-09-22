@@ -20,7 +20,7 @@ PyCon UK in Coventry, 20th September 2014
 * Justin Wing Chung Hui
 * Davide Ceretti
 * Paul van der Linden https://github.com/pvanderlinden
-* Gary Martin
+* Gary Martin https://github.com/garym
 * Cedric Da Costa Faro https://github.com/cdcf
 * Sebastien Charret <sebastien.charret@gmail.com> https://github.com/moerin
 * Nick Smith
