@@ -60,7 +60,6 @@ create a Git repository locally::
     # Create a new branch in which to do your work
     git checkout -b first-docs
 
-
 Create a ``docs`` directory
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -134,17 +133,17 @@ one called ``all-about-me.rst`` or something appropriate. Perhaps it might
 look like::
 
 
-        ############
-        All about me
-        ############
+    ############
+    All about me
+    ############
 
-        I'm Daniele Procida, a Django user and developer.
+    I'm Daniele Procida, a Django user and developer.
 
-        I've contributed to:
+    I've contributed to:
 
-        *   django CMS
-        *   Arkestra
-        *   Django
+    *   django CMS
+    *   Arkestra
+    *   Django
 
 Sphinx needs to know about it, so in ``index.rst``, edit the ``.. toctree::``
 section to add the ``all-about-me`` page::
