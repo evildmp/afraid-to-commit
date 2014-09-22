@@ -22,7 +22,7 @@ PyCon UK in Coventry, 20th September 2014
 * Paul van der Linden https://github.com/pvanderlinden
 * Gary Martin
 * Cedric Da Costa Faro https://github.com/cdcf
-* Sebastien Charret
+* Sebastien Charret <sebastien.charret@gmail.com> https://github.com/moerin
 * Nick Smith
 * Jonathan Lake-Thomas (jonathan.lakethomas@gmail.com)
 * Ben Mansbridge
