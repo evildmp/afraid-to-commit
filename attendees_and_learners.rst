@@ -148,7 +148,6 @@ PyCon UK in Coventry, 22nd September 2013
 * Louis Fill tkman220@yahoo.com
 * Karim Lameer https://github.com/klameer
 * John Medley <john.medley@zephirlidar.com>
-* Waldek Herka
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
