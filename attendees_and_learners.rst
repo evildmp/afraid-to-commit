@@ -15,6 +15,7 @@ PyCon UK in Coventry, 20th September 2014
 * Walter Kummer
 * Craig Barnes
 * Justin Wing Chung Hui
+* Davide Ceretti
 
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
