@@ -8,6 +8,7 @@ include:
 * Robert Dragan https://github.com/rmdragan
 * David Garcia https://github.com/davideire
 * Jason Blum https://github.com/jasonblum
+* Kevin Daum https://github.com/kevindaum
 
 Many thanks are also due to the members of #django, #python, #git and #github
 on irc.freenode.net for their endless online help.
