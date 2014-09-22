@@ -8,6 +8,10 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+PyCon UK in Coventry, 20th September 2014
+-----------------------------------------
+* Jonathan Lake-Thomas (jonathan.lakethomas@gmail.com) 
+
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
 
