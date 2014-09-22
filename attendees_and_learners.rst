@@ -23,6 +23,7 @@ DjangoCon US in Portland, 5th September 2014
 * Jeff Kile
 * Orlando Romero
 * Chad Hansen (chadgh@gmail.com) https://github.com/chadgh
+* Ben Mansbridge
 
 DjangoVillage in Orvieto, 14th June 2014
 ----------------------------------------
