@@ -12,6 +12,7 @@ PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
 
 * Stephen Newey
+* Brendan Oates <brenoates@gmail.com>
 * Waldek Herka
 * Walter Kummer
 * Craig Barnes
