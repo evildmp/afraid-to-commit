@@ -19,6 +19,7 @@ PyCon UK in Coventry, 20th September 2014
 * Paul van der Linden https://github.com/pvanderlinden
 * Gary Martin
 * Cedric Da Costa Faro https://github.com/cdcf
+* Mike S Collins (MikeyBoy1969)
 
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
