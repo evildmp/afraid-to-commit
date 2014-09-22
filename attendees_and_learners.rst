@@ -23,6 +23,7 @@ PyCon UK in Coventry, 20th September 2014
 * Cedric Da Costa Faro https://github.com/cdcf
 * Sebastien Charret
 * Nick Smith
+* Jonathan Lake-Thomas (jonathan.lakethomas@gmail.com)
 
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
