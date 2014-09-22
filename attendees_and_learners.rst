@@ -17,7 +17,7 @@ PyCon UK in Coventry, 20th September 2014
 * Justin Wing Chung Hui
 * Davide Ceretti
 * Paul van der Linden https://github.com/pvanderlinden
-* Gary Martin
+* Gary Martin https://github.com/garym
 * Cedric Da Costa Faro https://github.com/cdcf
 
 DjangoCon US in Portland, 5th September 2014
