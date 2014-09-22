@@ -22,6 +22,7 @@ PyCon UK in Coventry, 20th September 2014
 * Gary Martin
 * Cedric Da Costa Faro https://github.com/cdcf
 * Sebastien Charret
+* Nick Smith
 
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
