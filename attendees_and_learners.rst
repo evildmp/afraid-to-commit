@@ -11,10 +11,10 @@ Workshops
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
 
-* Stephen Newey
 * Matthew Power https://github.com/mthpower
 * Brendan Oates <brenoates@gmail.com>
 * Waldek Herka
+* Stephen Newey (@stevenewey) - https://github.com/stevenewey
 * Walter Kummer
 * Craig Barnes
 * Justin Wing Chung Hui
