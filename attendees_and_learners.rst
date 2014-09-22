@@ -23,7 +23,6 @@ DjangoCon US in Portland, 5th September 2014
 * Jeff Kile
 * Orlando Romero
 * Chad Hansen (chadgh@gmail.com) https://github.com/chadgh
-* Ben Mansbridge
 
 DjangoVillage in Orvieto, 14th June 2014
 ----------------------------------------
@@ -130,6 +129,7 @@ PyCon UK in Coventry, 22nd September 2013
 * Louis Fill tkman220@yahoo.com
 * Karim Lameer https://github.com/klameer
 * John Medley <john.medley@zephirlidar.com>
+* Ben Mansbridge
 
 DjangoCon US in Chicago, 2nd September 2013
 -------------------------------------------
