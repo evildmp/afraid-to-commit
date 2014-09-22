@@ -10,7 +10,7 @@ Workshops
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
-* Stephen Newey
+* Stephen Newey (@stevenewey) - https://github.com/stevenewey
 
 
 DjangoCon US in Portland, 5th September 2014
