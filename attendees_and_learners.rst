@@ -11,14 +11,22 @@ Workshops
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
 
-* Stephen Newey
-* Walter Kummer
+* Matthew Power https://github.com/mthpower
+* Brendan Oates <brenoates@gmail.com>
+* Waldek Herka
+* Stephen Newey (@stevenewey) - https://github.com/stevenewey
+* Walter Kummer (work.walter at gmail.com)
 * Craig Barnes
 * Justin Wing Chung Hui
 * Davide Ceretti
 * Paul van der Linden https://github.com/pvanderlinden
 * Gary Martin
 * Cedric Da Costa Faro https://github.com/cdcf
+* Sebastien Charret
+* Nick Smith
+* Jonathan Lake-Thomas (jonathan.lakethomas@gmail.com)
+* Ben Mansbridge
+* Glen Davies
 
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
