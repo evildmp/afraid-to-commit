@@ -12,6 +12,7 @@ PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
 
 * Stephen Newey
+* Waldek Herka
 * Walter Kummer
 * Craig Barnes
 * Justin Wing Chung Hui
