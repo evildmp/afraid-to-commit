@@ -13,7 +13,7 @@ For documentation, we'll use **Sphinx** to generate it, and **Read the Docs**
 to publish it. GitHub will be a helpful middleman.
 
 If you have a package for which you'd like to create documentation, you might
-as well start producing that right away. If not, you can do it do it in a new
+as well start producing that right away. If not, you can do it in a new
 dummy project.
 
 Set up your working environment
