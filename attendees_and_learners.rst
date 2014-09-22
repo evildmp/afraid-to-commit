@@ -11,6 +11,7 @@ Workshops
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
 
+* Ben Mansbridge
 
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
