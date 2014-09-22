@@ -10,8 +10,9 @@ Workshops
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
-* Stephen Newey
 
+* Stephen Newey
+* Walter Kummer
 * Craig Barnes
 
 DjangoCon US in Portland, 5th September 2014
