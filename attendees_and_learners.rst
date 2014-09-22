@@ -13,7 +13,7 @@ PyCon UK in Coventry, 20th September 2014
 
 * Matthew Power https://github.com/mthpower
 * Brendan Oates <brenoates@gmail.com>
-* Waldek Herka
+* Waldek Herka (https://github.com/wherka)
 * Stephen Newey (@stevenewey) - https://github.com/stevenewey
 * Walter Kummer (work.walter at gmail.com)
 * Craig Barnes
