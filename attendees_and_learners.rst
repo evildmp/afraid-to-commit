@@ -13,20 +13,20 @@ PyCon UK in Coventry, 20th September 2014
 
 * Matthew Power https://github.com/mthpower
 * Brendan Oates <brenoates@gmail.com>
-* Waldek Herka
+* Waldek Herka (https://github.com/wherka)
 * Stephen Newey (@stevenewey) - https://github.com/stevenewey
 * Walter Kummer (work.walter at gmail.com)
 * Craig Barnes
 * Justin Wing Chung Hui
 * Davide Ceretti
 * Paul van der Linden https://github.com/pvanderlinden
-* Gary Martin
+* Gary Martin https://github.com/garym
 * Cedric Da Costa Faro https://github.com/cdcf
-* Sebastien Charret
+* Sebastien Charret <sebastien.charret@gmail.com> https://github.com/moerin
 * Nick Smith
 * Jonathan Lake-Thomas (jonathan.lakethomas@gmail.com)
 * Ben Mansbridge
-* Glen Davies
+* Glen Davies (@GlenDaviesDev) - https://github.com/glen442
 
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
@@ -220,3 +220,4 @@ I followed the tutorial online
 * Óscar M. Lage - http://github.com/oscarmlage
 * Bob Aalsma - https://github.com/BobAalsma/
 * Andy Venet - https://github.com/avenet/
+* Vathsala Achar - 22nd September, 2014
