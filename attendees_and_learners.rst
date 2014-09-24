@@ -24,7 +24,7 @@ PyCon UK in Coventry, 20th September 2014
 * Cedric Da Costa Faro https://github.com/cdcf
 * Sebastien Charret <sebastien.charret@gmail.com> https://github.com/moerin
 * Nick Smith
-* Jonathan Lake-Thomas (jonathan.lakethomas@gmail.com)
+* Jonathan Lake-Thomas https://github.com/jonathlt
 * Ben Mansbridge
 * Glen Davies (@GlenDaviesDev) - https://github.com/glen442
 
