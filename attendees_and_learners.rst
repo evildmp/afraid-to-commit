@@ -8,10 +8,13 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
-PyCon Ireland in Dublin, 14th October 2013
+PyCon Ireland in Dublin, 14th October 2014
 ------------------------------------------
 
 *Jenny McGee
+* Conor McGee <mcgeeco@tcd.ie> https://github.com/mcgeeco
+* Nadja Deininger
+* Andrew McCarthy
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
