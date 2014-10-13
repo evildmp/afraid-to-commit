@@ -20,6 +20,7 @@ PyCon Ireland in Dublin, 13th October 2014
 * Adam Dickey
 * Paul O'Grady (Twitter: @paul_ogrady; GitHub: paulogrady)
 * Jenny DiMiceli
+* Stephen Kerr
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
