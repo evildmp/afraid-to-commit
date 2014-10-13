@@ -28,6 +28,7 @@ PyCon Ireland in Dublin, 13th October 2014
 * Dori Czapari https://github.com/doriczapari (@doriczapari)
 * Karl Griffin (karl_griffin@hotmail.com) https://github.com/karlgriffin
 
+
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
 
