@@ -11,7 +11,7 @@ Workshops
 PyCon Ireland in Dublin, 13th October 2014
 ------------------------------------------
 
-* Randal McGuckin
+* Randal McGuckin <randal.mcguckin@gmail.com>
 * Laura Duggan https://github.com/labhra
 * Jenny McGee
 * Conor McGee <mcgeeco@tcd.ie> https://github.com/mcgeeco
@@ -25,7 +25,9 @@ PyCon Ireland in Dublin, 13th October 2014
 * Stephen Kerr
 * Wayne Tong
 * Vinicius Mayer (viniciusmayer@gmail.com) https://github.com/viniciusmayer
-* Dori Czapari
+* Dori Czapari https://github.com/doriczapari (@doriczapari)
+* Karl Griffin (karl_griffin@hotmail.com) https://github.com/karlgriffin
+
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
