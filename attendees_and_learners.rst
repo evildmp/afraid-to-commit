@@ -11,12 +11,8 @@ Workshops
 PyCon Ireland in Dublin, 13th October 2014
 ------------------------------------------
 
-*Laura Duggan
-
-PyCon Ireland in Dublin, 14th October 2013
-------------------------------------------
-
-
+* Laura Duggan
+* Nadja Deininger
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
