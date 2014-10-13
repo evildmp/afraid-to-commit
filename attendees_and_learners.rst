@@ -11,7 +11,9 @@ Workshops
 PyCon Ireland in Dublin, 14th October 2014
 ------------------------------------------
 
+<<<<<<< HEAD
 * Conor McGee <mcgeeco@tcd.ie> https://github.com/mcgeeco
+* Nadja Deininger
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
