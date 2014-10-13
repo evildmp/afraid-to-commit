@@ -11,6 +11,7 @@ Workshops
 PyCon Ireland in Dublin, 13th October 2014
 ------------------------------------------
 
+* Randal McGuckin
 * Laura Duggan https://github.com/labhra
 * Jenny McGee
 * Conor McGee <mcgeeco@tcd.ie> https://github.com/mcgeeco
