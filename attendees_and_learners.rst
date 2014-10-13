@@ -19,7 +19,7 @@ PyCon Ireland in Dublin, 13th October 2014
 * Brendan Cahill (https://github.com/brencahill/)
 * Adam Dickey
 * Paul O'Grady (Twitter: @paul_ogrady; GitHub: paulogrady)
-* Jenny DiMiceli
+* Jenny DiMiceli - https://github.com/jdimiceli
 * Stephen Kerr
 * Wayne Tong
 * Vinicius Mayer (viniciusmayer@gmail.com) https://github.com/viniciusmayer
