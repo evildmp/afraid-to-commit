@@ -8,7 +8,6 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
-<<<<<<< HEAD
 PyCon Ireland in Dublin, 13th October 2014
 ------------------------------------------
 
@@ -20,6 +19,7 @@ PyCon Ireland in Dublin, 13th October 2014
 * Brendan Cahill
 * Adam Dickey
 * Paul O'Grady (Twitter: @paul_ogrady; GITHub: paulogrady)
+* Jenny DiMiceli
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
