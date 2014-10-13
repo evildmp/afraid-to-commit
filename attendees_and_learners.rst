@@ -7,7 +7,7 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
-PyCon Ireland in Dublin, 14th October 2014
+PyCon Ireland in Dublin, 13th October 2014
 ------------------------------------------
 * Haris Ibrahim K V (blucalvin@gmail.com) https://github.com/harisibrahimkv
 
