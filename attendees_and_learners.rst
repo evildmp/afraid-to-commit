@@ -8,6 +8,11 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+PyCon IR in Dublin, 13th October 2014
+-----------------------------------------
+
+* Vinicius Mayer (viniciusmayer@gmail.com) https://github.com/viniciusmayer
+
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
 
