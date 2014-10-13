@@ -11,7 +11,7 @@ Workshops
 PyCon Ireland in Dublin, 14th October 2014
 ------------------------------------------
 
-* Paul O'Grady  (Twitter: @paul_ogrady; GITHub: paulogrady)
+* Paul O'Grady (Twitter: @paul_ogrady; GITHub: paulogrady)
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
