@@ -15,7 +15,7 @@ git will help you manage your own work in a more streamlined and efficient
 way.
 
 The automated testing tutorial - the most substantial component of the
-workshop - will help you develop your software faster, better and more easily.
+workshop - will help you develop your software faster, better, and more easily.
 
 What we'll cover
 ================
