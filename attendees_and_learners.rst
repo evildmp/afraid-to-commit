@@ -8,9 +8,10 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
-PyCon Ireland in Dublin, 14th October 2014
+PyCon Ireland in Dublin, 13th October 2014
 ------------------------------------------
 
+* Laura Duggan https://github.com/labhra
 * Conor McGee <mcgeeco@tcd.ie> https://github.com/mcgeeco
 * Nadja Deininger
 * Andrew McCarthy
