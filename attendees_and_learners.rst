@@ -125,6 +125,7 @@ PyCon Ireland in Dublin, 14th October 2013
 * Robert McGivern <Robert.bob.mcgivern@gmail.com>
 * James Hickey
 * Tommy Gibbons
+* Randal McGuckin
 
 PyCon UK in Coventry, 22nd September 2013
 -----------------------------------------
