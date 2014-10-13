@@ -12,7 +12,9 @@ PyCon Ireland in Dublin, 13th October 2014
 ------------------------------------------
 
 * Laura Duggan
+* Conor McGee <mcgeeco@tcd.ie> https://github.com/mcgeeco
 * Nadja Deininger
+* Andrew McCarthy
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
