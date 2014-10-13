@@ -235,9 +235,10 @@ render and host your documents for you automatically.
 
 It will update every night, but you can do better still: on GitHub:
 
-#.  select **settings** for your project
-#.  choose **Service Hooks**
-#.  enable ``ReadTheDocs``
+#.  select **settings** for your project (not for your account) in the
+    navigation panel on the right-hand side
+#.  choose **Webhooks & Services**
+#.  enable ``ReadTheDocs`` under **Add Service** dropdown
 
 ... and now, every time you push documents to GitHub, Read the Docs will be
 informed that you have new documents to be published. It's not magic, but it's
