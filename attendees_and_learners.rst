@@ -8,10 +8,10 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
-PyCon Ireland in Dublin, 14th October 2013
+PyCon Ireland in Dublin, 14th October 2014
 ------------------------------------------
 
-*
+*Karl Griffin
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
