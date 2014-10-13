@@ -11,7 +11,7 @@ Workshops
 PyCon Ireland in Dublin, 13th October 2014
 ------------------------------------------
 
-* Laura Duggan
+* Laura Duggan https://github.com/labhra
 * Conor McGee <mcgeeco@tcd.ie> https://github.com/mcgeeco
 * Nadja Deininger
 * Andrew McCarthy
