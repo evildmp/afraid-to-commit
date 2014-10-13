@@ -9,7 +9,6 @@ Workshops
 =========
 
 PyCon Ireland in Dublin, 13th October 2014
-------------------------------------------
 
 * Laura Duggan https://github.com/labhra
 * Conor McGee <mcgeeco@tcd.ie> https://github.com/mcgeeco
@@ -22,6 +21,7 @@ PyCon Ireland in Dublin, 13th October 2014
 * Jenny DiMiceli
 * Stephen Kerr
 * Wayne Tong
+* Vinicius Mayer (viniciusmayer@gmail.com) https://github.com/viniciusmayer
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
