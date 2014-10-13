@@ -26,6 +26,7 @@ PyCon Ireland in Dublin, 13th October 2014
 * Wayne Tong
 * Vinicius Mayer (viniciusmayer@gmail.com) https://github.com/viniciusmayer
 * Dori Czapari
+* Karl Griffin (karl_griffin@hotmail.com) https://github.com/karlgriffin
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
