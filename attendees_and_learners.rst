@@ -12,6 +12,7 @@ PyCon Ireland in Dublin, 14th October 2013
 ------------------------------------------
 
 * Nadja Deininger
+* Andrew McCarthy
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
