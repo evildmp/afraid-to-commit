@@ -16,6 +16,7 @@ PyCon Ireland in Dublin, 13th October 2014
 * Nadja Deininger https://github.com/machinelady
 * Andrew McCarthy
 * Brian McDonnell (https://github.com/brianmcdonnell/)
+* Brendan Cahill
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
