@@ -8,6 +8,11 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+PyCon Ireland in Dublin, 13th October 2014
+------------------------------------------
+
+* Dori Czapari
+
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
 
