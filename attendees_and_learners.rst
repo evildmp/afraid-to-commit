@@ -193,3 +193,4 @@ I followed the tutorial online
 * Óscar M. Lage - http://github.com/oscarmlage
 * Bob Aalsma - https://github.com/BobAalsma/
 * Andy Venet - https://github.com/avenet/
+* Adam Dickey - 13th October 2014
