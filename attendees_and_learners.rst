@@ -11,7 +11,7 @@ Workshops
 PyCon Ireland in Dublin, 14th October 2013
 ------------------------------------------
 
-*
+* Michal
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
