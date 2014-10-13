@@ -16,7 +16,7 @@ PyCon Ireland in Dublin, 13th October 2014
 * Nadja Deininger https://github.com/machinelady
 * Andrew McCarthy
 * Brian McDonnell (https://github.com/brianmcdonnell/)
-* Brendan Cahill
+* Brendan Cahill (https://github.com/brencahill/)
 * Adam Dickey
 * Paul O'Grady (Twitter: @paul_ogrady; GITHub: paulogrady)
 * Jenny DiMiceli
