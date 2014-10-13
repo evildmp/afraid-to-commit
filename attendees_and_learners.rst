@@ -13,7 +13,7 @@ PyCon Ireland in Dublin, 13th October 2014
 
 * Laura Duggan https://github.com/labhra
 * Conor McGee <mcgeeco@tcd.ie> https://github.com/mcgeeco
-* Nadja Deininger
+* Nadja Deininger https://github.com/machinelady
 * Andrew McCarthy
 * Brian McDonnell (https://github.com/brianmcdonnell/)
 
