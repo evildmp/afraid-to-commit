@@ -8,6 +8,11 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+Dutch Django Association Sprint in Amsterdam, 5th March 2015
+------------------------------------------------------------
+
+*
+
 PyCon Ireland in Dublin, 13th October 2014
 ------------------------------------------
 
