@@ -53,6 +53,7 @@ PyCon UK in Coventry, 20th September 2014
 * Jonathan Lake-Thomas https://github.com/jonathlt
 * Ben Mansbridge
 * Glen Davies (@GlenDaviesDev) - https://github.com/glen442
+* Mike S Collins (MikeyBoy1969)
 
 DjangoCon US in Portland, 5th September 2014
 --------------------------------------------
