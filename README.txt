@@ -14,21 +14,16 @@ collaborative projects, the workshop's emphasis on using virtualenv/pip and
 git will help you manage your own work in a more streamlined and efficient
 way.
 
-The automated testing tutorial - the most substantial component of the
-workshop - will help you develop your software faster, better and more easily.
-
 What we'll cover
 ================
 
-The workshop will take participants through the complete cycle of identifying
-a simple issue in a Django or Python project, writing a patch with tests and
-documentation, and submitting it.
+The workshop will take participants through the complete cycle of identifying a simple issue in a
+Django or Python project, writing a patch with documentation, and submitting it.
 
 The workshop will take you through the use of:
 
 * virtualenv and pip
 * git (and GitHub)
-* running and writing tests for Python applications
 * writing and building documentation using Sphinx
 * submitting a pull request
 
