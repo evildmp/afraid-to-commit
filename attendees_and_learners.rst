@@ -25,14 +25,14 @@ PyCon Ireland in Dublin, 13th October 2014
 * Brian McDonnell <https://github.com/brianmcdonnell/>
 * Brendan Cahill (https://github.com/brencahill/)
 * Adam Dickey
-* Paul O'Grady (Twitter: @paul_ogrady; GitHub: paulogrady)
+* Paul O'Grady (Twitter: @paul_ogrady; GITHub: paulogrady)
 * Jenny DiMiceli - https://github.com/jdimiceli
 * Stephen Kerr
 * Wayne Tong
 * Vinicius Mayer (viniciusmayer@gmail.com) https://github.com/viniciusmayer
 * Dori Czapari https://github.com/doriczapari (@doriczapari)
 * Karl Griffin (karl_griffin@hotmail.com) https://github.com/karlgriffin
-
+* Vadims Briksins (https://github.com/Briksins)
 
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
