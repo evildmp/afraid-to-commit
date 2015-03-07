@@ -11,7 +11,7 @@ Workshops
 Dutch Django Association Sprint in Amsterdam, 5th March 2015
 ------------------------------------------------------------
 
-*
+* C.T. Matsumoto
 
 PyCon Ireland in Dublin, 13th October 2014
 ------------------------------------------
