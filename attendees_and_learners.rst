@@ -13,7 +13,7 @@ Dutch Django Association Sprint in Amsterdam, 5th March 2015
 
 * Remco Kranenburg <remco@burgsoft.nl>
 * Floris den Hengst
-* C.T. Matsumoto
+* C.T. Matsumoto <todd@l1nda.nl>
 * Loek van Gent <https://github.com/gannetson>
 * Nathan Schagen
 * Hanna Kollo https://github.com/sztrovacsek
