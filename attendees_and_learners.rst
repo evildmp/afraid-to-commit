@@ -1,3 +1,4 @@
+
 ####################
 Attendees & learners
 ####################
@@ -8,12 +9,17 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
-Dutch Django Association Sprint in Amsterdam, 5th March 2015
+Dutch Django Association Sprint in Amsterdam, 7th March 2015
 ------------------------------------------------------------
 
 * Kresimir Karamazen <karamazen@abec.info>
+* Remco Kranenburg <remco@burgsoft.nl>
 * Floris den Hengst
-* C.T. Matsumoto
+* C.T. Matsumoto <todd@l1nda.nl>
+* Loek van Gent <https://github.com/gannetson>
+* Nathan Schagen
+* Hanna Kollo https://github.com/sztrovacsek
+* Stephen Albert https://github.com/psiloLR
 
 PyCon Ireland in Dublin, 13th October 2014
 ------------------------------------------
@@ -259,3 +265,4 @@ I followed the tutorial online
 * Drew A. - https://github.com/daldin - 12th December 2014
 * Kumar Dheeraj-https://github.com/dhey2k-31-dec-2013
 * Omar - 14-1-2015
+
