@@ -8,7 +8,7 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
-Dutch Django Association Sprint in Amsterdam, 5th March 2015
+Dutch Django Association Sprint in Amsterdam, 7th March 2015
 ------------------------------------------------------------
 
 * Remco Kranenburg <remco@burgsoft.nl>
