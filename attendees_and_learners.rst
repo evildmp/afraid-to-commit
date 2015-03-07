@@ -16,6 +16,7 @@ Dutch Django Association Sprint in Amsterdam, 5th March 2015
 * Loek van Gent <https://github.com/gannetson>
 * Nathan Schagen
 * Hanna Kollo https://github.com/sztrovacsek
+* Stephen Albert https://github.com/psiloLR
 
 PyCon Ireland in Dublin, 13th October 2014
 ------------------------------------------
