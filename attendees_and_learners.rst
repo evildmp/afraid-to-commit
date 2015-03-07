@@ -1,3 +1,4 @@
+
 ####################
 Attendees & learners
 ####################
@@ -11,6 +12,7 @@ Workshops
 Dutch Django Association Sprint in Amsterdam, 7th March 2015
 ------------------------------------------------------------
 
+* Kresimir Karamazen <karamazen@abec.info>
 * Remco Kranenburg <remco@burgsoft.nl>
 * Floris den Hengst
 * C.T. Matsumoto <todd@l1nda.nl>
@@ -263,3 +265,4 @@ I followed the tutorial online
 * Drew A. - https://github.com/daldin - 12th December 2014
 * Kumar Dheeraj-https://github.com/dhey2k-31-dec-2013
 * Omar - 14-1-2015
+
