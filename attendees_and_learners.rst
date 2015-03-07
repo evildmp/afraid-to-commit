@@ -11,6 +11,7 @@ Workshops
 Dutch Django Association Sprint in Amsterdam, 5th March 2015
 ------------------------------------------------------------
 
+* Remco Kranenburg <remco@burgsoft.nl>
 * Floris den Hengst
 * C.T. Matsumoto
 * Loek van Gent <https://github.com/gannetson>
