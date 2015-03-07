@@ -12,6 +12,8 @@ Dutch Django Association Sprint in Amsterdam, 5th March 2015
 ------------------------------------------------------------
 
 * Kresimir Karamazen <karamazen@abec.info>
+* Floris den Hengst
+* C.T. Matsumoto
 
 PyCon Ireland in Dublin, 13th October 2014
 ------------------------------------------
