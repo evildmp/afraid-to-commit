@@ -12,7 +12,7 @@ Dutch Django Association Sprint in Amsterdam, 5th March 2015
 ------------------------------------------------------------
 
 * Floris den Hengst
-* C.T. Matsumoto
+* C.T. Matsumoto <todd@l1nda.nl>
 
 PyCon Ireland in Dublin, 13th October 2014
 ------------------------------------------
