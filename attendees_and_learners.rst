@@ -17,16 +17,13 @@ DjangoCon Europe in Cardiff, 4th June 2015
 * Zoe Ballard
 * Jeff Doyle
 * Stewart Houten
-<<<<<<< HEAD
 * Lukasz Wojcik
 * Tom Bakx
 * Marissa Zhou <https://github.com/marissazhou>
 * Niels Lensink <nielslensink@gmail.nl>
 * Bryan Spence
 * Andraz Tori <andraz@zemanta.com>
-=======
 * Gwilym Jones
->>>>>>> 21b326e70e29a42c27081a43943a33f87a22861d
 
 Dutch Django Association Sprint in Amsterdam, 7th March 2015
 ------------------------------------------------------------
