@@ -12,6 +12,8 @@ DjangoCon Europe in Cardiff, 4th June 2015
 ------------------------------------------
 
 * Tom Bakx
+*
+*
 
 Dutch Django Association Sprint in Amsterdam, 7th March 2015
 ------------------------------------------------------------
