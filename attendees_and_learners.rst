@@ -11,7 +11,7 @@ Workshops
 DjangoCon Europe in Cardiff, 4th June 2015
 ------------------------------------------
 
-* David Bannon
+* David Bannon https://github.com/sp1ky
 * 
 
 Dutch Django Association Sprint in Amsterdam, 7th March 2015
