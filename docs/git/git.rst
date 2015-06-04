@@ -54,7 +54,7 @@ Your copy is at ``https://github.com/<your github account>/afraid-to-commit/``.
 You will typically do this for any Git project you want to contribute to. It's
 good for you because it means you don't have to sign up for access to a
 central repository to be permitted to work on it, and even better for the
-maintainers because they certainly don't want to be managing an small army of
+maintainers because they certainly don't want to be managing a small army of
 volunteers on top of all their other jobs.
 
 .. note::
