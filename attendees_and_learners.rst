@@ -16,6 +16,7 @@ DjangoCon Europe in Cardiff, 4th June 2015
 * Rick de Leeuw <rick@mediamoose.nl>
 * Zoe Ballard
 * Jeff Doyle
+* Stewart Houten
 
 Dutch Django Association Sprint in Amsterdam, 7th March 2015
 ------------------------------------------------------------
