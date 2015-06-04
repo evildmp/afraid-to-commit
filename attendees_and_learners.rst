@@ -14,12 +14,16 @@ DjangoCon Europe in Cardiff, 4th June 2015
 * David Bannon https://github.com/sp1ky
 * Sven Groot <sven@mediamoose.nl>
 * Rick de Leeuw <rick@mediamoose.nl>
+<<<<<<< HEAD
 * Zoe Ballard
 * Jeff Doyle
 * Stewart Houten
 * Lukasz Wojcik
 * Tom Bakx
 * Marissa Zhou <https://github.com/marissazhou>
+=======
+* Niels Lensink <nielslensink@gmail.nl>  
+>>>>>>> e8c0efb7feab09e3c472c6b86679ec5d72d80cab
 
 Dutch Django Association Sprint in Amsterdam, 7th March 2015
 ------------------------------------------------------------
