@@ -8,6 +8,11 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+DjangoCon Europe in Cardiff, 4th June 2015
+------------------------------------------
+
+* 
+
 Dutch Django Association Sprint in Amsterdam, 7th March 2015
 ------------------------------------------------------------
 
