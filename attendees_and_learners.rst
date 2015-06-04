@@ -11,6 +11,7 @@ Workshops
 DjangoCon Europe in Cardiff, 4th June 2015
 ------------------------------------------
 
+* David Bannon
 * 
 
 Dutch Django Association Sprint in Amsterdam, 7th March 2015
@@ -268,3 +269,4 @@ I followed the tutorial online
 * Drew A. - https://github.com/daldin - 12th December 2014
 * Kumar Dheeraj-https://github.com/dhey2k-31-dec-2013
 * Omar - 14-1-2015
+* Surabhi Borgikar
