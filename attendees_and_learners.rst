@@ -10,6 +10,7 @@ Workshops
 
 DjangoCon Europe in Cardiff, 4th June 2015
 ------------------------------------------
+<<<<<<< HEAD
 
 * David Bannon https://github.com/sp1ky
 * Sven Groot <sven@mediamoose.nl>
@@ -24,6 +25,9 @@ DjangoCon Europe in Cardiff, 4th June 2015
 =======
 * Niels Lensink <nielslensink@gmail.nl>  
 >>>>>>> e8c0efb7feab09e3c472c6b86679ec5d72d80cab
+=======
+* Bryan Spence
+>>>>>>> d65285229d11594cab7bb018f6e26fe6c7541c95
 
 Dutch Django Association Sprint in Amsterdam, 7th March 2015
 ------------------------------------------------------------
