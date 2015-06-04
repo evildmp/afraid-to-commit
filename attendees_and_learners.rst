@@ -12,6 +12,8 @@ DjangoCon Europe in Cardiff, 4th June 2015
 ------------------------------------------
 
 * David Bannon
+* Sven Groot <sven@mediamoose.nl>
+* Rick de Leeuw <rick@mediamoose.nl>
 * Stewart Houten
 
 Dutch Django Association Sprint in Amsterdam, 7th March 2015
