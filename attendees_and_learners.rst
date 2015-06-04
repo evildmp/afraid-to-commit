@@ -12,7 +12,7 @@ DjangoCon Europe in Cardiff, 4th June 2015
 ------------------------------------------
 
 * David Bannon
-* 
+* Zoe Ballard <https://github.com/zoe-ann-b>
 
 Dutch Django Association Sprint in Amsterdam, 7th March 2015
 ------------------------------------------------------------
