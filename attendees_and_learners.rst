@@ -1,5 +1,5 @@
 ####################
-Attendees & learners
+Attendees & learners - Blob
 ####################
 
 This is a record of people who attended a *Don't be afraid to commit* workshop,
