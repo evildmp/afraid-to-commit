@@ -17,6 +17,7 @@ DjangoCon Europe in Cardiff, 4th June 2015
 * Zoe Ballard
 * Jeff Doyle
 * Stewart Houten
+* Lukasz Wojcik
 
 Dutch Django Association Sprint in Amsterdam, 7th March 2015
 ------------------------------------------------------------
