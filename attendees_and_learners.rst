@@ -11,7 +11,7 @@ Workshops
 DjangoCon Europe in Cardiff, 4th June 2015
 ------------------------------------------
 
-* Amy
+* Amy <amyjolai@msn.com>
 * David Bannon
 * Sven Groot <sven@mediamoose.nl>
 * Rick de Leeuw <rick@mediamoose.nl>
