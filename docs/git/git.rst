@@ -49,7 +49,15 @@ You can do various things there, including browsing through all the code and fil
 A few moments later, you'll have your own copy, on GitHub, of everything in
 that repository, and from now on you'll do your work on your copy of it.
 
-Your copy is at ``https://github.com/<your github account>/afraid-to-commit/``.
+Your copy is at ``https://github.com/<your github account>/afraid-to-commit/``. 
+
+.. note::
+   About angular brackets
+
+    Angular brackets, such as those in the line above, are used as placeholders; 
+    they do not need to be included in the command line terminal. Just write in your 
+    GitHub account name. The same applies for any angular brackets used throughout
+    the tutorial. 
 
 You will typically do this for any Git project you want to contribute to. It's
 good for you because it means you don't have to sign up for access to a
