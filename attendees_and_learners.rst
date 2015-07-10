@@ -283,5 +283,5 @@ I followed the tutorial online
 * Surabhi Borgikar
 * Cameron
 * Jum - May 20, 2015
-* Paul Jewell - July 2015
+* Paul Jewell <paul@jidoka.org> July 2015 https://github.com/paul-jewell
 
