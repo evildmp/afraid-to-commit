@@ -24,7 +24,7 @@ DjangoCon Europe in Cardiff, 4th June 2015
 * Bryan Spence
 * Andraz Tori <andraz@zemanta.com>
 * Gwilym Jones
-* Adrienne Lowe http://codingwithkniv.es
+* Adrienne Lowe http://codingwithkniv.es, @adriennefriend
 
 Dutch Django Association Sprint in Amsterdam, 7th March 2015
 ------------------------------------------------------------
