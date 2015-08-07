@@ -285,4 +285,4 @@ I followed the tutorial online
 * Cameron
 * Jum - May 20, 2015
 * Paul Jewell <paul@jidoka.org> July 2015 https://github.com/paul-jewell
-Alexandro Perez - https://github.com/AlexandroPerez - 6th August 2015
+* Alexandro Perez - https://github.com/AlexandroPerez - 6th August 2015
