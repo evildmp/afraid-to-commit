@@ -7,6 +7,10 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
+DjangoGirls in Portland, 27th August 2015
+------------------------------------------
+
+
 
 DjangoCon Europe in Cardiff, 4th June 2015
 ------------------------------------------
