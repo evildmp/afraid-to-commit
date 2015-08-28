@@ -10,6 +10,7 @@ Workshops
 
 DjangoGirls in Portland, 27th August 2015
 ------------------------------------------
+* Lacey Williams Henschel @laceynwilliams
 
 * Megan Norton http://walkermacy.com
 * Sara "the" Jensen https://github.com/thejensen
