@@ -7,10 +7,12 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
+
 DjangoGirls in Portland, 27th August 2015
 ------------------------------------------
-* Megan Norton http://walkermacy.com
 
+* Megan Norton http://walkermacy.com
+* Sara "the" Jensen https://github.com/thejensen
 
 DjangoCon Europe in Cardiff, 4th June 2015
 ------------------------------------------
