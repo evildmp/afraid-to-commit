@@ -13,6 +13,7 @@ DjangoGirls in Portland, 27th August 2015
 
 * Megan Norton http://walkermacy.com
 * Sara "the" Jensen https://github.com/thejensen
+* TB
 
 DjangoCon Europe in Cardiff, 4th June 2015
 ------------------------------------------
@@ -100,6 +101,7 @@ DjangoCon US in Portland, 5th September 2014
 * Jeff Kile
 * Orlando Romero
 * Chad Hansen (chadgh@gmail.com) https://github.com/chadgh
+
 
 DjangoVillage in Orvieto, 14th June 2014
 ----------------------------------------
