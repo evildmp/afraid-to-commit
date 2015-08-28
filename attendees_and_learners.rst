@@ -10,6 +10,7 @@ Workshops
 DjangoGirls in Portland, 27th August 2015
 ------------------------------------------
 
+* Sara "the" Jensen https://github.com/thejensen
 
 
 DjangoCon Europe in Cardiff, 4th June 2015
