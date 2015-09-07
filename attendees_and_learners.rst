@@ -9,7 +9,7 @@ Workshops
 =========
 DjangoGirls in Portland, 27th August 2015
 ------------------------------------------
-Stephanie Marson
+* Stephanie Marson
 
 
 DjangoCon Europe in Cardiff, 4th June 2015
