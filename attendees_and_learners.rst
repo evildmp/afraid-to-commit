@@ -39,6 +39,7 @@ DjangoCon Europe in Cardiff, 4th June 2015
 * Andraz Tori <andraz@zemanta.com>
 * Gwilym Jones
 * Adrienne Lowe http://codingwithkniv.es, @adriennefriend
+* Zoe Ballard <https://github.com/zoe-ann-b>
 
 Dutch Django Association Sprint in Amsterdam, 7th March 2015
 ------------------------------------------------------------
