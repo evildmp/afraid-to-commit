@@ -166,8 +166,8 @@ When you activate your new virtualenv, it will deactivate the first::
    
     cd my-second-virtualenv
     source bin/activate 
-    
-Note: For Windows Users don't forget instead of *source bin/activate*, type this command **Scripts\activate**.
+
+Note: For Windows Users don't forget instead of *source bin/activate*, type this command **Scripts\activate**
 
 ``pip freeze`` will show you that you don't have Python-RSA installed in this
 one - it's a completely different Python environment from the other, and both
