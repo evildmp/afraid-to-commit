@@ -16,7 +16,7 @@ PyCon UK in Coventry, 20th September 2014
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
 
-* Paivi Suomela, https://github.com/peconia
+* Paivi Suomela <https://github.com/peconia>
 
 DjangoGirls in Portland, 27th August 2015
 ------------------------------------------
