@@ -17,6 +17,7 @@ PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
 
 * Paivi Suomela, https://github.com/peconia
+* Neil Stoker
 
 DjangoGirls in Portland, 27th August 2015
 ------------------------------------------
