@@ -50,8 +50,8 @@ If you think that sounds tedious, it's nothing compared to the potential pain
 of having to manage or use code and documentation written according to the
 individual preferences of all its different contributors.
 
-*	https://docs.djangoproject.com/en/1.6/internals/contributing/
-*	https://docs.djangoproject.com/en/1.6/internals/contributing/writing-code/working-with-git/
+*	https://docs.djangoproject.com/en/1.7/internals/contributing/
+*	https://docs.djangoproject.com/en/1.7/internals/contributing/writing-code/working-with-git/
 
 Note that the Django Project's Git guidelines ask contributors to use
 ``rebase`` - which is firstly a little unusual, and secondly explained in the

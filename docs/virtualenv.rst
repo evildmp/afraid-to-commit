@@ -19,10 +19,10 @@ are that you'll need more than one version of it, or the numerous other Python
 applications it depends upon, at any one time.
 
 For example, when a new version of Django is released, you might want to check
-your project is still compatible. You don't want to have to set up a whole new
+to see if your project is still compatible. You don't want to have to set up a whole new
 server with a different version of Django to find out.
 
-With virtualenv, you can quickly set up a a brand new Python environment, and
+With virtualenv, you can quickly set up a brand new Python environment, and
 install your components into it - along with the new version of Django,
 without touching or affecting what you already have running.
 

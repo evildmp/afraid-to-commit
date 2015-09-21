@@ -14,9 +14,8 @@ A workshop/tutorial for Python/Django developers who would like to contribute
 more to the projects they use, but need more grounding in some of the tools
 required.
 
-The workshop will take participants through the complete cycle of identifying
-a simple issue in a Django or Python project, writing a patch with tests and
-documentation, and submitting it.
+The workshop will take participants through the complete cycle of identifying a simple issue in a
+Django or Python project, writing a patch with documentation, and submitting it.
 
 The purpose of the workshop
 ---------------------------
@@ -38,10 +37,6 @@ streamlined and efficient way.
 development, and will make it possible for you to collaborate effectively with
 others. The Django Project, like many other open projects, uses both.
 
-**Automated tests** will help you develop your software faster,
-better and more easily and give other developers more confidence in your
-contributions.
-
 **Documentation** - being able to create, manage and publish documentation in
 an efficient and orderly way will make your work more accessible and more
 interesting to other people.
@@ -58,7 +53,6 @@ Contents
    What you need to know and have installed before you begin <prerequisites>
    virtualenv
    git/index
-   Automated testing in Python and Django <testing>
    documentation
    Contributing your work <contributing>
    Cheatsheet - a handy summary of key commands and techniques <cheatsheet>
