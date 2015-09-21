@@ -26,6 +26,7 @@ DjangoCon Europe in Cardiff, 4th June 2015
 ------------------------------------------
 
 * David Bannon https://github.com/sp1ky
+* Amy Lai
 * Sven Groot <sven@mediamoose.nl>
 * Rick de Leeuw <rick@mediamoose.nl>
 * Zoe Ballard
