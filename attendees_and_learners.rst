@@ -11,7 +11,7 @@ Workshops
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
 
-*
+* Sylvain Gubian
 
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
