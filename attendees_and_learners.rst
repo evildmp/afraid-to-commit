@@ -12,6 +12,7 @@ PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
 
 * Valerio Campanella https://github.com/VCAMP/
+* Aisha Bello https://github.com/shante66
 
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
