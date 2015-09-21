@@ -11,7 +11,7 @@ Workshops
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
 
-* Valerio Campanella https://github.com/VCAMP/
+* Valerio Campanella @ValerioCamp https://github.com/VCAMP/
 * Laura Dreyer https://github.com/lbdreyer
 * Aisha Bello https://github.com/shante66
 * Paivi Suomela, https://github.com/peconia
