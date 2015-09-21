@@ -12,10 +12,6 @@ PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
 
 * Valerio Campanella https://github.com/VCAMP/
-
-PyCon UK in Coventry, 21st September 2015
------------------------------------------
-
 * Paivi Suomela, https://github.com/peconia
 * Neil Stoker
 * Charles Barnwell https://github.com/cgbarnwell
