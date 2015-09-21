@@ -19,6 +19,7 @@ PyCon UK in Coventry, 21st September 2015
 * Charles G Barnwell  https://github.com/cgbarnwell
 * Jo Williams https://githib.com/crocodile2485
 * Sylvain Gubian
+* Adam Johns https://github.com/ninjaExploder/
 
 
 DjangoGirls in Portland, 27th August 2015
