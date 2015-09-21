@@ -8,6 +8,11 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+PyCon UK in Coventry, 20th September 2014
+-----------------------------------------
+
+*
+
 DjangoGirls in Portland, 27th August 2015
 ------------------------------------------
 * Lacey Williams Henschel @laceynwilliams
