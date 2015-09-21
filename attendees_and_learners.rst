@@ -8,10 +8,21 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
-PyCon UK in Coventry, 20th September 2014
+PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
 
-*
+* Valerio Campanella https://github.com/VCAMP/
+<<<<<<< HEAD
+=======
+* Laura Dreyer
+
+PyCon UK in Coventry, 21st September 2015
+-----------------------------------------
+
+>>>>>>> d29bcc0471ee6ed5d9504103182907b9669a6086
+* Paivi Suomela, https://github.com/peconia
+* Neil Stoker
+* Charles Barnwell https://github.com/cgbarnwell
 
 DjangoGirls in Portland, 27th August 2015
 ------------------------------------------
