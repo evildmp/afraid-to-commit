@@ -17,7 +17,7 @@ PyCon UK in Coventry, 21st September 2015
 * Paivi Suomela, https://github.com/peconia
 * Neil Stoker
 * Charles Barnwell https://github.com/cgbarnwell
-* Jo Williams https://githib.com/crocodile2485
+* Jo Williams https://githib.com/crocodile2485 crocodile2485
 * Sylvain Gubian
 
 DjangoGirls in Portland, 27th August 2015
