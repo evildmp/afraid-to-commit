@@ -71,6 +71,7 @@ Create and activate a virtual environment
     cd my-first-virtualenv
     source bin/activate
 
+Note: For Windows Users instead of *source bin/activate*, type this command **Scripts\activate**.
 Notice how your command prompt tells you that the virtualenv is active (and it remains active even while you're not in its directory)::
 
     (my-first-virtualenv)~/my-first-virtualenv$ 
@@ -165,6 +166,8 @@ When you activate your new virtualenv, it will deactivate the first::
    
     cd my-second-virtualenv
     source bin/activate 
+    
+Note: For Windows Users don't forget instead of *source bin/activate*, type this command **Scripts\activate**.
 
 ``pip freeze`` will show you that you don't have Python-RSA installed in this
 one - it's a completely different Python environment from the other, and both
