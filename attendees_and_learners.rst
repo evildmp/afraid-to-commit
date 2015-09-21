@@ -11,12 +11,13 @@ Workshops
 PyCon UK in Coventry, 20th September 2014
 -----------------------------------------
 
-* Sylvain Gubian
+*
 
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
 
 * Paivi Suomela, https://github.com/peconia
+* Sylvain Gubian
 
 DjangoGirls in Portland, 27th August 2015
 ------------------------------------------
