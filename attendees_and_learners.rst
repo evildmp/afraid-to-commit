@@ -19,6 +19,7 @@ PyCon UK in Coventry, 21st September 2015
 * Charles Barnwell https://github.com/cgbarnwell
 * Jo Williams https://githib.com/crocodile2485
 * Sylvain Gubian
+* Glen Davies https://github.com/glen442 @GlenDaviesDev
 
 DjangoGirls in Portland, 27th August 2015
 ------------------------------------------
