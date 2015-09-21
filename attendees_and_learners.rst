@@ -15,11 +15,12 @@ PyCon UK in Coventry, 20th September 2014
 
 DjangoGirls in Portland, 27th August 2015
 ------------------------------------------
-* Lacey Williams Henschel @laceynwilliams
 
+* Lacey Williams Henschel @laceynwilliams
 * Megan Norton http://walkermacy.com
 * Sara "the" Jensen https://github.com/thejensen
 * TB
+* Stephanie Marson
 
 DjangoCon Europe in Cardiff, 4th June 2015
 ------------------------------------------
