@@ -12,10 +12,10 @@ PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
 
 * Valerio Campanella https://github.com/VCAMP/
-* Laura Dreyer
+* Laura Dreyer https://github.com/lbdreyer
 * Aisha Bello https://github.com/shante66
-* Paivi Suomela https://github.com/peconia
-* Neil Stoker
+* Paivi Suomela, https://github.com/peconia
+* Neil Stoker, https://github.com/nmstoker
 * Charles Barnwell https://github.com/cgbarnwell
 * Jo Williams https://githib.com/crocodile2485
 * Sylvain Gubian
