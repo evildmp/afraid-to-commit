@@ -10,7 +10,7 @@ Workshops
 
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
-Gearoid Ryan https://github.com/gearoid-ryan
+* Gearoid Ryan https://github.com/gearoid-ryan
 
 
 PyCon UK in Coventry, 21st September 2015
