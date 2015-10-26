@@ -14,6 +14,7 @@ PyCon Ireland in Dublin, 26th October 2015
 * Simon Parker https://github.com/simonparkerdublin
 * Anna Szewc, https://github.com/NannahA
 * Iain Geddes https://github.com/iaingeddes
+* Gearoid Ryan https://github.com/gearoid-ryan
 
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------

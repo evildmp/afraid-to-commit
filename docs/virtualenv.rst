@@ -53,8 +53,7 @@ If you got a "Command not found" when you tried to use virtualenv, try::
 
 or::
 
-    sudo apt-get install python-virtualenv # for a Debian-based system - but
-    it may not be up-to-date
+    sudo apt-get install python-virtualenv # for a Debian-based system
 
 If that fails or you're using a different system, you might need more help:
 
