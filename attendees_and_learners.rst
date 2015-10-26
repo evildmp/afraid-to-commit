@@ -17,7 +17,7 @@ PyCon UK in Coventry, 21st September 2015
 * Paivi Suomela, https://github.com/peconia
 * Neil Stoker, https://github.com/nmstoker
 * Charles G Barnwell  https://github.com/cgbarnwell
-* Jo Williams https://githib.com/crocodile2485
+* Jo Williams https://githib.com/crocodile2485 fh07jw
 * Sylvain Gubian
 * Adam Johns https://github.com/ninjaExploder/
 * Glen Davies https://github.com/glen442 @GlenDaviesDev
