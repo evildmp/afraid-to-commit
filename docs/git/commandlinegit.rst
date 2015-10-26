@@ -101,7 +101,7 @@ Just as you did on GitHub, once again you're going to create a new branch,
 based on *master*, for new work to go into::
 
     $ git checkout -b amend-my-name
-    Switched to a new branch 'amend-my-name
+    Switched to a new branch 'amend-my-name'
 
 ``git checkout`` is a command you'll use a lot, to switch between branches. The
 ``-b`` flag tells it to **create a new branch** at the same time. By default,
