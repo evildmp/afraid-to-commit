@@ -11,7 +11,7 @@ Workshops
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
 
-* Simon Parker https://github.com/simonparkerdublin
+* Simon Parker https://github.com/simonparkerdublin @SparkerDublin 
 * Anna Szewc, https://github.com/NannahA
 * Iain Geddes https://github.com/iaingeddes
 * Gearoid Ryan https://github.com/gearoid-ryan
