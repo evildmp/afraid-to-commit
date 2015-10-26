@@ -41,26 +41,26 @@ Install virtualenv
 Try::
 
     virtualenv --version
-    
+
 Do you have a version lower than 1.9? Upgrade it::
 
     sudo pip install --upgrade virtualenv
     hash -r # purge shell's PATH, though this may not be necessary for you
-    
+
 If you got a "Command not found" when you tried to use virtualenv, try::
 
     sudo pip install virtualenv
-    
+
 or::
 
     sudo apt-get install python-virtualenv # for a Debian-based system - but
     it may not be up-to-date
-    
+
 If that fails or you're using a different system, you might need more help:
 
     `Virtualenv installation documentation
     <http://www.virtualenv.org/en/latest/#installation>`_
-    
+
 
 Create and activate a virtual environment
 =========================================
@@ -71,9 +71,13 @@ Create and activate a virtual environment
     cd my-first-virtualenv
     source bin/activate
 
-Notice how your command prompt tells you that the virtualenv is active (and it remains active even while you're not in its directory)::
+.. note:: **Windows users** should run ``Scripts\activate`` instead of ``source bin/activate``.
 
-    (my-first-virtualenv)~/my-first-virtualenv$ 
+Notice how your command prompt tells you that the virtualenv is active (and it remains active even
+while you're not in its directory)::
+
+    (my-first-virtualenv)~/my-first-virtualenv$
+
 
 Using pip
 =========
@@ -81,17 +85,17 @@ Using pip
 pip freeze
 ----------
 
-``pip freeze`` lists installed Python packages:: 
+``pip freeze`` lists installed Python packages::
 
-    (my-first-virtualenv)daniele@v029:~/my-first-virtualenv$ pip freeze 
+    (my-first-virtualenv)daniele@v029:~/my-first-virtualenv$ pip freeze
     argparse==1.2.1
     distribute==0.6.24
     pyasn1==0.1.7
     virtualenv==1.9.1
     wsgiref==0.1.2
-    
+
 pip install
------------ 
+-----------
 
 Earlier, you may have used ``sudo pip install``. You **don't** need ``sudo``
 now, because you're in a virtualenv. Let's install something.
@@ -110,8 +114,8 @@ needed.
 
 And try::
 
-    (my-first-virtualenv)~/my-first-virtualenv$ python 
-    Python 2.7.2+ (default, Jul 20 2012, 22:15:08) 
+    (my-first-virtualenv)~/my-first-virtualenv$ python
+    Python 2.7.2+ (default, Jul 20 2012, 22:15:08)
     [GCC 4.6.1] on linux2
     Type "help", "copyright", "credits" or "license" for more information.
     >>> import rsa
@@ -123,21 +127,21 @@ To uninstall it::
 To install a particular version::
 
     pip install rsa==3.0
-    
+
 To ugrade the package to the latest version::
 
-    pip install --upgrade rsa 
-            
+    pip install --upgrade rsa
+
 Where packages get installed
 ----------------------------
 
 Your virtualenv has a site-packages directory, in the same way your system does. So now rsa can be found in::
 
     ~/my-first-virtualenv/lib/python2.7/site-packages/rsa
-    
+
 (It's possible that you'll have a different version of Python listed in that
 path.)
-    
+
 Dependencies
 ------------
 
@@ -160,11 +164,13 @@ Create a second virtualenv
 
     cd ~/ # let's not create it inside the other...
     virtualenv my-second-virtualenv
-    
+
 When you activate your new virtualenv, it will deactivate the first::
-   
+
     cd my-second-virtualenv
-    source bin/activate 
+    source bin/activate
+
+.. note:: **Windows users**: don't forget to use ``Scripts\activate`` rather than ``source bin/activate``.
 
 ``pip freeze`` will show you that you don't have Python-RSA installed in this
 one - it's a completely different Python environment from the other, and both
@@ -177,8 +183,8 @@ Activating a virtualenv automatically deactivates one that was previously
 active, but you can also do this manually::
 
     deactivate
-    
-Now you're no longer in any virtualenv.       
+
+Now you're no longer in any virtualenv.
 
 --system-site-packages
 -----------------------
@@ -187,8 +193,8 @@ When you create a virtualenv, it doesn't include any Python packages already
 installed on your system. But sometimes, that *is* what you want. In that
 case you'd do::
 
-    virtualenv --system-site-packages my-third-virtualenv 
-    
+    virtualenv --system-site-packages my-third-virtualenv
+
 remove a virtualenv
 -------------------
 
@@ -196,6 +202,6 @@ virtualenvs are disposable. You can get rid of these::
 
     cd ~/
     rm -r  my-first-virtualenv my-second-virtualenv my-third-virtualenv
-    
+
 And that's pretty much all you need to get started and to use pip and
 virtualenv effectively.
