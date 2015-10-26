@@ -23,6 +23,7 @@ PyCon Ireland in Dublin, 26th October 2015
 * Art Knipe https://github.com/artkgithub
 * Miao Li https://github.com/masonmiaoli
 * Sarah Jackson
+* Barry Kennedy https://github.com/bazkennedy
 
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
