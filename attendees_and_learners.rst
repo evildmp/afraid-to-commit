@@ -10,7 +10,7 @@ Workshops
 
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
-* Jakub Pawlicki https://github.com/JakubPawlicki  kkkkgkgkgjkdgjhdljhdlkfhjlfgh 
+* Jakub Pawlicki https://github.com/JakubPawlicki  kkkkgkgkgjkdgjhdljhdlkfhjlfgkjflkjgdlkghjdgfh 
 
 dhfgl;sdjfgsl;djfgldkfsjgsd;lfjkg
 PyCon UK in Coventry, 21st September 2015
