@@ -27,6 +27,8 @@ PyCon Ireland in Dublin, 26th October 2015
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
 
+.. note:: Many thanks to Helen Sherwood-Taylor (helenst) for her invaluable assistance.
+
 * Valerio Campanella @ValerioCamp https://github.com/VCAMP/
 * Laura Dreyer https://github.com/lbdreyer
 * Aisha Bello https://github.com/shante66
