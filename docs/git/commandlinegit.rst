@@ -107,11 +107,11 @@ based on *master*, for new work to go into::
 ``-b`` flag tells it to **create a new branch** at the same time. By default,
 the new branch is based upon whatever branch you were on.
 
-You can also choose what to base the new branch on. A very common thing to do is::
+You can also choose what to base the new branch on. A quite common thing to do is, just for example::
 
-    git checkout -b new-branch-name upstream/master
+    git checkout -b new-branch existing-branch
 
-This creates a new branch ``new-branch-name``, based on ``upstream/master``.
+This creates a new branch ``new-branch``, based on ``existing-branch``.
 
 Edit a file
 -----------
