@@ -20,6 +20,7 @@ PyCon Ireland in Dublin, 26th October 2015
 * Lisa Cavern @anninireland https://github.com/anninireland
 * Jeremie Jost https://github.com/jjst
 * Richard Loy https://github.com/Richloy
+* Art Knipe https://github.com/artkgithub
 
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
