@@ -19,6 +19,7 @@ PyCon Ireland in Dublin, 26th October 2015
 * Ivin Polo Sony @ivinpolosony http://github.com/ivinpolosony/
 * Lisa Cavern @anninireland https://github.com/anninireland
 * Jeremie Jost https://github.com/jjst
+* Richard Loy https://github.com/Richloy
 
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
