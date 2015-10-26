@@ -10,6 +10,7 @@ Workshops
 
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
+* Simon Parker https://github.com/simonparkerdublin
 
 
 
