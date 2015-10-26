@@ -10,7 +10,7 @@ Workshops
 
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
-Ivin Polo Sony @ivinpolosony http://github.com/ivinpolosony/
+* Ivin Polo Sony @ivinpolosony http://github.com/ivinpolosony/
 
 
 PyCon UK in Coventry, 21st September 2015
