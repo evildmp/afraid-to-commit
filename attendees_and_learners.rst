@@ -17,6 +17,7 @@ PyCon Ireland in Dublin, 26th October 2015
 * Gearoid Ryan https://github.com/gearoid-ryan
 * Jakub Pawlicki https://github.com/JakubPawlicki
 * Ivin Polo Sony @ivinpolosony http://github.com/ivinpolosony/
+* Lisa Cavern @anninireland https://github.com/anninireland
 
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
