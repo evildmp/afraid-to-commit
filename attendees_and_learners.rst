@@ -12,7 +12,7 @@ PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
 * Simon Parker https://github.com/simonparkerdublin
 
-
+* Art Knipe https://github.com/artkgithub
 
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
