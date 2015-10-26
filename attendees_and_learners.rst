@@ -23,7 +23,7 @@ PyCon Ireland in Dublin, 26th October 2015
 * Art Knipe https://github.com/artkgithub
 * Miao Li https://github.com/masonmiaoli
 * Sarah Jackson
-* Stefano Fedele 
+* Stefano Fedele https://github.com/stefanofedele/afraid-to-commit
 
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
