@@ -10,7 +10,7 @@ Workshops
 
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
-Barry Kennedy
+Barry Kennedy https://github.com/bazkennedy
 
 
 PyCon UK in Coventry, 21st September 2015
