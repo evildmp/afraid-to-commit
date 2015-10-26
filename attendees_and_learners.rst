@@ -13,7 +13,7 @@ PyCon Ireland in Dublin, 26th October 2015
 
 * Simon Parker https://github.com/simonparkerdublin
 * Anna Szewc, https://github.com/NannahA
-* Iain Geddes https://github.com/iaingeddes
+* Iain Geddes iaingeddes@theiet.org https://github.com/iaingeddes
 * Gearoid Ryan https://github.com/gearoid-ryan
 * Jakub Pawlicki https://github.com/JakubPawlicki
 * Ivin Polo Sony @ivinpolosony http://github.com/ivinpolosony/
