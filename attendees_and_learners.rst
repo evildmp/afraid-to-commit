@@ -10,7 +10,7 @@ Workshops
 
 PyCon Ireland in Dublin, 26th October 2015
 -----------------------------------------
-* Sarah Jackson pencil 
+* Sarah Jackson, 23 October 2015
 
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
