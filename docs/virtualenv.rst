@@ -52,7 +52,7 @@ On Debian/Ubuntu systems
 
 ::
 
-    sudo install python-pip
+    sudo apt-get install python-pip
 
 On Debian you probably will not be authorised to use ``sudo``.  In this case use::
 
