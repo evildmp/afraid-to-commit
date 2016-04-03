@@ -335,3 +335,4 @@ I followed the tutorial online
 * Rahul bajaj - https://github.com/rahulbajaj0509 2015
 * Alejandro Suárez - https://github.com/alsuga 20th October 2015
 * Richard Angeles - Feb 19, 2016
+* Salvador Rico - April 3, 2016 - https://github.com/salvarico
