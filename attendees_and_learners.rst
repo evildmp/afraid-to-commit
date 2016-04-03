@@ -11,7 +11,7 @@ Workshops
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
 
-* Simon Parker https://github.com/simonparkerdublin @SparkerDublin 
+* Simon Parker https://github.com/simonparkerdublin @SparkerDublin
 * Anna Szewc, https://github.com/NannahA
 * Iain Geddes iaingeddes@theiet.org https://github.com/iaingeddes
 * Gearoid Ryan https://github.com/gearoid-ryan
@@ -335,3 +335,4 @@ I followed the tutorial online
 * Rahul bajaj - https://github.com/rahulbajaj0509 2015
 * Alejandro Suárez - https://github.com/alsuga 20th October 2015
 * Richard Angeles - Feb 19, 2016
+* Abhijit Chowdhury - https://github.com/achowdhury7 14th Feb 2016
