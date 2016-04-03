@@ -34,18 +34,39 @@ and can safely make changes to one without affecting anything else.
 (as well as separately). It's an installer, and is the easiest way to install
 things into a virtualenv.
 
-Install pip
-===========
+Installing pip
+==============
 
-On debian/ubuntu systems pip is not automatically installed.  To install pip do the following::
+You will most probably find that pip is already installed on your system.
+
+Run::
+
+    pip --version
+
+to find out.
+
+If it's not, you have various options.
+
+On Debian/Ubuntu systems
+------------------------
+
+::
 
     sudo install python-pip
 
-On debian you probably will not be authorised to use sudo.  In this case use::
-    
+On Debian you probably will not be authorised to use ``sudo``.  In this case use::
+
     su -
 
 to switch to the root user before installing pip.
+
+
+Use get-pip.py
+--------------
+
+Another option is to use the official `get-pip.py <https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py>`_ script.
+
+
 
 Install virtualenv
 ==================
@@ -54,7 +75,7 @@ Try::
 
     virtualenv --version
 
-Do you have a version lower than 1.9? Upgrade it::
+Keep it up-to-date::
 
     sudo pip install --upgrade virtualenv
     hash -r # purge shell's PATH, though this may not be necessary for you
