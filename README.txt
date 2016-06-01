@@ -33,3 +33,4 @@ What you need to know
 =====================
 
 The workshop is open to anyone, but places will be limited.
+asdf
