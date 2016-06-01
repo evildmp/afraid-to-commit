@@ -4,12 +4,15 @@ include:
 * Daniel Quinn
 * Brian Crain (@crainbf)
 * Paul Grau
-* Nimesh Ghelani (https://github.com/nims11)
+* Nimesh Ghelani https://github.com/nims11
 * Robert Dragan https://github.com/rmdragan
+* David Garcia https://github.com/davideire
+* Jason Blum https://github.com/jasonblum
+* Kevin Daum https://github.com/kevindaum
 
 Many thanks are also due to the members of #django, #python, #git and #github
 on irc.freenode.net for their endless online help.
 
 ... and if I have neglected to mention someone, please let me know.
-                                                                               
+
 Please feel free to use and adapt the tutorial.
