@@ -336,6 +336,6 @@ I followed the tutorial online
 * Alejandro Suárez - https://github.com/alsuga 20th October 2015
 * Prathamesh Chavan
 * Tad Deely
-* Abhijit Chowdhury - https://github.com/achowdhury7 14th Feb 2016
+* Abhijit Chowdhury - https://github.com/achowdhury7 12th Feb 2016
 * Richard Angeles - Feb 19, 2016
-* Josh Long 
+* Josh Long
