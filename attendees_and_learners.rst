@@ -338,6 +338,10 @@ I followed the tutorial online
 * Tad Deely
 * Abhijit Chowdhury - https://github.com/achowdhury7 12th Feb 2016
 * Richard Angeles - Feb 19, 2016
+<<<<<<< HEAD
 * Salvador Rico - April 3, 2016 - https://github.com/salvarico
 * Dieter Jansen - https://github.com/dieterjansen - 2016-04-20
 * Josh Long
+=======
+* Adam Shields
+>>>>>>> a05fefc00954856e754deaf4802314c5cf42d36a
