@@ -8,13 +8,14 @@ In this section you will:
 *   create your own local clone of a repository
 *   create a new Git branch
 *   edit a file and stage your changes
-*   commit your changes 
+*   commit your changes
 *   push your changes to GitHub
 *   make a pull request
 *   merge upstream changes into your fork
 *   merge changes on GitHub into your local clone
 
-So far we've done all our Git work using the GitHub website, but that's often not the most appropriate way to work. 
+So far we've done all our Git work using the GitHub website, but that's usually
+not the most appropriate way to work.
 
 You'll find that most of your Git-related operations can and need to be done on the commandline.
 
@@ -28,8 +29,8 @@ Install/set up Git
 
 There are other ways of installing Git; you can even get a graphical Git application, that will include the commandline tools. These are described at:
 
-    http://git-scm.com/book/en/Getting-Started-Installing-Git  
-    
+    http://git-scm.com/book/en/Getting-Started-Installing-Git
+
 Tell Git who you are
 --------------------
 
@@ -57,7 +58,7 @@ from the format of GitHub's *ssh* URLS.
 For example, when you see::
 
     git@github.com:evildmp/afraid-to-commit.git
-    
+
 you will instead need to use::
 
     https://github.com/evildmp/afraid-to-commit.git
@@ -79,18 +80,15 @@ Clone a repository
 When you made a copy of the *Don't be afraid to commit* repository on GitHub,
 that was a *fork*. Getting a copy of a repository onto your local machine is
 called *cloning*. Copy the *ssh URL* from
-``https://github.com/<your github account>/afraid-to-commit``.
-
-::
+``https://github.com/<your github account>/afraid-to-commit``, then::
 
     git clone git@github.com:<your github account>/afraid-to-commit.git
 
-Change into the newly-created directory, where you'll find all the source code
-of the *Don't be afraid to commit* project.
+Change into the newly-created ``afraid-to-commit`` directory, where you'll find
+all the source code of the *Don't be afraid to commit* project.
 
-We want to know the status of our **working directory**. The working directory
-is the set of files that you currently have in front of you, available to
-edit::
+Now you're in the **working directory**, the set of files that you currently
+have in front of you, available to edit. We want to know its status::
 
     $ git status
     # On branch master
@@ -103,17 +101,23 @@ Just as you did on GitHub, once again you're going to create a new branch,
 based on *master*, for new work to go into::
 
     $ git checkout -b amend-my-name
-    Switched to a new branch 'amend-my-name
+    Switched to a new branch 'amend-my-name'
 
 ``git checkout`` is a command you'll use a lot, to switch between branches. The
 ``-b`` flag tells it to **create a new branch** at the same time. By default,
 the new branch is based upon whatever branch you were on.
 
+You can also choose what to base the new branch on. A quite common thing to do is, just for example::
+
+    git checkout -b new-branch existing-branch
+
+This creates a new branch ``new-branch``, based on ``existing-branch``.
+
 Edit a file
 -----------
 
-#.  find the ``attendees_and_learners.rst`` file again
-#.  after your name and email address, add your Github account
+#.  find the ``attendees_and_learners.rst`` file in your working directory
+#.  after your name and email address, add your Github account name
 #.  save the file
 
 ``git status`` is always useful::
@@ -137,14 +141,14 @@ What this is telling us:
 These changes will only be applied to this branch when they're committed. You
 can ``git add`` changed files, but until you commit they won't belong to any
 particular branch.
-    
+
 .. note::
    When to branch
-   
-    You don't actually *need* to create your new branch until you decide to
-    commit. But creating your new branches before you start making changes
-    makes it less likely that you will forget later, and commit things to the
-    wrong branch.
+
+    You didn't actually *need* to create your new *amend-my-name* branch until
+    you decided to commit. But creating your new branches before you start
+    making changes makes it less likely that you will forget later, and commit
+    things to the wrong branch.
 
 Stage your changes
 ------------------
@@ -155,11 +159,11 @@ machine, you can edit a number of files and commit them altogether.
 
 **Staging a file** in Git's terminology means adding it to the staging
 area, in preparation for a commit.
-    
+
 Add your amended file to the staging area::
 
     git add attendees_and_learners.rst
-    
+
 and check the result::
 
     $ git status
@@ -175,7 +179,7 @@ ready; until you commit, they'll all be together in the staging area.
 
 What gets staged?
 ^^^^^^^^^^^^^^^^^
-   
+
 It's not your files, but the **changes to your files**, that are staged. Make
 some further change to ``attendees_and_learners.rst``, and run ``git status``::
 
@@ -194,7 +198,7 @@ some further change to ``attendees_and_learners.rst``, and run ``git status``::
     #
 
 Some of the changes in ``attendees_and_learners.rst`` will be committed, and the
-more recent ones will not. 
+more recent ones will not.
 
     * run ``git add`` on the file again to stage the newer changes
 
@@ -205,7 +209,7 @@ When you're happy with your files, and have added the changes you want to
 commit to the staging area::
 
     git commit -m "added my github name"
-     
+
 The ``-m`` flag is for the message ("added my github name") on the commit -
 every commit needs a commit message.
 
@@ -218,16 +222,18 @@ repository. Here there is an extra step: we need to **push** the files to
 GitHub.
 
 If you were pushing changes from *master* locally to *master* on GitHub, you
-could just issue the command ``git push``.
+could just issue the command ``git push`` and let Git work out what needs to go
+where.
 
-You have multiple branches here, so you need to tell git *where* to push (i.e.
-back to the remote repository you cloned from, on GitHub) and *what* exactly
-to push (your new branch).
+It's always better to be explicit though. What's more, you have multiple
+branches here, so you need to tell git *where* to push (i.e. back to the remote
+repository you cloned from, on GitHub) and *what* exactly to push (your new
+branch).
 
 The repository you cloned from - yours - can be referred to as **origin**. The
 new branch is called *amend-my-name*. So::
 
-    $ git push origin amend-my-name 
+    $ git push origin amend-my-name
     Counting objects: 34, done.
     Delta compression using up to 2 threads.
     Compressing objects: 100% (21/21), done.
@@ -236,9 +242,14 @@ new branch is called *amend-my-name*. So::
     To git@github.com:evildmp/afraid-to-commit.git
      * [new branch]      amend-my-name -> amend-my-name
 
-Next time you want to push committed changes in *amend-my-name*, you won't
-need to specify the branch, you can simply do ``git push``, because now
-*amend-my-name* exists at both ends.
+.. note::
+   Be explicit!
+
+    Next time you want to push committed changes in *amend-my-name*, you won't
+    *need* to specify the branch - you can simply do ``git push``, because now
+    *amend-my-name* exists at both ends. However, it's *still* a good idea to
+    be explict. That way you'll be less likely to get a surprise you didn't
+    want, when the wrong thing gets pushed.
 
 Check your GitHub repository
 ----------------------------
@@ -249,11 +260,11 @@ Check your GitHub repository
 
 
 Send me a pull request
-----------------------    
+----------------------
 
 You can make more changes locally, and continue committing them, and pushing
 them to GitHub. When you've made all the changes that you'd like me to accept
-though, it's time to send *me* a pull request. 
+though, it's time to send *me* a pull request.
 
 **Important**: make sure that you send it from your new branch *amend-my-name*
 (not from your *master*) the way you did before.
@@ -262,12 +273,12 @@ And if I like your changes, I'll merge them.
 
 .. note::
    Keeping master 'clean'
-   
+
     You *could* of course have merged your new branch into your *master*
     branch, and sent me a pull request from that. But, once again, it's a good
     policy to keep your *master* branch, on GitHub too, clean of changes you
     make, and only to pull things into it from upstream.
-    
+
     In fact the same thing goes for other branches on my upstream that you
     want to work with. Keeping them clean isn't strictly necessary, but it's
     nice to know that you'll always be able to pull changes from upstream
@@ -291,7 +302,7 @@ and merge the master::
 
     git fetch
     git merge origin/master
-    
+
 So now we have replicated the full cycle of work we described in the previous
 module.
 
@@ -302,11 +313,11 @@ module.
     could have run ``git pull``. The ``pull`` operation does two things: it
     **fetches** updates from your GitHub fork (**origin**), and **merges**
     them.
-    
+
     However, be warned that occasionally ``git pull`` won't always work in the
     way you expect, and doing things the explicit way helps make what you are
     doing clearer.
-    
+
     ``git fetch`` followed by ``git merge`` is generally the safer option.
 
 
@@ -336,14 +347,14 @@ Abandon
 
 You can abandon changes in a couple of ways. The recommended one is::
 
-    git checkout <file> 
+    git checkout <file>
 
-This checks out the previously-committed version of the file.         
+This checks out the previously-committed version of the file.
 
 The one that is not recommended is::
 
-    git checkout -f <branch> 
-    
+    git checkout -f <branch>
+
 The ``-f`` flag forces the branch to be checked out.
 
 .. note::
@@ -351,13 +362,13 @@ The ``-f`` flag forces the branch to be checked out.
 
     Using the ``-f`` flag for Git operations is to be avoided. It offers plenty
     of scope for mishap. If Git tells you about a problem and you force your
-    way past it, you're inviting trouble. It's almost always better to find a 
+    way past it, you're inviting trouble. It's almost always better to find a
     different way around the problem than forcing it.
-    
-    ``git push -f`` in particular has ruined a nice day for many people. 
-    
-     
+
+    ``git push -f`` in particular has ruined a nice day for many people.
+
+
 Stash
 ^^^^^
 
-If you're really interested, look up ``git stash``, but it's beyond the scope of this tutorial. 
+If you're really interested, look up ``git stash``, but it's beyond the scope of this tutorial.

@@ -83,18 +83,8 @@ You can check this out::
 
 	git checkout -b additional-branch upstream/additional-branch
 
-This means: create and switch to a new branch called *additional-branch*,
+This means: create and switch to a new local branch called *additional-branch*,
 based on branch *additional-branch* of the remote **upstream**. 
-
-.. note::
-   Branches and references
-   
-    Whenever you see something in Git of the form ``remote-name/branch-name``,
-    remember that that is a **reference** to a branch, not a branch itself. If
-    you want a branch based on ``remote-name/branch-name``, you
-    will need to use the ``-b`` flag: ``git checkout -b
-    remote-name/branch-name``.
-
 
 Managing *master* on the commandline
 ====================================
