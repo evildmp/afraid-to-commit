@@ -8,6 +8,9 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+PyCon Zimbabwe in Harare, 24th November 2016
+--------------------------------------------
+
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
 
@@ -342,4 +345,4 @@ I followed the tutorial online
 * Salvador Rico - April 3, 2016 - https://github.com/salvarico
 * Dieter Jansen - https://github.com/dieterjansen - 2016-04-20
 * Josh Long
-* Humphrey Butau
+* Humphrey Butau - https://github.com/hbutau - 2016-11-7
