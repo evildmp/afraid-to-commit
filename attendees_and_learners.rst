@@ -342,4 +342,3 @@ I followed the tutorial online
 * Salvador Rico - April 3, 2016 - https://github.com/salvarico
 * Dieter Jansen - https://github.com/dieterjansen - 2016-04-20
 * Josh Long
-* Jose Rodriguez
