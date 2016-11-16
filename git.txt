@@ -1,0 +1,18 @@
+git-bash
+
+git clone https://github.com/CDonoghue94/afraid-to-commit
+git init afraid-to-commit
+cd C:\Users\ciaran.donoghue\afraid-to-commit
+git status
+git checkout -b CiaranDonoghue
+
+check remotes
+git remote -v
+*:--> origin  https://github.com/CDonoghue94/afraid-to-commit.git (fetch)
+*:--> origin  https://github.com/CDonoghue94/afraid-to-commit.git (push)
+
+git fetch origin
+git branch -avv
+
+git remote update
+git fetch
