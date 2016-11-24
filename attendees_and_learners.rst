@@ -343,3 +343,8 @@ I followed the tutorial online
 * Dieter Jansen - https://github.com/dieterjansen - 2016-04-20
 * Josh Long
 * Humphrey Butau
+
+PyCon Zimbabwe, 24th November 2016
+-----------------------------------------
+
+* Kudakwashe Siziva
