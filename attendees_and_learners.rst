@@ -7,10 +7,12 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
+Pycon Zimbambwe 24 November 2016
+-------------------------------
+*Bornwell Matembudze https://github.com/bornie21
 
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
-
 * Simon Parker https://github.com/simonparkerdublin @SparkerDublin
 * Anna Szewc, https://github.com/NannahA
 * Iain Geddes iaingeddes@theiet.org https://github.com/iaingeddes
