@@ -7,6 +7,10 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
+PyCon Zimbabwe in Harare, 24 November 2016
+------------------------------------------
+* Akim Munthali https://github.com/amunthali @amunthali
+
 
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
