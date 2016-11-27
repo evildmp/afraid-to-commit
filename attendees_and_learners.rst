@@ -7,13 +7,9 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
-Pycon Zimbambwe 24 November 2016
+Pycon Zimbambwe 24th November 2016
 -------------------------------
-*Bornwell Matembudze https://github.com/bornie21
-
-PyCon Zimbabwe, 24th November 2016
-----------------------------------
-
+* Bornwell Matembudze https://github.com/bornie21
 * Kudakwashe Siziva
 
 PyCon Ireland in Dublin, 26th October 2015
