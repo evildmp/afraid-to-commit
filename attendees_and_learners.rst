@@ -8,6 +8,11 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+PyCon Zimbabwe, 24th November 2016
+----------------------------------
+
+* Kudakwashe Siziva
+
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
 
@@ -344,7 +349,4 @@ I followed the tutorial online
 * Josh Long
 * Humphrey Butau
 
-PyCon Zimbabwe, 24th November 2016
------------------------------------------
 
-* Kudakwashe Siziva
