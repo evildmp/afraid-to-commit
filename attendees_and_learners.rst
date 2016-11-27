@@ -11,6 +11,11 @@ Pycon Zimbambwe 24 November 2016
 -------------------------------
 *Bornwell Matembudze https://github.com/bornie21
 
+PyCon Zimbabwe, 24th November 2016
+----------------------------------
+
+* Kudakwashe Siziva
+
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
 * Simon Parker https://github.com/simonparkerdublin @SparkerDublin
@@ -345,3 +350,5 @@ I followed the tutorial online
 * Dieter Jansen - https://github.com/dieterjansen - 2016-04-20
 * Josh Long
 * Humphrey Butau
+
+
