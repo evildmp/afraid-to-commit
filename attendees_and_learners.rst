@@ -7,8 +7,8 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
-Pycon Zimbambwe 24th November 2016
--------------------------------
+Pycon Zimbambwe in Harare, 24th November 2016
+---------------------------------------------
 * Bornwell Matembudze https://github.com/bornie21
 * Kudakwashe Siziva
 
