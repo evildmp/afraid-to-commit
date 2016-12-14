@@ -7,13 +7,16 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
+Pycon Zimbambwe in Harare, 24th November 2016
+---------------------------------------------
+* Bornwell Matembudze https://github.com/bornie21
+* Kudakwashe Siziva
+* Akim Munthali https://github.com/amunthali @amunthali
 
-PyCon Zimbabwe in Harare, 24th November 2016
---------------------------------------------
+.. note:: Many thanks to Charles Katuri (charle-k) for his invaluable assistance on Windows computers
 
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
-
 * Simon Parker https://github.com/simonparkerdublin @SparkerDublin
 * Anna Szewc, https://github.com/NannahA
 * Iain Geddes iaingeddes@theiet.org https://github.com/iaingeddes
@@ -346,3 +349,5 @@ I followed the tutorial online
 * Dieter Jansen - https://github.com/dieterjansen - 2016-04-20
 * Josh Long
 * Humphrey Butau - https://github.com/hbutau - 2016-11-7
+
+
