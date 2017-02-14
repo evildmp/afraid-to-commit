@@ -343,3 +343,6 @@ I followed the tutorial online
 * Dieter Jansen - https://github.com/dieterjansen - 2016-04-20
 * Josh Long
 * Pooja Gadige - <poojagadige@gmail.com> - pgadige
+* Jason Gardner
+* Dade Murphy
+* Anselmo
