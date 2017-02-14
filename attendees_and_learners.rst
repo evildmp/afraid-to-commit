@@ -343,7 +343,7 @@ I followed the tutorial online
 * Dieter Jansen - https://github.com/dieterjansen - 2016-04-20
 * Josh Long
 * Prashant Jamkhande - https://github.com/prashant0493
-* Jose Rodriguez
+* Jose Rodriguez -https://github.com/jlrods - 15/11/2016
 * Humphrey Butau
 * Eddy Barratt
 * Pooja Gadige - <poojagadige@gmail.com> - pgadige
