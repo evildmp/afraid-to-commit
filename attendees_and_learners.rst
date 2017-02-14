@@ -1,4 +1,4 @@
-﻿####################
+####################
 Attendees & learners
 ####################
 
@@ -343,3 +343,9 @@ I followed the tutorial online
 * Dieter Jansen - https://github.com/dieterjansen - 2016-04-20
 * Josh Long
 * Jose Rodriguez -https://github.com/jlrods - 15/11/2016
+* Humphrey Butau
+* Eddy Barratt
+* Pooja Gadige - <poojagadige@gmail.com> - pgadige
+* Jason Gardner
+* Dade Murphy
+* Anselmo
