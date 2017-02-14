@@ -348,16 +348,18 @@ I followed the tutorial online
 * Richard Angeles - Feb 19, 2016
 * Adam Shields
 * Salvador Rico - April 3, 2016 - https://github.com/salvarico
-* Dieter Jansen - https://github.com/dieterjansen - 2016-04-20
 * Josh Long
-* Steven Lee - https://github.com/stevenlee96 - 2016-11-20
-* Michael Kortstiege - https://github.com/nodexo - Nov 19, 2016
 * Prashant Jamkhande - https://github.com/prashant0493
-* Jose Rodriguez -https://github.com/jlrods - 15/11/2016
 * Humphrey Butau - https://github.com/hbutau - 2016-11-7
+* Jose Rodriguez -https://github.com/jlrods - 15/11/2016
+* Michael Kortstiege - https://github.com/nodexo - Nov 19, 2016
+* Steven Lee - https://github.com/stevenlee96 - 2016-11-20
+* Dieter Jansen - https://github.com/dieterjansen - 2016-04-20
 * Eddy Barratt
 * Pooja Gadige - <poojagadige@gmail.com> - pgadige
 * Jason Gardner
 * Ana
 * Dade Murphy
+* Leticia Ulloa
+* La Chilindrina
 * Anselmo
