@@ -351,4 +351,4 @@ I followed the tutorial online
 * Pooja Gadige - <poojagadige@gmail.com> - pgadige
 * Jason Gardner
 * Dade Murphy
-* Anselmo - <agprocida@gmail.com> - anselmoprocida
+* Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
