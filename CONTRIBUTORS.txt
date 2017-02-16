@@ -1,6 +1,6 @@
 "Don't be afraid to commit" was created by Daniele Procida. Other contributors
 include:
-
+deneme
 * Daniel Quinn
 * Brian Crain (@crainbf)
 * Paul Grau
