@@ -248,7 +248,7 @@ new branch is called *amend-my-name*. So::
     Next time you want to push committed changes in *amend-my-name*, you won't
     *need* to specify the branch - you can simply do ``git push``, because now
     *amend-my-name* exists at both ends. However, it's *still* a good idea to
-    be explict. That way you'll be less likely to get a surprise you didn't
+    be explicit. That way you'll be less likely to get a surprise you didn't
     want, when the wrong thing gets pushed.
 
 Check your GitHub repository
