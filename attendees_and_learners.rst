@@ -7,7 +7,8 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
-
+Yogesh in India , 20th April 2017
+----------------------------------
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
 * Bornwell Matembudze https://github.com/bornie21
@@ -309,7 +310,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 
 I followed the tutorial online
 ==============================
-
+* Yogesh in India , 20th April 2017
 * Daniel Quinn - 18th May 2013
 * Paul C. Anagnostopoulos - 19 August 2013
 * Ben Rowett - 27 August 2013
