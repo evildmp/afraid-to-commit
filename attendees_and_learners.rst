@@ -7,7 +7,7 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
-
+hjgjhgjhg
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
 * Bornwell Matembudze https://github.com/bornie21
@@ -347,6 +347,7 @@ I followed the tutorial online
 * Abhijit Chowdhury - https://github.com/achowdhury7 12th Feb 2016
 * Richard Angeles - Feb 19, 2016
 * Adam Shields
+jhvjhvjvhj
 * Salvador Rico - April 3, 2016 - https://github.com/salvarico
 * Josh Long
 * Prashant Jamkhande - https://github.com/prashant0493
