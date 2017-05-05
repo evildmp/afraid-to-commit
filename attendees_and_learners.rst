@@ -270,6 +270,8 @@ DjangoCon US in Chicago, 2nd September 2013
 * Ernesto Rodriguez <ernesto@tryolabs.com> https://github.com/ernestorx @ernestorx
 * Jason Blum
 * Hayssam Hajar <hayssam.hajar@gmail.com>  github: hhajar
+* Kermit the Frog
+* Miss Piggy
 
 Cardiff Dev Workshop, 8th June 2013
 -----------------------------------
@@ -363,3 +365,6 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Crazy Jesse Phillips - jessephillips - crazy change here! yikes!
+This is such a crazy change! It should not merge easily with master,
+I don't think!
