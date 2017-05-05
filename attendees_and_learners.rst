@@ -363,4 +363,6 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
-* Jesse Phillips - jessephillips - crazy change here! yikes!
+* Crazy Jesse Phillips - jessephillips - crazy change here! yikes!
+This is such a crazy change! It should not merge easily with master,
+I don't think!
