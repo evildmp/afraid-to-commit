@@ -363,4 +363,4 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
-* Jesse Phillips - jessephillips - crazy change here! yikes!
+* Jesse Phillips - jessephillips - crazy amend.
