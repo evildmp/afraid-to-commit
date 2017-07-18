@@ -7,6 +7,7 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
+* Snapper
 
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
