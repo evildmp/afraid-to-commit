@@ -1,4 +1,4 @@
-aaaaaaaaaaaaaaaaaaaSbbbb changes
+aaaaaaaaaaaaaaaaSbbbb changes
 
 ####################
 Attendees & learners
