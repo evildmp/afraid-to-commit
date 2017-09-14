@@ -332,34 +332,5 @@ I followed the tutorial online
 * Suraj Deshmukh <surajssd009005@gmail.com> http://github.com/surajssd
 * Suresh - https://github.com/umulingu/
 * Chandra Bandi - 20-December 2014
-* Drew A. - https://github.com/daldin - 12th December 2014
-* Kumar Dheeraj-https://github.com/dhey2k-31-dec-2013
-* Omar - 14-1-2015
-* Surabhi Borgikar
-* Cameron
-* Jum - May 20, 2015
-* Paul Jewell <paul@jidoka.org> July 2015 https://github.com/paul-jewell
-* Alexandro Perez - https://github.com/AlexandroPerez - 6th August 2015
-* Rahul bajaj - https://github.com/rahulbajaj0509 2015
-* Alejandro Suárez - https://github.com/alsuga 20th October 2015
-* Prathamesh Chavan
-* Tad Deely
-* Abhijit Chowdhury - https://github.com/achowdhury7 12th Feb 2016
-* Richard Angeles - Feb 19, 2016
-* Adam Shields
-* Salvador Rico - April 3, 2016 - https://github.com/salvarico
-* Josh Long
-* Prashant Jamkhande - https://github.com/prashant0493
-* Humphrey Butau - https://github.com/hbutau - 2016-11-7
-* Jose Rodriguez -https://github.com/jlrods - 15/11/2016
-* Michael Kortstiege - https://github.com/nodexo - Nov 19, 2016
-* Steven Lee - https://github.com/stevenlee96 - 2016-11-20
-* Dieter Jansen - https://github.com/dieterjansen - 2016-04-20
-* Eddy Barratt
-* Pooja Gadige - <poojagadige@gmail.com> - pgadige
-* Jason Gardner
-* Ana
-* Dade Murphy
-* Leticia Ulloa
-* La Chilindrina
-* Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Drew A.
+* Zikra Auliya - https://github.com/zickcrow/
