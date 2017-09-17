@@ -88,3 +88,5 @@ tutorial
 <https://code.djangoproject.com/query?keywords=~afraid-to-commit&groupdesc=1&g
 roup=status&col=id&col=summary&col=keywords&col=owner&col=type&col=status&orde
 r=priority>`_. They're not all for documentation, though most are.
+
+GitHub is a place to discover
