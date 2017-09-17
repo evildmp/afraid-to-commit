@@ -8,6 +8,11 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+Py4kids  24th Sept 2017
+---------------------------------------------
+* wen.gong https://github.com/wgong
+
+
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
 * Bornwell Matembudze https://github.com/bornie21
