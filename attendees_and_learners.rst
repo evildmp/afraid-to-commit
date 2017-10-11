@@ -342,6 +342,7 @@ I followed the tutorial online
 * Alexandro Perez - https://github.com/AlexandroPerez - 6th August 2015
 * Rahul bajaj - https://github.com/rahulbajaj0509 2015
 * Alejandro Suárez - https://github.com/alsuga 20th October 2015
+* Swapnil Abnave - <imswapab@gmail.com> - 2017-10-11
 * Prathamesh Chavan
 * Tad Deely
 * Abhijit Chowdhury - https://github.com/achowdhury7 12th Feb 2016
