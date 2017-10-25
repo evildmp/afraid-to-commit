@@ -358,6 +358,7 @@ I followed the tutorial online
 * Eddy Barratt
 * Pooja Gadige - <poojagadige@gmail.com> - pgadige
 * Jason Gardner
+* JM Oct. 24, 2017
 * Ana
 * Dade Murphy
 * Leticia Ulloa
