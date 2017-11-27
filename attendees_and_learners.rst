@@ -7,7 +7,6 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
-meeeeeeeee
 
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
@@ -364,3 +363,4 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Vipin Mohan - <vipinmohan22@outlook.com> - vipinmohan22.github.io - 2017-11-27
