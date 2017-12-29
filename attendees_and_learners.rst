@@ -363,3 +363,5 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Quazi Ashfaq <quazi.ashfaq@gmail.com> - quaziashfaq
+* Shamima Ashfaq <shamima.ashfaq@gmail.com> - nai
