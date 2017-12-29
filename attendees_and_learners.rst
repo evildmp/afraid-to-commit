@@ -363,3 +363,6 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Quazi Ashfaq <quazi.ashfaq@gmail.com> - quaziashfaq
+* Shamima Ashfaq <shamima.ashfaq@gmail.com> - nai
+* Quaz Alima Aynan <no-email> <no-github-account> [I am five years old only. I still love to play with legos.]
