@@ -33,7 +33,6 @@ PyCon Ireland in Dublin, 26th October 2015
 * Stefano Fedele https://github.com/stefanofedele/afraid-to-commit
 * Barry Kennedy https://github.com/bazkennedy
 
-
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
 
@@ -363,3 +362,4 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Ellery
