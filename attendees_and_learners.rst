@@ -8,6 +8,10 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+Randos, 5th Jan 2018
+---------------------------------------------
+* Drew Phillips
+
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
 * Bornwell Matembudze https://github.com/bornie21
