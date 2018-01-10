@@ -363,3 +363,4 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Ryan C. - <ryanchng.ps@gmail.com> - https://github.com/alienpsp - alienpsp
