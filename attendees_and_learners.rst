@@ -5,9 +5,6 @@ Attendees & learners
 This is a record of people who attended a *Don't be afraid to commit* workshop,
 or followed the tutorial in their own time.
 
-Online
-=========
-* Thomas Coe https://github.com/tcoe64 tcoe64@gmail.com tcoe64
 
 Workshops
 =========
@@ -367,3 +364,4 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Thomas Coe https://github.com/tcoe64 tcoe64
