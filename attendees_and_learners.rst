@@ -7,7 +7,7 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
-
+Alex Gu 1/29 2018  under the new branch add my name
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
 * Bornwell Matembudze https://github.com/bornie21
