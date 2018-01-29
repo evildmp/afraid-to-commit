@@ -1,4 +1,4 @@
-####################
+﻿####################
 Attendees & learners
 ####################
 
@@ -7,7 +7,7 @@ or followed the tutorial in their own time.
 
 Online
 =========
-* Thomas Coe
+* Thomas Coe https://github.com/tcoe64 tcoe64@gmail.com tcoe64
 
 Workshops
 =========
