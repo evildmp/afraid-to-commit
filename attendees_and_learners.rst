@@ -7,6 +7,8 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
+03/28/2017
+Abhilash Reddy
 
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
