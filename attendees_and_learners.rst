@@ -4,6 +4,7 @@ Attendees & learners
 
 This is a record of people who attended a *Don't be afraid to commit* workshop,
 or followed the tutorial in their own time.
+Abhilash Reddy 03/28/2018
 
 Workshops
 =========
