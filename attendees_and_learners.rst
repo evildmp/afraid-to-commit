@@ -354,6 +354,7 @@ I followed the tutorial online
 * Jose Rodriguez -https://github.com/jlrods - 15/11/2016
 * Michael Kortstiege - https://github.com/nodexo - Nov 19, 2016
 * Steven Lee - https://github.com/stevenlee96 - 2016-11-20
+* FreDeluzz 07-05-2018
 * Dieter Jansen - https://github.com/dieterjansen - 2016-04-20
 * Eddy Barratt
 * Pooja Gadige - <poojagadige@gmail.com> - pgadige
