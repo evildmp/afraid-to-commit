@@ -363,4 +363,4 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ 
-* Dennis de Weerd, 2018-05-10
+* Dennis de Weerd - https://github.com/weerd01 2018-05-10
