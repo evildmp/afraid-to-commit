@@ -208,7 +208,7 @@ PyCon Ireland in Dublin, 14th October 2013
 ------------------------------------------
 
 * Vincent Hussey vincent.hussey@opw.ie https://github.com/VincentHussey
-* Padraic Harley <@pauricthelodger> <padraic@thelodgeronline.com>
+* Padraic Harley <@pauricthelodger> <padraic@thelodger.com>
 * Paul Cunnane <paul.cunnane@gmail.com> https://github.com/paulcunnane
 * Sorcha Bowler <saoili @ github, twitter, gmail, most of the internet>
 * Jennifer Parak https://github.com/jenpaff
@@ -362,4 +362,5 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
-* Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Anselmo ~ <agprocida@gmail.com> ~ 
+* Dennis de Weerd, 2018-05-10
