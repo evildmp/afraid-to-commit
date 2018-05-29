@@ -352,7 +352,6 @@ I followed the tutorial online
 * Prashant Jamkhande - https://github.com/prashant0493
 * Humphrey Butau - https://github.com/hbutau - 2016-11-7
 * Jose Rodriguez -https://github.com/jlrods - 15/11/2016
-* Michael Kortstiege - https://github.com/nodexo - Nov 19, 2016
 * Steven Lee - https://github.com/stevenlee96 - 2016-11-20
 * Dieter Jansen - https://github.com/dieterjansen - 2016-04-20
 * Eddy Barratt
@@ -363,3 +362,4 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* N.Kamusher
