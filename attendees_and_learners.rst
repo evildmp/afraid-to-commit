@@ -8,7 +8,7 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
-* Pietro (I followed the tutorial online section)
+* Pietro M. (I followed the tutorial online section)
 
 
 Pycon Zimbabwe in Harare, 24th November 2016
