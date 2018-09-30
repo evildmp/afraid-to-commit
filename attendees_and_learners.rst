@@ -362,6 +362,4 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
-* Ellery
-Ellery C - https://github.com/bluelion24
-
+* Ellery C
