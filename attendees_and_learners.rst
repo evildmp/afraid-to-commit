@@ -8,6 +8,8 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+* Trong Nguyen Van - 11/21/2018 Vietnam - https://github.com/TrongNguyenVann
+--------------------------------------------------------------------------------
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
 * Bornwell Matembudze https://github.com/bornie21
