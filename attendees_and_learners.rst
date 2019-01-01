@@ -1,11 +1,11 @@
 ####################
 Attendees & learners
 ####################
-
+landin
 This is a record of people who attended a *Don't be afraid to commit* workshop,
 or followed the tutorial in their own time.
 
-Workshops
+Workshops 
 =========
 
 Pycon Zimbabwe in Harare, 24th November 2016
