@@ -14,7 +14,7 @@ Pycon Zimbabwe in Harare, 24th November 2016
 * Kudakwashe Siziva
 * Akim Munthali https://github.com/amunthali @amunthali
 
-* Landin Lin
+* Landin Lin_10:07
 
 .. note:: Many thanks to Charles Katuri (charle-k) for his invaluable assistance on Windows computers
 
