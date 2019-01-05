@@ -89,6 +89,7 @@ Dutch Django Association Sprint in Amsterdam, 7th March 2015
 * Nathan Schagen
 * Hanna Kollo https://github.com/sztrovacsek
 * Stephen Albert https://github.com/psiloLR
+*Tushar 
 
 PyCon Ireland in Dublin, 13th October 2014
 ------------------------------------------
