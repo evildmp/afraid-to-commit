@@ -363,4 +363,4 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
-* Ken Tanaka - https://github.com/kenhtanaka - 14 January 2019
+* Ken Tanaka - https://github.com/kenhtanaka - 2019 Jan 14
