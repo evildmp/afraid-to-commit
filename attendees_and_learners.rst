@@ -363,4 +363,4 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
-* tae898
+* Taewoon Kim - <tae898@gmail.com> ~ tae898 a.k.a. Lil T
