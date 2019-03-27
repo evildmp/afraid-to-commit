@@ -5,6 +5,11 @@ Attendees & learners
 This is a record of people who attended a *Don't be afraid to commit* workshop,
 or followed the tutorial in their own time.
 
+Personal following of the tutorial
+==================================
+
+Me, myself and I on 2019 03 27
+
 Workshops
 =========
 
