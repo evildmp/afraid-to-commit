@@ -43,6 +43,7 @@ PyCon UK in Coventry, 21st September 2015
 * Laura Dreyer https://github.com/lbdreyer
 * Aisha Bello https://github.com/shante66
 * Paivi Suomela, https://github.com/peconia
+* smth new
 * Neil Stoker, https://github.com/nmstoker
 aksjdhaksdjhaskdjhk
 * Charles G Barnwell  https://github.com/cgbarnwell
