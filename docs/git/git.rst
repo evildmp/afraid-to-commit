@@ -238,7 +238,7 @@ because the changes will be coming from *my version* to *yours*.
         <your github account>:master ... evildmp:master
 
 #.  hit **Click to create a pull request for this comparison**
-#.  add a **Title** (e.g. "merging upstream master on Github) and hit **Send
+#.  add a **Title** (e.g. "merging upstream master on Github") and hit **Send
     pull request**
 
 You're sending a pull request to *yourself*, based on updates in my
