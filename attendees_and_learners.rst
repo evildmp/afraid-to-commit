@@ -363,3 +363,5 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+*Vincent Maina
+*Niggas in Paris
