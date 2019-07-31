@@ -1,5 +1,5 @@
 =========================
-MASTER BRANCH (2) lol
+MASTER BRANCH HEADING
 =========================
 
 A hands-on workshop for Python/Django developers who would like to contribute
