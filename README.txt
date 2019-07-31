@@ -1,5 +1,5 @@
 =========================
-UPDATED NEW BRANCH TEST
+MASTER BRANCH HEADING
 =========================
 
 A hands-on workshop for Python/Django developers who would like to contribute
