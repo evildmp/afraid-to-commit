@@ -1,5 +1,5 @@
 =========================
-HELLO WORLD
+JAVID ISAYEV
 =========================
 
 A hands-on workshop for Python/Django developers who would like to contribute
