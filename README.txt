@@ -1,5 +1,5 @@
 =========================
-MASTER BRANCH
+MASTER BRANCH (2) lol
 =========================
 
 A hands-on workshop for Python/Django developers who would like to contribute
