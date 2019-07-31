@@ -1,5 +1,5 @@
 =========================
-SECOND TEST
+MASTER BRANCH
 =========================
 
 A hands-on workshop for Python/Django developers who would like to contribute
