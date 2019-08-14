@@ -362,5 +362,5 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
-* Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
-nh
+* Anselmo ~ <agprocida@gmail.com> ~ anselmoprocid
+* dats tuff
