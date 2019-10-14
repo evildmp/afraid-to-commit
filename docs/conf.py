@@ -31,6 +31,7 @@ extensions = []
 templates_path = ['_templates']
 
 # The suffix of source filenames.
+#refers to the file type to be fetched
 source_suffix = '.rst'
 
 # The encoding of source files.
