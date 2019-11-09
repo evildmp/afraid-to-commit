@@ -363,3 +363,4 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Chen-Yu Chan - <chanchenyu@berkeley.edu> - chanchenyu -2018-05-11
