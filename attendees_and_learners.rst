@@ -363,3 +363,4 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* XHLE - https://github.com/hunglxtp/afraid-to-commit - 2019-11-11
