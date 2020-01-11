@@ -347,6 +347,7 @@ I followed the tutorial online
 * Abhijit Chowdhury - https://github.com/achowdhury7 12th Feb 2016
 * Richard Angeles - Feb 19, 2016
 * Adam Shields
+* Karel Poborsky
 * Salvador Rico - April 3, 2016 - https://github.com/salvarico
 * Josh Long
 * Prashant Jamkhande - https://github.com/prashant0493
@@ -358,7 +359,7 @@ I followed the tutorial online
 * Eddy Barratt
 * Pooja Gadige - <poojagadige@gmail.com> - pgadige
 * Jason Gardner
-* Ana
+* Lana del Ray
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
