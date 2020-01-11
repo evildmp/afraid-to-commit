@@ -358,7 +358,7 @@ I followed the tutorial online
 * Eddy Barratt
 * Pooja Gadige - <poojagadige@gmail.com> - pgadige
 * Jason Gardner
-* Ana
+* Lana del Ray
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
