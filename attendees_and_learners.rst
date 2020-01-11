@@ -362,4 +362,5 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* Karel Novak
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
