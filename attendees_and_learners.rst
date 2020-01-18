@@ -31,7 +31,7 @@ PyCon Ireland in Dublin, 26th October 2015
 * Miao Li https://github.com/masonmiaoli
 * Sarah Jackson
 * Stefano Fedele https://github.com/stefanofedele/afraid-to-commit
-* Barry Kennedy https://github.com/bazkennedy
+* Barry Kennedbbberarary https://github.com/bazkennedy
 
 
 PyCon UK in Coventry, 21st September 2015
