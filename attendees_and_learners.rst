@@ -363,4 +363,4 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
-* Hamilton Kaplan
+* Hamilton Kaplan <I am the darkness, I am the night, I am Batman>
