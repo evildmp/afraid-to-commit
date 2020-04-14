@@ -18,7 +18,7 @@ Pycon Zimbabwe in Harare, 24th November 2016
 
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
-* Simon Parker https://github.com/simonparkerdublin @SparkerDublin
+* Simgon Parker https://github.com/simonparkerdublin @SparkerDublin
 * Anna Szewc, https://github.com/NannahA
 * Iain Geddes iaingeddes@theiet.org https://github.com/iaingeddes
 * Gearoid Ryan https://github.com/gearoid-ryan
