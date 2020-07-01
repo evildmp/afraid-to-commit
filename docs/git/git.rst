@@ -241,7 +241,7 @@ because the changes will be coming from *my version* to *yours*.
 #.  add a **Title** (e.g. "merging upstream master on Github) and hit **Send
     pull request**
 
-You're sending a pull request to to *yourself*, based on updates in my
+You're sending a pull request to *yourself*, based on updates in my
 repository. And in fact if you check in your **Pull Requests** on GitHub,
 you'll see one there waiting for you, and you too can review, accept, reject
 or comment on it.
