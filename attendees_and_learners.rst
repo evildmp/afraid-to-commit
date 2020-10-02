@@ -363,3 +363,5 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Surya Teja Parisa https://github.com/suryateja3027/ - 2nd Oct 2020
+
