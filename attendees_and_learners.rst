@@ -363,4 +363,4 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
-* Hamilton
+* Herman Blauwal - 2020, Dec, 31 - help@batman.com https://github.com/imnotbatman
