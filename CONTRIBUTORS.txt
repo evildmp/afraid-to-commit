@@ -1,9 +1,11 @@
+
 "Don't be afraid to commit" was created by Daniele Procida. Other contributors
 include:
 
 * Daniel Quinn
 * Brian Crain (@crainbf)
 * Paul Grau
+* Raahat Gupta (learner)
 * Nimesh Ghelani https://github.com/nims11
 * Robert Dragan https://github.com/rmdragan
 * David Garcia https://github.com/davideire
