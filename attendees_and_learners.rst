@@ -15,7 +15,7 @@ Pycon Zimbabwe in Harare, 24th November 2016
 * Akim Munthali https://github.com/amunthali @amunthali
 
 .. note:: Many thanks to Charles Katuri (charle-k) for his invaluable assistance on Windows computers
-
+* k venkatesh githubid: https://github.com/venkykalyan/
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
 * Simon Parker https://github.com/simonparkerdublin @SparkerDublin
