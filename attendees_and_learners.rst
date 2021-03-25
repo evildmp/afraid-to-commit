@@ -363,4 +363,4 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
-* vi I followed the tutorial online section
+* vii I followed the tutorial online section
