@@ -363,6 +363,7 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* haimeng song
 * Monique - https://github.com/moniquemurphy
 * Sayandeep Acharya -  July 11 2017
 * NVK PAVAN KUMAR
