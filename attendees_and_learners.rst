@@ -7,8 +7,7 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
-Yogesh in India , 20th April 2017
-----------------------------------
+
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
 * Bornwell Matembudze https://github.com/bornie21
@@ -375,3 +374,4 @@ I followed the tutorial online
 * Rebecca K -- rebkin05
 * Will
 * J Dacanay
+* Yogesh in India, 20th April 2017
