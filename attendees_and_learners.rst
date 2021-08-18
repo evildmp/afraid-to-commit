@@ -362,6 +362,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* Will
 * Anselmo - https://github.com/anselmoprocida
 * Rebecca K
 * J Dacanay
