@@ -309,6 +309,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 
 I followed the tutorial online
 ==============================
+
 * Yogesh in India , 20th April 2017
 * Daniel Quinn - 18th May 2013
 * Paul C. Anagnostopoulos - 19 August 2013
@@ -363,6 +364,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* Michael Zhou
 * Keith Dowd - https://github.com/keithdowd (September 10, 2017)
 * Carlos Estrada
 * Peter https://github.com/pcmindshift 2017-0901
