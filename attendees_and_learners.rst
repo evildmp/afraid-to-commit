@@ -362,5 +362,10 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
-* Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
 * Brandon Smith - https://github.com/BrickBeard - 31st May 2017
+* lamonaki
+* Jesse PHillips
+* Rebecca K -- rebkin05 
+* Will
+* Anselmo - https://github.com/anselmoprocida
+* J Dacanay
