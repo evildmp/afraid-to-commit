@@ -364,6 +364,8 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Hervé P. - 15/10/2017
 * Joelle FV
 * Dana - Macedonia - 2017-10-05
 * Michael Zhou
