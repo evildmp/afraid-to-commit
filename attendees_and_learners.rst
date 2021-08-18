@@ -362,5 +362,8 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
-* Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
 * Jesse PHillips
+* Rebecca K -- rebkin05 
+* Will
+* Anselmo - https://github.com/anselmoprocida
+* J Dacanay
