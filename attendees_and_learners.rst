@@ -309,7 +309,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 
 I followed the tutorial online
 ==============================
-
+* Yogesh in India , 20th April 2017
 * Daniel Quinn - 18th May 2013
 * Paul C. Anagnostopoulos - 19 August 2013
 * Ben Rowett - 27 August 2013
@@ -332,5 +332,55 @@ I followed the tutorial online
 * Suraj Deshmukh <surajssd009005@gmail.com> http://github.com/surajssd
 * Suresh - https://github.com/umulingu/
 * Chandra Bandi - 20-December 2014
-* Drew A.
 * Zikra Auliya - https://github.com/zickcrow/
+* Drew A. - https://github.com/daldin - 12th December 2014
+* Kumar Dheeraj-https://github.com/dhey2k-31-dec-2013
+* Omar - 14-1-2015
+* Surabhi Borgikar
+* Cameron
+* Jum - May 20, 2015
+* Paul Jewell <paul@jidoka.org> July 2015 https://github.com/paul-jewell
+* Alexandro Perez - https://github.com/AlexandroPerez - 6th August 2015
+* Rahul bajaj - https://github.com/rahulbajaj0509 2015
+* Alejandro Suárez - https://github.com/alsuga 20th October 2015
+* Prathamesh Chavan
+* Tad Deely
+* Abhijit Chowdhury - https://github.com/achowdhury7 12th Feb 2016
+* Richard Angeles - Feb 19, 2016
+* Adam Shields
+* Salvador Rico - April 3, 2016 - https://github.com/salvarico
+* Josh Long
+* Prashant Jamkhande - https://github.com/prashant0493
+* Humphrey Butau - https://github.com/hbutau - 2016-11-7
+* Jose Rodriguez -https://github.com/jlrods - 15/11/2016
+* Michael Kortstiege - https://github.com/nodexo - Nov 19, 2016
+* Steven Lee - https://github.com/stevenlee96 - 2016-11-20
+* Dieter Jansen - https://github.com/dieterjansen - 2016-04-20
+* Eddy Barratt
+* Pooja Gadige - <poojagadige@gmail.com> - pgadige
+* Jason Gardner
+* Ana
+* Dade Murphy
+* Leticia Ulloa
+* La Chilindrina
+* Keith Dowd - https://github.com/keithdowd (September 10, 2017)
+* Carlos Estrada
+* Peter https://github.com/pcmindshift 2017-0901
+* habeshwoub
+* Anselmo - anselmoprocida
+* SanneHoefnagel - 2017-8-14
+* Sandy https://github.com/standon74
+* haimeng song
+* Monique - https://github.com/moniquemurphy
+* Sayandeep Acharya -  July 11 2017
+* NVK PAVAN KUMAR
+* Kaushik Thommandra - <kaushik.t@reportgarden.com> Jun2 2017 https://github.com/kaushikthommandra
+* Brandon Smith - https://github.com/BrickBeard - 31st May 2017
+* lamonaki
+* Jesse PHillips
+* Rebecca K -- rebkin05
+* Will
+* J Dacanay
+* Yogesh in India, 20th April 2017
+* Anshul Pandey
+* Snapper
