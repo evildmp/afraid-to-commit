@@ -365,6 +365,7 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Amit Karsale - https://github.com/amitkarsale - 2017-10-11
 * Hervé P. - 15/10/2017
 * Joelle FV
 * Dana - Macedonia - 2017-10-05
