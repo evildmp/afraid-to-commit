@@ -332,6 +332,7 @@ I followed the tutorial online
 * Suraj Deshmukh <surajssd009005@gmail.com> http://github.com/surajssd
 * Suresh - https://github.com/umulingu/
 * Chandra Bandi - 20-December 2014
+* Zikra Auliya - https://github.com/zickcrow/
 * Drew A. - https://github.com/daldin - 12th December 2014
 * Kumar Dheeraj-https://github.com/dhey2k-31-dec-2013
 * Omar - 14-1-2015
