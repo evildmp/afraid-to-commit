@@ -362,7 +362,8 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
-* Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Anselmo - anselmoprocida
+* SanneHoefnagel - 2017-8-14
 * Sandy https://github.com/standon74
 * haimeng song
 * Monique - https://github.com/moniquemurphy
