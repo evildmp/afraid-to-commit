@@ -364,6 +364,7 @@ I followed the tutorial online
 * La Chilindrina
 * Anselmo - anselmoprocida
 * SanneHoefnagel - 2017-8-14
+* Sandy https://github.com/standon74
 * haimeng song
 * Monique - https://github.com/moniquemurphy
 * Sayandeep Acharya -  July 11 2017
@@ -377,3 +378,4 @@ I followed the tutorial online
 * J Dacanay
 * Yogesh in India, 20th April 2017
 * Anshul Pandey
+* Snapper
