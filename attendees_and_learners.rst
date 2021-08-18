@@ -362,6 +362,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* Brandon Smith - https://github.com/BrickBeard - 31st May 2017
 * lamonaki
 * Jesse PHillips
 * Rebecca K -- rebkin05 
