@@ -8,10 +8,6 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
-GitHub Online Demo 27th Jun 17
----------------------------------------------
-* Sandy https://github.com/standon74
-
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
 * Bornwell Matembudze https://github.com/bornie21
@@ -367,3 +363,4 @@ I followed the tutorial online
 * Leticia Ulloa
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Sandy https://github.com/standon74
