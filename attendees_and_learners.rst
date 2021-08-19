@@ -364,6 +364,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* Duc Ho - November 20, 2017
 * Chin You Wen
 * Yen Ming - November 08, 2017
 * pancho was here
