@@ -310,6 +310,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 I followed the tutorial online
 ==============================
 
+* Yogesh in India , 20th April 2017
 * Daniel Quinn - 18th May 2013
 * Paul C. Anagnostopoulos - 19 August 2013
 * Ben Rowett - 27 August 2013
@@ -332,6 +333,7 @@ I followed the tutorial online
 * Suraj Deshmukh <surajssd009005@gmail.com> http://github.com/surajssd
 * Suresh - https://github.com/umulingu/
 * Chandra Bandi - 20-December 2014
+* Zikra Auliya - https://github.com/zickcrow/
 * Drew A. - https://github.com/daldin - 12th December 2014
 * Kumar Dheeraj-https://github.com/dhey2k-31-dec-2013
 * Omar - 14-1-2015
@@ -362,5 +364,38 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
-* Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
 * Chris Azzara - https://github.com/emptyspace42/ - 2017-11-26
+* Cole Rees - https://github.com/myColeRees
+* Giannis
+* Duc Ho - November 20, 2017
+* Chin You Wen
+* Yen Ming - November 08, 2017
+* pancho was here
+* TopdRob
+* Zack
+* Amit Karsale - https://github.com/amitkarsale - 2017-10-11
+* Hervé P. - 15/10/2017
+* Joelle FV
+* Dana - Macedonia - 2017-10-05
+* Michael Zhou
+* Keith Dowd - https://github.com/keithdowd (September 10, 2017)
+* Carlos Estrada
+* Peter https://github.com/pcmindshift 2017-0901
+* habeshwoub
+* Anselmo - anselmoprocida
+* SanneHoefnagel - 2017-8-14
+* Sandy https://github.com/standon74
+* haimeng song
+* Monique - https://github.com/moniquemurphy
+* Sayandeep Acharya -  July 11 2017
+* NVK PAVAN KUMAR
+* Kaushik Thommandra - <kaushik.t@reportgarden.com> Jun2 2017 https://github.com/kaushikthommandra
+* Brandon Smith - https://github.com/BrickBeard - 31st May 2017
+* lamonaki
+* Jesse PHillips
+* Rebecca K -- rebkin05
+* Will
+* J Dacanay
+* Yogesh in India, 20th April 2017
+* Anshul Pandey
+* Snapper
