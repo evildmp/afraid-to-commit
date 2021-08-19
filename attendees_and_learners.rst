@@ -364,6 +364,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* Cole Rees - https://github.com/myColeRees
 * Giannis
 * Duc Ho - November 20, 2017
 * Chin You Wen
