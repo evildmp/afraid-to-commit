@@ -364,7 +364,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
-* Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* pancho was here
 * TopdRob
 * Zack
 * Amit Karsale - https://github.com/amitkarsale - 2017-10-11
