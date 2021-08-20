@@ -365,6 +365,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* Nastasha
 * Izaiah Wallace
 * Mitch 
 * Buster Brown
