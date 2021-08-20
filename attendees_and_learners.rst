@@ -148,7 +148,7 @@ DjangoCon US in Portland, 5th September 2014
 * Jeff Kile
 * Orlando Romero
 * Chad Hansen (chadgh@gmail.com) https://github.com/chadgh
-
+* Xunjie Lu (xunjielu@umich.edu) https://github.com/xunjielu
 
 DjangoVillage in Orvieto, 14th June 2014
 ----------------------------------------
@@ -366,6 +366,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* Hao Zeng
 * Thomas Coe https://github.com/tcoe64 tcoe64
 * Travis Henion - travis.w.henion@gmail.com - THenion12
 * Renu - https://github.com/rensachdeva - 2018-01-26
