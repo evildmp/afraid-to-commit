@@ -366,6 +366,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* John Dugaw - https://github.com/jibdugaw 2018-02-20
 * Pavan Omanwar
 * Szczesny
 * Tanya Gupta https://github.com/tanyagupta Feb 6, 2017
