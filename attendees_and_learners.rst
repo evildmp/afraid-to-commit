@@ -366,6 +366,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* Tanya Gupta https://github.com/tanyagupta Feb 6, 2017
 * Hao Zeng
 * Thomas Coe https://github.com/tcoe64 tcoe64
 * Travis Henion - travis.w.henion@gmail.com - THenion12
