@@ -5,6 +5,7 @@ Attendees & learners
 This is a record of people who attended a *Don't be afraid to commit* workshop,
 or followed the tutorial in their own time.
 
+
 Workshops
 =========
 
@@ -147,7 +148,7 @@ DjangoCon US in Portland, 5th September 2014
 * Jeff Kile
 * Orlando Romero
 * Chad Hansen (chadgh@gmail.com) https://github.com/chadgh
-
+* Xunjie Lu (xunjielu@umich.edu) https://github.com/xunjielu
 
 DjangoVillage in Orvieto, 14th June 2014
 ----------------------------------------
@@ -310,6 +311,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 I followed the tutorial online
 ==============================
 
+* Yogesh in India , 20th April 2017
 * Daniel Quinn - 18th May 2013
 * Paul C. Anagnostopoulos - 19 August 2013
 * Ben Rowett - 27 August 2013
@@ -332,6 +334,7 @@ I followed the tutorial online
 * Suraj Deshmukh <surajssd009005@gmail.com> http://github.com/surajssd
 * Suresh - https://github.com/umulingu/
 * Chandra Bandi - 20-December 2014
+* Zikra Auliya - https://github.com/zickcrow/
 * Drew A. - https://github.com/daldin - 12th December 2014
 * Kumar Dheeraj-https://github.com/dhey2k-31-dec-2013
 * Omar - 14-1-2015
@@ -342,6 +345,7 @@ I followed the tutorial online
 * Alexandro Perez - https://github.com/AlexandroPerez - 6th August 2015
 * Rahul bajaj - https://github.com/rahulbajaj0509 2015
 * Alejandro Suárez - https://github.com/alsuga 20th October 2015
+* Rajat Agarwal http://github.com/rajatagarwal457
 * Prathamesh Chavan
 * Tad Deely
 * Abhijit Chowdhury - https://github.com/achowdhury7 12th Feb 2016
@@ -362,5 +366,56 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
-* Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
 * Szczesny
+* Tanya Gupta https://github.com/tanyagupta Feb 6, 2017
+* Hao Zeng
+* Thomas Coe https://github.com/tcoe64 tcoe64
+* Travis Henion - travis.w.henion@gmail.com - THenion12
+* Renu - https://github.com/rensachdeva - 2018-01-26
+* Nastasha
+* Izaiah Wallace
+* Mitch 
+* Buster Brown
+* Braden - 1-7-2017
+* Ivana 
+* Healzplshalp
+* Chris Munger - DarthHail - 12/12/2017
+* Neal Caidin - https://github.com/ncaidin - 01 December 2017
+* Vipin Mohan - vipinmohan22.github.io - 2017-11-27
+* Chris Azzara - https://github.com/emptyspace42/ - 2017-11-26
+* Cole Rees - https://github.com/myColeRees
+* Giannis
+* Duc Ho - November 20, 2017
+* Chin You Wen
+* Yen Ming - November 08, 2017
+* pancho was here
+* TopdRob
+* Zack
+* Amit Karsale - https://github.com/amitkarsale - 2017-10-11
+* Hervé P. - 15/10/2017
+* Joelle FV
+* Dana - Macedonia - 2017-10-05
+* Michael Zhou
+* Keith Dowd - https://github.com/keithdowd (September 10, 2017)
+* Carlos Estrada
+* Peter https://github.com/pcmindshift 2017-0901
+* habeshwoub
+* Anselmo - anselmoprocida
+* SanneHoefnagel - 2017-8-14
+* Sandy https://github.com/standon74
+* haimeng song
+* Monique - https://github.com/moniquemurphy
+* Sayandeep Acharya -  July 11 2017
+* NVK PAVAN KUMAR
+* Kaushik Thommandra - <kaushik.t@reportgarden.com> Jun2 2017 https://github.com/kaushikthommandra
+* Brandon Smith - https://github.com/BrickBeard - 31st May 2017
+* lamonaki
+* Jesse PHillips
+* Rebecca K -- rebkin05
+* Will
+* J Dacanay
+* Yogesh in India, 20th April 2017
+* Anshul Pandey
+* Snapper
+* TheMeal
+* Samuel Moy
