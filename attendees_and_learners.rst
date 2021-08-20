@@ -366,7 +366,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
-* Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* shookup 
 * odolezal <odolezal@odolezal.cz>
 * Ben - https://github.com/ben-d758/ 21st September 2020
 * Venkat Ram - <https://github.com/Venkat5694>
