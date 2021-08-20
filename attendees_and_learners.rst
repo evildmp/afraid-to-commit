@@ -13,7 +13,6 @@ Pycon Zimbabwe in Harare, 24th November 2016
 * Bornwell Matembudze https://github.com/bornie21
 * Kudakwashe Siziva
 * Akim Munthali https://github.com/amunthali @amunthali
-* Buster Brown
 
 .. note:: Many thanks to Charles Katuri (charle-k) for his invaluable assistance on Windows computers
 
@@ -363,4 +362,4 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
-* Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Buster Brown
