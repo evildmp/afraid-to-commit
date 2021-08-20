@@ -8,10 +8,17 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+Pycon Zimbabwe in Harare, 24th November 2016
+---------------------------------------------
+* Bornwell Matembudze https://github.com/bornie21
+* Kudakwashe Siziva
+* Akim Munthali https://github.com/amunthali @amunthali
+
+.. note:: Many thanks to Charles Katuri (charle-k) for his invaluable assistance on Windows computers
+
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
-
-* Simon Parker https://github.com/simonparkerdublin @SparkerDublin 
+* Simon Parker https://github.com/simonparkerdublin @SparkerDublin
 * Anna Szewc, https://github.com/NannahA
 * Iain Geddes iaingeddes@theiet.org https://github.com/iaingeddes
 * Gearoid Ryan https://github.com/gearoid-ryan
@@ -25,6 +32,7 @@ PyCon Ireland in Dublin, 26th October 2015
 * Sarah Jackson
 * Stefano Fedele https://github.com/stefanofedele/afraid-to-commit
 * Barry Kennedy https://github.com/bazkennedy
+
 
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
@@ -302,6 +310,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 I followed the tutorial online
 ==============================
 
+* Yogesh in India , 20th April 2017
 * Daniel Quinn - 18th May 2013
 * Paul C. Anagnostopoulos - 19 August 2013
 * Ben Rowett - 27 August 2013
@@ -324,6 +333,7 @@ I followed the tutorial online
 * Suraj Deshmukh <surajssd009005@gmail.com> http://github.com/surajssd
 * Suresh - https://github.com/umulingu/
 * Chandra Bandi - 20-December 2014
+* Zikra Auliya - https://github.com/zickcrow/
 * Drew A. - https://github.com/daldin - 12th December 2014
 * Kumar Dheeraj-https://github.com/dhey2k-31-dec-2013
 * Omar - 14-1-2015
@@ -334,4 +344,66 @@ I followed the tutorial online
 * Alexandro Perez - https://github.com/AlexandroPerez - 6th August 2015
 * Rahul bajaj - https://github.com/rahulbajaj0509 2015
 * Alejandro Suárez - https://github.com/alsuga 20th October 2015
-* Rajat Agarwal "rajat18agarwal@gmail.com" http://github.com/rajatagarwal457
+* Rajat Agarwal http://github.com/rajatagarwal457
+* Prathamesh Chavan
+* Tad Deely
+* Abhijit Chowdhury - https://github.com/achowdhury7 12th Feb 2016
+* Richard Angeles - Feb 19, 2016
+* Adam Shields
+* Salvador Rico - April 3, 2016 - https://github.com/salvarico
+* Josh Long
+* Prashant Jamkhande - https://github.com/prashant0493
+* Humphrey Butau - https://github.com/hbutau - 2016-11-7
+* Jose Rodriguez -https://github.com/jlrods - 15/11/2016
+* Michael Kortstiege - https://github.com/nodexo - Nov 19, 2016
+* Steven Lee - https://github.com/stevenlee96 - 2016-11-20
+* Dieter Jansen - https://github.com/dieterjansen - 2016-04-20
+* Eddy Barratt
+* Pooja Gadige - <poojagadige@gmail.com> - pgadige
+* Jason Gardner
+* Ana
+* Dade Murphy
+* Leticia Ulloa
+* La Chilindrina
+* Ivana 
+* Healzplshalp
+* Chris Munger - DarthHail - 12/12/2017
+* Neal Caidin - https://github.com/ncaidin - 01 December 2017
+* Vipin Mohan - vipinmohan22.github.io - 2017-11-27
+* Chris Azzara - https://github.com/emptyspace42/ - 2017-11-26
+* Cole Rees - https://github.com/myColeRees
+* Giannis
+* Duc Ho - November 20, 2017
+* Chin You Wen
+* Yen Ming - November 08, 2017
+* pancho was here
+* TopdRob
+* Zack
+* Amit Karsale - https://github.com/amitkarsale - 2017-10-11
+* Hervé P. - 15/10/2017
+* Joelle FV
+* Dana - Macedonia - 2017-10-05
+* Michael Zhou
+* Keith Dowd - https://github.com/keithdowd (September 10, 2017)
+* Carlos Estrada
+* Peter https://github.com/pcmindshift 2017-0901
+* habeshwoub
+* Anselmo - anselmoprocida
+* SanneHoefnagel - 2017-8-14
+* Sandy https://github.com/standon74
+* haimeng song
+* Monique - https://github.com/moniquemurphy
+* Sayandeep Acharya -  July 11 2017
+* NVK PAVAN KUMAR
+* Kaushik Thommandra - <kaushik.t@reportgarden.com> Jun2 2017 https://github.com/kaushikthommandra
+* Brandon Smith - https://github.com/BrickBeard - 31st May 2017
+* lamonaki
+* Jesse PHillips
+* Rebecca K -- rebkin05
+* Will
+* J Dacanay
+* Yogesh in India, 20th April 2017
+* Anshul Pandey
+* Snapper
+* TheMeal
+* Samuel Moy

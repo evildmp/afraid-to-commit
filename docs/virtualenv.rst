@@ -34,6 +34,39 @@ and can safely make changes to one without affecting anything else.
 (as well as separately). It's an installer, and is the easiest way to install
 things into a virtualenv.
 
+Installing pip
+==============
+
+You will most probably find that pip is already installed on your system.
+
+Run::
+
+    pip --version
+
+to find out.
+
+If it's not, you have various options.
+
+On Debian/Ubuntu systems
+------------------------
+
+::
+
+    sudo apt-get install python-pip
+
+On Debian you probably will not be authorised to use ``sudo``.  In this case use::
+
+    su -
+
+to switch to the root user before installing pip.
+
+
+Use get-pip.py
+--------------
+
+Another option is to use the official `get-pip.py <https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py>`_ script.
+
+
 
 Install virtualenv
 ==================
@@ -42,7 +75,7 @@ Try::
 
     virtualenv --version
 
-Do you have a version lower than 1.9? Upgrade it::
+Keep it up-to-date::
 
     sudo pip install --upgrade virtualenv
     hash -r # purge shell's PATH, though this may not be necessary for you
@@ -189,7 +222,7 @@ Now you're no longer in any virtualenv.
 -----------------------
 
 When you create a virtualenv, it doesn't include any Python packages already
-installed on your system. But sometimes, that *is* what you want. In that
+installed on your system. But sometimes you do want to install all packages. In that
 case you'd do::
 
     virtualenv --system-site-packages my-third-virtualenv
