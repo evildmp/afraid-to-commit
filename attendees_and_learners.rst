@@ -366,7 +366,8 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
-* Anmol Ratnam - https://github.com/Anmolr7 - Mar 3, 2018
+* Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Venkat Ram - <https://github.com/Venkat5694>
 * lin
 * Gungo 
 * Jay B Ilango
