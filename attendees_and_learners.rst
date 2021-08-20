@@ -364,6 +364,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* Neal Caidin - https://github.com/ncaidin - 01 December 2017
 * Vipin Mohan - vipinmohan22.github.io - 2017-11-27
 * Chris Azzara - https://github.com/emptyspace42/ - 2017-11-26
 * Cole Rees - https://github.com/myColeRees
