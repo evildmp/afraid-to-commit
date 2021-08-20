@@ -365,6 +365,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* Travis Henion - travis.w.henion@gmail.com - THenion12
 * Renu - https://github.com/rensachdeva - 2018-01-26
 * Nastasha
 * Izaiah Wallace
