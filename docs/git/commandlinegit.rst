@@ -101,17 +101,17 @@ Just as you did on GitHub, once again you're going to create a new branch,
 based on *master*, for new work to go into::
 
     $ git checkout -b amend-my-name
-    Switched to a new branch 'amend-my-name
+    Switched to a new branch 'amend-my-name'
 
 ``git checkout`` is a command you'll use a lot, to switch between branches. The
 ``-b`` flag tells it to **create a new branch** at the same time. By default,
 the new branch is based upon whatever branch you were on.
 
-You can also choose what to base the new branch on. A very common thing to do is::
+You can also choose what to base the new branch on. A quite common thing to do is, just for example::
 
-    git checkout -b new-branch-name upstream/master
+    git checkout -b new-branch existing-branch
 
-This creates a new branch ``new-branch-name``, based on ``upstream/master``.
+This creates a new branch ``new-branch``, based on ``existing-branch``.
 
 Edit a file
 -----------
@@ -248,7 +248,7 @@ new branch is called *amend-my-name*. So::
     Next time you want to push committed changes in *amend-my-name*, you won't
     *need* to specify the branch - you can simply do ``git push``, because now
     *amend-my-name* exists at both ends. However, it's *still* a good idea to
-    be explict. That way you'll be less likely to get a surprise you didn't
+    be explicit. That way you'll be less likely to get a surprise you didn't
     want, when the wrong thing gets pushed.
 
 Check your GitHub repository
