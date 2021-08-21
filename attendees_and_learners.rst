@@ -367,6 +367,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* Mahendhar Sanipalli
 * Alireza
 * Ankita Verma
 * Chen-Yu Chan - <chanchenyu@berkeley.edu> - chanchenyu -2018-05-11
