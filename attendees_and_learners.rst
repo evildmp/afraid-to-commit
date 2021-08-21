@@ -33,7 +33,7 @@ PyCon Ireland in Dublin, 26th October 2015
 * Sarah Jackson
 * Stefano Fedele https://github.com/stefanofedele/afraid-to-commit
 * Barry Kennedy https://github.com/bazkennedy
-
+* Drake Donahue
 
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
