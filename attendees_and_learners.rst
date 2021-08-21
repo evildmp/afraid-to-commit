@@ -33,7 +33,6 @@ PyCon Ireland in Dublin, 26th October 2015
 * Sarah Jackson
 * Stefano Fedele https://github.com/stefanofedele/afraid-to-commit
 * Barry Kennedy https://github.com/bazkennedy
-* Drake Donahue
 
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
@@ -366,6 +365,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* Lilpika
 * Gabriel - mafra.devops@gmail.com - GMafra
 * Anuritha C
 * Rakibul Hasan - https://github.com/rhm050
@@ -444,3 +444,4 @@ I followed the tutorial online
 * Snapper
 * TheMeal
 * Samuel Moy
+* Drake Donahue
