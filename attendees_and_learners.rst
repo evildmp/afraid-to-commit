@@ -366,6 +366,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* Gabriel
 * Anuritha C
 * Rakibul Hasan - https://github.com/rhm050
 * JJ Villegas - http://github.com/jjvillegas17
