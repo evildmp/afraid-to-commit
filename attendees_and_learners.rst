@@ -15,6 +15,7 @@ Pycon Zimbabwe in Harare, 24th November 2016
 * Bornwell Matembudze https://github.com/bornie21
 * Kudakwashe Siziva
 * Akim Munthali https://github.com/amunthali @amunthali
+* Yahma Nikopoa https://github.com/yahma @nikopoa
 
 .. note:: Many thanks to Charles Katuri (charle-k) for his invaluable assistance on Windows computers
 
