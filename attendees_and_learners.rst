@@ -91,6 +91,7 @@ Dutch Django Association Sprint in Amsterdam, 7th March 2015
 * Hanna Kollo https://github.com/sztrovacsek
 * Stephen Albert https://github.com/psiloLR
 
+
 PyCon Ireland in Dublin, 13th October 2014
 ------------------------------------------
 
@@ -480,3 +481,4 @@ I followed the tutorial online
 * Niamh Colman
 * Mojtabaa - <tabliqatchi@gmail.com>
 * Landin Lin_10:07
+* Tushar
