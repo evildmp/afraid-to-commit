@@ -1,4 +1,4 @@
-####################
+﻿####################
 Attendees & learners
 ####################
 
@@ -509,3 +509,5 @@ I followed the tutorial online
 * Justin Chiang <jchiang2>
 * Taewoon Kim - <tae898@gmail.com> ~ tae898 a.k.a. Lil T
 *Vince Maina
+*Vincent Maina
+*Bilha Njeri
