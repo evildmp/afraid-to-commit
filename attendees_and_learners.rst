@@ -310,7 +310,7 @@ DjangoCon Europe in Warsaw, 18th May 2013
 * Michał Karzyński <djangoconwrkshp@karzyn.com> https://github.com/postrational
 * @graup
 
-I followed the tutorial online
+I follow the tutorial online
 ==============================
 
 * Daniel Quinn - 18th May 2013
@@ -504,3 +504,4 @@ I followed the tutorial online
 * Caley
 * Mariah Rucker - mrucker@centralmethodist.edu techmariah
 * Alaa Mohamed
+* Biatris
