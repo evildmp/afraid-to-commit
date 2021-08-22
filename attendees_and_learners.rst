@@ -500,7 +500,22 @@ I followed the tutorial online
 * afsar
 * Habib
 * Jeremy Brown
-* Gaurav Kumar - https://github.com/gauravkiiitm 
+* Gaurav Kumar - https://github.com/gauravkiiitm
 * Caley
 * Mariah Rucker - mrucker@centralmethodist.edu techmariah
+* Alaa Mohamed
+* Biatris
+* Harinder Singh Mashiana
+* Justin Chiang <jchiang2>
+* Taewoon Kim - <tae898@gmail.com> ~ tae898 a.k.a. Lil T
+* Vincent Maina
+* Bilha Njeri
+* mitchell - March 26 2019
+* Alessandro - 2019-03-27
+* Florea Paul Cosmin
+* Baskar ~ <baskar.subbian1@gmail.com>
+* Maysam Fazeli - https://github.com/MaysamFZ - 21-Apr-2019
+* Kent Heiner - https://github.com/ke7ijo 2019-04-24
+* RAB,May 2019
+* Alex Peloquin
 * Alexander Hoerig
