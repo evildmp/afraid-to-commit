@@ -9,8 +9,6 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
-* Manorit Chawdhry https://github.com/manorit2001
-
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
 
@@ -488,8 +486,9 @@ I followed the tutorial online
 * Robbie
 * Rodp_63 ~~~
 * Peter - January 10, 2019 https://github.com/pchen2145
-*bea
+* bea
 * Ken Tanaka - https://github.com/kenhtanaka - 2019 Jan 14
 * Marion
 * Mengting Yu
 * jojona - https://github.com/jojonaland - 2019-01-22
+* Manorit Chawdhry https://github.com/manorit2001
