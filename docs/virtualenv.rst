@@ -160,7 +160,7 @@ To install a particular version::
 
     pip install rsa==3.0
 
-To ugrade the package to the latest version::
+To upgrade the package to the latest version::
 
     pip install --upgrade rsa
 
