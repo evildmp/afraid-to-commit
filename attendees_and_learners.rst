@@ -473,3 +473,4 @@ I followed the tutorial online
 * Danny - dannypulickal@hotmail.com - dannypulickal
 * Raman Dutt https://github.com/Raman1121
 * Srilakshmy 
+* Pratish Katiyar - <pratishkatiyar@gmail.com> https://github.com/pratishk28 - 2018-10-24
