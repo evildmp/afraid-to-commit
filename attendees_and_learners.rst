@@ -506,8 +506,4 @@ I followed the tutorial online
 * Alaa Mohamed
 * Biatris
 * Harinder Singh Mashiana
-<<<<<<< HEAD
 * Justin Chiang <jchiang2>
-=======
-* Justin Chiang
->>>>>>> 0e38dc54937b2404745ceb8468fb2d346c78723c
