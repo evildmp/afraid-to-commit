@@ -291,7 +291,6 @@ Cardiff Dev Workshop, 8th June 2013
 * Daniel Pass <daniel.antony.pass@googlemail.com>
 * Bitarabe Edgar
 
-
 DjangoCon Europe in Warsaw, 18th May 2013
 -----------------------------------------
 
@@ -537,4 +536,4 @@ I followed the tutorial online
 * Dom
 * Ivo - Oct 8 2019
 * Mussa Mipawa
-* Abhisar Choudhary ~ <abhisarchoudhary@gmail.com> ~ abhisarchoudhary my name is
+* Abhisar Choudhary ~ <abhisarchoudhary@gmail.com> ~ abhisarchoudhary
