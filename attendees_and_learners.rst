@@ -1,5 +1,3 @@
-Florea Paul Cosmin
-
 ####################
 Attendees & learners
 ####################
@@ -514,3 +512,5 @@ I followed the tutorial online
 * Bilha Njeri
 * mitchell - March 26 2019
 * Alessandro - 2019-03-27
+* Florea Paul Cosmin
+
