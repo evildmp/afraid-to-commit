@@ -1,4 +1,4 @@
-﻿####################
+####################
 Attendees & learners
 ####################
 
@@ -8,7 +8,7 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
-afsar
+
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
 
@@ -495,4 +495,5 @@ I followed the tutorial online
 * Antony
 * Soham Mandal
 * Peter Nielsen
-* Dercio Daio <1723470@brunel.ac.uk> - https://github.com/mcadecio 
+* Dercio Daio <1723470@brunel.ac.uk> - https://github.com/mcadecio
+* afsar
