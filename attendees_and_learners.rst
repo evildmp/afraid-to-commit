@@ -516,5 +516,5 @@ I followed the tutorial online
 * Baskar ~ <baskar.subbian1@gmail.com>
 * Maysam Fazeli - https://github.com/MaysamFZ - 21-Apr-2019
 * Kent Heiner - https://github.com/ke7ijo 2019-04-24
-*RAB,May 2019
+* RAB,May 2019
 * Alex Peloquin
