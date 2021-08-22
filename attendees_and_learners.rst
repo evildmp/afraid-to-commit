@@ -474,7 +474,6 @@ I followed the tutorial online
 * Nitish sandhu <https://github.com/nitishsaDire>
 * Trong Nguyen Van - 11/21/2018 Vietnam - https://github.com/TrongNguyenVann
 * Okafor Arinze
-
 * Suhu
 * Bojan
 * Avantijel 03-12-2018
