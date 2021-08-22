@@ -365,6 +365,8 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
+* Hardik Agrawal - <hardik.a@flipkart.com> - hardik0406
 * Darshan
 * Arek
 * Robin r
@@ -430,7 +432,6 @@ I followed the tutorial online
 * Carlos Estrada
 * Peter tps://github.com/pcmindshift 2017-0901
 * habeshwoub
-* Anselmo - anselmoprocida
 * SanneHoefnagel - 2017-8-14
 * Sandy https://github.com/standon74
 * haimeng song
