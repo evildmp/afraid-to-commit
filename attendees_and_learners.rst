@@ -15,8 +15,6 @@ Pycon Zimbabwe in Harare, 24th November 2016
 * Kudakwashe Siziva
 * Akim Munthali https://github.com/amunthali @amunthali
 
-* Landin Lin_10:07
-
 .. note:: Many thanks to Charles Katuri (charle-k) for his invaluable assistance on Windows computers
 
 PyCon Ireland in Dublin, 26th October 2015
@@ -481,4 +479,4 @@ I followed the tutorial online
 * Dexter Volkman <dexter.volkman@gmail.com> - https://github.com/dexmexter - December 2018
 * Niamh Colman
 * Mojtabaa - <tabliqatchi@gmail.com>
-* landin
+* Landin Lin_10:07
