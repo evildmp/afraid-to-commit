@@ -367,6 +367,7 @@ I followed the tutorial online
 * Ana
 * Dade Murphy
 * Leticia Ulloa
+* Judith Gozner
 * La Chilindrina
 * Anselmo ~ <agprocida@gmail.com> ~ anselmoprocida
 * Hardik Agrawal - <hardik.a@flipkart.com> - hardik0406
