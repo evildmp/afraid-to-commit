@@ -467,3 +467,4 @@ I followed the tutorial online
 * Andrew Koper, Detroit, MI
 * Jorge Filho <jorgeflh@gmail.com> - https://github.com/jorgeflh
 * Keith
+* Ellery C
