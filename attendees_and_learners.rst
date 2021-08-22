@@ -1,4 +1,4 @@
-﻿####################
+####################
 Attendees & learners
 ####################
 
@@ -41,7 +41,6 @@ PyCon Ireland in Dublin, 26th October 2015
 * Sarah Jackson
 * Stefano Fedele https://github.com/stefanofedele/afraid-to-commit
 * Barry Kennedy https://github.com/bazkennedy
-* Raman Dutt https://github.com/Raman1121
 
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
@@ -469,6 +468,7 @@ I followed the tutorial online
 * Jorge Filho <jorgeflh@gmail.com> - https://github.com/jorgeflh
 * Keith
 * Ellery C
-* MK 
+* MK
 * Nadia S*
 * Danny - dannypulickal@hotmail.com - dannypulickal
+* Raman Dutt https://github.com/Raman1121
