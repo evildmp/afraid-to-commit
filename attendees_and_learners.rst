@@ -460,7 +460,7 @@ I followed the tutorial online
 * Samuel Moy
 * Drake Donahue
 * Cody
-* Markus Harrison
+* Markus Harrison <jodaddy15@gmail.com> ~ jodaddy15
 * Daniel Kawai
 * Ajith Krishnan - https://github.com/ajithkrishnan/ - 30/08/2018
 * Elliot Holden
@@ -468,4 +468,3 @@ I followed the tutorial online
 * Jorge Filho <jorgeflh@gmail.com> - https://github.com/jorgeflh
 * Keith
 * Ellery C
-* Markus Harrison <jodaddy15@gmail.com> ~ jodaddy15
