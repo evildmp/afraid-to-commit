@@ -9,6 +9,10 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
+Pycon Nigeria in Lagos, 28th August 2018
+Okafor Arinze
+---------------------------------------------
+
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
 * Bornwell Matembudze https://github.com/bornie21
