@@ -526,3 +526,4 @@ I followed the tutorial online
 * Maya Goldman - 5th July 2019
 * Dewi Johns - https://github.com/dewijohns
 * Steven Crossley
+* Alexander Mertens
