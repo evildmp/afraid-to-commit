@@ -476,6 +476,5 @@ I followed the tutorial online
 * Pratish Katiyar - <pratishkatiyar@gmail.com> https://github.com/pratishk28 - 2018-10-24
 * Aastha Goyal
 * Leslie O - https://github.com/lesore0789 - Nov 10 2018
-* Nick Burrin
-* Nitish sandhu <https://github.com/nitishsaDire> 
-* Nick Burrin ~ usn:nickburrin @ git
+* Nick Burrin - https://github.com/nickburrin
+* Nitish sandhu <https://github.com/nitishsaDire>
