@@ -365,6 +365,7 @@ I followed the tutorial online
 * Dade Murphy
 * Leticia Ulloa
 * La Chilindrina
+* David Gildour
 * Lilpika
 * Gabriel - mafra.devops@gmail.com - GMafra
 * Anuritha C
