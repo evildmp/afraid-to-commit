@@ -1,4 +1,4 @@
-####################
+﻿####################
 Attendees & learners
 ####################
 
@@ -495,3 +495,4 @@ I followed the tutorial online
 * Antony
 * Soham Mandal
 * Peter Nielsen
+* Dercio Daio <1723470@brunel.ac.uk> - https://github.com/mcadecio 
