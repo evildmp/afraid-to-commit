@@ -508,3 +508,4 @@ I followed the tutorial online
 * Harinder Singh Mashiana
 * Justin Chiang <jchiang2>
 * Taewoon Kim - <tae898@gmail.com> ~ tae898 a.k.a. Lil T
+*Vince Maina
