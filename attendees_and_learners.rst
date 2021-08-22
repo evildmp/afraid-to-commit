@@ -1,4 +1,4 @@
-﻿####################
+####################
 Attendees & learners
 ####################
 
@@ -508,8 +508,7 @@ I followed the tutorial online
 * Harinder Singh Mashiana
 * Justin Chiang <jchiang2>
 * Taewoon Kim - <tae898@gmail.com> ~ tae898 a.k.a. Lil T
-*Vince Maina
-*Vincent Maina
-*Bilha Njeri
+* Vincent Maina
+* Bilha Njeri
 * mitchell - March 26 2019
 * Alessandro - 2019-03-27
