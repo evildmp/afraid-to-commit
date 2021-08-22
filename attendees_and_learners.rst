@@ -9,14 +9,6 @@ or followed the tutorial in their own time.
 Workshops
 =========
 
-Pycon Nigeria in Lagos, 28th August 2018
----------------------------------------------
-
-* Okafor Arinze
-
-
-* Trong Nguyen Van - 11/21/2018 Vietnam - https://github.com/TrongNguyenVann
---------------------------------------------------------------------------------
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
 
@@ -480,3 +472,6 @@ I followed the tutorial online
 * Leslie O - https://github.com/lesore0789 - Nov 10 2018
 * Nick Burrin - https://github.com/nickburrin
 * Nitish sandhu <https://github.com/nitishsaDire>
+* Trong Nguyen Van - 11/21/2018 Vietnam - https://github.com/TrongNguyenVann
+* Okafor Arinze
+
