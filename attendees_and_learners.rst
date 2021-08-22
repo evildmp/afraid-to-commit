@@ -8,7 +8,7 @@ or followed the tutorial in their own time.
 
 Workshops
 =========
-
+afsar
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
 
