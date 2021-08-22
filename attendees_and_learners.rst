@@ -476,3 +476,4 @@ I followed the tutorial online
 * Pratish Katiyar - <pratishkatiyar@gmail.com> https://github.com/pratishk28 - 2018-10-24
 * Aastha Goyal
 * Leslie O - https://github.com/lesore0789 - Nov 10 2018
+* Leslie O - https://github.com/lesore0789 - lesore0789@gmail.com
