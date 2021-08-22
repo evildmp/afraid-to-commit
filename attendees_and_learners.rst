@@ -10,11 +10,14 @@ Workshops
 =========
 
 Pycon Nigeria in Lagos, 28th August 2018
-Okafor Arinze
 ---------------------------------------------
+
+* Okafor Arinze
+
 
 Pycon Zimbabwe in Harare, 24th November 2016
 ---------------------------------------------
+
 * Bornwell Matembudze https://github.com/bornie21
 * Kudakwashe Siziva
 * Akim Munthali https://github.com/amunthali @amunthali
@@ -23,6 +26,7 @@ Pycon Zimbabwe in Harare, 24th November 2016
 
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
+
 * Simon Parker https://github.com/simonparkerdublin @SparkerDublin
 * Anna Szewc, https://github.com/NannahA
 * Iain Geddes iaingeddes@theiet.org https://github.com/iaingeddes
@@ -387,18 +391,18 @@ I followed the tutorial online
 * Chen-Yu Chan - <chanchenyu@berkeley.edu> - chanchenyu -2018-05-11
 * Sachin S
 * Jenn Linn
-* Yu Zheng 
+* Yu Zheng
 * Raul H Macias
 * Leah
 * Rajesh - 29 March 2018
 * Jennifer Appleby
 * Andrea
-* shookup 
+* shookup
 * odolezal <odolezal@odolezal.cz>
 * Ben - https://github.com/ben-d758/ 21st September 2020
 * Venkat Ram - <https://github.com/Venkat5694>
 * lin
-* Gungo 
+* Gungo
 * Jay B Ilango
 * John Dugaw - https://github.com/jibdugaw 2018-02-20
 * Pavan Omanwar
@@ -410,10 +414,10 @@ I followed the tutorial online
 * Renu - https://github.com/rensachdeva - 2018-01-26
 * Nastasha
 * Izaiah Wallace
-* Mitch 
+* Mitch
 * Buster Brown
 * Braden - 1-7-2017
-* Ivana 
+* Ivana
 * Healzplshalp
 * Chris Munger - DarthHail - 12/12/2017
 * Neal Caidin - https://github.com/ncaidin - 01 December 2017
@@ -456,4 +460,4 @@ I followed the tutorial online
 * Samuel Moy
 * Drake Donahue
 * Cody
-Markus Harrison
+* Markus Harrison
