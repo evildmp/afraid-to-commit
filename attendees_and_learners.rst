@@ -4,6 +4,7 @@ Attendees & learners
 
 This is a record of people who attended a *Don't be afraid to commit* workshop,
 or followed the tutorial in their own time.
+
 Workshops
 =========
 
@@ -34,7 +35,6 @@ PyCon Ireland in Dublin, 26th October 2015
 * Sarah Jackson
 * Stefano Fedele https://github.com/stefanofedele/afraid-to-commit
 * Barry Kennedy https://github.com/bazkennedy
-* Gabriela Lecaro https://github.com/glecaro
 
 PyCon UK in Coventry, 21st September 2015
 -----------------------------------------
@@ -580,3 +580,4 @@ I followed the tutorial online
 * Herman Blauwal - 2020, Dec, 31 - help@batman.com https://github.com/imnotbatman
 * Nahiyan Hussain
 * Christine Rick
+* Gabriela Lecaro https://github.com/glecaro
