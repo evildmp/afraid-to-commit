@@ -574,3 +574,4 @@ I followed the tutorial online
 * AlanShawket@http://github.com/alanshawket (2020-09-14)
 * Surya Teja Parisa https://github.com/suryateja3027/ - 2nd Oct 2020
 
+* Fighter Foo - https://github.com/lyehengfoo
