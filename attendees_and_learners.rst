@@ -538,3 +538,4 @@ I followed the tutorial online
 * Mussa Mipawa
 * Abhisar Choudhary ~ <abhisarchoudhary@gmail.com> ~ abhisarchoudhary
 * NotForProffitt - https://github.com/NotForProffitt
+* Jacqueline Edge jedgedrudd
