@@ -53,7 +53,7 @@ There are two very useful items that you should install.
 
 * `Command Line Tools for Xcode <https://developer.apple.com/downloads/>`_,
   various useful components (requires registration)
-* `Homebrew <http://brew.sh>`_, a command line package manager
+* `Homebrew <http://brew.sh>`_, a commandline package manager
 
 Python
 ------

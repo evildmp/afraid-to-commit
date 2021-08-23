@@ -55,7 +55,7 @@ Your copy is at ``https://github.com/<your github account>/afraid-to-commit/``.
    About angular brackets
 
     Angular brackets, such as those in the line above, are used as placeholders; 
-    they do not need to be included in the command line terminal. Just write in your 
+    they do not need to be included in the commandline terminal. Just write in your 
     GitHub account name. The same applies for any angular brackets used throughout
     the tutorial. 
 

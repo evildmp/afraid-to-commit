@@ -36,7 +36,7 @@ the moment, it's the only remote you have::
 It's very useful for Git to know about other remote repositories too. For
 example, at the end of the previous section, we considered a conflict between
 your GitHub fork and the upstream GitHub repository. The only way to fix
-that is locally, on the command line, and by being able to refer to both those
+that is locally, on the commandline, and by being able to refer to both those
 remotes.
 
 Now you *can* refer to a remote using its full address:
@@ -86,11 +86,11 @@ You can check this out::
 This means: create and switch to a new local branch called *additional-branch*,
 based on branch *additional-branch* of the remote **upstream**. 
 
-Managing *master* on the command line
+Managing *master* on the commandline
 ====================================
 
 Until now, you have only updated your *master* on GitHub using GitHub itself.
-Sometimes it will be much more convenient to do it from your command line.
+Sometimes it will be much more convenient to do it from your commandline.
 There are various ways to do it, but here's one::
 
     git checkout master # switch back to the master branch

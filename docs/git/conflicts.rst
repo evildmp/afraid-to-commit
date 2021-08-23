@@ -25,7 +25,7 @@ you::
 
     We can’t automatically merge this pull request.
 
-    Use the command line to resolve conflicts before continuing.
+    Use the commandline to resolve conflicts before continuing.
 
 GitHub will in fact tell you the steps you need to take to solve this, but to
 understand what's actually happening, and to do it yourself when you need to,
