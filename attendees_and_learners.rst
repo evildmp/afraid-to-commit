@@ -567,3 +567,4 @@ I followed the tutorial online
 * Jimben Honeyfield - https://github.com/jbhfield/
 * Jen Greene
 * Alex Tan
+* Lily Rose Stracke
