@@ -583,8 +583,7 @@ I followed the tutorial online
 * Gabriela Lecaro https://github.com/glecaro
 * Alex Yarkin
 * k venkatesh githubid: https://github.com/venkykalyan/
-
-* Nicolas 
-* Raphaël 
+* Nicolas
+* Raphaël
 * Maria
 * David S.
