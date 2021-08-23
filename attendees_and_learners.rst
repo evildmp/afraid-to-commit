@@ -577,3 +577,5 @@ I followed the tutorial online
 * Fighter Foo - https://github.com/lyehengfoo
 * Zhen Hao
 * Rubel - <rubel.mozumder@outlook.com> - RublMozumder
+* Herman Blauwal - 2020, Dec, 31 - help@batman.com https://github.com/imnotbatman
+* Blabla - happy new year
