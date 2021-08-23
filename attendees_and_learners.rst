@@ -585,7 +585,6 @@ I followed the tutorial online
 * k venkatesh githubid: https://github.com/venkykalyan/
 * Nicolas
 * Raphaël
-* Maria
 * David S.
 * Maria - https://github.com/MariaPloum/ - 21/4/2021
 * Clone
