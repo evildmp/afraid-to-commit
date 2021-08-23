@@ -17,7 +17,7 @@ Pycon Zimbabwe in Harare, 24th November 2016
 * Yahma Nikopoa https://github.com/yahma @nikopoa
 
 .. note:: Many thanks to Charles Katuri (charle-k) for his invaluable assistance on Windows computers
-
+* k venkatesh githubid: https://github.com/venkykalyan/
 PyCon Ireland in Dublin, 26th October 2015
 ------------------------------------------
 
