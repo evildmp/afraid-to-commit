@@ -587,3 +587,4 @@ I followed the tutorial online
 * Nicolas 
 * Raphaël 
 * Maria
+* David S.
