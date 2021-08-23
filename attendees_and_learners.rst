@@ -2,7 +2,6 @@
 Attendees & learners
 ####################
 
-
 This is a record of people who attended a *Don't be afraid to commit* workshop,
 or followed the tutorial in their own time.
 
@@ -539,9 +538,8 @@ I followed the tutorial online
 * Abhisar Choudhary ~ <abhisarchoudhary@gmail.com> ~ abhisarchoudhary
 * NotForProffitt - https://github.com/NotForProffitt
 * Jacqueline Edge jedgedrudd
-* XHLE - https://github.com/hunglxtp/afraid-to-commit - 2019-11-11
+* XHLE - https://github.com/hunglxtp - 2019-11-11
 * Pamela Kaercher
 * Alexander Cui
-* Ashwini Karai
 * Ashwini Karai - <ashwinirao.karai@gmail.com> - ashwiniraokarai
 * Amjad
