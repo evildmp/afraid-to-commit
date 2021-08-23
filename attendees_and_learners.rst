@@ -540,3 +540,4 @@ I followed the tutorial online
 * NotForProffitt - https://github.com/NotForProffitt
 * Jacqueline Edge jedgedrudd
 * XHLE - https://github.com/hunglxtp/afraid-to-commit - 2019-11-11
+* Pamela Kaercher
