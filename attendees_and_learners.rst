@@ -573,9 +573,7 @@ I followed the tutorial online
 * Jay
 * AlanShawket@http://github.com/alanshawket (2020-09-14)
 * Surya Teja Parisa https://github.com/suryateja3027/ - 2nd Oct 2020
-
 * Fighter Foo - https://github.com/lyehengfoo
 * Zhen Hao
 * Rubel - <rubel.mozumder@outlook.com> - RublMozumder
 * Herman Blauwal - 2020, Dec, 31 - help@batman.com https://github.com/imnotbatman
-* Blabla - happy new year
