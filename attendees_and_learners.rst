@@ -554,5 +554,4 @@ I followed the tutorial online
 * Mark Kim
 * GABB
 * Enes Kanra - 2020-03-02
-* Walter Lai
 * Walter Lai wlai0611
