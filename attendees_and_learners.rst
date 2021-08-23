@@ -559,16 +559,14 @@ I followed the tutorial online
 * SerErris ~ Christoph Linden
 * Luuk Suurmeijer
 * Joshua Lee Coss
-* mohamed elkony 
+* mohamed elkony
 * Heinz Kramski - https://github.com/hkramski - 2020-05-20
 * Di Qiu
 * Reinier Salazar
-* Jimben H
 * Jimben Honeyfield - https://github.com/jbhfield/
 * Jen Greene
 * Alex Tan
 * Lily Rose Stracke
 * Dmitry Bagrov
 * Devin lane
-* Crisciele
 * Crisciele - August 12, 2020 -https://github.com/criscieleferreira
